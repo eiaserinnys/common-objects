@@ -30,3 +30,11 @@ SVG uses painter sorting, so intersecting surfaces and lines can show ordering a
 A later user instruction required every placeable asset to use 1 unit = 1 m. Imported descriptors v2 now provide metre dimensions/bounds/footprints, one shared physical calibration, reversible right-handed axis conversion and the original assembly in metre positions. Version 1 descriptors remain archived. The calibration assumes a 0.75 m worktop above the source finished floor (z=33 minus z=5). The original projected player artwork is unchanged.
 
 The missing placement API was observed RED before implementation. Targeted calibration, source-axis directions, inverse round trip, every imported group's metric envelopes/assembly position, the existing 0.48 m lamp and stored assembly unit scales passed. After adding open-drawer clearance, the affected three contract checks passed again. The final catalog validator accepts all 20 entries. Prior source parity, lamp state/persistence and browser flow evidence remains valid because the rendering/player paths did not change. See metric-placement.md for assumptions and every estimated envelope.
+
+## SVG near-plane correction
+
+The default lamp view put a far grid corner behind the camera (view z = +0.003954 m). Dividing that endpoint by negative depth mirrored a ground line into the upper-right background. SVG lines now clip against the same 0.01 m near plane as the original metric WebGL renderer before projection; asset geometry, metre calibration and room rendering are unchanged.
+
+The closest-zoom ground-grid regression failed before the change. Afterward it and the existing SVG independent-state/rotation/zoom test passed (2 tests). The incremental build succeeded. A scoped Chromium check exercised actual pointer orbit at camera distance 0.65, checked every grid endpoint below the level-camera horizon, and recorded zero console/page errors or HTTP failures (projection-result.json). Updated desktop/mobile lamp captures were opened; the stray diagonal is gone, with the existing layout and controls preserved. The near-plane capture below shows the closest-zoom check. Existing room and persistence evidence is reused.
+
+![SVG lamp closest zoom and level camera](screenshots/lamp-svg-near-plane.png)

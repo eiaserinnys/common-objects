@@ -1,0 +1,7 @@
+{
+  "scope": "lamp near-plane projection only",
+  "groundGridBelowHorizonAtClosestZoom": true,
+  "actualPointerOrbit": true,
+  "consolePageErrors": [],
+  "httpFailures": []
+}
