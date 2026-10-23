@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "format": "procedural-svg",
+  "units": "drawing-units",
+  "upAxis": "Z",
+  "measurement": {
+    "status": "illustrative",
+    "note": "Original drawing coordinates. No measured dimensions or metre conversion is declared."
+  },
+  "provenance": {
+    "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
+    "license": "MIT",
+    "note": "Published Colorfigures/ISO-GLOW/iso-figure derivative; attribution in THIRD_PARTY_NOTICES.md."
+  },
+  "id": "lofi-night-room",
+  "name": "Lo-fi night room",
+  "source": "assets/lofi-night-room/scene.js",
+  "entry": "scene",
+  "sourceFiles": [
+    "renderer/colorfigures/drawing.js",
+    "renderer/colorfigures/shell.js",
+    "renderer/colorfigures/extras.js",
+    "assets/lofi-night-room/materials.js",
+    "assets/lofi-night-room/floor.js",
+    "assets/lofi-night-room/walls.js",
+    "assets/lofi-night-room/wall-items.js",
+    "assets/lofi-night-room/furniture.js",
+    "assets/lofi-night-room/desktop.js",
+    "assets/lofi-night-room/floor-furniture.js",
+    "assets/lofi-night-room/mechanisms.js",
+    "assets/lofi-night-room/scene.js"
+  ],
+  "components": [
+    "lofi-floor",
+    "lofi-corner-pillar",
+    "lofi-back-wall",
+    "lofi-right-wall",
+    "lofi-windowsill-cat",
+    "lofi-wall-shelf",
+    "lofi-fairy-lights",
+    "lofi-vinyl-crate",
+    "lofi-desk-under",
+    "lofi-desktop",
+    "lofi-turntable",
+    "lofi-mug",
+    "lofi-notebook-pen",
+    "lofi-desk-lamp",
+    "lofi-headphones",
+    "lofi-study-chair",
+    "lofi-floor-plant",
+    "lofi-mechanisms"
+  ],
+  "framingSize": [
+    112,
+    120,
+    88
+  ]
+}

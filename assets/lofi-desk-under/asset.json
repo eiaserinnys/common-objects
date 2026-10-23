@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "version": 1,
+  "version": 2,
   "format": "procedural-svg",
-  "units": "drawing-units",
-  "upAxis": "Z",
+  "units": "m",
+  "upAxis": "Y",
   "measurement": {
-    "status": "illustrative",
-    "note": "Original drawing coordinates. No measured dimensions or metre conversion is declared."
+    "status": "estimated",
+    "note": "Estimated source-space placement envelope converted by the shared 0.75 m desk-height calibration. Not measured geometry bounds. Original painter-sort envelopes are used as estimates; steam, glow and shadows are not physical dimensions. All assets share one uniform scale."
   },
   "provenance": {
     "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
@@ -17,5 +17,83 @@
   "name": "Desk cabinet, drawer and legs",
   "library": "lofi-night-room",
   "source": "assets/lofi-night-room/furniture.js",
-  "entry": "drawDeskUnder"
+  "entry": "drawDeskUnder",
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "previousVersion": "versions/1.json",
+  "sourceCoordinates": {
+    "units": "drawing-units",
+    "upAxis": "Z",
+    "origin": [
+      35.25,
+      63.0,
+      5
+    ],
+    "bounds": {
+      "min": [
+        15,
+        22,
+        5
+      ],
+      "max": [
+        55.5,
+        104,
+        30
+      ]
+    },
+    "clearanceBounds": {
+      "min": [
+        15,
+        22,
+        5
+      ],
+      "max": [
+        65.5,
+        104,
+        30
+      ]
+    }
+  },
+  "bounds": {
+    "min": [
+      -0.542410714,
+      0.0,
+      -1.098214286
+    ],
+    "max": [
+      0.542410714,
+      0.669642857,
+      1.098214286
+    ]
+  },
+  "dimensions": [
+    1.084821429,
+    0.669642857,
+    2.196428571
+  ],
+  "footprint": [
+    [
+      -0.542410714,
+      -1.098214286
+    ],
+    [
+      0.810267857,
+      -1.098214286
+    ],
+    [
+      0.810267857,
+      1.098214286
+    ],
+    [
+      -0.542410714,
+      1.098214286
+    ]
+  ],
+  "boundsKind": "estimated-placement-envelope",
+  "clearanceNote": "Open drawer extends +10 source X units (0.267857143 m) beyond its closed placement envelope."
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "format": "procedural-svg",
+  "units": "drawing-units",
+  "upAxis": "Z",
+  "measurement": {
+    "status": "illustrative",
+    "note": "Original drawing coordinates. No measured dimensions or metre conversion is declared."
+  },
+  "provenance": {
+    "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
+    "license": "MIT",
+    "note": "Published Colorfigures/ISO-GLOW/iso-figure derivative; attribution in THIRD_PARTY_NOTICES.md."
+  },
+  "id": "lofi-corner-pillar",
+  "name": "Corner pillar",
+  "library": "lofi-night-room",
+  "source": "assets/lofi-night-room/walls.js",
+  "entry": "drawCornerPillar"
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "lofi-room-desk-height",
+  "units": "m",
+  "upAxis": "Y",
+  "metresPerSourceUnit": 0.026785714285714284,
+  "axisMapping": [
+    "x",
+    "z",
+    "-y"
+  ],
+  "reference": {
+    "kind": "estimated",
+    "sourceFloorZ": 5,
+    "sourceDesktopZ": 33,
+    "estimatedDesktopHeightMetres": 0.75,
+    "reason": "Assume a 0.75 m study-desk worktop above the finished floor. The source floor is z=5 and desktop top z=33, a 28-unit span. Apply 0.75/28 uniformly to the entire room and all its components; no camera or viewport measurement is used."
+  },
+  "limitations": "A single plausible scale estimate, not a survey or manufacturer measurement. Original artistic proportions remain unchanged; individual objects are not resized to fit thumbnails."
+}

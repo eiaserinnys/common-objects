@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "version": 1,
+  "version": 2,
   "format": "procedural-svg",
-  "units": "drawing-units",
-  "upAxis": "Z",
+  "units": "m",
+  "upAxis": "Y",
   "measurement": {
-    "status": "illustrative",
-    "note": "Original drawing coordinates. No measured dimensions or metre conversion is declared."
+    "status": "estimated",
+    "note": "Estimated source-space placement envelope converted by the shared 0.75 m desk-height calibration. Not measured geometry bounds. Original painter-sort envelopes are used as estimates; steam, glow and shadows are not physical dimensions. All assets share one uniform scale."
   },
   "provenance": {
     "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
@@ -51,9 +51,74 @@
     "lofi-floor-plant",
     "lofi-mechanisms"
   ],
-  "framingSize": [
-    112,
-    120,
-    88
-  ]
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "previousVersion": "versions/1.json",
+  "sourceCoordinates": {
+    "units": "drawing-units",
+    "upAxis": "Z",
+    "origin": [
+      54.5,
+      60.0,
+      0
+    ],
+    "bounds": {
+      "min": [
+        -3,
+        0,
+        0
+      ],
+      "max": [
+        112,
+        120,
+        88
+      ]
+    },
+    "framingSize": [
+      112,
+      120,
+      88
+    ]
+  },
+  "bounds": {
+    "min": [
+      -1.540178571,
+      0.0,
+      -1.607142857
+    ],
+    "max": [
+      1.540178571,
+      2.357142857,
+      1.607142857
+    ]
+  },
+  "dimensions": [
+    3.080357143,
+    2.357142857,
+    3.214285714
+  ],
+  "footprint": [
+    [
+      -1.540178571,
+      -1.607142857
+    ],
+    [
+      1.540178571,
+      -1.607142857
+    ],
+    [
+      1.540178571,
+      1.607142857
+    ],
+    [
+      -1.540178571,
+      1.607142857
+    ]
+  ],
+  "boundsKind": "estimated-placement-envelope"
 }

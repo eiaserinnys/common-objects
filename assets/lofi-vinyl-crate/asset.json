@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "version": 1,
+  "version": 2,
   "format": "procedural-svg",
-  "units": "drawing-units",
-  "upAxis": "Z",
+  "units": "m",
+  "upAxis": "Y",
   "measurement": {
-    "status": "illustrative",
-    "note": "Original drawing coordinates. No measured dimensions or metre conversion is declared."
+    "status": "estimated",
+    "note": "Estimated source-space placement envelope converted by the shared 0.75 m desk-height calibration. Not measured geometry bounds. Original painter-sort envelopes are used as estimates; steam, glow and shadows are not physical dimensions. All assets share one uniform scale."
   },
   "provenance": {
     "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
@@ -17,5 +17,70 @@
   "name": "Vinyl crate and paper lantern",
   "library": "lofi-night-room",
   "source": "assets/lofi-night-room/furniture.js",
-  "entry": "drawVinylCrate"
+  "entry": "drawVinylCrate",
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "previousVersion": "versions/1.json",
+  "sourceCoordinates": {
+    "units": "drawing-units",
+    "upAxis": "Z",
+    "origin": [
+      83.0,
+      13.1,
+      5
+    ],
+    "bounds": {
+      "min": [
+        64,
+        6.2,
+        5
+      ],
+      "max": [
+        102,
+        20,
+        32
+      ]
+    }
+  },
+  "bounds": {
+    "min": [
+      -0.508928571,
+      0.0,
+      -0.184821429
+    ],
+    "max": [
+      0.508928571,
+      0.723214286,
+      0.184821429
+    ]
+  },
+  "dimensions": [
+    1.017857143,
+    0.723214286,
+    0.369642857
+  ],
+  "footprint": [
+    [
+      -0.508928571,
+      -0.184821429
+    ],
+    [
+      0.508928571,
+      -0.184821429
+    ],
+    [
+      0.508928571,
+      0.184821429
+    ],
+    [
+      -0.508928571,
+      0.184821429
+    ]
+  ],
+  "boundsKind": "estimated-placement-envelope"
 }

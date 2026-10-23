@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "version": 1,
+  "version": 2,
   "format": "procedural-svg",
-  "units": "drawing-units",
-  "upAxis": "Z",
+  "units": "m",
+  "upAxis": "Y",
   "measurement": {
-    "status": "illustrative",
-    "note": "Original drawing coordinates. No measured dimensions or metre conversion is declared."
+    "status": "estimated",
+    "note": "Estimated source-space placement envelope converted by the shared 0.75 m desk-height calibration. Not measured geometry bounds. Original painter-sort envelopes are used as estimates; steam, glow and shadows are not physical dimensions. All assets share one uniform scale."
   },
   "provenance": {
     "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
@@ -17,5 +17,70 @@
   "name": "Monstera planter",
   "library": "lofi-night-room",
   "source": "assets/lofi-night-room/floor-furniture.js",
-  "entry": "drawFloorPlant"
+  "entry": "drawFloorPlant",
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "previousVersion": "versions/1.json",
+  "sourceCoordinates": {
+    "units": "drawing-units",
+    "upAxis": "Z",
+    "origin": [
+      71.0,
+      103.0,
+      5
+    ],
+    "bounds": {
+      "min": [
+        60,
+        92,
+        5
+      ],
+      "max": [
+        82,
+        114,
+        44
+      ]
+    }
+  },
+  "bounds": {
+    "min": [
+      -0.294642857,
+      0.0,
+      -0.294642857
+    ],
+    "max": [
+      0.294642857,
+      1.044642857,
+      0.294642857
+    ]
+  },
+  "dimensions": [
+    0.589285714,
+    1.044642857,
+    0.589285714
+  ],
+  "footprint": [
+    [
+      -0.294642857,
+      -0.294642857
+    ],
+    [
+      0.294642857,
+      -0.294642857
+    ],
+    [
+      0.294642857,
+      0.294642857
+    ],
+    [
+      -0.294642857,
+      0.294642857
+    ]
+  ],
+  "boundsKind": "estimated-placement-envelope"
 }

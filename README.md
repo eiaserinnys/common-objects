@@ -21,14 +21,18 @@ Build output is dist/; serve it with `python3 -m http.server 8000 --directory di
 
 `assets/catalog.json` registers 20 entries: the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
 
+All placeable entries use **1 unit = 1 metre**, Y-up and default scale [1,1,1].
+
 - `metric-svg`: metre-based JSON geometry rendered by `renderer/svg.js`. Study lamp v2 retains its v1 parts and dimensions; the immutable v1 source is `assets/desk-lamp/versions/1.json`.
-- `procedural-svg`: original SVG-generating functions in `assets/lofi-night-room/`, using drawing units and Z-up. These are illustrative coordinates, with no claimed metre conversion. Each component's metadata points to its defining source and shared library. Load the room library's ordered `sourceFiles`, then call its entry function with the published state, palette and lamp geometry as applicable. The UI lifecycle is separate in `preview/room.js`.
+- `procedural-svg`: original SVG-generating functions in `assets/lofi-night-room/`, with metre placement dimensions/bounds and a shared calibration. Raw Z-up drawing coordinates are preserved under sourceCoordinates; they are converted to right-handed Y-up metres using one uniform 0.75/28 scale. Each component's metadata points to its defining source and shared library. Load the room library's ordered `sourceFiles`, then call its entry function with the published state, palette and lamp geometry as applicable. The UI lifecycle is separate in `preview/room.js`.
 - `renderer/colorfigures/`: shared projection, SVG primitives, page shell, labels and see-through support.
 - `sources/colorfigures/`: byte-preserved published HTML, source URL/hash and script-to-file mapping. The executable source is split into files; the snapshot is an audit reference.
 - `preview/desk-lamp.html`: the original lamp interface using the SVG renderer. Version 1 JSON remains readable through the scene loader.
 
+See [Metric placement](docs/metric-placement.md) for calibration assumptions, dimensions, reversible coordinate helpers and the original assembly placements. The published player still renders the original drawing coordinates; display zoom never changes the metric data.
+
 ## Rendering and credits
 
-The players use SVG painter sorting; they do not provide WebGL depth testing, general intersection handling, physics or metric conversion of the room. The lamp switch changes bulb/shade appearance. The room's drawn light pools, rain and mechanisms are illustrative.
+The players use SVG painter sorting; they do not provide WebGL depth testing, general intersection handling or physics. The lamp switch changes bulb/shade appearance. The room's drawn light pools, rain and mechanisms are illustrative.
 
 Imported Colorfigures code is MIT by April Zhu, based on ISO-GLOW and Tolga Cohce's iso-figure. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the upstream notice. The original metric lamp geometry remains CC0-1.0; repository code is MIT.

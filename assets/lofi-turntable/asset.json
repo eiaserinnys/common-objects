@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "version": 1,
+  "version": 2,
   "format": "procedural-svg",
-  "units": "drawing-units",
-  "upAxis": "Z",
+  "units": "m",
+  "upAxis": "Y",
   "measurement": {
-    "status": "illustrative",
-    "note": "Original drawing coordinates. No measured dimensions or metre conversion is declared."
+    "status": "estimated",
+    "note": "Estimated source-space placement envelope converted by the shared 0.75 m desk-height calibration. Not measured geometry bounds. Original painter-sort envelopes are used as estimates; steam, glow and shadows are not physical dimensions. All assets share one uniform scale."
   },
   "provenance": {
     "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
@@ -17,5 +17,70 @@
   "name": "Belt-drive turntable",
   "library": "lofi-night-room",
   "source": "assets/lofi-night-room/desktop.js",
-  "entry": "drawTurntable"
+  "entry": "drawTurntable",
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "previousVersion": "versions/1.json",
+  "sourceCoordinates": {
+    "units": "drawing-units",
+    "upAxis": "Z",
+    "origin": [
+      30.0,
+      37.0,
+      33
+    ],
+    "bounds": {
+      "min": [
+        18,
+        25,
+        33
+      ],
+      "max": [
+        42,
+        49,
+        45
+      ]
+    }
+  },
+  "bounds": {
+    "min": [
+      -0.321428571,
+      0.0,
+      -0.321428571
+    ],
+    "max": [
+      0.321428571,
+      0.321428571,
+      0.321428571
+    ]
+  },
+  "dimensions": [
+    0.642857143,
+    0.321428571,
+    0.642857143
+  ],
+  "footprint": [
+    [
+      -0.321428571,
+      -0.321428571
+    ],
+    [
+      0.321428571,
+      -0.321428571
+    ],
+    [
+      0.321428571,
+      0.321428571
+    ],
+    [
+      -0.321428571,
+      0.321428571
+    ]
+  ],
+  "boundsKind": "estimated-placement-envelope"
 }

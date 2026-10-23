@@ -23,4 +23,10 @@ The scripted browser check owns its local HTTP server and Chromium. Run `npm run
 
 ## Limits
 
-SVG uses painter sorting, so intersecting surfaces and lines can show ordering artifacts. This is not shared-depth WebGL rendering. The room's drawing units are uncalibrated; the study lamp retains estimated metre geometry. Real-device, cross-browser and large-scene performance were not tested. Drawn light effects are illustrative. Imported typography and CSS, including the existing lamp layout, are preserved; no new size tokens are introduced.
+SVG uses painter sorting, so intersecting surfaces and lines can show ordering artifacts. This is not shared-depth WebGL rendering. All catalog placement data now uses metres/Y-up. The imported room uses the documented shared 0.75 m desk-height estimate; raw drawing coordinates are preserved separately. The study lamp retains its original estimated metre geometry. Real-device, cross-browser and large-scene performance were not tested. Drawn light effects are illustrative. Imported typography and CSS, including the existing lamp layout, are preserved; no new size tokens are introduced.
+
+## Metric placement follow-up
+
+A later user instruction required every placeable asset to use 1 unit = 1 m. Imported descriptors v2 now provide metre dimensions/bounds/footprints, one shared physical calibration, reversible right-handed axis conversion and the original assembly in metre positions. Version 1 descriptors remain archived. The calibration assumes a 0.75 m worktop above the source finished floor (z=33 minus z=5). The original projected player artwork is unchanged.
+
+The missing placement API was observed RED before implementation. Targeted calibration, source-axis directions, inverse round trip, every imported group's metric envelopes/assembly position, the existing 0.48 m lamp and stored assembly unit scales passed. After adding open-drawer clearance, the affected three contract checks passed again. The final catalog validator accepts all 20 entries. Prior source parity, lamp state/persistence and browser flow evidence remains valid because the rendering/player paths did not change. See metric-placement.md for assumptions and every estimated envelope.

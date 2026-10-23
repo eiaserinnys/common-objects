@@ -43,12 +43,12 @@ test('SVG lamp responds to independent state, rotation and zoom', async () => {
  const lit = draw(); x.rotation[1] = Math.PI / 3; assert.notEqual(draw(), lit);
  const turned = draw(); camera.distance = 1.6; assert.notEqual(draw(), turned);
 });
-test('SVG validator rejects missing definitions, metric claims and absent components', async () => {
+test('SVG validator rejects missing definitions, uncalibrated units and absent components', async () => {
  const catalog = await json('assets/catalog.json');
  const assets = new Map(await Promise.all(catalog.assets.map(async p => { const a=await json('assets/'+p); return [a.id,a]; })));
  const room = assets.get('lofi-night-room');
  await validateProcedural(room, assets);
- for (const mutate of [a => a.entry='missingFunction', a => a.units='m', a => a.components.push('missing-object'), a => a.source='assets/missing.js']) {
+ for (const mutate of [a => a.entry='missingFunction', a => a.units='drawing-units', a => a.components.push('missing-object'), a => a.source='assets/missing.js', a => a.dimensions[0]=100]) {
   const a=structuredClone(room); mutate(a); await assert.rejects(validateProcedural(a, assets));
  }
 });
