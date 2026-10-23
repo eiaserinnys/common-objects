@@ -36,3 +36,7 @@ See [Metric placement](docs/metric-placement.md) for calibration assumptions, di
 The players use SVG painter sorting; they do not provide WebGL depth testing, general intersection handling or physics. The lamp switch changes bulb/shade appearance. The room's drawn light pools, rain and mechanisms are illustrative.
 
 Imported Colorfigures code is MIT by April Zhu, based on ISO-GLOW and Tolga Cohce's iso-figure. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the upstream notice. The original metric lamp geometry remains CC0-1.0; repository code is MIT.
+
+### Kitchen rituals · 2026-10-23
+
+[Open the kitchen set](preview/kitchen.html): ten original metric props in sage, wood and cream, with independent functional states. Includes cutting board, serving tray, butter dish, bread box, salt cellar, oil cruet, utensil crock, napkin holder, kitchen scale and pepper mill. All dimensions are estimates; source geometry stays at scale `[1,1,1]`. Select **Inspect selected** for four-side inspection, or **Whole set** for shared placement. Sources and SVG thumbnails are catalogued under `assets/kitchen-*/`; [batch verification](docs/kitchen-2026-10-23.md) records scope and limits.

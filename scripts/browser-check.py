@@ -1,3 +1,4 @@
+import os, shutil
 """Run source/built SVG previews with an owned HTTP server and Chromium."""
 from pathlib import Path
 from functools import partial
@@ -16,15 +17,15 @@ server = ThreadingHTTPServer(('127.0.0.1', 0), partial(QuietHandler, directory=s
 thread = Thread(target=server.serve_forever, daemon=True)
 thread.start()
 base = f'http://127.0.0.1:{server.server_port}'
-errors, failures, checks = [], [], []
+errors, failures, checks, optional_requests = [], [], [], []
 try:
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=['--no-sandbox'])
+        browser = p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH') or shutil.which('chromium'), headless=True, args=['--no-sandbox'])
         context = browser.new_context(viewport={'width':1280,'height':900})
         page = context.new_page()
         page.set_default_timeout(15000)
         page.on('pageerror', lambda e: errors.append(str(e)))
-        page.on('console', lambda m: errors.append(m.text) if m.type == 'error' else None)
+        page.on('console', lambda m: (optional_requests if m.location.get('url','').endswith('/favicon.ico') else errors).append(m.text+' @ '+str(m.location)) if m.type == 'error' else None)
         page.on('response', lambda r: failures.append([r.status,r.url]) if r.status >= 400 else None)
         def shot(name):
             page.screenshot(path=str(OUT / f'{name}.png'), full_page=True)
@@ -105,6 +106,6 @@ try:
         browser.close()
 finally:
     server.shutdown();server.server_close()
-report={'scope':'remaining narrow-room and lamp flows' if '--remaining' in sys.argv else 'full', 'checks':checks,'pageAndConsoleErrors':errors,'httpFailures':failures}
+report={'scope':'remaining narrow-room and lamp flows' if '--remaining' in sys.argv else 'full', 'checks':checks,'pageAndConsoleErrors':errors,'httpFailures':failures,'optionalFaviconRequests':optional_requests}
 (ROOT/'docs/browser-result.json').write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report))

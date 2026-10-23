@@ -16,6 +16,9 @@ export function validate(a){
  for(const p of a.parts){const seen=new Set([p.id]);let parent=p.parent;while(parent!==null){assert.ok(ids.has(parent)&&!seen.has(parent),'Invalid parent/cycle');seen.add(parent);parent=a.parts.find(q=>q.id===parent).parent;}}
  for(const m of Object.values(a.materials)){assert.ok(vector(m.color)&&m.color.every(v=>v>=0&&v<=1));if(m.emissionWhenOn!==undefined)assert.ok(Number.isFinite(m.emissionWhenOn)&&m.emissionWhenOn>=0&&m.emissionWhenOn<=1);}
  assert.ok(a.state&&typeof a.state==='object');const actions=new Set();for(const action of a.actions){assert.ok(!actions.has(action.id));actions.add(action.id);assert.equal(action.type,'toggle');assert.equal(typeof a.state[action.stateKey],'boolean');}
+ const condition=c=>{assert.ok(c&&typeof c==='object');for(const [k,v] of Object.entries(c)){assert.equal(typeof a.state[k],'boolean');assert.equal(typeof v,'boolean');}};
+ for(const p of a.parts)if(p.visibleWhen)condition(p.visibleWhen);
+ for(const s of a.supportSurfaces||[]){assert.ok(s.id&&Number.isFinite(s.height)&&s.height>=0&&s.height<=a.bounds.max[1]);assert.deepEqual(s.normal,[0,1,0]);assert.ok(s.polygon.length>=3&&s.polygon.every(v=>vector(v,2)));if(s.availableWhen)condition(s.availableWhen);}
  const matrices=worldParts(a),min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];
  for(const p of a.parts){const vertices=mesh(p.geometry).triangles;for(let n=0;n<vertices.length;n+=3){const v=point(matrices.get(p.id),vertices.slice(n,n+3));for(let k=0;k<3;k++){min[k]=Math.min(min[k],v[k]);max[k]=Math.max(max[k],v[k]);}}}
  for(let k=0;k<3;k++){assert.ok(Math.abs(min[k]-a.bounds.min[k])<1e-7,'Geometry minimum mismatch');assert.ok(Math.abs(max[k]-a.bounds.max[k])<1e-7,'Geometry maximum mismatch');}

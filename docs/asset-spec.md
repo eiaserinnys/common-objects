@@ -33,3 +33,11 @@ Each entry has stable id/version/name, source (repository-relative JavaScript), 
 assets/lofi-night-room/assembly.json gives metre positions and unit scales for all 18 components, relative to the room's ground-centered origin. renderer/placement.js maps component source points to the same room world coordinates. This placement list is separate from the original lamp player's saved interactive scene format.
 
 The study lamp uses `format: metric-svg`, version 2, and remains 0.24 × 0.48 × 0.26 m. Its geometry/material contract above is unchanged. Version 1 is immutable at versions/1.json; saved v1 arrangements are explicitly compatible and retain their version when re-saved.
+
+## Kitchen batch discrete states (2026-10-23)
+
+Metric parts may include `visibleWhen: {booleanStateKey: value}`. All listed conditions must match the instance state for the part to draw. This is discrete removal/refill, not an articulated joint: fixed joints, pivots and reference axes retain their existing meaning. Rest bounds include every authored part; active bounds are recomputed with `renderer/metric-state.js`. Removed pieces leave the scene. No decorative motions or material recolors count as new objects.
+
+`supportSurfaces` lists usable local XZ polygons, local metre `height`, Y-up `normal`, and optional `availableWhen`. An empty array explicitly means no certified placement surface. The helper transforms available surface vertices and active geometry bounds into world coordinates. Supports are geometric placement hints, not load limits or collision physics.
+
+`renderer/svg.js` accepts an asset or a Map of metric assets. A single camera and BSP polygon/edge painter order cover the entire mixed scene; near-plane clipping applies to faces and lines. BSP splits spanning faces to resolve occlusion rather than sorting whole triangles by average depth. This is still SVG, without WebGL, lighting or shadows. The ground grid is a background guide for above-ground objects. `camera.target`, distance, yaw and pitch only change the view. The kitchen inspection mode hides other instances for observation; whole-set mode restores them without changing placement or scale.

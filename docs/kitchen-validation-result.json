@@ -1,0 +1,894 @@
+{
+  "batch": "kitchen-2026-10-23",
+  "count": 10,
+  "objects": [
+    {
+      "id": "kitchen-cutting-board",
+      "version": 1,
+      "dimensions": [
+        0.32,
+        0.043,
+        0.22
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "kitchen-cutting-board",
+        "parts": 4,
+        "min": [
+          -0.16,
+          0,
+          -0.11
+        ],
+        "max": [
+          0.16,
+          0.043,
+          0.11
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.11
+            ],
+            "max": [
+              0.16,
+              0.043,
+              0.11
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.11
+            ],
+            "max": [
+              0.16,
+              0.018,
+              0.11
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "work-face",
+              "vertices": [
+                [
+                  -0.15,
+                  0.018,
+                  -0.1
+                ],
+                [
+                  0.15,
+                  0.018,
+                  -0.1
+                ],
+                [
+                  0.15,
+                  0.018,
+                  0.1
+                ],
+                [
+                  -0.15,
+                  0.018,
+                  0.1
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "thumbnail": "assets/kitchen-cutting-board/thumbnail.svg"
+    },
+    {
+      "id": "kitchen-serving-tray",
+      "version": 1,
+      "dimensions": [
+        0.396,
+        0.035,
+        0.25
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "kitchen-serving-tray",
+        "parts": 8,
+        "min": [
+          -0.198,
+          0,
+          -0.125
+        ],
+        "max": [
+          0.198,
+          0.035,
+          0.125
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "lined": true
+          },
+          "bounds": {
+            "min": [
+              -0.198,
+              0,
+              -0.125
+            ],
+            "max": [
+              0.198,
+              0.035,
+              0.125
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "liner",
+              "vertices": [
+                [
+                  -0.16,
+                  0.008,
+                  -0.105
+                ],
+                [
+                  0.16,
+                  0.008,
+                  -0.105
+                ],
+                [
+                  0.16,
+                  0.008,
+                  0.105
+                ],
+                [
+                  -0.16,
+                  0.008,
+                  0.105
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "lined": false
+          },
+          "bounds": {
+            "min": [
+              -0.198,
+              0,
+              -0.125
+            ],
+            "max": [
+              0.198,
+              0.035,
+              0.125
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "tray-floor",
+              "vertices": [
+                [
+                  -0.17,
+                  0.006,
+                  -0.115
+                ],
+                [
+                  0.17,
+                  0.006,
+                  -0.115
+                ],
+                [
+                  0.17,
+                  0.006,
+                  0.115
+                ],
+                [
+                  -0.17,
+                  0.006,
+                  0.115
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "thumbnail": "assets/kitchen-serving-tray/thumbnail.svg"
+    },
+    {
+      "id": "kitchen-butter-dish",
+      "version": 1,
+      "dimensions": [
+        0.19,
+        0.083,
+        0.12
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "kitchen-butter-dish",
+        "parts": 8,
+        "min": [
+          -0.095,
+          0,
+          -0.06
+        ],
+        "max": [
+          0.095,
+          0.083,
+          0.06
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "covered": true
+          },
+          "bounds": {
+            "min": [
+              -0.095,
+              0,
+              -0.06
+            ],
+            "max": [
+              0.095,
+              0.083,
+              0.06
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "covered": false
+          },
+          "bounds": {
+            "min": [
+              -0.095,
+              0,
+              -0.06
+            ],
+            "max": [
+              0.095,
+              0.047,
+              0.06
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/kitchen-butter-dish/thumbnail.svg"
+    },
+    {
+      "id": "kitchen-bread-box",
+      "version": 1,
+      "dimensions": [
+        0.35,
+        0.21,
+        0.24
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "kitchen-bread-box",
+        "parts": 7,
+        "min": [
+          -0.175,
+          0,
+          -0.12
+        ],
+        "max": [
+          0.175,
+          0.21000000000000002,
+          0.12
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": true
+          },
+          "bounds": {
+            "min": [
+              -0.175,
+              0,
+              -0.12
+            ],
+            "max": [
+              0.175,
+              0.21000000000000002,
+              0.12
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "closed-lid",
+              "vertices": [
+                [
+                  -0.16,
+                  0.192,
+                  -0.105
+                ],
+                [
+                  0.16,
+                  0.192,
+                  -0.105
+                ],
+                [
+                  0.16,
+                  0.192,
+                  0.105
+                ],
+                [
+                  -0.16,
+                  0.192,
+                  0.105
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "closed": false
+          },
+          "bounds": {
+            "min": [
+              -0.17,
+              0,
+              -0.115
+            ],
+            "max": [
+              0.17,
+              0.18,
+              0.115
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "interior",
+              "vertices": [
+                [
+                  -0.16,
+                  0.006,
+                  -0.105
+                ],
+                [
+                  0.16,
+                  0.006,
+                  -0.105
+                ],
+                [
+                  0.16,
+                  0.006,
+                  0.105
+                ],
+                [
+                  -0.16,
+                  0.006,
+                  0.105
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "thumbnail": "assets/kitchen-bread-box/thumbnail.svg"
+    },
+    {
+      "id": "kitchen-salt-cellar",
+      "version": 1,
+      "dimensions": [
+        0.09,
+        0.074,
+        0.09
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "kitchen-salt-cellar",
+        "parts": 7,
+        "min": [
+          -0.045,
+          0,
+          -0.045
+        ],
+        "max": [
+          0.045,
+          0.07400000000000001,
+          0.045
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": true
+          },
+          "bounds": {
+            "min": [
+              -0.045,
+              0,
+              -0.045
+            ],
+            "max": [
+              0.045,
+              0.07400000000000001,
+              0.045
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": false
+          },
+          "bounds": {
+            "min": [
+              -0.0425,
+              0,
+              -0.0425
+            ],
+            "max": [
+              0.0425,
+              0.065,
+              0.0425
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/kitchen-salt-cellar/thumbnail.svg"
+    },
+    {
+      "id": "kitchen-oil-cruet",
+      "version": 1,
+      "dimensions": [
+        0.07,
+        0.228,
+        0.07
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "kitchen-oil-cruet",
+        "parts": 5,
+        "min": [
+          -0.035,
+          0,
+          -0.035
+        ],
+        "max": [
+          0.035,
+          0.228,
+          0.035
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "stoppered": true
+          },
+          "bounds": {
+            "min": [
+              -0.035,
+              0,
+              -0.035
+            ],
+            "max": [
+              0.035,
+              0.228,
+              0.035
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "stoppered": false
+          },
+          "bounds": {
+            "min": [
+              -0.035,
+              0,
+              -0.035
+            ],
+            "max": [
+              0.035,
+              0.212,
+              0.035
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/kitchen-oil-cruet/thumbnail.svg"
+    },
+    {
+      "id": "kitchen-utensil-crock",
+      "version": 1,
+      "dimensions": [
+        0.1,
+        0.251,
+        0.1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "kitchen-utensil-crock",
+        "parts": 9,
+        "min": [
+          -0.05,
+          0,
+          -0.05
+        ],
+        "max": [
+          0.05,
+          0.251,
+          0.05
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.05,
+              0,
+              -0.05
+            ],
+            "max": [
+              0.05,
+              0.251,
+              0.05
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.05,
+              0,
+              -0.05
+            ],
+            "max": [
+              0.05,
+              0.13,
+              0.05
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "interior",
+              "vertices": [
+                [
+                  -0.042,
+                  0.006,
+                  -0.042
+                ],
+                [
+                  0.042,
+                  0.006,
+                  -0.042
+                ],
+                [
+                  0.042,
+                  0.006,
+                  0.042
+                ],
+                [
+                  -0.042,
+                  0.006,
+                  0.042
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "thumbnail": "assets/kitchen-utensil-crock/thumbnail.svg"
+    },
+    {
+      "id": "kitchen-napkin-holder",
+      "version": 1,
+      "dimensions": [
+        0.15,
+        0.127,
+        0.075
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "kitchen-napkin-holder",
+        "parts": 8,
+        "min": [
+          -0.075,
+          0,
+          -0.037500000000000006
+        ],
+        "max": [
+          0.075,
+          0.127,
+          0.037500000000000006
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.075,
+              0,
+              -0.037500000000000006
+            ],
+            "max": [
+              0.075,
+              0.127,
+              0.037500000000000006
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.075,
+              0,
+              -0.037500000000000006
+            ],
+            "max": [
+              0.075,
+              0.082,
+              0.037500000000000006
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/kitchen-napkin-holder/thumbnail.svg"
+    },
+    {
+      "id": "kitchen-scale",
+      "version": 1,
+      "dimensions": [
+        0.16,
+        0.033,
+        0.19
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "kitchen-scale",
+        "parts": 15,
+        "min": [
+          -0.08,
+          0,
+          -0.095
+        ],
+        "max": [
+          0.08,
+          0.033,
+          0.095
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false
+          },
+          "bounds": {
+            "min": [
+              -0.08,
+              0,
+              -0.095
+            ],
+            "max": [
+              0.08,
+              0.033,
+              0.095
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "weighing-platform",
+              "vertices": [
+                [
+                  -0.07,
+                  0.033,
+                  -0.085
+                ],
+                [
+                  0.07,
+                  0.033,
+                  -0.085
+                ],
+                [
+                  0.07,
+                  0.033,
+                  0.035
+                ],
+                [
+                  -0.07,
+                  0.033,
+                  0.035
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "on": true
+          },
+          "bounds": {
+            "min": [
+              -0.08,
+              0,
+              -0.095
+            ],
+            "max": [
+              0.08,
+              0.033,
+              0.095
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "weighing-platform",
+              "vertices": [
+                [
+                  -0.07,
+                  0.033,
+                  -0.085
+                ],
+                [
+                  0.07,
+                  0.033,
+                  -0.085
+                ],
+                [
+                  0.07,
+                  0.033,
+                  0.035
+                ],
+                [
+                  -0.07,
+                  0.033,
+                  0.035
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "thumbnail": "assets/kitchen-scale/thumbnail.svg"
+    },
+    {
+      "id": "kitchen-pepper-mill",
+      "version": 1,
+      "dimensions": [
+        0.068,
+        0.186,
+        0.068
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "kitchen-pepper-mill",
+        "parts": 6,
+        "min": [
+          -0.034,
+          0,
+          -0.034
+        ],
+        "max": [
+          0.034,
+          0.186,
+          0.034
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "capped": true
+          },
+          "bounds": {
+            "min": [
+              -0.034,
+              0,
+              -0.034
+            ],
+            "max": [
+              0.034,
+              0.186,
+              0.034
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "capped": false
+          },
+          "bounds": {
+            "min": [
+              -0.034,
+              0,
+              -0.034
+            ],
+            "max": [
+              0.034,
+              0.139,
+              0.034
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/kitchen-pepper-mill/thumbnail.svg"
+    }
+  ]
+}

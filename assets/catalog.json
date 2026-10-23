@@ -20,6 +20,16 @@
     "lofi-headphones/asset.json",
     "lofi-study-chair/asset.json",
     "lofi-floor-plant/asset.json",
-    "lofi-mechanisms/asset.json"
+    "lofi-mechanisms/asset.json",
+    "kitchen-cutting-board/asset.json",
+    "kitchen-serving-tray/asset.json",
+    "kitchen-butter-dish/asset.json",
+    "kitchen-bread-box/asset.json",
+    "kitchen-salt-cellar/asset.json",
+    "kitchen-oil-cruet/asset.json",
+    "kitchen-utensil-crock/asset.json",
+    "kitchen-napkin-holder/asset.json",
+    "kitchen-scale/asset.json",
+    "kitchen-pepper-mill/asset.json"
   ]
 }
