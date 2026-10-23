@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "id": "desk-lamp",
+  "version": 1,
+  "name": "Study lamp",
+  "units": "m",
+  "upAxis": "Y",
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "dimensions": [
+    0.24,
+    0.48,
+    0.26
+  ],
+  "bounds": {
+    "min": [
+      -0.12,
+      0,
+      -0.14
+    ],
+    "max": [
+      0.12,
+      0.48,
+      0.12
+    ]
+  },
+  "footprint": [
+    [
+      -0.12,
+      -0.14
+    ],
+    [
+      0.12,
+      -0.14
+    ],
+    [
+      0.12,
+      0.12
+    ],
+    [
+      -0.12,
+      0.12
+    ]
+  ],
+  "measurement": {
+    "status": "estimated",
+    "note": "Fictional household lamp; nominal dimensions estimated, not measured from a product. Footprint is a conservative XZ clearance rectangle; circular base contact is centered at the origin."
+  },
+  "provenance": {
+    "creator": "common-objects contributors",
+    "license": "CC0-1.0",
+    "note": "Original procedural geometry. Muted palette and ink contours inspired by Colorfigures; no upstream code or assets copied."
+  },
+  "materials": {
+    "body": {
+      "color": [
+        0.65,
+        0.72,
+        0.61
+      ]
+    },
+    "metal": {
+      "color": [
+        0.27,
+        0.3,
+        0.28
+      ]
+    },
+    "bulb": {
+      "color": [
+        0.93,
+        0.87,
+        0.66
+      ],
+      "emissionWhenOn": 0.8
+    },
+    "shade": {
+      "color": [
+        0.65,
+        0.72,
+        0.61
+      ],
+      "emissionWhenOn": 0.35
+    }
+  },
+  "state": {
+    "on": false
+  },
+  "actions": [
+    {
+      "id": "toggle",
+      "stateKey": "on",
+      "type": "toggle"
+    }
+  ],
+  "parts": [
+    {
+      "id": "base",
+      "parent": null,
+      "position": [
+        0,
+        0.015,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "cylinder",
+        "radiusBottom": 0.12,
+        "radiusTop": 0.12,
+        "height": 0.03,
+        "segments": 48
+      },
+      "material": "body"
+    },
+    {
+      "id": "stem",
+      "parent": null,
+      "position": [
+        0,
+        0.225,
+        0.06
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "cylinder",
+        "radiusBottom": 0.009,
+        "radiusTop": 0.009,
+        "height": 0.39,
+        "segments": 20
+      },
+      "material": "metal"
+    },
+    {
+      "id": "arm",
+      "parent": null,
+      "position": [
+        0,
+        0.415,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.018,
+          0.1
+        ]
+      },
+      "material": "metal"
+    },
+    {
+      "id": "shade",
+      "parent": null,
+      "position": [
+        0,
+        0.43,
+        -0.04
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "cylinder",
+        "radiusBottom": 0.1,
+        "radiusTop": 0.045,
+        "height": 0.1,
+        "segments": 48,
+        "openBottom": true
+      },
+      "material": "shade"
+    },
+    {
+      "id": "bulb",
+      "parent": null,
+      "position": [
+        0,
+        0.395,
+        -0.04
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "cylinder",
+        "radiusBottom": 0.022,
+        "radiusTop": 0.022,
+        "height": 0.025,
+        "segments": 24
+      },
+      "material": "bulb"
+    }
+  ]
+}

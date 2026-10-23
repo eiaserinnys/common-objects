@@ -1,1 +1,12 @@
-{"name":"common-objects","private":true,"type":"module","scripts":{"test":"node --test","validate":"node scripts/validate.mjs","build":"node scripts/build.mjs","dev":"python3 -m http.server 8000"}}
+{
+  "name": "common-objects",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test --test-timeout=60000 --test-concurrency=1",
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "dev": "python3 -m http.server 8000",
+    "browser-check": "node scripts/browser-check.mjs"
+  }
+}

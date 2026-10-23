@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "version": 2,
+  "format": "procedural-svg",
+  "units": "m",
+  "upAxis": "Y",
+  "measurement": {
+    "status": "estimated",
+    "note": "Estimated source-space placement envelope converted by the shared 0.75 m desk-height calibration. Not measured geometry bounds. Original painter-sort envelopes are used as estimates; steam, glow and shadows are not physical dimensions. All assets share one uniform scale."
+  },
+  "provenance": {
+    "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
+    "license": "MIT",
+    "note": "Published Colorfigures/ISO-GLOW/iso-figure derivative; attribution in THIRD_PARTY_NOTICES.md."
+  },
+  "id": "lofi-corner-pillar",
+  "name": "Corner pillar",
+  "library": "lofi-night-room",
+  "source": "assets/lofi-night-room/walls.js",
+  "entry": "drawCornerPillar",
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "previousVersion": "versions/1.json",
+  "sourceCoordinates": {
+    "units": "drawing-units",
+    "upAxis": "Z",
+    "origin": [
+      3.0,
+      3.0,
+      5
+    ],
+    "bounds": {
+      "min": [
+        0,
+        0,
+        5
+      ],
+      "max": [
+        6,
+        6,
+        88
+      ]
+    }
+  },
+  "bounds": {
+    "min": [
+      -0.080357143,
+      0.0,
+      -0.080357143
+    ],
+    "max": [
+      0.080357143,
+      2.223214286,
+      0.080357143
+    ]
+  },
+  "dimensions": [
+    0.160714286,
+    2.223214286,
+    0.160714286
+  ],
+  "footprint": [
+    [
+      -0.080357143,
+      -0.080357143
+    ],
+    [
+      0.080357143,
+      -0.080357143
+    ],
+    [
+      0.080357143,
+      0.080357143
+    ],
+    [
+      -0.080357143,
+      0.080357143
+    ]
+  ],
+  "boundsKind": "estimated-placement-envelope"
+}

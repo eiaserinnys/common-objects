@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "version": 2,
+  "format": "procedural-svg",
+  "units": "m",
+  "upAxis": "Y",
+  "measurement": {
+    "status": "estimated",
+    "note": "Estimated source-space placement envelope converted by the shared 0.75 m desk-height calibration. Not measured geometry bounds. Original painter-sort envelopes are used as estimates; steam, glow and shadows are not physical dimensions. All assets share one uniform scale."
+  },
+  "provenance": {
+    "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
+    "license": "MIT",
+    "note": "Published Colorfigures/ISO-GLOW/iso-figure derivative; attribution in THIRD_PARTY_NOTICES.md."
+  },
+  "id": "lofi-fairy-lights",
+  "name": "Fairy string lights",
+  "library": "lofi-night-room",
+  "source": "assets/lofi-night-room/wall-items.js",
+  "entry": "drawFairyLights",
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "previousVersion": "versions/1.json",
+  "sourceCoordinates": {
+    "units": "drawing-units",
+    "upAxis": "Z",
+    "origin": [
+      59.0,
+      63.0,
+      81
+    ],
+    "bounds": {
+      "min": [
+        6,
+        6,
+        81
+      ],
+      "max": [
+        112,
+        120,
+        87
+      ]
+    }
+  },
+  "bounds": {
+    "min": [
+      -1.419642857,
+      0.0,
+      -1.526785714
+    ],
+    "max": [
+      1.419642857,
+      0.160714286,
+      1.526785714
+    ]
+  },
+  "dimensions": [
+    2.839285714,
+    0.160714286,
+    3.053571429
+  ],
+  "footprint": [
+    [
+      -1.419642857,
+      -1.526785714
+    ],
+    [
+      1.419642857,
+      -1.526785714
+    ],
+    [
+      1.419642857,
+      1.526785714
+    ],
+    [
+      -1.419642857,
+      1.526785714
+    ]
+  ],
+  "boundsKind": "estimated-placement-envelope"
+}

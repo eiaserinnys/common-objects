@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "version": 2,
+  "format": "procedural-svg",
+  "units": "m",
+  "upAxis": "Y",
+  "measurement": {
+    "status": "estimated",
+    "note": "Estimated source-space placement envelope converted by the shared 0.75 m desk-height calibration. Not measured geometry bounds. Original painter-sort envelopes are used as estimates; steam, glow and shadows are not physical dimensions. All assets share one uniform scale."
+  },
+  "provenance": {
+    "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
+    "license": "MIT",
+    "note": "Published Colorfigures/ISO-GLOW/iso-figure derivative; attribution in THIRD_PARTY_NOTICES.md."
+  },
+  "id": "lofi-notebook-pen",
+  "name": "Notebook and fountain pen",
+  "library": "lofi-night-room",
+  "source": "assets/lofi-night-room/desktop.js",
+  "entry": "drawNotebookAndPen",
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "previousVersion": "versions/1.json",
+  "sourceCoordinates": {
+    "units": "drawing-units",
+    "upAxis": "Z",
+    "origin": [
+      39.5,
+      67.0,
+      33
+    ],
+    "bounds": {
+      "min": [
+        28,
+        53,
+        33
+      ],
+      "max": [
+        51,
+        81,
+        39
+      ]
+    }
+  },
+  "bounds": {
+    "min": [
+      -0.308035714,
+      0.0,
+      -0.375
+    ],
+    "max": [
+      0.308035714,
+      0.160714286,
+      0.375
+    ]
+  },
+  "dimensions": [
+    0.616071429,
+    0.160714286,
+    0.75
+  ],
+  "footprint": [
+    [
+      -0.308035714,
+      -0.375
+    ],
+    [
+      0.308035714,
+      -0.375
+    ],
+    [
+      0.308035714,
+      0.375
+    ],
+    [
+      -0.308035714,
+      0.375
+    ]
+  ],
+  "boundsKind": "estimated-placement-envelope"
+}

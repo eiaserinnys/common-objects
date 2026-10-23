@@ -1,4 +1,6 @@
-# Asset contract v1
+# Common metric placement and source contracts
+
+All placeable assets, including new daily props, use 1 unit = 1 metre, Y-up, XZ ground and default scale [1,1,1]. Imported drawing coordinates are archived separately and converted through an explicit physical estimate, never a camera/viewport fit.
 
 `assets/catalog.json` enumerates reusable `asset.json` sources. Renderer-specific HTML is never an asset source. The current executable validation contract is `scripts/validate.mjs`; run it after every addition.
 
@@ -13,7 +15,21 @@
 - Scene JSON contains schemaVersion and instances: id, assetId, assetVersion, position, rotation, scale and state. Unknown versions fail explicitly. Current preview storage is browser-local. Per-part animated state and migrations are future extensions.
 
 ## Adding a batch
-Create one directory per asset, author metric source and provenance, append catalog paths, then validate and inspect each. Build copies all catalog sources. The pilot preview loads the lamp explicitly; a future catalog UI and multi-asset scene loader must select geometry by assetId. The renderer currently shares geometry across copies of one asset. No daily scheduler is included in this repository.
+Create one directory per asset, author metric source and provenance, append catalog paths, then validate and inspect each. Build copies all catalog sources. The default preview loads the complete published room; preview/desk-lamp.html loads the metric lamp explicitly. The renderer currently shares geometry across copies of one asset. No daily scheduler is included in this repository.
 
 ## Rendering constraints
-Shared WebGL depth testing handles intersecting/overlapping opaque objects; outlines use the same depth buffer. This is not SVG painter sorting. No transparent sorting, shadows, physics, GLB exporter or performance guarantees are included. Geometry buffers are cached; rendering is event-driven. Test representative low-end devices before choosing scene budgets. Do not use per-object camera scaling to make differently sized objects appear equal.
+The active previews use SVG painter sorting. Intersecting geometry can show ordering artifacts; there is no shared WebGL depth buffer. The earlier WebGL renderer remains available for metric consumers. No transparent sorting, shadows, physics, GLB exporter or performance guarantees are included. Geometry buffers are cached; rendering is event-driven. Test representative low-end devices before choosing scene budgets. Do not use per-object camera scaling to make differently sized objects appear equal.
+
+## Procedural SVG imports
+
+`format: procedural-svg` version 2 preserves the published SVG functions while exposing **metre-based** dimensions, bounds, footprint and Y-up placement. The original native source remains Z-up/drawing-units in `sourceCoordinates`, with its original bounds and local support origin. Previous uncalibrated version 1 descriptors remain under each asset's versions/1.json for provenance and are not catalog placement entries.
+
+Every imported asset references the same assets/lofi-night-room/calibration.json. The assumed study-desk worktop is 0.75 m above the finished floor. In the source the floor is z=5 and the desktop top z=33, so one source unit is 0.75/28 m. This shared uniform scale preserves every relative proportion. Right-handed axis conversion is [x,z,-y]. Source origins are subtracted before conversion; renderer/placement.js supplies the inverse and world-placement helpers. No viewport, thumbnail or camera term enters that conversion.
+
+Dimensions and bounds are **estimated placement envelopes**, not measured manufacturer dimensions or exact mesh extents. The source grouping/framing envelopes are used as estimates. Mug steam and other visual effects are excluded from physical dimensions where identified. The drawer footprint includes the open extension. Record assumptions and improve the shared calibration or an asset's source envelope in a new version if better dimensions become available; do not rescale each prop to equal screen size.
+
+Each entry has stable id/version/name, source (repository-relative JavaScript), entry (function name), calibrationFile and provenance source/license. Component entries name their library. The room has ordered sourceFiles and components. The raw framing size is preserved in sourceCoordinates.framingSize. Definitions load separately from preview/room.js, which owns the published UI lifecycle. The SVG itself is still a projected drawing, not a metric mesh export.
+
+assets/lofi-night-room/assembly.json gives metre positions and unit scales for all 18 components, relative to the room's ground-centered origin. renderer/placement.js maps component source points to the same room world coordinates. This placement list is separate from the original lamp player's saved interactive scene format.
+
+The study lamp uses `format: metric-svg`, version 2, and remains 0.24 × 0.48 × 0.26 m. Its geometry/material contract above is unchanged. Version 1 is immutable at versions/1.json; saved v1 arrangements are explicitly compatible and retain their version when re-saved.

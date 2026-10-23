@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "version": 2,
+  "format": "procedural-svg",
+  "units": "m",
+  "upAxis": "Y",
+  "measurement": {
+    "status": "estimated",
+    "note": "Estimated source-space placement envelope converted by the shared 0.75 m desk-height calibration. Not measured geometry bounds. Original painter-sort envelopes are used as estimates; steam, glow and shadows are not physical dimensions. All assets share one uniform scale."
+  },
+  "provenance": {
+    "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
+    "license": "MIT",
+    "note": "Published Colorfigures/ISO-GLOW/iso-figure derivative; attribution in THIRD_PARTY_NOTICES.md."
+  },
+  "id": "lofi-desktop",
+  "name": "Timber desktop",
+  "library": "lofi-night-room",
+  "source": "assets/lofi-night-room/furniture.js",
+  "entry": "drawDeskTop",
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "previousVersion": "versions/1.json",
+  "sourceCoordinates": {
+    "units": "drawing-units",
+    "upAxis": "Z",
+    "origin": [
+      35.5,
+      63.0,
+      30
+    ],
+    "bounds": {
+      "min": [
+        15,
+        22,
+        30
+      ],
+      "max": [
+        56,
+        104,
+        33
+      ]
+    }
+  },
+  "bounds": {
+    "min": [
+      -0.549107143,
+      0.0,
+      -1.098214286
+    ],
+    "max": [
+      0.549107143,
+      0.080357143,
+      1.098214286
+    ]
+  },
+  "dimensions": [
+    1.098214286,
+    0.080357143,
+    2.196428571
+  ],
+  "footprint": [
+    [
+      -0.549107143,
+      -1.098214286
+    ],
+    [
+      0.549107143,
+      -1.098214286
+    ],
+    [
+      0.549107143,
+      1.098214286
+    ],
+    [
+      -0.549107143,
+      1.098214286
+    ]
+  ],
+  "boundsKind": "estimated-placement-envelope"
+}

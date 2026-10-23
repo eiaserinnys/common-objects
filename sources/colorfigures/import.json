@@ -1,0 +1,30 @@
+{
+  "url": "https://pages.eiaserinnys.me/d/lofi-night-room",
+  "revision": 2,
+  "sha256": "89f5df926797cf9b0c3698c8081a7e2b1b1994c92676f3c9aa6000cf4bd6a288",
+  "scripts": [
+    {
+      "index": 3,
+      "files": [
+        "renderer/colorfigures/drawing.js",
+        "renderer/colorfigures/shell.js",
+        "renderer/colorfigures/extras.js"
+      ]
+    },
+    {
+      "index": 4,
+      "files": [
+        "assets/lofi-night-room/materials.js",
+        "assets/lofi-night-room/floor.js",
+        "assets/lofi-night-room/walls.js",
+        "assets/lofi-night-room/wall-items.js",
+        "assets/lofi-night-room/furniture.js",
+        "assets/lofi-night-room/desktop.js",
+        "assets/lofi-night-room/floor-furniture.js",
+        "assets/lofi-night-room/mechanisms.js",
+        "assets/lofi-night-room/scene.js",
+        "preview/room.js"
+      ]
+    }
+  ]
+}

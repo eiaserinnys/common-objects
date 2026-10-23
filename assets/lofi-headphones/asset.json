@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "version": 2,
+  "format": "procedural-svg",
+  "units": "m",
+  "upAxis": "Y",
+  "measurement": {
+    "status": "estimated",
+    "note": "Estimated source-space placement envelope converted by the shared 0.75 m desk-height calibration. Not measured geometry bounds. Original painter-sort envelopes are used as estimates; steam, glow and shadows are not physical dimensions. All assets share one uniform scale."
+  },
+  "provenance": {
+    "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
+    "license": "MIT",
+    "note": "Published Colorfigures/ISO-GLOW/iso-figure derivative; attribution in THIRD_PARTY_NOTICES.md."
+  },
+  "id": "lofi-headphones",
+  "name": "Over-ear headphones",
+  "library": "lofi-night-room",
+  "source": "assets/lofi-night-room/desktop.js",
+  "entry": "drawHeadphones",
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "previousVersion": "versions/1.json",
+  "sourceCoordinates": {
+    "units": "drawing-units",
+    "upAxis": "Z",
+    "origin": [
+      45.5,
+      92.5,
+      33
+    ],
+    "bounds": {
+      "min": [
+        38,
+        84,
+        33
+      ],
+      "max": [
+        53,
+        101,
+        40
+      ]
+    }
+  },
+  "bounds": {
+    "min": [
+      -0.200892857,
+      0.0,
+      -0.227678571
+    ],
+    "max": [
+      0.200892857,
+      0.1875,
+      0.227678571
+    ]
+  },
+  "dimensions": [
+    0.401785714,
+    0.1875,
+    0.455357143
+  ],
+  "footprint": [
+    [
+      -0.200892857,
+      -0.227678571
+    ],
+    [
+      0.200892857,
+      -0.227678571
+    ],
+    [
+      0.200892857,
+      0.227678571
+    ],
+    [
+      -0.200892857,
+      0.227678571
+    ]
+  ],
+  "boundsKind": "estimated-placement-envelope"
+}

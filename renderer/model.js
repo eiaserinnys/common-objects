@@ -12,7 +12,7 @@ export function loadScene(text, assets) {
   if(s.schemaVersion!==1 || !Array.isArray(s.instances)) throw Error('Unsupported scene');
   for(const i of s.instances){
     const a=assets.get(i.assetId);
-    if(!a || i.assetVersion!==a.version || typeof i.id!=='string' || !i.id || ids.has(i.id)) throw Error('Invalid instance/asset version');
+    if(!a || ![a.version,...(a.compatibleVersions||[])].includes(i.assetVersion) || typeof i.id!=='string' || !i.id || ids.has(i.id)) throw Error('Invalid instance/asset version');
     ids.add(i.id);
     for(const k of ['position','rotation','scale']) if(!Array.isArray(i[k]) || i[k].length!==3 || !i[k].every(Number.isFinite)) throw Error('Invalid transform');
     if(i.scale.some(v=>v<=0) || !i.state || Object.keys(i.state).length!==Object.keys(a.state).length || Object.keys(a.state).some(k=>typeof i.state[k]!==typeof a.state[k])) throw Error('Invalid state/scale');

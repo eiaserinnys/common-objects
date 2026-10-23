@@ -1,7 +1,8 @@
 {
   "schemaVersion": 1,
   "id": "desk-lamp",
-  "version": 1,
+  "version": 2,
+  "compatibleVersions": [1],
   "name": "Study lamp",
   "units": "m",
   "upAxis": "Y",
@@ -270,5 +271,8 @@
       },
       "material": "bulb"
     }
-  ]
+  ],
+  "format": "metric-svg",
+  "renderer": "renderer/svg.js",
+  "previousVersion": "versions/1.json"
 }

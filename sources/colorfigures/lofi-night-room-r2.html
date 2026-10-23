@@ -1,0 +1,2121 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lo-fi night room</title>
+<meta name="description" content="Interactive 3D isometric lo-fi night study room built with Colorfigures - drag to orbit 360°, toggle Night/Light theme, desk lamp, vinyl turntable, fairy lights &amp; rain, and inspect see-through wiring.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pages - eiaserinnys.me">
+<meta property="og:title" content="Fig. 27 - Lo-fi night room (Colorfigures Isometric Diorama)">
+<meta property="og:description" content="Interactive 3D isometric lo-fi night study room built with Colorfigures - drag to orbit 360°, toggle Night/Light theme, desk lamp, vinyl turntable, fairy lights &amp; rain, and inspect see-through wiring.">
+<meta property="og:image" content="https://pub-236dc9dc170e487faec4c8b5e2d084c6.r2.dev/pages/lofi-night-room/og-lofi-room.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fig. 27 - Lo-fi night room (Colorfigures Isometric Diorama)">
+<meta name="twitter:description" content="Interactive 3D isometric lo-fi night study room built with Colorfigures - drag to orbit 360°, toggle Night/Light theme, desk lamp, vinyl turntable, fairy lights &amp; rain, and inspect see-through wiring.">
+<meta name="twitter:image" content="https://pub-236dc9dc170e487faec4c8b5e2d084c6.r2.dev/pages/lofi-night-room/og-lofi-room.png">
+<script>document.documentElement.classList.add("dark");</script><style>:root{--hud-bg:rgba(242,239,231,.92)}html.dark{--paper:#131624;--ink:#efe8d8;--muted:#9ba0b8;--rule:rgba(239,232,216,.22);--hud-bg:rgba(22,26,44,.92)}html.dark body{background:radial-gradient(circle at 50% 50%,#252c4d 0%,#181d33 48%,#101322 100%)!important;color:var(--ink)!important}html.dark .act{background:rgba(24,29,49,.9);color:var(--ink);border-color:rgba(239,232,216,.26)}html.dark .act:hover{background:rgba(38,45,74,.95);border-color:rgba(239,232,216,.45)}html.dark .act:active,html.dark .act.flash,html.dark .act[aria-pressed="true"]{background:#f4b829;color:#191610;border-color:#f4b829}html.dark .amenu{background:#1b2036;border-color:rgba(239,232,216,.28);box-shadow:0 10px 28px rgba(0,0,0,.48)}html.dark .amenu button{color:var(--ink)}html.dark .amenu button:hover{background:rgba(239,232,216,.1)}html.dark .amenu button.cur::before{background:#f4b829}html.dark .stat .k{color:#9ba0b8}html.dark .stat .v{color:#f7eedc;text-shadow:0 2px 10px rgba(0,0,0,.45)}html.dark .seg{border-color:rgba(239,232,216,.26)}html.dark .seg button{background:rgba(24,29,49,.92);color:var(--ink);border-right-color:rgba(239,232,216,.2)}html.dark .seg button[aria-pressed="true"]{background:#f4b829;color:#191610;font-weight:700}html.dark .ctl input[type=range]{background:rgba(239,232,216,.28)}html.dark .ctl input[type=range]::-webkit-slider-thumb{background:#f4b829;border:2px solid #131624}html.dark .sw{border-color:rgba(239,232,216,.3)}html.dark .sw[aria-pressed="true"]{outline-color:#f4b829}html.dark #fig .tag path{stroke:#d8d0c0!important;opacity:.78!important}html.dark #fig .tag:not(.on) rect{fill:#1e243b!important;stroke:#8a92b2!important}html.dark #fig .tag:not(.on) text{fill:#efe8d8!important}html.dark #fig .tag.on rect{fill:#f4b829!important;stroke:#fff4d6!important}html.dark #fig .tag.on text{fill:#191610!important}html.dark #fig .tag circle{fill:#f4b829!important;stroke:#191610!important}.mcap{display:none!important}@media (max-width:560px){.stat .v{font-size:20px!important}.stats{align-items:flex-end}body > header{display:none}}@media (min-width:561px){html,body{width:100vw;height:100dvh;margin:0!important;padding:0!important;overflow:hidden!important;position:relative}.stage{position:fixed!important;inset:0!important;max-width:none!important;width:100vw!important;height:100dvh!important;margin:0!important;padding:0!important;display:flex!important;align-items:center!important;justify-content:center!important}.zwrap{position:fixed!important;inset:0!important;width:100vw!important;height:100dvh!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important;z-index:1}#fig{width:min(82vw,calc(84dvh / 0.75))!important;height:auto!important;max-width:none!important;max-height:84dvh!important;margin:0!important;display:block!important;transform-origin:50% 50%!important;flex:none}body > header{position:fixed!important;top:20px!important;left:24px!important;z-index:10!important;margin:0!important;max-width:none!important;width:auto!important;pointer-events:none}.actions#btns{position:fixed!important;top:50px!important;left:24px!important;right:auto!important;z-index:10!important;max-width:calc(100vw - 420px)}.vset{position:fixed!important;top:20px!important;right:24px!important;left:auto!important;z-index:10!important;margin:0!important}#stats{position:fixed!important;top:64px!important;right:24px!important;left:auto!important;z-index:10!important}.controls{position:fixed!important;bottom:42px!important;left:24px!important;right:auto!important;top:auto!important;z-index:10!important;margin:0!important;padding:10px 14px!important;width:auto!important;max-width:none!important;display:flex!important;flex-direction:row!important;align-items:center!important;gap:20px!important;background:var(--hud-bg);border:1px solid var(--rule);border-radius:10px}#viewctl{position:fixed!important;bottom:54px!important;right:24px!important;left:auto!important;top:auto!important;z-index:10!important;padding:8px 12px!important;background:var(--hud-bg);border:1px solid var(--rule);border-radius:10px}.made-with{position:fixed!important;bottom:14px!important;left:26px!important;right:auto!important;z-index:10!important;margin:0!important;padding:0!important;max-width:none!important;text-align:left!important}}</style><script>window.FIG_A = () => innerWidth <= 560 ? 1.1 : .75;</script><script>window.LBL_U = () => { if (innerWidth > 560) return 0; const s = document.getElementById("fig"); return s && s.clientWidth && s.viewBox.baseVal.width ? s.viewBox.baseVal.width / s.clientWidth : 0; };</script></head><body>
+<script>
+/* ============================================================
+   Colorfigures core: projection, shapes, shading, ink, labels, page shell.
+   A figure page includes this file (scripts/build.py inlines it), then calls mountFigure({...}).
+   See SKILL.md for the drawing contract and conventions.
+   One fixed view (front-left-top) and one fixed light (from above, behind the viewer's right shoulder: the front is lit,
+   the left side is in shade, and cast shadows fall toward the lower left of the screen).
+   ============================================================ */
+
+/* ---------- palettes ---------- */
+const PALS = {
+  mustard: { l:'#f4b829', m:'#d49c1f', d:'#4e4a18' },
+  tomato:  { l:'#ef6a4c', m:'#cf5038', d:'#4a2219' },
+  mint:    { l:'#93d3b0', m:'#71b693', d:'#1f4034' },
+  cobalt:  { l:'#76a0e2', m:'#5a82c6', d:'#1c2948' },
+  blush:   { l:'#f3a6bb', m:'#d8869c', d:'#4b2430' },
+};
+const METAL   = { l:'#eef0f0', m:'#c6ccce', d:'#8f989b' };
+const CLEAR   = { l:'#e4f2f4', m:'#c4dfe4', d:'#97b9c0' };
+const CERAMIC = { l:'#fbfaf3', m:'#e3e0d2', d:'#bdb8a6' };
+const DARK    = { l:'#55504a', m:'#3d3935', d:'#272421' };
+const INK = '#231e16';
+let SHADOW = '#41538f';
+
+/* ---------- projection (x = depth toward viewer-right, y = toward viewer-left, z = up) ---------- */
+const C = Math.cos(Math.PI/6), S = Math.sin(Math.PI/6);
+let OX = 0, OY = 0;
+/* Free orthographic camera (internal names start with CAM_ / cam so they never clash with a figure's own names). YAW turns the viewer around the vertical axis (45° = the classic front-left view),
+   PITCH is how far it looks down (35.26° = true isometric). At the defaults P() is exactly the old isometric
+   projection, so every figure drawn for it still lines up. Drag the figure to orbit; double-click to reset.
+   rotV(n) maps a world direction into the default view's frame, so vis / tone / any "sum of rotV > 0" test keep
+   working at every angle: the viewer is always (1,1,1) and the light stays put relative to the viewer. */
+let VIEW = 0, RC = [0, 0], RCZ = 0;
+const VIEW_NAMES = ['front', 'left side', 'back', 'right side'];
+const TURNS = [0, 2];
+const YAW0 = 45, PITCH0 = Math.atan(1/Math.SQRT2) * 180/Math.PI, CAM_K = Math.sqrt(1.5);
+let YAW = YAW0, PITCH = PITCH0, CAM_R, CAM_U, CAM_V, CAM_D;                       // right, up, toward viewer, screen-down
+const camBasis = (yaw, pitch) => { const t = yaw*Math.PI/180, p = pitch*Math.PI/180, ct = Math.cos(t), st = Math.sin(t), cp = Math.cos(p), sp2 = Math.sin(p);
+  return { R:[st,-ct,0], U:[-sp2*ct,-sp2*st,cp], V:[cp*ct,cp*st,sp2] }; };
+const CAM_B0 = camBasis(YAW0, PITCH0);
+// CAM_LIM: how far (deg) the camera may turn either side of the front view; null = all the way round (set per figure)
+let CAM_LIM = null;
+function setCam(yaw, pitch){ YAW = CAM_LIM == null ? yaw : Math.max(YAW0 - CAM_LIM, Math.min(YAW0 + CAM_LIM, yaw));
+  PITCH = CAM_LIM == null ? Math.max(6, Math.min(78, pitch)) : Math.max(15, Math.min(62, pitch)); const b = camBasis(YAW, PITCH); CAM_R = b.R; CAM_U = b.U; CAM_V = b.V; CAM_D = CAM_U.map(v => -v); }
+setCam(YAW0, PITCH0);
+const camDot = (a,b) => a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
+const rotV = n => { const r = camDot(n,CAM_R), u = camDot(n,CAM_U), v = camDot(n,CAM_V); return [0,1,2].map(i => CAM_B0.R[i]*r + CAM_B0.U[i]*u + CAM_B0.V[i]*v); };
+// the light's ground direction turns with the viewer's yaw only (shadows always fall toward the lower left of the screen)
+const yawTurn = ([x,y]) => { const t = (YAW - YAW0)*Math.PI/180, c = Math.cos(t), s = Math.sin(t); return [x*c - y*s, x*s + y*c]; };
+const rotXY = (x,y) => [x, y];                                                // kept for old callers
+const P0 = (x,y,z) => [(x-y)*C + OX, (x+y)*S - z + OY];                       // raw iso
+const P  = (x,y,z) => { const q = [x-RC[0], y-RC[1], z-RCZ];
+  return [CAM_K*camDot(q,CAM_R) + (RC[0]-RC[1])*C + OX, CAM_K*camDot(q,CAM_D) + (RC[0]+RC[1])*S - RCZ + OY]; };
+const Dv = (x,y,z) => [CAM_K*camDot([x,y,z],CAM_R), CAM_K*camDot([x,y,z],CAM_D)];
+// distance toward the viewer: draw parts with smaller depth first
+const depthOf = p => camDot(p, CAM_V);
+// sort [{at:[x,y,z], svg}] back-to-front for the current camera. A part may also give box:[[x0,y0,z0],[x1,y1,z1]]:
+// when two boxes are separated along x, y or z, the one on the viewer's side goes last (a centre point alone gets long
+// or wrapping parts wrong: a pole beside a row of keys, a spout reaching past a cup).
+const boxMid = b => [0,1,2].map(k => (b[0][k] + b[1][k]) / 2);
+const sepOrder = (p, q) => { if (!p.box || !q.box) return 0;
+  for (let k = 0; k < 3; k++){ if (p.box[1][k] <= q.box[0][k] + 1e-6) return CAM_V[k] >= 0 ? -1 : 1; if (q.box[1][k] <= p.box[0][k] + 1e-6) return CAM_V[k] >= 0 ? 1 : -1; }
+  return 0; };
+const byDepth = parts => parts.filter(Boolean).sort((p,q) => sepOrder(p,q) || (depthOf(p.at || boxMid(p.box)) - depthOf(q.at || boxMid(q.box)))).map(p => p.svg).join('');
+// the half of a vertical ring that faces the viewer / is turned away, as [from, to] angles in degrees (0 = +x, 90 = +y)
+const nearHalf = () => [YAW - 90, YAW + 90], farHalf = () => [YAW + 90, YAW + 270];
+// an open container (cup, bin, cone, drum) between two rings: far inner wall, then its contents, then the near outer wall
+const openShell = (A, B, colour, contents = '') => loft(A, B, colour, true) + contents + loft(A, B, colour);
+const f  = v => v.toFixed(1);
+const pd = (pts, close=true) => 'M' + pts.map(p => { const q = P(p[0],p[1],p[2]); return f(q[0])+' '+f(q[1]); }).join('L') + (close ? 'Z' : '');
+const sp = pts => 'M' + pts.map(q => f(q[0])+' '+f(q[1])).join('L') + 'Z';
+
+/* ---------- 2D shapes in a plane's (u,v) coords (v up), mapped to 3D by a plane ---------- */
+const arcUV  = (cu,cv,r,a0,a1,n=7) => { const o=[]; for (let i=0;i<=n;i++){ const a=(a0+(a1-a0)*i/n)*Math.PI/180; o.push([cu+r*Math.cos(a), cv+r*Math.sin(a)]); } return o; };
+const rrUV   = (u0,v0,u1,v1,r,n=7) => r <= 0 ? rectUV(u0,v0,u1,v1) : [...arcUV(u1-r,v0+r,r,-90,0,n), ...arcUV(u1-r,v1-r,r,0,90,n), ...arcUV(u0+r,v1-r,r,90,180,n), ...arcUV(u0+r,v0+r,r,180,270,n)];
+const rectUV = (u0,v0,u1,v1) => [[u0,v0],[u1,v0],[u1,v1],[u0,v1]];
+const ellUV  = (cu,cv,ru,rv,n=24) => Array.from({length:n}, (_,i) => { const a=i/n*2*Math.PI; return [cu+ru*Math.cos(a), cv+rv*Math.sin(a)]; });
+const PX = x => ([u,v]) => [x,u,v];      // front-facing plane x = const   (u = y, v = z)
+const PY = y => ([u,v]) => [u,y,v];      // side plane y = const           (u = x, v = z)
+const PZ = z => ([u,v]) => [u,v,z];      // horizontal plane z = const     (u = x, v = y)
+const on = (plane, uv) => uv.map(plane);
+
+/* ---------- vectors + shading ---------- */
+const sub=(a,b)=>[a[0]-b[0],a[1]-b[1],a[2]-b[2]], dot=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
+const cross=(a,b)=>[a[1]*b[2]-a[2]*b[1], a[2]*b[0]-a[0]*b[2], a[0]*b[1]-a[1]*b[0]];
+const norm=a=>{ const l=Math.hypot(...a)||1; return a.map(v=>v/l); };
+const avg=ps=>ps.reduce((s,p)=>[s[0]+p[0]/ps.length,s[1]+p[1]/ps.length,s[2]+p[2]/ps.length],[0,0,0]);
+const vis = n => { const r = rotV(n); return r[0]+r[1]+r[2] > 1e-6; };   // viewer looks from (+1,+1,+1) after the turn
+const facing = vis;                                                       // readable alias: is this face toward the viewer?
+const SHADOW_K = 0.85, AZ_MIN = 20, AZ_MAX = 160;
+// cast shadows are drawn shorter than the shading light implies (0.45 × height instead of 0.85 ×): long shadows of tall
+// parts on thin supports (a lamp shade, a fan head) land far from the object and read as separate blobs
+const SHADOW_LEN = 0.45;
+let L = [0,0,1], SH = [0,0];
+function setLight(deg){ const a=deg*Math.PI/180; SH=[SHADOW_K*Math.cos(a), SHADOW_K*Math.sin(a)]; L=norm([-SH[0],-SH[1],1]); }
+const LIN = norm([.6,.2,1]);                       // fixed light for interiors / small props
+// Three flat tones, but blended across a narrow band at each step, so a face that turns past a threshold while the
+// figure rotates fades between tones instead of snapping (at rest almost every face still sits on a pure tone).
+const SOFT = .18;
+const step3 = (d, hi, lo, m) => { const ss = (a, b, x) => { const k = Math.min(1, Math.max(0, (x - a)/(b - a))); return k*k*(3 - 2*k); };
+  const a = ss(hi - SOFT, hi + SOFT, d), b = ss(lo - SOFT, lo + SOFT, d);
+  return a >= 1 ? m.l : b <= 0 ? m.d : a > 0 ? mix(m.m, m.l, a) : b < 1 ? mix(m.d, m.m, b) : m.m; };
+const tone  = (n,m) => step3(dot(rotV(n),L),   -.15, -.45, m);   // exterior, follows the sun
+const toneI = (n,m) => step3(dot(rotV(n),LIN),  .6,   .05, m);   // interior / props
+const mix = (a,b,t) => '#' + [1,3,5].map(i => Math.round(parseInt(a.substr(i,2),16)*(1-t) + parseInt(b.substr(i,2),16)*t).toString(16).padStart(2,'0')).join('');
+const matOf = hex => ({ l:hex, m:mix(hex,'#000000',.16), d:mix(hex,'#000000',.42) });
+const ease = t => t<.5 ? 2*t*t : 1-Math.pow(-2*t+2,2)/2;
+
+/* ---------- drawing primitives (all return SVG strings) ---------- */
+const ink   = (d,w=1.0) => `<path d="${d}" fill="none" stroke="${INK}" stroke-width="${w}" stroke-linejoin="round" stroke-linecap="round"/>`;
+const fill  = (d,c,extra='') => `<path d="${d}" fill="${c}" ${extra}/>`;
+const face  = (d,c) => `<path d="${d}" fill="${c}" stroke="${c}" stroke-width=".7" stroke-linejoin="round"/>`;
+const shape = (pts,c,w=.9) => fill(pd(pts),c) + (w ? ink(pd(pts),w) : '');
+const line  = (pts,w=.9) => ink(pd(pts,false),w);
+// Loft between two rings of equal length (closed). colour(n) picks each strip's fill; flip = seen from inside.
+function loft(A, B, colour, flip=false){
+  const n=A.length, cen=avg(A.concat(B)); let s='';
+  for (let i=0;i<n;i++){
+    const a0=A[i], a1=A[(i+1)%n], b1=B[(i+1)%n], b0=B[i];
+    let nr = norm(cross(sub(a1,a0), sub(b0,a0)));
+    if (!isFinite(nr[0])) continue;
+    if (dot(nr, sub(avg([a0,a1,b1,b0]), cen)) < 0) nr = nr.map(v=>-v);
+    if (flip) nr = nr.map(v=>-v);
+    if (vis(nr)) s += face(pd([a0,a1,b1,b0]), colour(nr));
+  }
+  return s;
+}
+function hull(pts){
+  pts = pts.slice().sort((a,b)=>a[0]-b[0]||a[1]-b[1]);
+  const cr=(o,a,b)=>(a[0]-o[0])*(b[1]-o[1])-(a[1]-o[1])*(b[0]-o[0]); const lo=[], up=[];
+  for (const p of pts){ while(lo.length>=2 && cr(lo[lo.length-2],lo[lo.length-1],p)<=0) lo.pop(); lo.push(p); }
+  for (const p of pts.reverse()){ while(up.length>=2 && cr(up[up.length-2],up[up.length-1],p)<=0) up.pop(); up.push(p); }
+  lo.pop(); up.pop(); return lo.concat(up);
+}
+// Silhouette ink, weighted by how thick the part is on screen (like a hand inker): the w you pass is the most it gets.
+// Thickness = 2 × area / perimeter of the outline (a rod's diameter, about half a box's width), as a share of the
+// frame width. A long thin rod, a handle or a knob stays light (~1–1.5); a grinder, kettle or machine body gets the
+// heavy ~2.4–2.8. Thin parts stay thin and parts keep air between them.
+const hullInk = (pts3, w=1.4) => { const h = hull(pts3.map(p=>P(...p))); let a = 0, per = 0;
+  for (let i = 0; i < h.length; i++){ const p = h[i], q = h[(i+1) % h.length]; a += p[0]*q[1] - q[0]*p[1]; per += Math.hypot(q[0]-p[0], q[1]-p[1]); }
+  const thick = per ? Math.abs(a) / per / (INK_K * INK_REF_VB) : 0;
+  return ink(sp(h), Math.min(w, .9 + 20*thick)); };
+// Axis-aligned box: three visible faces, shaded, each outlined. shade = tone (sunlit) or toneI (interior).
+function box(x0,y0,z0,x1,y1,z1,m,shade=toneI,w=.9){
+  // all six faces, drawn only when they face the viewer (sides first, then top) — correct in every VIEW
+  const F = [
+    [[0,1,0],  [[x0,y1,z0],[x1,y1,z0],[x1,y1,z1],[x0,y1,z1]]],
+    [[1,0,0],  [[x1,y0,z0],[x1,y1,z0],[x1,y1,z1],[x1,y0,z1]]],
+    [[0,-1,0], [[x0,y0,z0],[x1,y0,z0],[x1,y0,z1],[x0,y0,z1]]],
+    [[-1,0,0], [[x0,y0,z0],[x0,y1,z0],[x0,y1,z1],[x0,y0,z1]]],
+    [[0,0,1],  [[x0,y0,z1],[x1,y0,z1],[x1,y1,z1],[x0,y1,z1]]] ];
+  return F.filter(([n]) => vis(n)).map(([n,q]) => shape(q, shade(n,m), w)).join('');
+}
+// Rounded-profile extrusion: profile (u=y, v=z) swept along x from x0 to x1. Body of most machines.
+function extrude(profileUV, x0, x1, m, shade=tone){ return loft(on(PX(x0),profileUV), on(PX(x1),profileUV), n=>shade(n,m)); }
+// Vertical cylinder (axis z) centred (x,y), radius r from z0 to z1, with top cap.
+function cyl(x,y,z0,z1,r,m,shade=toneI,w=1.2,n=24){
+  const A=on(PZ(z0),ellUV(x,y,r,r,n)), B=on(PZ(z1),ellUV(x,y,r,r,n));
+  return loft(A,B,nr=>shade(nr,m)) + fill(pd(B),shade([0,0,1],m)) + hullInk([...A,...B],w) + ink(pd(B),w*.8);
+}
+// Cylinder lying along x (e.g. a knob or dial sticking out of a front face): centred (y,z), from x0 to x1.
+function cylX(x0,x1,y,z,r,m,shade=toneI,w=1.1,n=20){
+  const A=on(PX(x0),ellUV(y,z,r,r,n)), B=on(PX(x1),ellUV(y,z,r,r,n));
+  // cap on whichever end faces the viewer (the +x end in VIEW 0)
+  const capB = vis([1,0,0]), cap = capB ? B : A, cn = capB ? [1,0,0] : [-1,0,0];
+  return loft(A,B,nr=>shade(nr,m)) + (vis(cn) ? fill(pd(cap),shade(cn,m)) : '') + hullInk([...A,...B],w) + (vis(cn) ? ink(pd(cap),w*.8) : '');
+}
+// Cylinder between any two 3D points a and b (a lamp arm, a rod, a pipe at an angle, a handle bar), radius r.
+// The end facing the viewer gets a cap. For a tapered part (a cone, a lamp shade) pass r1 for the radius at b.
+function rod(a, b, r, m, shade=toneI, w=1, r1=r, n=16){
+  const d = norm(sub(b, a)), u = norm(cross(d, Math.abs(d[2]) < .9 ? [0,0,1] : [1,0,0])), v = cross(d, u);
+  const ring = (p, rr) => Array.from({length:n}, (_,i) => { const t = i/n*2*Math.PI, c = Math.cos(t)*rr, s2 = Math.sin(t)*rr;
+    return [p[0] + u[0]*c + v[0]*s2, p[1] + u[1]*c + v[1]*s2, p[2] + u[2]*c + v[2]*s2]; });
+  const A = ring(a, r), B = ring(b, r1), capB = vis(d), cap = capB ? B : A, cn = capB ? d : d.map(x => -x);
+  return loft(A, B, nr => shade(nr, m)) + (Math.max(r, r1) > 0 ? fill(pd(cap), shade(cn, m)) + ink(pd(cap), w*.8) : '') + hullInk([...A, ...B], w);
+}
+// Text lying flat on a front plane x = const, centred at (y,z) baseline; reads left-to-right on screen.
+// text sits on a face: if its reading direction comes out mirrored (or edge-on), that face is turned away, so the text is hidden
+const txM = (o, U, V) => (U[0]*V[1] - U[1]*V[0]) <= .02 * Math.hypot(...U) * Math.hypot(...V) ? `matrix(0 0 0 0 ${f(o[0])} ${f(o[1])})` : `matrix(${U[0].toFixed(4)} ${U[1].toFixed(4)} ${V[0].toFixed(4)} ${V[1].toFixed(4)} ${f(o[0])} ${f(o[1])})`;
+const tx = (x,y,z,str,size,col=INK,weight=700) => { const o=P(x,y,z);
+  return `<text transform="${txM(o, Dv(0,-1,0), Dv(0,0,-1))}" font-size="${size}" fill="${col}" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-weight="${weight}" letter-spacing=".04em">${str}</text>`; };
+// Text on a side plane y = const, centred at (x,z).
+const txY = (x,y,z,str,size,col=INK,weight=700) => { const o=P(x,y,z);
+  return `<text transform="${txM(o, Dv(1,0,0), Dv(0,0,-1))}" font-size="${size}" fill="${col}" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-weight="${weight}" letter-spacing=".04em">${str}</text>`; };
+// Cast shadow of a set of 3D points (any outline of the object), pushed along the light onto z = 0.
+// the light stays put relative to the viewer, so the shadow is cast in turned coordinates
+// z0: the surface it falls on (a board, a counter); clip it to that surface with clipTo(...) if it could spill off.
+// clip: the 3D outline of the surface it falls on (e.g. boardTop(...)), so it can't spill over the edge.
+const castShadow = (pts3, z0=0, clip=null) => { const k = SHADOW_LEN / SHADOW_K, [sx, sy] = yawTurn(SH);
+  const s = fill(sp(hull(pts3.map(([x,y,z]) => P(x+(z-z0)*sx*k, y+(z-z0)*sy*k, z0)))), SHADOW);
+  return clip ? clipTo(clip, s) : s; };
+// A board for the object to stand on (a tray, a desk top, a counter): a rounded slab from (x0,y0) to (x1,y1), h thick.
+// Draw it first; then castShadow(points, h, boardTop(x0,y0,x1,y1,h,r)) so shadows lie on it and stop at its edge.
+let BOARD = { l:'#e6e1d4', m:'#cfc8b8', d:'#aaa293' }, WOOD = { l:'#d9a86c', m:'#bf8a4f', d:'#8e6236' };
+const boardTop = (x0,y0,x1,y1,h=3,r=5) => on(PZ(h), rrUV(x0,y0,x1,y1,r));
+function board(x0,y0,x1,y1,h=3,r=5,m=BOARD){
+  const A = on(PZ(0), rrUV(x0,y0,x1,y1,r)), B = boardTop(x0,y0,x1,y1,h,r);
+  return loft(A, B, n => toneI(n, m)) + fill(pd(B), m.l) + ink(pd(B), 1) + hullInk([...A, ...B], 1.8);
+}
+// Group helpers: clickable target, clip to an opening.
+const act  = (name, inner, data='') => `<g data-act="${name}" ${data}>${inner}</g>`;
+let _clipN = 0;
+// Part label (for "how does it work" figures): a cream pill with a leader line to a 3D point on the part.
+// dx, dy = where the pill sits, in screen units at the reference zoom (they scale with the figure like stroke widths).
+// on = that part is working right now (the pill turns the accent colour). Labels can be hidden with the Labels switch.
+function tag(p3, dx, dy, text, on=false){
+  // on a phone (LBL_U = drawing units per screen px) the pill is a numbered badge and the names go in a legend under the figure
+  const u = window.LBL_U ? LBL_U() : 0, n = ((window.__ln || (window.__ln = {}))[text] || (__ln[text] = Object.keys(__ln).length + 1));
+  const k = INK_K, [X,Y] = P(...p3), fs = u ? 10*u : 8.6*k, h = u ? 17*u : fs*1.8, w = u ? h*(n > 9 ? 1.3 : 1) : text.length*fs*.62 + fs*1.5, cx = X + dx*k, cy = Y + dy*k;
+  return `<g class="tag${on ? ' on' : ''}" data-n="${n}" data-t="${text}"><path d="M${f(X)} ${f(Y)}L${f(cx)} ${f(cy)}" fill="none" stroke="${INK}" stroke-width="1"/>`
+    + `<circle cx="${f(X)}" cy="${f(Y)}" r="${f(1.3*k)}" fill="${INK}"/>`
+    + `<rect x="${f(cx-w/2)}" y="${f(cy-h/2)}" width="${f(w)}" height="${f(h)}" rx="${f(h/2)}" fill="${on ? 'var(--accent,#f4b829)' : '#fff4d6'}" stroke="${INK}" stroke-width="1.2"/>`
+    + `<text x="${f(cx)}" y="${f(cy+fs*.36)}" font-size="${f(fs)}" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-weight="800" letter-spacing=".04em" fill="${INK}">${u ? n : text}</text></g>`;
+}
+const clipTo = (pts3, inner) => { const id = 'k' + (++_clipN); return `<clipPath id="${id}"><path d="${pd(pts3)}"/></clipPath><g clip-path="url(#${id})">${inner}</g>`; };
+
+/* ---------- constant on-screen line weight ----------
+   Stroke widths are written in model units, and each figure is zoomed to fill the frame, so a small
+   object would get fat lines. INK_K rescales every stroke-width (and the wobble/grain filter) so all
+   figures match the reference zoom of the booth / vending machine (viewBox ≈ 585 units wide). */
+const INK_REF_VB = 585;
+let INK_K = 1;
+const inkScale = svg => INK_K === 1 ? svg : svg.replace(/stroke-width="([\d.]+)"/g, (_, w) => `stroke-width="${(+w * INK_K).toFixed(2)}"`);
+
+/* ---------- page shell ---------- */
+const CORE_CSS = `
+  :root{--paper:#f2efe7;--ink:#231e16;--muted:#857d6e;--rule:#ddd6c8}
+  *{box-sizing:border-box} html,body{margin:0;height:100%}
+  body{background-color:var(--paper);
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .42  0 0 0 0 .39  0 0 0 0 .33  .16 0 0 0 0'/></filter><rect width='100%' height='100%' filter='url(%23p)'/></svg>");
+    overflow-x:hidden;color:var(--ink);font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;display:flex;flex-direction:column;align-items:center;padding:24px 16px 32px}
+  header{width:100%;max-width:760px;display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+  header h1{font-size:13px;font-weight:600;margin:0;letter-spacing:.02em} header span{color:var(--muted)}
+  #fig{width:100%;max-width:760px;height:auto;display:block;margin:4px 0 8px;user-select:none;overflow:visible}
+  #fig{cursor:grab;touch-action:pan-y} #fig.drag{cursor:grabbing} #fig [data-act]{cursor:pointer}
+  #readout, .idea{display:none}   /* status line + big idea are off: the buttons and motion tell the story */
+  .idea{width:100%;max-width:760px;margin:-6px 0 16px;font-size:12.5px;line-height:1.5;text-align:center;color:var(--ink)}
+  .idea strong{letter-spacing:.12em;text-transform:uppercase;font-size:11px;margin-right:8px}
+  #readout{position:relative;min-height:1.4em;letter-spacing:.08em;text-transform:uppercase;margin-bottom:14px;text-align:center;text-shadow:0 0 3px var(--paper),0 0 6px var(--paper),0 0 10px var(--paper)}
+  .stage{position:relative;width:100%;max-width:760px}
+  .actions{position:absolute;top:4px;left:0;display:flex;flex-direction:column;align-items:flex-start;gap:8px;z-index:2;max-width:220px}
+  .actions .cap{color:var(--muted);font-size:11px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 2px}
+  html.nolabels #fig .tag{display:none}
+  .ctl[hidden]{display:none}
+  /* ui.flash(text): a short note under the buttons ("the can is empty — refill it"); the status line itself stays hidden */
+  .toast{position:absolute;left:0;z-index:3;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;background:var(--paper);
+    border:1.5px solid var(--ink);border-radius:8px;padding:4px 9px;box-shadow:2px 2px 0 var(--ink);opacity:0;transition:opacity .2s;pointer-events:none;max-width:240px}
+  .toast.show{opacity:1}
+  .made-with{width:100%;max-width:760px;margin-top:18px;text-align:right;font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+  .made-with a{color:var(--muted);text-decoration:none} .made-with a:hover{color:var(--ink)}
+  .stats{position:absolute;top:4px;right:0;display:flex;flex-direction:column;align-items:flex-end;gap:10px;z-index:2;text-align:right}
+  .stat .k{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+  .stat .v{font-size:34px;font-weight:800;line-height:1.05;letter-spacing:-.01em;font-variant-numeric:tabular-nums;color:var(--ink)}
+  .stat.small .v{font-size:20px}
+  .stat .v.bump{animation:bump .35s ease-out}
+  @keyframes bump{0%{transform:scale(1.18)}100%{transform:none}}
+  .stepwrap{position:relative;display:flex;align-items:center;gap:8px}
+  .act{font:inherit;color:var(--ink);background:var(--paper);border:1.5px solid var(--ink);border-radius:999px;padding:5px 14px;cursor:pointer;white-space:nowrap}
+  .act:hover{background:color-mix(in srgb,var(--paper) 92%,var(--ink))}
+  .act .car{margin-left:6px;font-size:10px}
+  .act:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+  .chips{display:none;flex-wrap:wrap;gap:6px;background:var(--paper);border:2px solid var(--ink);border-radius:12px;box-shadow:3px 3px 0 var(--ink);
+    padding:8px;width:max-content;max-width:min(300px,62vw);position:absolute;left:calc(100% + 10px);top:-4px;z-index:3}
+  .stepwrap.open .chips{display:flex}
+  .chip{white-space:nowrap;font:inherit;font-size:11.5px;font-weight:700;color:var(--ink);background:var(--paper);border:1.5px solid var(--ink);border-radius:8px;padding:4px 8px;cursor:pointer;box-shadow:2px 2px 0 var(--ink)}
+  .chip:hover{background:var(--accent,#f4b829);transform:translate(-1px,-1px)}
+  .chip.current{background:var(--ink);color:var(--paper)} .chip.current:hover{background:var(--ink);transform:none}
+  .chip.off{opacity:.45} .chip.off:hover{transform:none;background:var(--paper)}
+  
+  @media (max-width:560px){body{padding:14px 12px 24px}header span,.actions .cap{display:none}.actions{flex-direction:row;flex-wrap:wrap;gap:6px}.act{font-size:12px;padding:4px 11px}.stats{position:static;flex-direction:row;justify-content:flex-end;gap:18px;margin-bottom:4px}.actions{position:static;max-width:none;margin:6px 0 4px}.chips{left:0;top:calc(100% + 8px)}}
+  .controls{width:100%;max-width:760px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px 28px;border-top:1px solid var(--rule);padding-top:16px}
+  .ctl{display:flex;flex-direction:column;gap:6px}
+  .ctl label{color:var(--muted);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+  input[type=range]{width:100%;accent-color:var(--ink)}
+  .row{display:flex;gap:8px;flex-wrap:wrap}
+  button{font:inherit;color:var(--ink);background:transparent;border:1.5px solid var(--ink);border-radius:999px;padding:5px 14px;cursor:pointer}
+  button:hover{background:#0000000d}
+  button[aria-pressed=true]:not(.sw){background:var(--ink);color:var(--paper)}
+  .sw{width:26px;height:26px;padding:0;border-radius:50%} .sw[aria-pressed=true]{outline:2px solid var(--ink);outline-offset:2px}`;
+
+const filterFor = k => `<filter id="hand" x="-3%" y="-3%" width="106%" height="106%" color-interpolation-filters="sRGB">
+  <feTurbulence type="fractalNoise" baseFrequency="${(0.045/k).toFixed(4)}" numOctaves="2" seed="4" result="warp"/>
+  <feDisplacementMap id="wob" in="SourceGraphic" in2="warp" scale="${(2.4*k).toFixed(2)}" xChannelSelector="R" yChannelSelector="G" result="wob"/>
+  <feTurbulence type="fractalNoise" baseFrequency="${(0.9/k).toFixed(4)}" numOctaves="3" seed="11" result="n1"/>
+  <feColorMatrix in="n1" type="matrix" values=".3 0 0 0 .84  .3 0 0 0 .84  .3 0 0 0 .84  0 0 0 0 1" result="grain"/>
+  <feTurbulence type="fractalNoise" baseFrequency="${(0.012/k).toFixed(4)}" numOctaves="2" seed="7" result="n2"/>
+  <feColorMatrix in="n2" type="matrix" values=".3 0 0 0 .85  .3 0 0 0 .85  .3 0 0 0 .85  0 0 0 0 1" result="blot"/>
+  <feBlend in="wob" in2="grain" mode="multiply" result="g1"/><feBlend in="g1" in2="blot" mode="multiply" result="g2"/>
+  <feComposite in="g2" in2="wob" operator="in"/></filter>`;
+
+/* mountFigure({
+     fig:'03', title:'Photo booth', hint:'click the curtain…',
+     size:[W,D,H],                 // bounding box, used to frame the view (shadow range included)
+     palette:'mustard',            // default PALS key
+     state:{...},                  // figure state (st.pal is built in)
+     scene: (st, m) => svgString,  // m = current palette {l,m,d}
+     readout: st => 'text',        // status line under the figure
+     buttons: [{label, onClick(st, ui)}      // listed in the order the user should do them
+               | {label, choices: st => [{label, onClick(st,ui), current?, disabled?, why?}]}],   // opens a picker
+     stats: st => [{label, value, small?}],   // optional: big numbers top-right (credit, change, score)
+     credit: false,                // optional: hide the small "Made with Colorfigures" link
+     acts: { name(st, el, ui){} },  // clicks on act(name, …) groups; el has dataset
+     params(st, q){}               // optional: read URLSearchParams for screenshot states
+   })  -> ui = { st, render, animate(stepFn), flash(text,ms) }
+   animate(step): calls step(dt seconds) every frame and re-renders until step returns false. */
+addEventListener('error', e => { document.documentElement.dataset.errors = (document.documentElement.dataset.errors || '') + ' ' + e.message + ';'; });
+/* The hand-drawn filter's noise never changes, but browsers recompute every feTurbulence each time the drawing changes
+   (on phones SVG filters run on the CPU, so this is most of the cost of a frame). bakeNoise renders each noise layer once
+   into an image and swaps it in: coarse layers as one small image over the whole view (they are smooth, so scaling up
+   is invisible), fine grain as a seamless tile. If anything fails (an old browser), the live filter simply stays. */
+function bakeNoise(svg){
+  const fl = document.getElementById('hand'); if (!fl || typeof Image === 'undefined') return;
+  const NS = 'http://www.w3.org/2000/svg', vb = svg.viewBox.baseVal;
+  const x0 = vb.x - vb.width*.35, y0 = vb.y - vb.height*.35, w0 = vb.width*1.7, h0 = vb.height*1.7;
+  for (const t of [...fl.querySelectorAll('feTurbulence')]){
+    const fq = parseFloat(t.getAttribute('baseFrequency')), oct = +(t.getAttribute('numOctaves') || 1);
+    if (!(fq > 0)) continue;
+    const fine = fq * Math.max(w0, h0) > 80;
+    if (fine) continue;   // fine grain stays live: a repeated tile leaves faint seams on some GPUs
+    const rx = fine ? 0 : x0, ry = fine ? 0 : y0, rw = fine ? 48 / fq : w0, rh = fine ? 48 / fq : h0;
+    const ppu = fq * (fine ? 7 : 5) * Math.pow(2, Math.max(0, oct - 1) * .5), PW = Math.ceil(rw * ppu), PH = Math.ceil(rh * ppu);
+    if (PW * PH > 1200 * 1200) continue;
+    const tb = t.cloneNode(); tb.removeAttribute('result'); if (fine) tb.setAttribute('stitchTiles', 'stitch');
+    const src = `<svg xmlns="${NS}" width="${PW}" height="${PH}" viewBox="${rx} ${ry} ${rw} ${rh}"><filter id="n" filterUnits="userSpaceOnUse" x="${rx}" y="${ry}" width="${rw}" height="${rh}" color-interpolation-filters="sRGB">${tb.outerHTML}</filter><rect x="${rx}" y="${ry}" width="${rw}" height="${rh}" filter="url(#n)"/></svg>`;
+    const img = new Image();
+    img.onload = () => { try {
+      const c = document.createElement('canvas'); c.width = PW; c.height = PH; const g = c.getContext('2d'); g.drawImage(img, 0, 0);
+      // store the noise's colour values fully opaque: the filter reads its colour channels, and an image with
+      // see-through pixels would be read premultiplied (darker) by some browsers
+      const px = g.getImageData(0, 0, PW, PH); for (let i = 3; i < px.data.length; i += 4) px.data[i] = 255; g.putImageData(px, 0, 0);
+      const url = c.toDataURL('image/png'), res = t.getAttribute('result');
+      const im = document.createElementNS(NS, 'feImage');
+      // a tile must sit inside the filter's region (the drawing's box) or it gets clipped: anchor it at the drawing's
+      // centre, snapped to whole tiles so the grain keeps the same phase as the live noise would
+      let ox = rx, oy = ry;
+      if (fine){ const bb = svg.getElementById ? document.getElementById('art').getBBox() : { x: 0, y: 0, width: 0, height: 0 };
+        ox = Math.floor((bb.x + bb.width/2) / rw) * rw; oy = Math.floor((bb.y + bb.height/2) / rh) * rh; }
+      for (const [k, v] of [['x', ox], ['y', oy], ['width', rw], ['height', rh], ['preserveAspectRatio', 'none']]) im.setAttribute(k, v);
+      im.setAttribute('href', url); im.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', url);
+      if (!t.isConnected) return;
+      if (fine){ im.setAttribute('result', res + '_tile'); const tl = document.createElementNS(NS, 'feTile'); tl.setAttribute('in', res + '_tile'); tl.setAttribute('result', res); t.replaceWith(im, tl); }
+      else { im.setAttribute('result', res); t.replaceWith(im); }
+    } catch (e) {} };
+    img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(src);
+  }
+}
+function mountFigure(cfg){
+  document.title = cfg.title;
+  const style = document.createElement('style'); style.textContent = CORE_CSS; document.head.appendChild(style);
+  document.body.innerHTML = `
+    <header><h1>Fig. ${cfg.fig} - ${cfg.title}</h1></header>
+    <div class="stage">
+      ${cfg.buttons && cfg.buttons.length ? `<div class="actions" id="btns"></div>` : ''}
+      ${cfg.stats ? '<div class="stats" id="stats"></div>' : ''}
+      <div class="toast" id="toast" role="status"></div>
+      <svg id="fig" role="img" aria-label="${cfg.title}"><defs id="fdefs"></defs><g id="art" filter="url(#hand)"></g></svg>
+    </div>
+    <div id="readout"></div>
+    ${cfg.idea ? `<p class="idea"><strong>The big idea</strong>${cfg.idea}</p>` : ''}
+    <div class="controls">
+      <div class="ctl"><label for="wb">Hand-drawn wobble</label><input id="wb" type="range" min="0" max="7" step="0.1" value="2.4"></div>
+      <div class="ctl"><label>Colour</label><div class="row" id="pals"></div></div>
+      <div class="ctl" id="viewctl"><label>View</label><div class="row"><button id="vreset">Front view</button><button id="vspin" aria-pressed="false">Turntable</button></div></div>
+      <div class="ctl" id="lblctl" hidden><label>Labels</label><div class="row"><button id="lbl" aria-pressed="true">On</button></div></div>
+    </div>
+    ${cfg.credit === false ? '' : '<footer class="made-with"><a href="https://april-zhu.com/colorfigures" target="_blank" rel="noopener">Made with Colorfigures ↗</a></footer>'}`;
+  const st = cfg.state || {};            // kept as the same object, so a figure may hold on to it
+  if (!st.pal) st.pal = cfg.palette || 'mustard';
+  if (st.az == null) st.az = 105;
+  const q = new URLSearchParams(location.search);
+  // a figure turns all the way round only once it has been checked from every side (turn:'full'); otherwise it turns
+  // +-60 deg around the front, where it was drawn. ?free=1 unlocks it for testing.
+  CAM_LIM = cfg.turn === 'full' || q.get('free') === '1' ? null : 60;
+  if (PALS[q.get('pal')]) st.pal = q.get('pal');
+  if (cfg.params) cfg.params(st, q);
+
+  // frame on the object itself: centred in the viewBox with room on both sides for callouts
+  const [W,D,H] = cfg.size, pts = [];
+  OX = OY = 0; RC = cfg.center || [W/2, D/2]; RCZ = H/2;
+  VIEW = 0; setCam(YAW0, PITCH0);
+  for (const x of [0,W]) for (const y of [0,D]) for (const z of [0,H]) pts.push(P(x,y,z));
+  const xs=pts.map(p=>p[0]), ys=pts.map(p=>p[1]);
+  const bw = Math.max(...xs)-Math.min(...xs), bh = Math.max(...ys)-Math.min(...ys);
+  const PA = window.FIG_A ? FIG_A() : .75, A = PA === .75 ? .75 : Math.min(PA, Math.max(.75, bh/.88/(bw/.74)*1.08));
+  const fillW = PA === .75 ? .62 : .74, fillH = PA === .75 ? .82 : .88;
+  const vbW = Math.max(bw/fillW, bh/fillH/A), vbH = vbW*A;
+  OX = (vbW - bw)/2 - Math.min(...xs); OY = (vbH - bh)/2 - Math.min(...ys);
+  const svg = document.getElementById('fig');
+  svg.setAttribute('viewBox', `0 0 ${f(vbW)} ${f(vbH)}`);
+  INK_K = vbW / INK_REF_VB;
+  document.getElementById('fdefs').innerHTML = filterFor(INK_K);
+  bakeNoise(svg);
+
+  const art = document.getElementById('art'), readout = document.getElementById('readout');
+  const ui = { st };
+  ui.render = () => { _clipN = 0; document.documentElement.style.setProperty('--accent', PALS[st.pal].l); art.innerHTML = inkScale(cfg.scene(st, PALS[st.pal])); if (!ui._flash) readout.textContent = cfg.readout ? cfg.readout(st) : ''; if (ui.drawStats) ui.drawStats(); };
+  // big numbers in the top-right corner (credit, change, score…); a value that changes gets a little bump
+  const statsEl = document.getElementById('stats'), prevStats = {};
+  ui.drawStats = () => { if (!statsEl) return;
+    const list = cfg.stats(st).filter(Boolean), html = list.map(x => `<div class="stat${x.small ? ' small' : ''}"><div class="k">${x.label}</div><div class="v" data-k="${x.label}">${x.value}</div></div>`).join('');
+    if (statsEl._html !== html){ statsEl._html = html; statsEl.innerHTML = html;
+      statsEl.querySelectorAll('.v').forEach(v => { if (prevStats[v.dataset.k] != null && prevStats[v.dataset.k] !== v.textContent) v.classList.add('bump'); prevStats[v.dataset.k] = v.textContent; }); } };
+  let flashT = 0;
+  const toast = document.getElementById('toast');
+  ui.flash = (text, ms=1600) => { ui._flash = true; readout.textContent = text; toast.textContent = text;
+    toast.style.top = ((document.getElementById('btns') ? document.getElementById('btns').offsetTop + document.getElementById('btns').offsetHeight : 0) + 8) + 'px'; toast.classList.add('show');
+    clearTimeout(flashT); flashT = setTimeout(() => { ui._flash = false; toast.classList.remove('show'); ui.render(); }, ms); };
+  // One frame driver for every running animation: each frame runs all the steps, then draws once (two animations at
+  // the same time no longer draw twice). It follows the screen's frames, with a timer fallback for when frames don't
+  // come (headless shots, a hidden tab). ui.invalidate() asks for one redraw on the next frame (used while dragging).
+  const steps = new Set(); let driving = false, lastT = 0, fbT = 0;
+  const frame = () => { if (!driving) return; driving = false; clearTimeout(fbT);
+    const now = performance.now(), dt = Math.max(0, Math.min(.05, (now - lastT) / 1000)); lastT = now;
+    for (const s of [...steps]) if (s(dt) === false) steps.delete(s);
+    ui.render(); if (steps.size) drive(); };
+  const drive = () => { if (driving) return; driving = true; requestAnimationFrame(frame); fbT = setTimeout(frame, 60); };
+  ui.animate = step => { if (!steps.size && !driving) lastT = performance.now(); steps.add(step); drive(); };
+  ui.invalidate = () => drive();
+
+  // clickable parts react on press, not on click: while something animates, the scene is redrawn every frame, so the
+  // element under the pointer is replaced between press and release and a 'click' would never fire
+  svg.addEventListener('pointerdown', e => { if (e.button) return; const a = e.target.closest('[data-act]'); if (!a || !cfg.acts || !cfg.acts[a.dataset.act]) return;
+    e.preventDefault(); cfg.acts[a.dataset.act](st, a, ui); ui.render(); });
+  // orbit: drag anywhere that is not a clickable part (the machine turns the way the finger moves); arrow keys nudge; double-click eases back to the front view
+  let drag = null, spin = false, camAnim = 0;
+  const camTo = (y, p, ms=700) => { const y0 = YAW, p0 = PITCH, dy = ((y - y0 + 540) % 360) - 180, id = ++camAnim; let t = 0;
+    ui.animate(dt => { if (id !== camAnim) return false; t += dt*1000; const k = Math.min(1, t / ms), e = ease(k); setCam(y0 + dy*e, p0 + (p - p0)*e); return k < 1; }); };
+  ui.camTo = camTo;
+  svg.addEventListener('pointerdown', e => { if (e.button || e.target.closest('[data-act]')) return;
+    camAnim++; drag = { x:e.clientX, y:e.clientY, yaw:YAW, pitch:PITCH }; svg.classList.add("drag"); try { svg.setPointerCapture(e.pointerId); } catch {} });
+  svg.addEventListener('pointermove', e => { if (!drag) return; const k = 300 / svg.getBoundingClientRect().width;
+    setCam(drag.yaw + (e.clientX - drag.x)*.55*k, drag.pitch + (e.clientY - drag.y)*.35*k); ui.invalidate(); });
+  const endDrag = () => { drag = null; svg.classList.remove('drag'); };
+  svg.addEventListener('pointerup', endDrag); svg.addEventListener('pointercancel', endDrag);
+  svg.addEventListener('dblclick', e => { if (!e.target.closest('[data-act]')) camTo(YAW0, PITCH0); });
+  addEventListener('keydown', e => { const k = { ArrowLeft:[-15,0], ArrowRight:[15,0], ArrowUp:[0,8], ArrowDown:[0,-8] }[e.key];
+    if (!k || window.GAME_KEYS || /input|textarea/i.test(e.target.tagName)) return; e.preventDefault(); camTo(YAW + k[0], PITCH + k[1], 260); });   // a game figure keeps the arrows for play
+  document.getElementById('vreset').onclick = () => { spin = false; vsp.setAttribute('aria-pressed', false); camTo(YAW0, PITCH0); };
+  const vsp = document.getElementById('vspin');
+  vsp.onclick = () => { spin = !spin; vsp.setAttribute('aria-pressed', spin); camAnim++;
+    let dir = 1;   // with a turning limit, the turntable swings back and forth inside it
+    if (spin) ui.animate(dt => { if (!spin) return false; if (!drag){ let y = YAW + dir*dt*18;
+      if (CAM_LIM != null && Math.abs(y - YAW0) >= CAM_LIM - .5){ dir = -dir; y = YAW + dir*dt*18; } setCam(y, PITCH); } return true; }); };
+  if (q.has('yaw') || q.has('pitch')) setCam(+(q.get('yaw') ?? YAW0), +(q.get('pitch') ?? PITCH0));
+  const btns = document.getElementById('btns');
+  const stepEls = [];
+  if (btns) cfg.buttons.forEach((b, i) => {
+    const wrap = document.createElement('div'); wrap.className = 'stepwrap';
+    const el = document.createElement('button'); el.className = 'act';
+    el.innerHTML = `${b.label}${b.choices ? '<span class="car">▾</span>' : ''}`;
+    wrap.appendChild(el); btns.appendChild(wrap); stepEls.push(el);
+    if (!b.choices){ el.onclick = () => { closeChips(); b.onClick(st, ui); ui.render(); }; return; }
+    const chips = document.createElement('div'); chips.className = 'chips'; wrap.appendChild(chips);
+    el.onclick = e => { e.stopPropagation(); const open = !wrap.classList.contains('open'); closeChips();
+      if (!open) return;
+      chips.innerHTML = '';
+      // every choice stays clickable, so nothing silently ignores a press:
+      //   current:true  = the one in use (shown selected); a press just says so
+      //   disabled:true = not possible right now (shown faded); a press says why (c.why, or a generic note)
+      for (const c of b.choices(st)){ const ch = document.createElement('button'); ch.className = 'chip' + (c.current ? ' current' : c.disabled ? ' off' : ''); ch.textContent = c.label;
+        if (c.current) ch.setAttribute('aria-pressed', 'true');
+        ch.onclick = ev => { ev.stopPropagation(); closeChips();
+          if (c.current) return ui.flash(`${c.label} — already set`);
+          if (c.disabled) return ui.flash(c.why || `${c.label} isn't possible right now`);
+          c.onClick(st, ui); ui.render(); }; chips.appendChild(ch); }
+      wrap.classList.add('open'); };
+  });
+  function closeChips(){ document.querySelectorAll('.stepwrap.open').forEach(w => w.classList.remove('open')); }
+  document.addEventListener('click', closeChips);
+
+  document.getElementById('wb').oninput = e => document.getElementById('wob').setAttribute('scale', (e.target.value * INK_K).toFixed(2));
+  const pals = document.getElementById('pals');
+  for (const [k,p] of Object.entries(PALS)){
+    const b = document.createElement('button'); b.className='sw'; b.title=k; b.style.background=p.l; b.setAttribute('aria-pressed', k===st.pal);
+    b.onclick = () => { st.pal=k; [...pals.children].forEach(c=>c.setAttribute('aria-pressed', c===b)); ui.render(); };
+    pals.appendChild(b);
+  }
+  // labels: the switch appears when the figure draws any tag(); ?labels=0 starts with them hidden
+  const lblctl = document.getElementById('lblctl'), lbl = document.getElementById('lbl');
+  const setLabels = on => { document.documentElement.classList.toggle('nolabels', !on); lbl.textContent = on ? 'On' : 'Off'; lbl.setAttribute('aria-pressed', on); };
+  lbl.onclick = () => setLabels(document.documentElement.classList.contains('nolabels'));
+  if (q.get('labels') === '0') setLabels(false);
+  // testing: ?press=Label@ms,Label@ms clicks the buttons whose text starts with Label at those times after load
+  // (any order, repeats allowed); Label>Choice picks a choice from a picker button (?press=Speed>3@300).
+  // Script errors and unknown labels are recorded on <html data-errors="…">
+  window.__st = st;
+  const noteErr = m => { document.documentElement.dataset.errors = (document.documentElement.dataset.errors || '') + ' ' + m + ';'; };
+  const starts = (el, t) => el.textContent.trim().toLowerCase().startsWith(t.trim().toLowerCase());
+  if (q.has('press')) q.get('press').split(',').forEach(item => { const [what, ms] = item.split('@'), [label, choice] = what.split('>');
+    setTimeout(() => { const b = [...document.querySelectorAll('.act')].find(b => starts(b, label));
+      if (!b) return noteErr(`no button "${label}"`);
+      b.click(); if (choice == null) return;
+      const c = [...b.parentElement.querySelectorAll('.chip')].find(c => starts(c, choice));
+      if (c && !c.disabled) c.click(); else noteErr(`no choice "${choice}" in "${label}"`); }, +ms || 0); });
+  setLight(st.az); ui.render();
+  if (art.querySelector('.tag')) lblctl.hidden = false;
+  return ui;
+}
+
+/* ---------- see-through + labels kit (shared; the figure supplies its own working parts) ----------
+   xrCallouts(items, B): pills in two columns either side of the object, sorted top to bottom so leaders never cross.
+     items: [{ at:[x,y,z], text, on }], B: the object's bounds [x0, x1, y0, y1, z0, z1].
+   xrGhost(body, mech, k, OUTp, x0, x1, m): far walls faintly, the working parts, then the case as a ghost over them.
+   xrMount(getUI, caption): the See-through / Labels switches (top right), the caption under the figure, label hiding. */
+function xrCallouts(items, B){
+  const pts = []; for (const x of [B[0], B[1]]) for (const y of [B[2], B[3]]) for (const z of [B[4], B[5]]) pts.push(P(x, y, z));
+  const xmin = Math.min(...pts.map(p => p[0])), xmax = Math.max(...pts.map(p => p[0])), cx = (xmin + xmax)/2;
+  // on a phone (LBL_U = drawing units per screen px) each label is a numbered badge and the names go in a legend under the figure
+  const k = INK_K, u = window.LBL_U ? LBL_U() : 0, fs = u ? 10*u : 8.6*k, hgt = u ? 17*u : fs*1.8, gap = hgt + (u ? 3*u : 3*k);
+  const L = [], R = [];
+  const svgEl = document.getElementById('fig'), vb = svgEl.viewBox.baseVal, btn = document.getElementById('btns');
+  const wMax = u ? hgt*1.3 + 12*k : Math.max(...items.map(it => it.text.length))*fs*.62 + fs*1.5 + 12*k;
+  const roomL = xmin - vb.x >= wMax*.75, roomR = vb.x + vb.width - xmax >= wMax*.75;
+  for (const it of items){ const [X, Y] = P(...it.at); ((X < cx && roomL) || !roomR ? L : R).push({ ...it, X, Y }); }
+  let s = '';
+  let top = { [-1]: fs + 6*k, [1]: fs + 6*k };
+  if (btn && svgEl.getScreenCTM()){
+    const r = btn.getBoundingClientRect(), m = svgEl.getScreenCTM().inverse();
+    const q = new DOMPoint(r.right, r.bottom + 24).matrixTransform(m);
+    if (q.x > xmin - wMax - 12*k && q.y > 0) top[-1] = q.y + hgt;
+  }
+  const stEl = document.getElementById('stats');
+  if (stEl && svgEl.getScreenCTM()){
+    const r = stEl.getBoundingClientRect(), m = svgEl.getScreenCTM().inverse();
+    const q = new DOMPoint(r.left, r.bottom + 24).matrixTransform(m);
+    if (q.x < xmax + wMax + 12*k && q.y > 0) top[1] = q.y + hgt;
+  }
+  for (const [col, side] of [[L, -1], [R, 1]]){
+    col.sort((a, b) => a.Y - b.Y);
+    let y = -1e9; for (const c of col){ c.py = Math.max(c.Y, y + gap, top[side]); y = c.py; }
+    const shift = col.length ? Math.max(0, col.reduce((a, c) => a + c.py - c.Y, 0) / col.length) : 0;
+    const room = col.length ? col[0].py - top[side] : 0; for (const c of col) c.py -= Math.min(shift, room);
+    for (const c of col){
+      c.n = ((window.__ln || (window.__ln = {}))[c.text] || (__ln[c.text] = Object.keys(__ln).length + 1)); const w = u ? hgt*(c.n > 9 ? 1.3 : 1) : c.text.length*fs*.62 + fs*1.5;
+      let px = side < 0 ? xmin - 10*k - w/2 : xmax + 10*k + w/2; px = Math.max(vb.x + w/2 + 2*k, Math.min(vb.x + vb.width - w/2 - 2*k, px));
+      const ex = px - side*w/2;
+      s += `<g class="tag${c.on ? ' on' : ''}" data-n="${c.n}" data-t="${c.text}"><path d="M${f(c.X)} ${f(c.Y)}L${f(ex + side*-4*k)} ${f(c.py)}L${f(ex)} ${f(c.py)}" fill="none" stroke="${INK}" stroke-width="1"/>`
+        + `<circle cx="${f(c.X)}" cy="${f(c.Y)}" r="${f(1.4*k)}" fill="${INK}"/>`
+        + `<rect x="${f(px - w/2)}" y="${f(c.py - hgt/2)}" width="${f(w)}" height="${f(hgt)}" rx="${f(hgt/2)}" fill="${c.on ? 'var(--accent,#f4b829)' : '#fff4d6'}" stroke="${INK}" stroke-width="1.2"/>`
+        + `<text x="${f(px)}" y="${f(c.py + fs*.36)}" font-size="${f(fs)}" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-weight="800" letter-spacing=".04em" fill="${INK}">${u ? c.n : c.text}</text></g>`;
+    }
+  }
+  return s;
+}
+function xrGhost(body, mech, k, OUTp, x0, x1, m){
+  const fF = facing([1,0,0]), fB = facing([-1,0,0]);
+  const far = `<g opacity="${f(.5*k)}">` + loft(on(PX(x0), OUTp), on(PX(x1), OUTp), n => mix(toneI(n.map(v => -v), m), '#f2efe7', .55), true)
+    + (fF ? fill(pd(on(PX(x0), OUTp)), mix(m.d, '#f2efe7', .5)) : '') + (fB ? fill(pd(on(PX(x1), OUTp)), mix(m.d, '#f2efe7', .5)) : '') + `</g>`;
+  return far + mech + `<g opacity="${f(1 - .8*k)}">${body}</g>` + `<g opacity="${f(.6*k)}">` + hullInk([...on(PX(x0), OUTp), ...on(PX(x1), OUTp)], 2.8) + `</g>`;
+}
+function xrMount(getUI, caption, opt = {}){   // opt.labelsOnly: only the Labels switch (the insides are on show already)
+  const ui = getUI(), q = new URLSearchParams(location.search), html = document.documentElement;
+  if (q.get('labels') !== '1') html.classList.add('nolabels');
+  if (ui.st.xr == null){ ui.st.xr = 0; ui.st.xrT = 0; }
+  if (q.get('xr') === '1') ui.st.xr = ui.st.xrT = 1;
+  if (ui.st.dark == null) ui.st.dark = true;
+  if (q.get('theme') === 'light') ui.st.dark = false;
+  if (q.get('theme') === 'dark')  ui.st.dark = true;
+  const old = document.getElementById('lblctl'); if (old) old.style.display = 'none';
+  const vset = document.createElement('div'); vset.className = 'vset';
+  vset.innerHTML = '<div class="vrow">'
+    + '<button class="act" id="thmb" aria-pressed="true">Night theme</button>'
+    + (opt.labelsOnly ? '' : '<button class="act" id="xrb" aria-pressed="false">See-through</button>')
+    + '<button class="act" id="lblb" aria-pressed="false">Labels</button></div>';
+  document.querySelector('.stage').appendChild(vset);
+  const thmb = document.getElementById('thmb'), xrb = document.getElementById('xrb'), lblb = document.getElementById('lblb');
+  const sync = () => {
+    const dk = !!getUI().st.dark;
+    html.classList.toggle('dark', dk);
+    if (thmb){ thmb.setAttribute('aria-pressed', dk); thmb.textContent = dk ? 'Night theme' : 'Light theme'; }
+    if (xrb) xrb.setAttribute('aria-pressed', !!getUI().st.xrT);
+    lblb.setAttribute('aria-pressed', !html.classList.contains('nolabels'));
+  };
+  if (thmb) thmb.onclick = () => {
+    const u = getUI(), st = u.st; st.dark = !st.dark; sync();
+    u.flash(st.dark ? 'Cozy night dark theme enabled' : 'Daylight paper theme enabled');
+    u.render();
+  };
+  if (xrb) xrb.onclick = () => { const u = getUI(), st = u.st; st.xr = st.xr || 0; st.xrT = st.xrT ? 0 : 1; sync();
+    u.animate(dt => { const g = Math.sign(st.xrT - st.xr); st.xr = Math.min(1, Math.max(0, st.xr + g*dt/.7)); return st.xr !== st.xrT; }); };
+  lblb.onclick = () => { html.classList.toggle('nolabels'); sync(); };
+  sync();
+  const cap = document.createElement('p'); cap.className = 'mcap'; document.querySelector('.stage').after(cap);
+  const css = document.createElement('style');
+  css.textContent = '.vset{position:absolute;top:4px;right:0;z-index:2}.vrow{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}.vset .act[aria-pressed=true]{background:var(--ink);color:var(--paper)}'
+    + 'html.nolabels #fig .tag{display:none}.mcap{width:100%;max-width:760px;min-height:3em;margin:0 0 14px;font-size:12.5px;line-height:1.5;text-align:center;transition:opacity .3s}'
+    + '@media (max-width:560px){.vset{position:static;margin:4px 0}}';
+  document.head.appendChild(css);
+  const r0 = ui.render; ui.render = () => { sync(); r0(); const st = getUI().st; cap.style.opacity = st.xr > .5 ? 1 : 0; cap.textContent = caption(st); };
+  ui.render();
+}
+// same, for a body lofted between two horizontal rings A (bottom) and B (top)
+function xrGhostRings(body, mech, k, A, B, m){
+  const far = `<g opacity="${f(.5*k)}">` + loft(A, B, n => mix(toneI(n.map(v => -v), m), '#f2efe7', .55), true) + fill(pd(A), mix(m.d, '#f2efe7', .5)) + `</g>`;
+  return far + mech + `<g opacity="${f(1 - .8*k)}">${body}</g>` + `<g opacity="${f(.6*k)}">` + hullInk([...A, ...B], 2.8) + `</g>`;
+}
+// generic see-through for any figure: the whole drawing fades back and the inside parts show over it.
+//   opts: { mech(st, k) -> svg, inside(st) -> label items, surface(st) -> label items (optional), B: bounds, getSt() }
+// washer-style ghost for an object without a single box case: its inside parts first, then the object pale over them
+const xrUnder = (svg, mech, k) => `<g opacity="${f(k)}">${mech}</g><g opacity="${f(1 - .62*k)}">${svg}</g>`;
+function xrWrap(sceneFn, opts){
+  return function(){
+    let s = sceneFn.apply(this, arguments);
+    const st = opts.getSt(), k = ease(st.xr || 0);
+    if (k > 0 && opts.under) s = xrUnder(s, opts.mech(st, k), k);   // the whole drawing is the object
+    else if (k > 0 && !opts.inline) s = `<g opacity="${f(1 - .5*k)}">${s}</g><g opacity="${f(k)}">${opts.mech(st, k)}</g>`;   // inline: the figure ghosts its own case
+    const items = k > .6 ? opts.inside(st) : opts.surface ? opts.surface(st) : [];
+    return s + (items.length ? xrCallouts(items, opts.B) : '');
+  };
+}
+
+/* ---------- game keypad: mountKeypad({ rows, hub:[col,row], action:'DROP', keys:[{ key:'ArrowLeft', glyph:'\u25c0', name, at:[col,row] }] })
+   An inked pad under the buttons that sends the same keyboard events as the arrows and space (set window.GAME_KEYS = true
+   so the arrows play instead of turning the camera). ---------- */
+function mountKeypad(spec){
+  const host = document.getElementById('btns'); if (!host) return;
+  const css = document.createElement('style');
+  css.textContent = `.kpad{display:flex;align-items:center;gap:16px;margin-top:6px;padding:10px 12px;border:1.5px solid var(--ink);border-radius:14px;
+      background:var(--paper);box-shadow:0 3px 0 var(--ink);touch-action:none;user-select:none;-webkit-user-select:none}
+    .kpad .dp{display:grid;grid-template-columns:repeat(3,34px);grid-template-rows:repeat(var(--rows),34px);gap:3px}
+    .kpad .k{all:unset;box-sizing:border-box;display:flex;align-items:center;justify-content:center;width:34px;height:34px;cursor:pointer;
+      background:#fbf7ea;border:1.5px solid var(--ink);border-radius:7px;box-shadow:0 3px 0 var(--ink);color:var(--ink);font:700 13px ui-monospace,Menlo,monospace;
+      transition:transform .05s,box-shadow .05s,background .05s}
+    .kpad .hub{width:34px;height:34px;display:flex;align-items:center;justify-content:center}
+    .kpad .hub i{width:12px;height:12px;border-radius:50%;border:1.5px solid var(--ink);background:#e6e0d1}
+    .kpad .go{all:unset;box-sizing:border-box;width:62px;height:62px;border-radius:50%;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;
+      background:#e2483d;border:1.5px solid var(--ink);box-shadow:0 4px 0 var(--ink),inset 0 -5px 0 rgba(0,0,0,.18);color:#fff;font:800 12px ui-monospace,Menlo,monospace;letter-spacing:.06em;
+      transition:transform .05s,box-shadow .05s}
+    .kpad .go small{font:700 8px ui-monospace,Menlo,monospace;opacity:.85;letter-spacing:.08em;margin-top:2px}
+    .kpad .down{transform:translateY(2px);box-shadow:0 1px 0 var(--ink)}
+    .kpad .k.down{background:var(--accent,#f4b829)}
+    .kpad .go.down{transform:translateY(3px);box-shadow:0 1px 0 var(--ink),inset 0 -3px 0 rgba(0,0,0,.18)}
+    @media (max-width:560px){.kpad{gap:22px;padding:10px 16px}.kpad .dp{grid-template-columns:repeat(3,44px);grid-template-rows:repeat(var(--rows),44px)}
+      .kpad .k,.kpad .hub{width:44px;height:44px;font-size:15px}.kpad .go{width:74px;height:74px}}`;
+  document.head.appendChild(css);
+  const pad = document.createElement('div'); pad.className = 'kpad'; pad.setAttribute('role', 'group'); pad.setAttribute('aria-label', 'Keypad');
+  const dp = document.createElement('div'); dp.className = 'dp'; dp.style.setProperty('--rows', spec.rows);
+  const els = {};
+  for (const k of spec.keys){
+    const b = document.createElement('button'); b.className = 'k'; b.textContent = k.glyph; b.setAttribute('aria-label', k.name);
+    b.style.gridColumn = k.at[0] + 1; b.style.gridRow = k.at[1] + 1; dp.appendChild(b); els[k.key] = b; }
+  if (spec.hub){ const h = document.createElement('div'); h.className = 'hub'; h.innerHTML = '<i></i>'; h.style.gridColumn = spec.hub[0] + 1; h.style.gridRow = spec.hub[1] + 1; dp.appendChild(h); }
+  const go = document.createElement('button'); go.className = 'go'; go.innerHTML = `${spec.action}<small>SPACE</small>`; go.setAttribute('aria-label', spec.action);
+  els[' '] = go;
+  pad.append(dp, go); host.appendChild(pad);
+  const send = (type, key) => dispatchEvent(new KeyboardEvent(type, { key, bubbles: true }));
+  for (const [key, el] of Object.entries(els)){
+    let held = null;
+    el.addEventListener('pointerdown', e => { e.preventDefault(); e.stopPropagation(); if (held != null) return; held = e.pointerId;
+      try { el.setPointerCapture(e.pointerId); } catch (_) {} send('keydown', key); });
+    const release = e => { if (held == null || (e && e.pointerId !== held)) return; held = null; send('keyup', key); };
+    el.addEventListener('pointerup', release); el.addEventListener('pointercancel', release); el.addEventListener('lostpointercapture', release);
+    el.addEventListener('click', e => e.preventDefault());
+    el.addEventListener('keydown', e => { if (e.key === 'Enter'){ e.preventDefault(); send('keydown', key); setTimeout(() => send('keyup', key), 120); } });
+  }
+  // space belongs to the game: a button that still has the focus from a click must not be pressed by it too
+  addEventListener('keydown', e => { if (e.key === ' ' && e.target && e.target.closest && e.target.closest('button')) e.preventDefault(); }, true);
+  addEventListener('keyup', e => { if (e.key === ' ' && e.target && e.target.closest && e.target.closest('button')) e.preventDefault(); }, true);
+  // light the keys for real key presses too (and for the pad's own, which arrive the same way)
+  addEventListener('keydown', e => { const el = els[e.key]; if (el) el.classList.add('down'); });
+  addEventListener('keyup', e => { const el = els[e.key]; if (el) el.classList.remove('down'); });
+  addEventListener('blur', () => Object.values(els).forEach(el => el.classList.remove('down')));
+}
+
+</script>
+<script>
+/* ============================================================
+   Fig. 27 — Lo-fi night room (Colorfigures diorama)
+   Real process & how the room works:
+   1. Desk lamp switch: closes the low-voltage relay on the base PCB; current runs from the under-desk
+      surge strip up the hollow lamp post and twin articulated arms to the warm LED emitter in the shade,
+      casting a projected cone and pool of light across the open notebook, fountain pen, and headphones.
+   2. Lamp pose: shoulder, elbow, and wrist friction washers slip on their bolts while the helical balance
+      spring carries the arm's weight, shifting the beam angle and illuminance (lx) on the desk.
+   3. Lo-fi beats (vinyl turntable): the DC brushless motor spins the belt-drive platter at 33 RPM; the
+      pivoting S-tonearm lifts off its rest, swings over the vinyl LP, and drops the stylus into the groove,
+      feeding the phono preamp and wireless headphone transmitter while the ginger cat swishes its tail.
+   4. Night ambiance: switches the 12V step-down transformer for the wall fairy lights and the rain outside
+      the casement window overlooking the midnight city skyline.
+   5. Study notebook & desk drawer: flips the open study notebook page or slides the ball-bearing desk
+      drawer out to reveal a cassette tape and midnight snack.
+
+   Parts list (grouped: structure, furniture, desktop, mechanisms):
+   STRUCTURE  oak floor slab . back wall (4 convex sections around window) . recessed casement window .
+              mullions & brass latch . exterior brick wall, stone sill, breaker box & conduit . right wall .
+              acoustic foam slats . glowing LO-FI wall frame . midnight wall clock . draped fairy string lights
+   WINDOW/WALL deep timber windowsill . succulent pot . curled ginger tabby cat (head, ears, stripes, tail) .
+              wall bookshelf & iron brackets . leaning books . terracotta pot & cascading pothos vine .
+              two framed mini-posters . vinyl record crate & warm paper lantern on the floor
+   DESK       right 2-drawer cabinet . slide-out top drawer with cassette & snack . left front/back legs &
+              stretcher . rounded timber desktop . woven round floor rug . swivel study chair (5-star base,
+              casters, gas column, seat, backrest, armrests) . floor monstera planter & 6 leaves
+   DESKTOP    articulated balanced-arm lamp (base, switch, LED, post, arms, hubs, spring, conical shade, bulb) .
+              belt-drive vinyl turntable (plinth, platter, LP, label, strobe, pitch slider, S-tonearm) .
+              steaming ceramic mug on cork coaster . open study notebook, ribbon & brass pen . over-ear headphones
+   SEE-THROUGH wall timber studs . main junction box & dimmer relay . fairy-light step-down transformer .
+              wall duplex outlet . in-wall Romex cables . under-desk surge strip & busbars . lamp counterweight,
+              switch PCB, internal arm wire & LED board . turntable DC motor, drive belt, platter bearing &
+              phono preamp PCB . steel ball-bearing drawer slides . chair pneumatic gas-lift cylinder
+   ============================================================ */
+
+const RM_W = 112, RM_D = 120, RM_H = 88, RM_FH = 5, RM_WT = 6;
+const dAdd = (a, b) => [a[0]+b[0], a[1]+b[1], a[2]+b[2]];
+const dScl = (a, k) => a.map(v => v*k);
+const dRad = a => a * Math.PI / 180;
+
+/* ---------- materials ---------- */
+let M_WALL   = { l:'#f3ecde', m:'#dfd5c3', d:'#b8ad99' };
+const M_BRICK  = { l:'#a86454', m:'#8c4f40', d:'#613328' };
+const M_TRIM   = { l:'#c89662', m:'#a87846', d:'#7a542e' };
+let M_DESK   = { l:'#dfb07a', m:'#c4925a', d:'#8f6538' };
+let M_CAB    = { l:'#c99560', m:'#ad7b47', d:'#7d552c' };
+const M_DARKW  = { l:'#695342', m:'#4f3d30', d:'#362920' };
+const M_VINYL  = { l:'#383532', m:'#262421', d:'#171614' };
+const M_LEAF   = { l:'#6ebf83', m:'#4d9e63', d:'#2d693e' };
+const M_LEAF2  = { l:'#88cf96', m:'#62ad73', d:'#3b784a' };
+const M_TERRA  = { l:'#e07a58', m:'#c25f3f', d:'#873d25' };
+const M_CAT    = { l:'#f29d4b', m:'#d67e2c', d:'#945116' };
+let M_RUG    = { l:'#ebe3d2', m:'#d6ccb8', d:'#aba08c' };
+const M_GOLD   = { l:'#f5cf62', m:'#d9b043', d:'#9c7a23' };
+const M_COPPER = { l:'#e0925b', m:'#bf723f', d:'#854923' };
+const M_PCB    = { l:'#4fa36a', m:'#2f8a4a', d:'#1d5f31' };
+const M_IRON   = matOf('#6e7378');
+
+function syncThemeMaterials(st){
+  if (st && st.dark){
+    const w = Math.min(1, .68 * (st.lampGlow ?? 1) + .32 * (st.fairyGlow ?? 1));
+    SHADOW = mix('#3b3648', '#6b4c30', w);
+    WOOD   = { l: mix('#786a80', '#b88754', w), m: mix('#5c5066', '#966a3d', w), d: mix('#3e3547', '#6b4827', w) };
+    M_WALL = { l: mix('#8f96b2', '#dfd0bc', w), m: mix('#737a96', '#c4b49e', w), d: mix('#555b75', '#9c8b76', w) };
+    M_DESK = { l: mix('#8c7a72', '#d4a068', w), m: mix('#706059', '#b5814b', w), d: mix('#50443e', '#82592f', w) };
+    M_CAB  = { l: mix('#7c6a62', '#bf8852', w), m: mix('#62534c', '#9e6d3c', w), d: mix('#463a35', '#6e4925', w) };
+    M_RUG  = { l: mix('#82879e', '#d6cbb6', w), m: mix('#6a6e84', '#bdb29c', w), d: mix('#4f5366', '#968b76', w) };
+  } else {
+    SHADOW = '#b59b7c';
+    WOOD   = { l:'#c9a06c', m:'#a88150', d:'#7a5c36' };
+    M_WALL = { l:'#f3ecde', m:'#dfd5c3', d:'#b8ad99' };
+    M_DESK = { l:'#dfb07a', m:'#c4925a', d:'#8f6538' };
+    M_CAB  = { l:'#c99560', m:'#ad7b47', d:'#7d552c' };
+    M_RUG  = { l:'#ebe3d2', m:'#d6ccb8', d:'#aba08c' };
+  }
+}
+
+/* ---------- lamp kinematics (on desk at x=22, y=94, z=33) ---------- */
+const L_BX = 22, L_BY = 94, L_BZ = 33;
+const L_PHI = -32 * Math.PI / 180;
+const L_U = [Math.cos(L_PHI), Math.sin(L_PHI), 0];
+const L_NRM = [-Math.sin(L_PHI), Math.cos(L_PHI), 0];
+const L_BASE_H = 3.2, L_POST_TOP = L_BZ + L_BASE_H + 5.2;
+const L_ARM1 = 21, L_ARM2 = 19, L_SHD_LEN = 10.5, L_SHD_R0 = 2.6, L_SHD_R1 = 6.8, L_BULB_T = 8.4;
+
+const LAMP_POSES = {
+  read: { label:'Reading',    a:[64, -14, -82] },
+  low:  { label:'Low focus',  a:[44, -12, -86] },
+  wide: { label:'Wide glow',  a:[76,  14, -74] },
+};
+
+const lQ = (s, z) => [L_BX + s*L_U[0], L_BY + s*L_U[1], z];
+const lDir = a => [Math.cos(dRad(a))*L_U[0], Math.cos(dRad(a))*L_U[1], Math.sin(dRad(a))];
+function lampGeo(ang){
+  const [a1, a2, a3] = ang;
+  const Sh = lQ(0, L_POST_TOP);
+  const El = dAdd(Sh, dScl(lDir(a1), L_ARM1));
+  const Wr = dAdd(El, dScl(lDir(a2), L_ARM2));
+  const dd = lDir(a3);
+  return { Sh, El, Wr, dd, at: t => dAdd(Wr, dScl(dd, t)) };
+}
+function ringAx(c, ax, r, n=16){
+  let e1, e2;
+  if (Math.abs(dot(ax, L_NRM)) > .9){ e1 = L_U; e2 = [0,0,1]; }
+  else if (Math.abs(ax[2]) > .99){ e1 = [1,0,0]; e2 = [0,1,0]; }
+  else { e1 = L_NRM; e2 = norm(cross(ax, L_NRM)); }
+  return Array.from({length:n}, (_,i) => {
+    const t = i/n*2*Math.PI;
+    return dAdd(c, dAdd(dScl(e1, r*Math.cos(t)), dScl(e2, r*Math.sin(t))));
+  });
+}
+const rodTone = (n, M) => { const c = tone(n, M); return c === M.d ? M.m : c; };
+function cylAx(c0, c1, r, M, sh=tone, w=1.0, n=14){
+  const ax = norm(sub(c1, c0)), A = ringAx(c0, ax, r, n), B = ringAx(c1, ax, r, n);
+  let s = loft(A, B, nr => sh(nr, M));
+  const capB = vis(ax), cap = capB ? B : A, cn = capB ? ax : dScl(ax, -1);
+  if (vis(cn)) s += fill(pd(cap), sh(cn, M));
+  s += hullInk([...A, ...B], w);
+  if (vis(cn)) s += ink(pd(cap), w*.7);
+  return s;
+}
+function lampPoolPts(g, zPlane, frac=1){
+  const apex = g.at(-9), rim = ringAx(g.at(L_SHD_LEN), g.dd, L_SHD_R1*frac, 28), out = [];
+  for (const p of rim){
+    const v = sub(p, apex);
+    if (v[2] > -1e-3) return null;
+    const k = (zPlane - apex[2]) / v[2];
+    out.push(dAdd(apex, dScl(v, k)));
+  }
+  return out;
+}
+function lampLux(g, st){
+  const base = st.fairyOn ? 45 : 12;
+  if (st.lampGlow <= .01 || g.dd[2] >= -.05) return base;
+  const b = g.at(L_BULB_T), dist = Math.max(.22, (b[2] - L_BZ) / -g.dd[2] / 42);
+  return Math.round(base + st.lampGlow * (115 * -g.dd[2] / (dist*dist)));
+}
+
+/* ---------- 1. Floor Slab, Rug & Shadows (z = 0..5) ---------- */
+const FLOOR_TOP = boardTop(0, 0, RM_W, RM_D, RM_FH, 6);
+const INNER_FLOOR = on(PZ(RM_FH + .02), rectUV(RM_WT, RM_WT, RM_W - 2, RM_D - 2));
+
+function drawFloor(st, m, g){
+  let s = board(0, 0, RM_W, RM_D, RM_FH, 6, WOOD);
+  // hardwood plank lines on top of floor
+  if (vis([0,0,1])){
+    let pl = '';
+    for (let y = 18; y < RM_D - 4; y += 12){
+      pl += pd([[RM_WT, y, RM_FH+.02], [RM_W - 3, y, RM_FH+.02]], false);
+    }
+    for (let y = 18; y < RM_D - 12; y += 12){
+      const xj = 28 + ((y * 17) % 58);
+      pl += pd([[xj, y, RM_FH+.02], [xj, y + 12, RM_FH+.02]], false);
+    }
+    s += `<path d="${pl}" fill="none" stroke="${WOOD.d}" stroke-width=".55" opacity=".55"/>`;
+
+    // moonlight window patch on floor when night window is visible
+    const moonOp = st.dark ? Math.max(.16, .38 - .18 * st.lampGlow) : Math.max(.08, .22 - .12 * st.lampGlow);
+    const moonQuad = [[14, 18, RM_FH+.03], [68, 22, RM_FH+.03], [74, 72, RM_FH+.03], [14, 70, RM_FH+.03]];
+    s += clipTo(INNER_FLOOR, fill(pd(moonQuad), st.dark ? '#6999eb' : '#76a0e2', `opacity="${f(moonOp)}"`));
+
+    // warm ambient floor glow when lamp or fairy lights are on
+    const warmFloor = (st.dark ? .26 : .18) * st.lampGlow + (st.dark ? .14 : .08) * st.fairyGlow;
+    if (warmFloor > .01){
+      const glowPts = on(PZ(RM_FH+.04), ellUV(44, 72, 38, 42, 28));
+      s += clipTo(INNER_FLOOR, fill(pd(glowPts), '#ffe699', `opacity="${f(warmFloor)}"`));
+    }
+  }
+
+  // cast shadows on floor
+  const shParts = [
+    // desk cabinet & legs
+    [[16,24,RM_FH],[54,48,33],[16,102,33],[54,102,33]],
+    // chair
+    [[66,60,RM_FH],[82,76,48]],
+    // floor plant
+    [[64,96,RM_FH],[76,108,38]],
+    // vinyl crate
+    [[64,6.5,RM_FH],[102,19,24]]
+  ];
+  s += clipTo(INNER_FLOOR, shParts.map(pts => castShadow([
+    [pts[0][0],pts[0][1],pts[0][2]], [pts[1][0],pts[0][1],pts[1][2]],
+    [pts[1][0],pts[1][1],pts[1][2]], [pts[0][0],pts[1][1],pts[1][2]]
+  ], RM_FH)).join(''));
+
+  // woven round rug under the chair (x=74, y=68, r=21)
+  const rx = 74, ry = 68, rr = 21;
+  const rA = on(PZ(RM_FH + .05), ellUV(rx, ry, rr, rr, 36));
+  const rB = on(PZ(RM_FH + .45), ellUV(rx, ry, rr, rr, 36));
+  const rMid = on(PZ(RM_FH + .48), ellUV(rx, ry, rr * .74, rr * .74, 32));
+  const rIn  = on(PZ(RM_FH + .50), ellUV(rx, ry, rr * .42, rr * .42, 24));
+  s += loft(rA, rB, n => toneI(n, M_RUG)) + fill(pd(rB), M_RUG.l)
+     + fill(pd(rMid), mix(m.l, '#f2efe7', .35)) + ink(pd(rMid), .6)
+     + fill(pd(rIn), '#fbf8ee') + ink(pd(rIn), .5)
+     + ink(pd(rB), 1.1);
+  // rug fringe ticks along +x and -x edges
+  let fr = '';
+  for (let a = -50; a <= 50; a += 14){
+    const ra = dRad(a);
+    fr += pd([[rx + rr*Math.cos(ra), ry + rr*Math.sin(ra), RM_FH+.2],
+              [rx + (rr+2.2)*Math.cos(ra), ry + (rr+2.2)*Math.sin(ra), RM_FH+.1]], false);
+    fr += pd([[rx - rr*Math.cos(ra), ry + rr*Math.sin(ra), RM_FH+.2],
+              [rx - (rr+2.2)*Math.cos(ra), ry + (rr+2.2)*Math.sin(ra), RM_FH+.1]], false);
+  }
+  s += `<path d="${fr}" fill="none" stroke="${INK}" stroke-width=".65" stroke-linecap="round"/>`;
+  return s;
+}
+
+/* ---------- 2. Corner Pillar, Back Wall & Night Window, Right Wall ---------- */
+function drawCornerPillar(m){
+  const wPal = { l: mix(m.l, M_WALL.l, .78), m: mix(m.m, M_WALL.m, .78), d: mix(m.d, M_WALL.d, .78) };
+  return box(0, 0, RM_FH, RM_WT, RM_WT, RM_H, wPal, tone, 1.1);
+}
+
+function drawBackWall(st, m){
+  const wPal = { l: mix(m.l, M_WALL.l, .78), m: mix(m.m, M_WALL.m, .78), d: mix(m.d, M_WALL.d, .78) };
+  const wy0 = 16, wy1 = 72, wz0 = 35, wz1 = 81;
+  let s = '';
+  // 4 convex wall blocks framing the window opening (y: 6..120, z: 5..88)
+  s += box(0, RM_WT, RM_FH, RM_WT, RM_D, wz0, wPal, tone, 1.0);       // below window
+  s += box(0, RM_WT, wz1,   RM_WT, RM_D, RM_H, wPal, tone, 1.0);      // above window
+  s += box(0, RM_WT, wz0,   RM_WT, wy0,  wz1,  wPal, tone, 1.0);      // right of window
+  s += box(0, wy1,   wz0,   RM_WT, RM_D, wz1,  wPal, tone, 1.0);      // left of window
+
+  // Inner wall details (when facing +x)
+  if (vis([1,0,0])){
+    // Wooden baseboard along bottom of back wall
+    s += box(RM_WT, RM_WT, RM_FH, RM_WT + .6, RM_D, RM_FH + 3.5, M_TRIM, toneI, .8);
+    // Window recess reveals (top, bottom, left, right inner jambs of the window)
+    s += box(1.2, wy0, wz0, RM_WT, wy1, wz0 + 1.4, M_TRIM, toneI, .9);
+    s += box(1.2, wy0, wz1 - 1.4, RM_WT, wy1, wz1, M_TRIM, toneI, .9);
+    s += box(1.2, wy0, wz0 + 1.4, RM_WT, wy0 + 1.6, wz1 - 1.4, M_TRIM, toneI, .9);
+    s += box(1.2, wy1 - 1.6, wz0 + 1.4, RM_WT, wy1, wz1 - 1.4, M_TRIM, toneI, .9);
+
+    // Night sky pane at x = 2.4
+    const px = 2.4, py0 = wy0 + 1.6, py1 = wy1 - 1.6, pz0 = wz0 + 1.4, pz1 = wz1 - 1.4;
+    const pane = on(PX(px), rectUV(py0, pz0, py1, pz1));
+    let sky = fill(pd(pane), '#16203a');
+    // Upper deep night gradient band
+    sky += fill(pd(on(PX(px), rectUV(py0, pz0 + 22, py1, pz1))), '#0f172b');
+    // Distant horizon glow
+    sky += fill(pd(on(PX(px), rectUV(py0, pz0, py1, pz0 + 10))), '#26365c');
+
+    // Crescent Moon (at y = 30, z = 69)
+    const mCenter = P(px, 31, 69), mR = 5.2 * 1.2247;
+    sky += `<circle cx="${f(mCenter[0])}" cy="${f(mCenter[1])}" r="${f(mR * 1.7)}" fill="#ffe898" opacity=".22"/>`;
+    sky += `<circle cx="${f(mCenter[0])}" cy="${f(mCenter[1])}" r="${f(mR)}" fill="#fff4bd"/>`;
+    sky += `<circle cx="${f(mCenter[0] - mR*.38)}" cy="${f(mCenter[1] - mR*.18)}" r="${f(mR * .82)}" fill="#0f172b"/>`;
+
+    // Twinkling stars
+    const stars = [[22,74,1.0],[41,75,1.2],[52,71,.9],[63,76,1.3],[67,66,.9],[24,62,.8],[47,63,1.1]];
+    for (const [sy, sz, sr] of stars){
+      const sp0 = P(px, sy, sz);
+      sky += `<circle cx="${f(sp0[0])}" cy="${f(sp0[1])}" r="${f(sr)}" fill="#fff8d6" opacity=".88"/>`;
+    }
+
+    // Distant city skyline buildings + lit apartment windows
+    const blds = [
+      [17, 26, 51, '#1a2542'], [25, 35, 47, '#121a30'], [34, 45, 56, '#18223d'],
+      [44, 53, 49, '#0f1629'], [52, 62, 54, '#1b2745'], [61, 71, 46, '#121a30']
+    ];
+    for (const [by0, by1, bz1, bcol] of blds){
+      sky += fill(pd(on(PX(px), rectUV(by0, pz0, by1, bz1))), bcol);
+      sky += ink(pd(on(PX(px), rectUV(by0, pz0, by1, bz1))), .6);
+    }
+    // Radio tower spire on building 3
+    sky += line([[px, 39.5, 56], [px, 39.5, 63]], .7);
+    const beacon = P(px, 39.5, 63.5);
+    sky += `<circle cx="${f(beacon[0])}" cy="${f(beacon[1])}" r="1.4" fill="#ff5242"/>`;
+
+    // Lit yellow/amber apartment windows in the skyline
+    const wins = [
+      [19,46],[22,46],[19,42],[28,43],[31,40],[36,52],[40,52],[36,48],[40,44],[36,40],
+      [46,45],[49,42],[54,50],[58,50],[54,46],[58,42],[64,42],[67,39]
+    ];
+    for (const [wy, wz] of wins){
+      sky += fill(pd(on(PX(px), rectUV(wy, wz, wy + 2.1, wz + 2.2))), (wy + wz) % 3 === 0 ? '#ff9e58' : '#ffd875');
+    }
+
+    // Falling diagonal rain streaks when st.rain is on
+    if (st.rain){
+      let rPath = '';
+      const rShift = (st.rainPhase || 0) * 14;
+      for (let i = 0; i < 22; i++){
+        const ry = py0 + 3 + ((i * 11.3 + rShift * .4) % (py1 - py0 - 6));
+        const rz = pz0 + 4 + ((i * 17.7 - rShift + 100) % (pz1 - pz0 - 8));
+        rPath += pd([[px + .1, ry, rz + 4.8], [px + .1, ry + 1.8, rz]], false);
+      }
+      sky += `<path d="${rPath}" fill="none" stroke="#9ed4f7" stroke-width=".85" stroke-linecap="round" opacity=".78"/>`;
+    }
+
+    // Subtle glass reflection streaks
+    sky += fill(pd(on(PX(px + .2), [[22, pz0+3], [26, pz0+3], [38, pz1-3], [34, pz1-3]])), '#ffffff', 'opacity=".14"');
+    sky += fill(pd(on(PX(px + .2), [[29, pz0+3], [31, pz0+3], [43, pz1-3], [41, pz1-3]])), '#ffffff', 'opacity=".10"');
+
+    s += act('window', clipTo(pane, sky));
+
+    // Wooden window mullions (central vertical & horizontal bars)
+    const my = (py0 + py1) / 2, mz = (pz0 + pz1) / 2;
+    s += box(2.4, my - .8, pz0, 4.2, my + .8, pz1, M_TRIM, toneI, .8);
+    s += box(2.4, py0, mz - .7, 4.2, py1, mz + .7, M_TRIM, toneI, .8);
+    // Brass window handle latch
+    s += box(4.2, my - .5, mz - 3.5, 5.2, my + .5, mz - 1.0, M_GOLD, toneI, .7);
+    s += ink(pd(on(PX(RM_WT), rectUV(wy0, wz0, wy1, wz1))), 1.6);
+
+    // Roller blind header at top of window
+    s += cylY(RM_WT + 1.4, wy0 - 1.5, wy1 + 1.5, wz1 + 1.2, 1.8, M_RUG, toneI, 1.0);
+    s += box(RM_WT + .2, wy0 - 1, wz1 - 3.5, RM_WT + 1.8, wy1 + 1, wz1 + .2, M_RUG, toneI, .8);
+
+    // Two framed mini-posters on the left wall section (y = 80..112, z = 37..52)
+    for (const [fy0, fy1, bgCol, artCol] of [[80, 94, '#fbf7ea', m.l], [97, 111, '#23304c', '#f4b829']]){
+      s += box(RM_WT, fy0, 37, RM_WT + .7, fy1, 52, M_DARKW, toneI, .9);
+      const art = on(PX(RM_WT + .75), rectUV(fy0 + 1.6, 38.6, fy1 - 1.6, 50.4));
+      s += fill(pd(art), bgCol) + ink(pd(art), .6);
+      const c0 = P(RM_WT + .8, (fy0 + fy1)/2, 44.5);
+      s += `<circle cx="${f(c0[0])}" cy="${f(c0[1])}" r="${f(3.2 * INK_K)}" fill="${artCol}" stroke="${INK}" stroke-width="${f(.7*INK_K)}"/>`;
+    }
+  }
+
+  // Exterior back wall details (when rotated behind: facing -x)
+  if (vis([-1,0,0])){
+    // Brick course lines on x = 0
+    let brk = '';
+    for (let z = 12; z < RM_H - 4; z += 8){
+      brk += pd([[-.05, 8, z], [-.05, RM_D - 4, z]], false);
+    }
+    s += `<path d="${brk}" fill="none" stroke="${M_WALL.d}" stroke-width=".6" opacity=".6"/>`;
+    // Exterior window pane & frame seen from outside (warm room light glowing out!)
+    const outFrame = on(PX(-.02), rectUV(wy0, wz0, wy1, wz1));
+    s += fill(pd(outFrame), M_TRIM.m) + ink(pd(outFrame), 1.1);
+    const outPane = on(PX(-.05), rectUV(wy0 + 1.5, wz0 + 1.4, wy1 - 1.5, wz1 - 1.4));
+    s += fill(pd(outPane), st.lampGlow > .1 ? '#ffdfa0' : '#2a385c') + ink(pd(outPane), 1.1);
+    const omy = (wy0 + wy1) / 2, omz = (wz0 + wz1) / 2;
+    s += box(-.4, omy - .8, wz0 + 1.4, 0, omy + .8, wz1 - 1.4, M_TRIM, tone, .8);
+    s += box(-.4, wy0 + 1.5, omz - .7, 0, wy1 - 1.5, omz + .7, M_TRIM, tone, .8);
+    // Exterior stone sill & utility breaker box
+    s += box(-2.2, wy0 - 2, wz0 - 2.5, 0, wy1 + 2, wz0, BOARD, tone, 1.0);
+    s += box(-2.8, 88, 42, 0, 102, 58, M_IRON, tone, 1.0);
+    s += cyl( -1.4, 95, RM_FH, 42, 1.1, METAL, tone, .8, 12);
+  }
+
+  s += hullInk([
+    [0,RM_WT,RM_FH],[RM_WT,RM_WT,RM_FH],[RM_WT,RM_D,RM_FH],[0,RM_D,RM_FH],
+    [0,RM_WT,RM_H],[RM_WT,RM_WT,RM_H],[RM_WT,RM_D,RM_H],[0,RM_D,RM_H]
+  ], 2.4);
+  return s;
+}
+
+// Helper for cylinder along Y axis
+function cylY(x, y0, y1, z, r, m, shade=toneI, w=1.0, n=16){
+  const A = on(PY(y0), ellUV(x, z, r, r, n)), B = on(PY(y1), ellUV(x, z, r, r, n));
+  const capB = vis([0,1,0]), cap = capB ? B : A, cn = capB ? [0,1,0] : [0,-1,0];
+  return loft(A, B, nr => shade(nr, m))
+    + (vis(cn) ? fill(pd(cap), shade(cn, m)) : '')
+    + hullInk([...A, ...B], w)
+    + (vis(cn) ? ink(pd(cap), w*.8) : '');
+}
+
+function drawRightWall(st, m){
+  const wPal = { l: mix(m.l, M_WALL.l, .78), m: mix(m.m, M_WALL.m, .78), d: mix(m.d, M_WALL.d, .78) };
+  let s = box(RM_WT, 0, RM_FH, RM_W, RM_WT, RM_H, wPal, tone, 1.1);
+
+  if (vis([0,1,0])){
+    // Wooden baseboard along right wall
+    s += box(RM_WT, RM_WT, RM_FH, RM_W, RM_WT + .6, RM_FH + 3.5, M_TRIM, toneI, .8);
+
+    // Acoustic slatted wood/foam panels (x = 22..54, z = 48..72)
+    s += box(22, RM_WT, 48, 54, RM_WT + 1.0, 72, DARK, toneI, .9);
+    for (let x = 24; x <= 52; x += 3.5){
+      s += box(x, RM_WT + 1.0, 49.2, x + 1.8, RM_WT + 1.5, 70.8, M_TRIM, toneI, .5);
+    }
+
+    // Glowing LO-FI sign frame mounted over acoustic panel (x = 27..49, z = 54..66)
+    const signLit = st.fairyOn || st.lampOn;
+    const signCol = signLit ? '#ffcf6e' : '#cfc8b8';
+    s += box(27, RM_WT + 1.5, 54, 49, RM_WT + 2.3, 66, M_DARKW, toneI, .9);
+    const sFace = on(PY(RM_WT + 2.35), rectUV(28.4, 55.4, 47.6, 64.6));
+    s += fill(pd(sFace), signLit ? '#2b2230' : '#3a3532') + ink(pd(sFace), .7);
+    s += txY(38, RM_WT + 2.45, 58.2, 'LO-FI', 5.2, signCol, 800);
+
+    // Round Wall Clock (x = 76, y = 6..7.4, z = 62, r = 6.2)
+    const cx = 76, cz = 62, cr = 6.2;
+    const cA = on(PY(RM_WT), ellUV(cx, cz, cr, cr, 24));
+    const cB = on(PY(RM_WT + 1.3), ellUV(cx, cz, cr, cr, 24));
+    const cFace = on(PY(RM_WT + 1.35), ellUV(cx, cz, cr * .82, cr * .82, 24));
+    s += loft(cA, cB, n => toneI(n, M_TRIM)) + fill(pd(cB), M_TRIM.l)
+       + fill(pd(cFace), '#fbf8ee') + ink(pd(cFace), .7) + hullInk([...cA, ...cB], 1.1);
+    // Clock hands (00:15 — midnight study hour)
+    s += line([[cx, RM_WT + 1.4, cz], [cx, RM_WT + 1.4, cz + 3.4]], .9);
+    s += line([[cx, RM_WT + 1.4, cz], [cx + 3.8, RM_WT + 1.4, cz]], .8);
+  }
+
+  if (vis([0,-1,0])){
+    // Exterior brick lines & copper rain downpipe on y = 0
+    let brk = '';
+    for (let z = 14; z < RM_H - 4; z += 8){
+      brk += pd([[10, -.05, z], [RM_W - 6, -.05, z]], false);
+    }
+    s += `<path d="${brk}" fill="none" stroke="${M_WALL.d}" stroke-width=".6" opacity=".6"/>`;
+    s += cyl(96, -1.4, RM_FH, RM_H - 2, 1.3, M_COPPER, tone, .9, 14);
+  }
+
+  s += hullInk([
+    [RM_WT,0,RM_FH],[RM_W,0,RM_FH],[RM_W,RM_WT,RM_FH],[RM_WT,RM_WT,RM_FH],
+    [RM_WT,0,RM_H],[RM_W,0,RM_H],[RM_W,RM_WT,RM_H],[RM_WT,RM_WT,RM_H]
+  ], 2.4);
+  return s;
+}
+
+/* ---------- 3. Wall-Mounted Items (Window Sill + Cat, Bookshelf + Pothos, Fairy Lights) ---------- */
+function drawWindowSillAndCat(st){
+  // Sill spans x: 6..14.2, y: 14..74, z: 33.2..35.5
+  let s = box(RM_WT, 14, 33.2, 14.2, 74, 35.5, M_TRIM, toneI, 1.1);
+
+  // Small succulent on right end of sill (x=10, y=21, z=35.5..41)
+  s += cyl(10, 21, 35.5, 39.2, 2.6, CERAMIC, toneI, .9, 16);
+  s += cyl(10, 21, 39.2, 41.2, 1.8, M_LEAF, toneI, .8, 12);
+
+  // Sleeping Ginger Tabby Cat curled on the sill (center x=10.2, y=46, z=35.5)
+  const cx = 10.2, cy = 46, cz = 35.5;
+  // Torso loaf (elliptical dome built from 3 stacked rings)
+  const cR0 = on(PZ(cz),       ellUV(cx, cy, 3.4, 6.2, 24));
+  const cR1 = on(PZ(cz + 2.6), ellUV(cx, cy, 3.3, 5.8, 24));
+  const cR2 = on(PZ(cz + 4.5), ellUV(cx, cy - .3, 2.5, 4.2, 24));
+  let catSvg = loft(cR0, cR1, n => toneI(n, M_CAT))
+             + loft(cR1, cR2, n => toneI(n, M_CAT))
+             + fill(pd(cR2), M_CAT.l)
+             + hullInk([...cR0, ...cR1, ...cR2], 1.4);
+
+  // Tabby stripes on back
+  for (const dy of [-2.2, 0, 2.0]){
+    catSvg += line([[cx - 1.8, cy + dy, cz + 4.3], [cx + 2.0, cy + dy, cz + 4.1]], .85);
+  }
+
+  // Cat Head at front-left of body (x = cx + 0.8, y = cy + 5.2, z = cz + 3.2)
+  const hx = cx + .7, hy = cy + 5.0, hz = cz + 3.1 + (st.catAwake > 0 ? .6 : 0);
+  const [hX, hY] = P(hx, hy, hz), hR = 3.2 * 1.2247;
+  // Ears
+  for (const sg of [-1, 1]){
+    const ex = hX + sg * hR * .58, ey = hY - hR * .65;
+    catSvg += `<path d="M${f(ex - hR*.28)} ${f(ey + hR*.15)}L${f(ex + sg*hR*.1)} ${f(ey - hR*.48)}L${f(ex + hR*.28)} ${f(ey + hR*.15)}Z" fill="${M_CAT.m}" stroke="${INK}" stroke-width="${f(.9*INK_K)}" stroke-linejoin="round"/>`;
+    catSvg += `<path d="M${f(ex - hR*.14)} ${f(ey + hR*.08)}L${f(ex + sg*hR*.06)} ${f(ey - hR*.26)}L${f(ex + hR*.14)} ${f(ey + hR*.08)}Z" fill="#f3a6bb"/>`;
+  }
+  // Head sphere
+  catSvg += `<circle cx="${f(hX)}" cy="${f(hY)}" r="${f(hR)}" fill="${M_CAT.l}" stroke="${INK}" stroke-width="${f(1.1*INK_K)}"/>`;
+  // Eyes (sleeping curved arcs, or bright awake eyes when clicked)
+  if (st.catAwake > 0){
+    catSvg += `<circle cx="${f(hX - hR*.34)}" cy="${f(hY + hR*.04)}" r="${f(hR*.12)}" fill="${INK}"/>`;
+    catSvg += `<circle cx="${f(hX + hR*.34)}" cy="${f(hY + hR*.04)}" r="${f(hR*.12)}" fill="${INK}"/>`;
+  } else {
+    catSvg += `<path d="M${f(hX - hR*.48)} ${f(hY + hR*.05)}Q${f(hX - hR*.32)} ${f(hY + hR*.22)} ${f(hX - hR*.16)} ${f(hY + hR*.05)}" fill="none" stroke="${INK}" stroke-width="${f(.75*INK_K)}" stroke-linecap="round"/>`;
+    catSvg += `<path d="M${f(hX + hR*.16)} ${f(hY + hR*.05)}Q${f(hX + hR*.32)} ${f(hY + hR*.22)} ${f(hX + hR*.48)} ${f(hY + hR*.05)}" fill="none" stroke="${INK}" stroke-width="${f(.75*INK_K)}" stroke-linecap="round"/>`;
+  }
+  // Pink nose
+  catSvg += `<circle cx="${f(hX)}" cy="${f(hY + hR*.22)}" r="${f(hR*.1)}" fill="#f2849a"/>`;
+
+  // Swishing Tail hanging/curling at y = cy - 5.8
+  const swish = Math.sin(st.tailPhase || 0) * 2.6;
+  const tailPts = [
+    [cx, cy - 5.4, cz + 1.8],
+    [cx + 1.6, cy - 7.8, cz + 1.5 + swish * .3],
+    [cx + 2.4, cy - 10.2 + swish, cz + 2.8 + Math.abs(swish) * .4]
+  ];
+  const td = pd(tailPts, false);
+  catSvg += `<path d="${td}" fill="none" stroke="${INK}" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>`;
+  catSvg += `<path d="${td}" fill="none" stroke="${M_CAT.l}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>`;
+
+  s += act('cat', catSvg);
+  return s;
+}
+
+function drawWallShelfAndPlant(m){
+  // Shelf on back wall: x: 6..14.2, y: 78..114, z: 56..76
+  let s = box(RM_WT, 78, 56, 14.0, 114, 58, M_TRIM, toneI, 1.0);
+  // Brackets under shelf
+  s += box(RM_WT, 82, 52, 12.5, 83.2, 56, DARK, toneI, .7);
+  s += box(RM_WT, 109, 52, 12.5, 110.2, 56, DARK, toneI, .7);
+
+  // Stack of books on the shelf (y = 80..98, z = 58..70)
+  const books = [
+    [80.5, 83.0, 69.5, PALS.cobalt],
+    [83.2, 85.8, 70.8, PALS.mustard],
+    [86.0, 88.2, 68.5, m],
+    [88.4, 91.2, 70.2, PALS.mint],
+    [91.4, 94.0, 69.0, CERAMIC]
+  ];
+  for (const [by0, by1, bz1, bm] of books){
+    s += box(7.0, by0, 58, 13.0, by1, bz1, bm, toneI, .8);
+  }
+  // Bookend
+  s += box(7.2, 94.2, 58, 12.6, 95.2, 64, DARK, toneI, .7);
+
+  // Terracotta pot with Trailing Pothos Plant (x = 10.2, y = 106, z = 58..66)
+  s += cyl(10.2, 106, 58, 65.2, 3.6, M_TERRA, toneI, 1.0, 18);
+  s += cyl(10.2, 106, 64.8, 66.2, 3.9, M_TERRA, toneI, .9, 18);
+  // Crown leaves & cascading vine down to z = 47
+  const leaves = [
+    [[10.2,106,66.2],[8.5,103,70.5],[11.5,101,69.5]],
+    [[10.2,106,66.2],[12.5,108,71.2],[9.2,110,70.0]],
+    [[10.2,106,66.2],[13.5,104,68.8],[13.8,107,66.8]],
+    // Hanging vine leaves cascading over the front/left edge
+    [[12.8,108.5,64.0],[14.2,110.5,61.2],[11.6,111.5,60.5]],
+    [[12.6,110.2,59.5],[14.1,112.0,56.2],[11.4,112.8,55.8]],
+    [[12.2,111.0,54.8],[13.8,112.5,51.2],[11.2,113.0,50.8]],
+    [[11.8,111.5,49.8],[13.2,112.8,46.6],[10.8,112.5,46.2]]
+  ];
+  s += line([[10.8,107,66],[12.8,109.5,62],[12.5,111.2,56],[11.8,112,47]], .9);
+  for (const tri of leaves){
+    s += shape(tri, M_LEAF.l, .8);
+  }
+  return s;
+}
+
+function drawFairyLights(st){
+  // Fairy string lights draped along Back Wall (x=6.8, y=10..116, z=82..86) and Right Wall (x=10..106, y=6.8, z=82..86)
+  let s = '';
+  const lit = st.fairyGlow > .05;
+  // Back wall string
+  const bPts = [];
+  for (let y = 10; y <= 115; y += 3){
+    const sag = Math.sin(((y - 10) / 15) * Math.PI);
+    bPts.push([RM_WT + .7, y, 85.5 - 2.6 * Math.abs(sag)]);
+  }
+  s += line(bPts, .75);
+  for (let y = 16; y <= 112; y += 12){
+    const sag = Math.sin(((y - 10) / 15) * Math.PI);
+    const bz = 85.5 - 2.6 * Math.abs(sag) - .8;
+    const [X, Y] = P(RM_WT + .9, y, bz);
+    if (lit && st.dark) s += `<circle cx="${f(X)}" cy="${f(Y)}" r="${f(7.4*INK_K)}" fill="#ffcf5c" opacity="${f(.26*st.fairyGlow)}"/>`;
+    if (lit) s += `<circle cx="${f(X)}" cy="${f(Y)}" r="${f(4.6*INK_K)}" fill="#ffe078" opacity="${f((st.dark ? .55 : .42)*st.fairyGlow)}"/>`;
+    s += `<circle cx="${f(X)}" cy="${f(Y)}" r="${f(1.8*INK_K)}" fill="${lit ? '#fff6c2' : '#e6e1d4'}" stroke="${INK}" stroke-width="${f(.7*INK_K)}"/>`;
+  }
+
+  // Right wall string
+  const rPts = [];
+  for (let x = 10; x <= 106; x += 3){
+    const sag = Math.sin(((x - 10) / 16) * Math.PI);
+    rPts.push([x, RM_WT + .7, 85.5 - 2.6 * Math.abs(sag)]);
+  }
+  s += line(rPts, .75);
+  for (let x = 16; x <= 104; x += 14){
+    const sag = Math.sin(((x - 10) / 16) * Math.PI);
+    const bz = 85.5 - 2.6 * Math.abs(sag) - .8;
+    const [X, Y] = P(x, RM_WT + .9, bz);
+    if (lit && st.dark) s += `<circle cx="${f(X)}" cy="${f(Y)}" r="${f(7.4*INK_K)}" fill="#ffcf5c" opacity="${f(.26*st.fairyGlow)}"/>`;
+    if (lit) s += `<circle cx="${f(X)}" cy="${f(Y)}" r="${f(4.6*INK_K)}" fill="#ffe078" opacity="${f((st.dark ? .55 : .42)*st.fairyGlow)}"/>`;
+    s += `<circle cx="${f(X)}" cy="${f(Y)}" r="${f(1.8*INK_K)}" fill="${lit ? '#fff6c2' : '#e6e1d4'}" stroke="${INK}" stroke-width="${f(.7*INK_K)}"/>`;
+  }
+  return act('fairy', s);
+}
+
+/* ---------- 4. Vinyl Crate & Paper Lantern (x = 64..102, y = 6.2..20, z = 5..32) ---------- */
+function drawVinylCrate(st, m){
+  // Low wooden console against right wall
+  let s = box(64, 6.4, RM_FH, 102, 19.5, 20, M_CAB, toneI, 1.1);
+  // Upright vinyl LP sleeves standing on left side of crate (x = 66..84)
+  const sleeves = [
+    [66.5, 68.0, PALS.tomato],
+    [68.4, 69.9, PALS.cobalt],
+    [70.3, 71.8, PALS.mustard],
+    [72.2, 73.7, m],
+    [74.1, 75.6, PALS.mint],
+    [76.0, 77.5, CERAMIC]
+  ];
+  for (const [sx0, sx1, sm] of sleeves){
+    s += box(sx0, 8.0, 20, sx1, 18.0, 29.5, sm, toneI, .75);
+  }
+  // Warm Japanese Paper Lantern on right side of crate (x = 92, y = 13, z = 20..31)
+  const lx = 92, ly = 13;
+  s += cyl(lx, ly, 20, 21.5, 3.2, M_DARKW, toneI, .8, 16);
+  const lPal = (st.fairyOn || st.lampOn) ? { l:'#fff3bd', m:'#f5d77f', d:'#cfa84a' } : CERAMIC;
+  s += cyl(lx, ly, 21.5, 30.2, 4.4, lPal, toneI, 1.1, 20);
+  s += cyl(lx, ly, 30.2, 31.2, 2.8, M_DARKW, toneI, .8, 16);
+  return s;
+}
+
+/* ---------- 5. Study Desk Structure (Under-Desk z=5..30, Tabletop z=30..33) ---------- */
+const DESK_TOP = boardTop(15, 22, 56, 104, 33, 3);
+
+function drawDeskUnder(st){
+  const parts = [];
+  // Right 2-drawer cabinet (x = 16..54, y = 24..48, z = 5..30)
+  let cab = box(16, 24, RM_FH, 54, 48, 30, M_CAB, toneI, 1.1);
+  if (vis([1,0,0])){
+    // Lower drawer front face & brass handle
+    cab += shape(on(PX(54.1), rectUV(25.5, 7.0, 46.5, 17.5)), M_DESK.m, .9);
+    cab += box(54.1, 34, 11.8, 55.2, 38, 13.0, M_GOLD, toneI, .7);
+  }
+  parts.push({ box:[[16, 24, RM_FH], [54, 48, 30]], svg: cab });
+
+  // Top drawer (slides out along +x by 10 * st.drawer)
+  const dx = 10 * (st.drawer || 0);
+  let drw = box(53.2, 25.5, 18.2, 54.2 + dx, 46.5, 28.5, M_DESK, toneI, .95);
+  drw += box(54.2 + dx, 34, 22.8, 55.3 + dx, 38, 24.0, M_GOLD, toneI, .7);
+  if (dx > .5){
+    // Drawer box sides & hidden lo-fi cassette tape inside!
+    drw = box(54 - 2, 26, 18.5, 54 + dx, 46, 24.5, M_CAB, toneI, .8)
+        + box(54 + dx*.35, 29, 24.5, 54 + dx*.85, 36, 26.2, PALS.tomato, toneI, .7)
+        + box(54 + dx*.35, 38, 24.5, 54 + dx*.85, 44, 26.0, PALS.mint, toneI, .7)
+        + drw;
+  }
+  parts.push({ box:[[53.2, 25.5, 18.2], [55.5 + dx, 46.5, 28.5]], svg: act('drawer', drw) });
+
+  // Left back leg, left front leg, stretcher bar
+  parts.push({ box:[[16, 98.5, RM_FH], [19.8, 102.5, 30]], svg: box(16, 98.5, RM_FH, 19.8, 102.5, 30, M_CAB, toneI, 1.0) });
+  parts.push({ box:[[51, 98.5, RM_FH], [54.8, 102.5, 30]], svg: box(51, 98.5, RM_FH, 54.8, 102.5, 30, M_CAB, toneI, 1.0) });
+  parts.push({ box:[[19.8, 99.2, 10], [51, 101.8, 13]],   svg: box(19.8, 99.2, 10, 51, 101.8, 13, M_CAB, toneI, .85) });
+
+  return byDepth(parts);
+}
+
+function drawDeskTop(st, g){
+  // Tabletop slab from z = 30 to z = 33
+  const A = on(PZ(30), rrUV(15, 22, 56, 104, 3));
+  const B = DESK_TOP;
+  let s = loft(A, B, n => toneI(n, M_DESK)) + fill(pd(B), M_DESK.l) + ink(pd(B), 1.0) + hullInk([...A, ...B], 1.9);
+
+  // Desktop cast shadows (clipped to DESK_TOP)
+  const dShadows = [
+    // turntable
+    [[19,26,33],[41,48,38]],
+    // mug
+    [[46,35,33],[51,40,40]],
+    // lamp base & arm
+    [...on(PZ(33), ellUV(L_BX, L_BY, 7.2, 7.2, 16)), g.Sh, g.El, g.Wr, ...ringAx(g.at(L_SHD_LEN), g.dd, L_SHD_R1, 16)],
+    // headphones
+    [[40,86,33],[51,99,37]]
+  ];
+  s += clipTo(B, dShadows.map(pts => castShadow(pts.length === 2 ? [
+    [pts[0][0],pts[0][1],pts[0][2]], [pts[1][0],pts[0][1],pts[1][2]],
+    [pts[1][0],pts[1][1],pts[1][2]], [pts[0][0],pts[1][1],pts[1][2]]
+  ] : pts, 33)).join(''));
+
+  // Projected warm light pool from the desk lamp onto the desktop!
+  if (st.lampGlow > .01){
+    const outer = lampPoolPts(g, 33, 1.05), core = lampPoolPts(g, 33, .58);
+    if (outer){
+      s += clipTo(B,
+        fill(pd(outer), '#fff0a6', `opacity="${f(.62 * st.lampGlow)}"`) +
+        (core ? fill(pd(core), '#fffbe3', `opacity="${f(.55 * st.lampGlow)}"`) : '')
+      );
+    }
+  }
+  return s;
+}
+
+/* ---------- 6. Desktop Props (z >= 33, strictly disjoint XY boxes) ---------- */
+
+// 6A. Vinyl Turntable: x ∈ [18, 42], y ∈ [25, 49], z ∈ [33, 42]
+function drawTurntable(st, m){
+  let s = '';
+  // Plinth (x=19..41, y=26..48, z=33..36.5)
+  s += box(19, 26, 33, 41, 48, 36.5, M_DARKW, toneI, 1.1);
+  // Spinning Vinyl Platter & LP Record (center x=30, y=38.5, z=36.5..37.6, r=8.2)
+  const px = 30, py = 38.5, pz = 37.5, pr = 8.2;
+  s += cyl(px, py, 36.5, pz, pr, M_VINYL, toneI, 1.1, 28);
+  if (vis([0,0,1])){
+    // Rotating sheen streaks on the vinyl LP
+    const ang = dRad(st.spinAngle || 25);
+    const s1 = [px + pr*.85*Math.cos(ang), py + pr*.85*Math.sin(ang), pz + .04];
+    const s2 = [px - pr*.85*Math.cos(ang), py - pr*.85*Math.sin(ang), pz + .04];
+    s += `<path d="${pd([s1, s2], false)}" fill="none" stroke="#ffffff" stroke-width="1.4" opacity=".28"/>`;
+    // Groove ring
+    s += ink(pd(on(PZ(pz + .03), ellUV(px, py, pr * .68, pr * .68, 24))), .45);
+    // Center record label in current palette colour + spindle pin
+    const lbl = on(PZ(pz + .05), ellUV(px, py, 2.8, 2.8, 18));
+    s += fill(pd(lbl), m.l) + ink(pd(lbl), .6);
+  }
+  s += cyl(px, py, pz, pz + .9, .45, METAL, toneI, .6, 10);
+
+  // Start/Stop button & green/amber status LED at front-right of plinth
+  const led = on(PZ(36.55), ellUV(38.5, 28.5, .8, .8, 10));
+  s += fill(pd(led), st.playing ? '#43c25c' : '#8d877a') + ink(pd(led), .5);
+  // Pitch fader slot
+  s += line([[33, 28.2, 36.55], [39, 28.2, 36.55]], .9);
+
+  // Tonearm gimbal at (x=22.5, y=29.0, z=36.5..38.8) & pivoting arm
+  const gx = 22.5, gy = 29.0, gz = 38.4;
+  s += cyl(gx, gy, 36.5, gz, 1.8, METAL, toneI, .9, 16);
+  // Arm swings from rest (angle 0 along +x) inward over the record (angle +26 deg toward +y)
+  const armA = dRad(6 + 24 * (st.armPos || 0));
+  const tip = [gx + 13.5 * Math.cos(armA), gy + 13.5 * Math.sin(armA), gz - .5 * (st.armPos || 0)];
+  const back = [gx - 2.6 * Math.cos(armA), gy - 2.6 * Math.sin(armA), gz];
+  s += cylAx(back, [gx, gy, gz], 1.1, DARK, toneI, .8, 12); // counterweight
+  s += rod([gx, gy, gz], tip, .45, METAL, rodTone, .85);
+  s += box(tip[0] - .9, tip[1] - .9, tip[2] - .4, tip[0] + .9, tip[1] + .9, tip[2] + .5, DARK, toneI, .75);
+
+  // Floating inked musical notes when playing! (Pure SVG geometry, no unicode font symbols)
+  if (st.playing){
+    const bob = Math.sin((st.spinAngle || 0) * Math.PI / 90) * 1.2;
+    for (const [nx, ny, nz] of [[28, 36, 42 + bob], [33, 41, 44.5 - bob * .7]]){
+      const [X, Y] = P(nx, ny, nz), k = INK_K;
+      s += `<ellipse cx="${f(X)}" cy="${f(Y)}" rx="${f(2.1*k)}" ry="${f(1.5*k)}" fill="${m.l}" stroke="${INK}" stroke-width="${f(1.0*k)}"/>`
+         + `<path d="M${f(X + 1.8*k)} ${f(Y)}V${f(Y - 6.2*k)}L${f(X + 4.8*k)} ${f(Y - 4.6*k)}" fill="none" stroke="${INK}" stroke-width="${f(1.1*k)}" stroke-linecap="round" stroke-linejoin="round"/>`;
+    }
+  }
+  return act('turntable', s);
+}
+
+// 6B. Steaming Ceramic Coffee Mug on Cork Coaster: x ∈ [45, 53], y ∈ [34, 42], z ∈ [33, 44]
+function drawCoffeeMug(st, m){
+  const mx = 48.5, my = 38.0;
+  // Cork coaster
+  let s = cyl(mx, my, 33, 33.5, 3.4, M_TRIM, toneI, .8, 18);
+  // Mug body
+  s += cyl(mx, my, 33.5, 39.2, 2.6, CERAMIC, toneI, 1.1, 20);
+  // Dark coffee fill on top
+  const cTop = on(PZ(39.22), ellUV(mx, my, 2.15, 2.15, 18));
+  s += fill(pd(cTop), '#4a2c18') + ink(pd(cTop), .6);
+  // Mug handle on +y side
+  const hPts = [[mx, my + 2.5, 38.2], [mx, my + 4.1, 37.8], [mx, my + 4.1, 35.0], [mx, my + 2.5, 34.6]];
+  const hd = pd(hPts, false);
+  s += `<path d="${hd}" fill="none" stroke="${INK}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>`;
+  s += `<path d="${hd}" fill="none" stroke="${CERAMIC.l}" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>`;
+  // Rising curly steam wisps
+  const sp = st.steamPhase || 0;
+  for (const [dx, dy, dz] of [[-.7, -.5, 0], [.8, .6, 1.2]]){
+    const w = Math.sin(sp + dz) * .6;
+    const wPts = [
+      [mx + dx, my + dy, 40.0],
+      [mx + dx + w, my + dy - w, 41.8],
+      [mx + dx - w, my + dy + w, 43.6]
+    ];
+    s += `<path d="${pd(wPts, false)}" fill="none" stroke="#857d6e" stroke-width=".85" stroke-linecap="round" opacity=".75"/>`;
+  }
+  return act('mug', s);
+}
+
+// 6C. Open Study Notebook & Brass Fountain Pen: x ∈ [28, 51], y ∈ [53, 81], z ∈ [33, 36.5]
+function drawNotebookAndPen(st, m){
+  // Cover & open two-page spread lying flat on desk
+  let s = box(31, 55, 33, 47, 77, 33.6, M_DARKW, toneI, .9);
+  // Left & right cream pages
+  s += box(31.5, 66.1, 33.6, 46.5, 76.4, 34.2, CERAMIC, toneI, .8);
+  s += box(31.5, 55.6, 33.6, 46.5, 65.9, 34.2, CERAMIC, toneI, .8);
+
+  if (vis([0,0,1])){
+    // Ruled blue lines & red margin on pages
+    let rules = '';
+    for (let x = 34; x <= 44; x += 2.2){
+      rules += pd([[x, 67.2, 34.25], [x, 75.2, 34.25]], false);
+      rules += pd([[x, 56.8, 34.25], [x, 64.8, 34.25]], false);
+    }
+    s += `<path d="${rules}" fill="none" stroke="#9fb6d6" stroke-width=".55"/>`;
+    // Red margin line & ribbon bookmark
+    s += `<path d="${pd([[33.2, 67.2, 34.26], [33.2, 75.2, 34.26]], false)}" fill="none" stroke="#e2706a" stroke-width=".65"/>`;
+    s += `<path d="${pd([[46.5, 66.0, 34.0], [49.2, 65.2, 33.1]], false)}" fill="none" stroke="#e2483d" stroke-width="1.3" stroke-linecap="round"/>`;
+
+    // Mini sketched diagram on right page (changes with st.pageIdx)
+    const skPatch = on(PZ(34.28), rectUV(35, 58, 41, 63.5));
+    s += fill(pd(skPatch), st.pageIdx % 2 ? m.l : '#f4b829', 'opacity=".55"') + ink(pd(skPatch), .55);
+  }
+
+  // Animated flipping page leaf when st.pageFlip > 0
+  if (st.pageFlip > .02 && st.pageFlip < .98){
+    const a = st.pageFlip * Math.PI;
+    const py = 66 - 9.8 * Math.cos(a), pz = 34.3 + 4.5 * Math.sin(a);
+    const leaf = [[31.6, 66, 34.25], [46.4, 66, 34.25], [46.4, py, pz], [31.6, py, pz]];
+    s += shape(leaf, '#fbf8ee', .85);
+  }
+
+  // Brass fountain pen resting next to notebook (y = 78.8)
+  s += rod([33, 79.0, 33.6], [44.5, 78.2, 33.6], .55, M_GOLD, toneI, .8);
+  s += rod([44.5, 78.2, 33.6], [46.2, 78.0, 33.6], .5, DARK, toneI, .7, .1);
+  return act('notebook', s);
+}
+
+// 6D. Articulated Balanced-Arm Desk Lamp: x ∈ [16, 35], y ∈ [84, 102], z ∈ [33, 74]
+function drawDeskLamp(st, m, g){
+  let s = '';
+  const zt = L_BZ + L_BASE_H;
+  // Weighted circular base
+  const bA = on(PZ(L_BZ), ellUV(L_BX, L_BY, 6.8, 6.8, 28));
+  const bB = on(PZ(zt),   ellUV(L_BX, L_BY, 5.9, 5.9, 28));
+  s += loft(bA, bB, n => tone(n, m)) + fill(pd(bB), m.l) + ink(pd(bB), 1.0) + hullInk([...bA, ...bB], 2.0);
+
+  // Push switch & green pilot LED on base top
+  const pz = st.pressT > 0 ? .4 : 1.3;
+  s += act('lampSwitch', cyl(L_BX + 3.4, L_BY - 1.8, zt, zt + pz, 1.4, DARK, toneI, .9, 14));
+  const led = on(PZ(zt + .05), ellUV(L_BX + 2.2, L_BY - 3.6, .7, .7, 10));
+  s += fill(pd(led), st.lampOn ? '#43c25c' : '#8d877a') + ink(pd(led), .5);
+
+  // Post, lower arm, shoulder hub, balance spring
+  s += cyl(L_BX, L_BY, zt, zt + 1.2, 2.4, METAL, toneI, .9, 16);
+  s += cylAx(lQ(0, zt + 1.2), g.Sh, 1.2, METAL, rodTone, .95, 12);
+  s += cylAx(g.Sh, g.El, 1.1, METAL, rodTone, .95, 12);
+  s += cylAx(dAdd(g.Sh, dScl(L_NRM, -2.0)), dAdd(g.Sh, dScl(L_NRM, 2.0)), 1.9, DARK, tone, .95, 14);
+
+  // Helical balance spring along lower arm
+  const ax = norm(sub(g.El, g.Sh)), side = dScl(L_NRM, 2.6);
+  const spA = dAdd(dAdd(g.Sh, dScl(norm(cross(L_NRM, ax)), 2.8)), side);
+  const spB = dAdd(dAdd(g.Sh, dScl(ax, L_ARM1 * .55)), side);
+  s += ink(pd([spA, spB], false), 1.3) + `<path d="${pd([spA, spB], false)}" fill="none" stroke="${METAL.l}" stroke-width=".65" stroke-dasharray="1.2 1.0"/>`;
+
+  // Upper arm & elbow hub
+  s += cylAx(g.El, g.Wr, 1.0, METAL, rodTone, .95, 12);
+  s += cylAx(dAdd(g.El, dScl(L_NRM, -1.9)), dAdd(g.El, dScl(L_NRM, 1.9)), 1.8, DARK, tone, .95, 14);
+
+  // Volumetric light beam cone from shade mouth down to the desk
+  if (st.lampGlow > .01){
+    const pool = lampPoolPts(g, 33, .95);
+    if (pool){
+      const rim = ringAx(g.at(L_SHD_LEN), g.dd, L_SHD_R1 * .9, 24);
+      s += fill(sp(hull([...rim, ...pool].map(p => P(...p)))), '#ffe898', `opacity="${f(.25 * st.lampGlow)}" pointer-events="none"`);
+    }
+  }
+
+  // Lamp head: LED bulb + conical shade + back cap
+  let h = '';
+  const bc = P(...g.at(L_BULB_T)), br = 2.9 * 1.2247;
+  const mouthIn = vis(g.dd);
+  const bulb = () => (st.lampGlow > .01 ? `<circle cx="${f(bc[0])}" cy="${f(bc[1])}" r="${f(br*1.85)}" fill="#ffe58a" opacity="${f(.55*st.lampGlow)}"/>` : '')
+    + `<circle cx="${f(bc[0])}" cy="${f(bc[1])}" r="${f(br)}" fill="${st.lampGlow > .5 ? '#fff7cf' : '#eef0ea'}" stroke="${INK}" stroke-width=".9"/>`;
+  const r0 = ringAx(g.at(1.0), g.dd, L_SHD_R0, 24), r1 = ringAx(g.at(L_SHD_LEN), g.dd, L_SHD_R1, 24);
+  const cone = loft(r0, r1, n => tone(n, m)) + hullInk([...r0, ...r1], 1.9);
+  const capC = cylAx(g.at(-1.6), g.at(1.0), L_SHD_R0, m, tone, 1.2, 18);
+  if (!mouthIn) h += bulb() + cone + capC;
+  else h += capC + cone + fill(pd(r1), st.lampGlow > .5 ? '#fff4c4' : '#f4efe0') + clipTo(r1, bulb()) + ink(pd(r1), 1.3);
+  s += act('lampShade', h);
+  s += cylAx(dAdd(g.Wr, dScl(L_NRM, -2.6)), dAdd(g.Wr, dScl(L_NRM, 2.6)), 1.5, DARK, tone, .9, 14);
+  return s;
+}
+
+// 6E. Over-Ear Wireless Headphones: x ∈ [38, 53], y ∈ [84, 101], z ∈ [33, 40]
+function drawHeadphones(st, m){
+  // Left & right earcups lying on desk at (44, 88) and (45, 96.5)
+  let s = '';
+  // Soft desk mat under headphones
+  const mat = on(PZ(33.05), rrUV(39, 85, 52, 100, 2.5));
+  s += fill(pd(mat), '#cfc8b8') + ink(pd(mat), .65);
+
+  // Headband arc curving from (44, 88, 35) back to (39.5, 92.2, 36.2) to (45, 96.5, 35)
+  const hbPts = [
+    [44.5, 88.2, 34.8], [41.2, 88.8, 35.6], [39.6, 92.2, 36.2],
+    [41.5, 95.8, 35.6], [45.0, 96.2, 34.8]
+  ];
+  const hbd = pd(hbPts, false);
+  s += `<path d="${hbd}" fill="none" stroke="${INK}" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>`;
+  s += `<path d="${hbd}" fill="none" stroke="${DARK.l}" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>`;
+
+  // Earcups (cushions + outer shells in palette m)
+  for (const [ex, ey] of [[44.8, 88.2], [45.2, 96.2]]){
+    s += cyl(ex, ey, 33.1, 34.6, 2.7, DARK, toneI, .9, 18);
+    s += cyl(ex, ey, 34.6, 36.2, 2.5, m, toneI, 1.0, 18);
+  }
+  // Tiny pulsing status LED on right earcup when music plays
+  const hLed = P(46.8, 96.2, 35.6);
+  s += `<circle cx="${f(hLed[0])}" cy="${f(hLed[1])}" r="${f(1.2*INK_K)}" fill="${st.playing ? '#43c25c' : '#8d877a'}" stroke="${INK}" stroke-width="${f(.5*INK_K)}"/>`;
+  return act('headphones', s);
+}
+
+/* ---------- 7. Floor Furniture (Swivel Study Chair & Monstera Floor Plant) ---------- */
+
+// 7A. Swivel Study Chair: x ∈ [62, 86], y ∈ [56, 80], z ∈ [5, 54]
+function drawStudyChair(st, m){
+  const cx = 74, cy = 68;
+  const yaw = dRad(st.chairYaw || -18);
+  const rotC = (dx, dy, z) => [cx + dx*Math.cos(yaw) - dy*Math.sin(yaw), cy + dx*Math.sin(yaw) + dy*Math.cos(yaw), z];
+
+  let s = '';
+  // 5-star caster base + wheels on rug (z = 5.5..8.5)
+  for (let i = 0; i < 5; i++){
+    const a = yaw + i * 2 * Math.PI / 5;
+    const wx = cx + 8.5 * Math.cos(a), wy = cy + 8.5 * Math.sin(a);
+    s += cyl(wx, wy, RM_FH + .4, RM_FH + 2.4, 1.3, DARK, toneI, .75, 10);
+    s += rod([cx, cy, RM_FH + 3.2], [wx, wy, RM_FH + 2.2], .85, DARK, rodTone, .85);
+  }
+  // Pneumatic center column (z = 8..21)
+  s += cyl(cx, cy, RM_FH + 2.8, 21, 1.6, DARK, toneI, .95, 14);
+
+  // Seat cushion (z = 21..25)
+  s += cyl(cx, cy, 21, 25, 8.2, m, tone, 1.3, 24);
+
+  // Armrests on left & right of seat
+  for (const sg of [-1, 1]){
+    const a0 = rotC(0, sg * 7.8, 23.5), a1 = rotC(0, sg * 8.4, 30.5), a2 = rotC(-3.5, sg * 8.4, 30.5);
+    s += rod(a0, a1, .8, DARK, rodTone, .85) + rod(a1, a2, 1.0, DARK, rodTone, .9);
+  }
+
+  // Spine bar & curved backrest (at back of chair: +dx in local frame, so chair faces desk at -x)
+  const sp0 = rotC(6.8, 0, 23), sp1 = rotC(8.2, 0, 38);
+  s += rod(sp0, sp1, 1.2, DARK, rodTone, 1.0);
+
+  // Backrest cushion (boxy rounded pillow rotated by yaw, z = 31..49)
+  const bkCorners = [[-1.8,-7.2],[1.8,-7.2],[1.8,7.2],[-1.8,7.2]].map(([dx,dy]) => rotC(7.4 + dx, dy, 0));
+  const bA = bkCorners.map(([x,y]) => [x, y, 31]), bB = bkCorners.map(([x,y]) => [x, y, 48]);
+  s += loft(bA, bB, n => tone(n, m)) + fill(pd(bB), m.l) + ink(pd(bB), 1.0) + hullInk([...bA, ...bB], 1.6);
+
+  return act('chair', s);
+}
+
+// 7B. Monstera Floor Plant in Ceramic Planter: x ∈ [60, 82], y ∈ [92, 114], z ∈ [5, 44]
+function drawFloorPlant(){
+  const px = 70, py = 102;
+  // Wooden stand legs + ceramic planter pot (z = 5..21)
+  let s = cyl(px, py, RM_FH, 9, 4.8, M_TRIM, toneI, .9, 16);
+  s += cyl(px, py, 8.5, 21, 6.2, CERAMIC, toneI, 1.3, 22);
+  // Dark soil top
+  const soil = on(PZ(21.05), ellUV(px, py, 5.4, 5.4, 18));
+  s += fill(pd(soil), '#3d2b1f') + ink(pd(soil), .6);
+
+  // 6 Monstera stems & broad tropical leaves fanning out (z = 21..42)
+  const fronds = [
+    [[px, py, 21], [px - 6, py - 5, 34], [px - 9, py - 2, 37], [px - 4, py - 9, 36], M_LEAF],
+    [[px, py, 21], [px + 6, py - 4, 36], [px + 9, py - 1, 39], [px + 4, py - 8, 38], M_LEAF2],
+    [[px, py, 21], [px + 5, py + 5, 33], [px + 8, py + 3, 36], [px + 3, py + 9, 35], M_LEAF],
+    [[px, py, 21], [px - 5, py + 6, 38], [px - 8, py + 3, 41], [px - 2, py + 9, 40], M_LEAF2],
+    [[px, py, 21], [px,     py - 2, 40], [px - 3, py - 5, 43], [px + 3, py - 5, 43], M_LEAF2]
+  ];
+  for (const [st0, b0, l0, r0, lm] of fronds){
+    s += line([st0, b0], 1.1);
+    const tip = [(l0[0]+r0[0])/2 + (b0[0]-st0[0])*.35, (l0[1]+r0[1])/2 + (b0[1]-st0[1])*.35, Math.max(l0[2],r0[2]) - 1.2];
+    s += shape([b0, l0, tip, r0], lm.l, .9);
+    s += line([b0, tip], .55);
+  }
+  return s;
+}
+
+/* ---------- 8. See-Through Mode: Real Room Wiring & Mechanisms (35+ 3D parts) ---------- */
+function roomMech(st, g){
+  const parts = [], put = (b, svg) => parts.push({ box: b, svg });
+  const bx = (x0, y0, z0, x1, y1, z1, M, w = .75) => put([[x0, y0, z0], [x1, y1, z1]], box(x0, y0, z0, x1, y1, z1, M, toneI, w));
+  const vc = (x, y, z0, z1, r, M, w = .8, n = 16) => put([[x - r, y - r, z0], [x + r, y + r, z1]], cyl(x, y, z0, z1, r, M, toneI, w, n));
+  const wire = (pts, col, w = .45) => {
+    const d = pd(pts, false);
+    const b = [[0,1,2].map(i => Math.min(...pts.map(p => p[i])) - .8), [0,1,2].map(i => Math.max(...pts.map(p => p[i])) + .8)];
+    put(b, `<path d="${d}" fill="none" stroke="${INK}" stroke-width="${f(2*w + 1.0)}" stroke-linecap="round" stroke-linejoin="round"/><path d="${d}" fill="none" stroke="${col}" stroke-width="${f(2*w)}" stroke-linecap="round" stroke-linejoin="round"/>`);
+  };
+
+  const pwrOn = st.lampOn || st.fairyOn || st.playing;
+  const liveCol = pwrOn ? '#ff8a3a' : '#8a5a3c';
+
+  // 1. Timber wall studs inside Back Wall & Right Wall
+  for (const y of [12, 74, 96, 116]) bx(1.5, y - 1.2, RM_FH, 4.5, y + 1.2, RM_H - 1, M_TRIM, .65);
+  for (const x of [20, 56, 88, 108]) bx(x - 1.2, 1.5, RM_FH, x + 1.2, 4.5, RM_H - 1, M_TRIM, .65);
+
+  // 2. Main Wall Junction Box & Dimmer Relay (x=1.5..5.2, y=86..94, z=42..52)
+  bx(1.5, 86, 42, 5.2, 94, 52, M_IRON, .85);
+  bx(2.2, 87.2, 43.5, 5.4, 92.8, 50.5, M_PCB, .7);
+
+  // 3. Fairy Lights Step-Down 12V Transformer (x=1.8..5.4, y=102..110, z=76..83)
+  bx(1.8, 102, 76, 5.4, 110, 83, st.fairyOn ? M_GOLD : M_IRON, .85);
+  wire([[3.5, 90, 52], [3.5, 90, 79], [3.5, 102, 79]], st.fairyOn ? '#ffcf56' : '#55504a', .45);
+
+  // 4. Wall Duplex Outlet behind Desk (x=2.2..6.2, y=64..70, z=12..18)
+  bx(2.2, 64, 12, 6.2, 70, 18, M_IRON, .8);
+  wire([[3.5, 90, 42], [3.5, 90, 15], [3.5, 70, 15]], liveCol, .5);
+
+  // 5. Under-Desk Surge Protector Power Strip & Busbars (x=18..24, y=58..82, z=5.2..8.5)
+  bx(18, 58, RM_FH + .2, 24, 82, RM_FH + 3.4, CERAMIC, .9);
+  bx(19.2, 60, RM_FH + 3.4, 22.8, 80, RM_FH + 3.9, M_COPPER, .65);
+  wire([[6.2, 67, 15], [12, 67, 15], [12, 67, 6.8], [18, 67, 6.8]], liveCol, .55);
+
+  // 6. Cords from Surge Strip up to Desk Lamp & Turntable
+  wire([[21, 79, 8.5], [21, 94, 8.5], [21, 94, 33]], st.lampOn ? '#ff9a3a' : '#4a4339', .45);
+  wire([[21, 61, 8.5], [21, 38, 8.5], [21, 38, 33]], st.playing ? '#43c25c' : '#4a4339', .45);
+
+  // 7. Desk Lamp Internal Mechanism: Counterweight, Switch PCB, Internal Arm Wire, Socket & LED Emitter
+  vc(L_BX, L_BY, L_BZ + .3, L_BZ + 1.6, 5.2, M_IRON, .85, 20);
+  bx(L_BX + .8, L_BY - 3.8, L_BZ + 1.6, L_BX + 4.4, L_BY + 1.2, L_BZ + 2.4, M_PCB, .7);
+  wire([
+    [L_BX, L_BY, L_BZ + 2.2], g.Sh, g.El, g.Wr, g.at(2.0)
+  ], st.lampOn ? '#ffb347' : '#4a4339', .4);
+  const ledPos = g.at(L_BULB_T);
+  vc(ledPos[0], ledPos[1], ledPos[2] - 1.2, ledPos[2] + 1.2, 2.1, st.lampOn ? M_GOLD : METAL, .8, 14);
+
+  // 8. Vinyl Turntable Internal Mechanism: DC Motor, Brass Pulley, Rubber Drive Belt, Platter Hub, Phono Preamp PCB
+  vc(23.5, 43.5, 33.4, 36.2, 2.2, M_IRON, .85, 16);     // DC brushless motor
+  vc(23.5, 43.5, 36.2, 37.0, .8,  M_GOLD, .7, 12);      // Motor brass pulley
+  vc(30.0, 38.5, 33.4, 36.8, 3.8, METAL, .85, 20);      // Platter sub-hub & spindle bearing
+  // Drive belt loop between motor pulley and platter sub-hub
+  wire([[23.5, 44.3, 36.4], [30.0, 42.2, 36.4], [33.5, 38.5, 36.4], [29.2, 34.8, 36.4], [22.8, 42.9, 36.4], [23.5, 44.3, 36.4]], '#272421', .35);
+  // Phono preamp PCB & tonearm pickup lead
+  bx(33.5, 28.0, 33.6, 39.5, 35.5, 34.8, M_PCB, .75);
+  wire([[22.5, 29.0, 36.5], [27.0, 29.5, 34.5], [33.5, 31.0, 34.5]], st.playing ? '#43c25c' : '#65645f', .35);
+
+  // 9. Steel Ball-Bearing Drawer Slides inside Desk Cabinet
+  const dx = 10 * (st.drawer || 0);
+  bx(18, 24.6, 22.0, 53 + dx, 25.4, 23.4, METAL, .7);
+  bx(18, 46.6, 22.0, 53 + dx, 47.4, 23.4, METAL, .7);
+
+  // 10. Swivel Chair Pneumatic Gas-Lift Cylinder & Coil Spring
+  vc(74, 68, RM_FH + 2.5, 21.5, 1.2, M_IRON, .85, 14);
+  vc(74, 68, 15.0, 20.5, 2.1, M_GOLD, .75, 14);
+
+  return byDepth(parts);
+}
+
+/* ---------- 9. Complete Scene Assembly (sorted back-to-front from every angle) ---------- */
+function scene(st, m){
+  syncThemeMaterials(st);
+  const g = lampGeo(st.ang);
+
+  // Floor slab is always at the bottom (z = 0..5, camera pitch > 0)
+  const floorSvg = drawFloor(st, m, g);
+
+  // All 3D blocks above z = 5 with non-overlapping bounding boxes
+  const blocks = [
+    { box:[[0, 0, RM_FH], [RM_WT, RM_WT, RM_H]],           svg: drawCornerPillar(m) },
+    { box:[[0, RM_WT, RM_FH], [RM_WT, RM_D, RM_H]],        svg: drawBackWall(st, m) },
+    { box:[[RM_WT, 0, RM_FH], [RM_W, RM_WT, RM_H]],        svg: drawRightWall(st, m) },
+    { box:[[RM_WT, 14, 33.2], [14.2, 74, 46]],             svg: drawWindowSillAndCat(st) },
+    { box:[[RM_WT, 78, 46],   [14.2, 114, 76]],            svg: drawWallShelfAndPlant(m) },
+    { box:[[RM_WT, RM_WT, 81],[RM_W, RM_D, 87]],           svg: drawFairyLights(st) },
+    { box:[[64, 6.2, RM_FH],  [102, 20, 32]],              svg: drawVinylCrate(st, m) },
+    { box:[[15, 22, RM_FH],   [55.5 + 10*(st.drawer||0), 104, 30]], svg: drawDeskUnder(st) },
+    { box:[[15, 22, 30],      [56, 104, 33]],              svg: drawDeskTop(st, g) },
+    { box:[[18, 25, 33],      [42, 49, 45]],               svg: drawTurntable(st, m) },
+    { box:[[45, 34, 33],      [53, 42, 44]],               svg: drawCoffeeMug(st, m) },
+    { box:[[28, 53, 33],      [51, 81, 39]],               svg: drawNotebookAndPen(st, m) },
+    { box:[[16, 84, 33],      [35, 102, 74]],              svg: drawDeskLamp(st, m, g) },
+    { box:[[38, 84, 33],      [53, 101, 40]],              svg: drawHeadphones(st, m) },
+    { box:[[62, 56, RM_FH],   [86, 80, 52]],               svg: drawStudyChair(st, m) },
+    { box:[[60, 92, RM_FH],   [82, 114, 44]],              svg: drawFloorPlant() }
+  ];
+
+  const roomSvg = floorSvg + byDepth(blocks);
+  const kx = ease(st.xr || 0);
+  if (kx > 0){
+    return `<g opacity="${f(1 - .64 * kx)}">${roomSvg}</g><g opacity="${f(kx)}">${roomMech(st, g)}</g>`;
+  }
+  return roomSvg;
+}
+
+/* ---------- 10. Labels (See-through callouts + Surface callouts) ---------- */
+const XR_OPTS = {
+  getSt: () => { try { return ui.st; } catch (e) { return {}; } },
+  B: [0, RM_W, 0, RM_D, 0, RM_H],
+  inline: true,
+  mech: () => '',
+  inside: st => {
+    const g = lampGeo(st.ang || LAMP_POSES.read.a);
+    const pwr = st.lampOn || st.fairyOn || st.playing;
+    return [
+      { at:[3.5, 90, 47],      text:'DIMMER RELAY',      on: pwr },
+      { at:[3.5, 106, 80],     text:'12V TRANSFORMER',   on: !!st.fairyOn },
+      { at:[4.2, 67, 15],      text:'WALL OUTLET',       on: pwr },
+      { at:[21, 70, 7],        text:'SURGE STRIP',       on: pwr },
+      { at:[L_BX + 2, L_BY, L_BZ + 2], text:'LAMP SWITCH PCB', on: !!st.lampOn },
+      { at:g.El,               text:'FRICTION JOINT',    on: !!st.moving },
+      { at:g.at(L_BULB_T),     text:'LED EMITTER',       on: !!st.lampOn },
+      { at:[23.5, 43.5, 35],   text:'BELT-DRIVE MOTOR',  on: !!st.playing },
+      { at:[36.5, 31.5, 34.5], text:'PHONO PREAMP',      on: !!st.playing },
+      { at:[42, 25, 22.8],     text:'DRAWER SLIDES',     on: (st.drawer || 0) > .1 },
+      { at:[74, 68, 15],       text:'GAS LIFT COLUMN',   on: !!st.chairAnim }
+    ];
+  },
+  surface: st => {
+    const g = lampGeo(st.ang || LAMP_POSES.read.a);
+    return [
+      { at:[3, 44, 62],        text:'NIGHT WINDOW',      on: !!st.rain },
+      { at:[10.2, 46, 40],     text:'SLEEPING CAT',      on: st.catAwake > 0 || !!st.playing },
+      { at:[7, 96, 84],        text:'FAIRY LIGHTS',      on: !!st.fairyOn },
+      { at:[10.2, 106, 65],    text:'POTHOS PLANT',      on: false },
+      { at:g.at(L_SHD_LEN),    text:'DESK LAMP',         on: !!st.lampOn },
+      { at:[30, 38.5, 38],     text:'VINYL TURNTABLE',   on: !!st.playing },
+      { at:[39, 66, 34.5],     text:'STUDY NOTEBOOK',    on: (st.pageFlip || 0) > .02 },
+      { at:[45, 92, 36],       text:'HEADPHONES',        on: !!st.playing },
+      { at:[48.5, 38, 39],     text:'HOT COFFEE MUG',    on: true },
+      { at:[74, 68, 38],       text:'SWIVEL CHAIR',      on: false }
+    ];
+  }
+};
+
+const XR_CAPTION = st => {
+  if (st.playing) return 'Turntable on: the brushless DC motor drives the platter sub-hub via a rubber belt at 33 RPM, while the cartridge signal runs through the tonearm leads to the phono preamp.';
+  if (st.lampOn) return 'Lamp on: mains from the wall outlet feeds the under-desk surge strip; the base PCB switch closes the circuit up the hollow arm tubes and joint bolts to the warm LED emitter.';
+  return 'Inside: timber wall studs carry Romex conduit from the dimmer relay to the wall outlet, 12V fairy-light transformer, under-desk surge strip, lamp PCB, and belt-drive turntable.';
+};
+
+/* ---------- 11. Interactive Animations & Actions ---------- */
+let ui, ambLoop = false;
+
+function ensureLoop(){
+  if (ambLoop || !ui) return;
+  ambLoop = true;
+  ui.animate(dt => {
+    const st = ui.st;
+    let active = false;
+
+    // 1. Lamp switch & warm glow fade
+    if (st.pressT > 0){ st.pressT = Math.max(0, st.pressT - dt); active = true; }
+    const lGoal = st.lampOn ? 1 : 0;
+    if (Math.abs(st.lampGlow - lGoal) > 1e-3){
+      st.lampGlow += Math.sign(lGoal - st.lampGlow) * Math.min(Math.abs(lGoal - st.lampGlow), dt / .32);
+      active = true;
+    }
+
+    // 2. Fairy lights glow fade
+    const fGoal = st.fairyOn ? 1 : 0;
+    if (Math.abs(st.fairyGlow - fGoal) > 1e-3){
+      st.fairyGlow += Math.sign(fGoal - st.fairyGlow) * Math.min(Math.abs(fGoal - st.fairyGlow), dt / .35);
+      active = true;
+    }
+
+    // 3. Lamp arm pose interpolation
+    if (st.moving){
+      st.poseK = Math.min(1, st.poseK + dt / .85);
+      const e = ease(st.poseK);
+      st.ang = st.fromAng.map((a, i) => a + (st.toAng[i] - a) * e);
+      if (st.poseK >= 1) st.moving = false;
+      else active = true;
+    }
+
+    // 4. Turntable tonearm & vinyl spin
+    const aGoal = st.playing ? 1 : 0;
+    if (Math.abs(st.armPos - aGoal) > 1e-3){
+      st.armPos += Math.sign(aGoal - st.armPos) * Math.min(Math.abs(aGoal - st.armPos), dt / .55);
+      active = true;
+    }
+    if (st.playing && st.spinTimer > 0){
+      st.spinTimer = Math.max(0, st.spinTimer - dt);
+      st.spinAngle = ((st.spinAngle || 0) + dt * 160) % 360;
+      st.tailPhase = (st.tailPhase || 0) + dt * 4.2;
+      st.steamPhase = (st.steamPhase || 0) + dt * 3.0;
+      active = true;
+    }
+
+    // 5. Window rain animation burst
+    if (st.rain && st.rainTimer > 0){
+      st.rainTimer = Math.max(0, st.rainTimer - dt);
+      st.rainPhase = ((st.rainPhase || 0) + dt * 2.4) % 10;
+      active = true;
+    }
+
+    // 6. Notebook page flip
+    if (st.pageFlip > 0){
+      st.pageFlip = Math.min(1, st.pageFlip + dt / .65);
+      if (st.pageFlip >= 1){ st.pageFlip = 0; st.pageIdx = (st.pageIdx + 1) % 3; }
+      else active = true;
+    }
+
+    // 7. Desk drawer slide
+    const dGoal = st.drawerOpen ? 1 : 0;
+    if (Math.abs(st.drawer - dGoal) > 1e-3){
+      st.drawer += Math.sign(dGoal - st.drawer) * Math.min(Math.abs(dGoal - st.drawer), dt / .5);
+      active = true;
+    }
+
+    // 8. Cat purr/wake reaction
+    if (st.catAwake > 0){
+      st.catAwake = Math.max(0, st.catAwake - dt);
+      st.tailPhase = (st.tailPhase || 0) + dt * 6.5;
+      active = true;
+    }
+
+    // 9. Chair swivel
+    if (st.chairAnim){
+      st.chairK = Math.min(1, st.chairK + dt / .6);
+      st.chairYaw = st.chairFrom + (st.chairTo - st.chairFrom) * ease(st.chairK);
+      if (st.chairK >= 1) st.chairAnim = false;
+      else active = true;
+    }
+
+    if (!active) ambLoop = false;
+    return active;
+  });
+}
+
+function toggleLamp(st, ui){
+  st.lampOn = !st.lampOn;
+  st.pressT = .18;
+  ui.flash(st.lampOn ? 'Desk lamp switched on - warm study pool lit' : 'Desk lamp switched off - moonlight mode');
+  ensureLoop();
+}
+
+function setLampPose(poseKey){
+  return (st, ui) => {
+    st.pose = poseKey;
+    st.fromAng = st.ang.slice();
+    st.toAng = LAMP_POSES[poseKey].a.slice();
+    st.poseK = 0;
+    st.moving = true;
+    ui.flash(`Lamp arm posed to ${LAMP_POSES[poseKey].label.toLowerCase()}`);
+    ensureLoop();
+  };
+}
+
+function toggleTurntable(st, ui){
+  st.playing = !st.playing;
+  if (st.playing){
+    st.spinTimer = 4.0;
+    ui.flash('Playing lo-fi vinyl beats (33 RPM)');
+  } else {
+    st.spinTimer = 0;
+    ui.flash('Turntable paused - tonearm parked');
+  }
+  ensureLoop();
+}
+
+function setAmbiance(mode){
+  return (st, ui) => {
+    if (mode === 'fairy'){
+      st.fairyOn = !st.fairyOn;
+      ui.flash(st.fairyOn ? 'Fairy string lights switched on' : 'Fairy string lights switched off');
+    } else if (mode === 'rain'){
+      st.rain = !st.rain;
+      if (st.rain) st.rainTimer = 3.5;
+      ui.flash(st.rain ? 'Midnight rain pattering on the window' : 'Skies cleared outside the window');
+    } else if (mode === 'cozy'){
+      st.lampOn = true; st.fairyOn = true; st.rain = true; st.rainTimer = 3.5;
+      ui.flash('Full cozy lo-fi night mode active');
+    } else if (mode === 'quiet'){
+      st.lampOn = false; st.fairyOn = false; st.rain = false; st.playing = false;
+      ui.flash('Quiet midnight room - moonlight only');
+    }
+    ensureLoop();
+  };
+}
+
+function flipNotebookOrDrawer(st, ui){
+  st.pageFlip = .03;
+  st.drawerOpen = !st.drawerOpen;
+  ui.flash(st.drawerOpen ? 'Notebook page turned / desk drawer opened' : 'Notebook page turned / desk drawer closed');
+  ensureLoop();
+}
+
+const wrappedScene = xrWrap(scene, XR_OPTS);
+
+ui = mountFigure({
+  fig: '27',
+  turn: 'full',
+  title: 'Lo-fi night room',
+  size: [RM_W, RM_D, RM_H],
+  palette: 'tomato',
+  state: {
+    dark: true,
+    lampOn: true, lampGlow: 1, pressT: 0,
+    pose: 'read', ang: LAMP_POSES.read.a.slice(), moving: false, poseK: 0,
+    fairyOn: true, fairyGlow: 1,
+    rain: true, rainPhase: 1.2, rainTimer: 0,
+    playing: true, armPos: 1, spinAngle: 25, spinTimer: 0,
+    tailPhase: 0.6, catAwake: 0,
+    steamPhase: 0.4,
+    pageIdx: 0, pageFlip: 0,
+    drawerOpen: false, drawer: 0,
+    chairYaw: -18, chairAnim: false, chairK: 0
+  },
+  scene: wrappedScene,
+  stats: st => {
+    const g = lampGeo(st.ang);
+    return [
+      { label: 'Desk light', value: lampLux(g, st) + ' lx' },
+      { label: 'Turntable',  value: st.playing ? '33 RPM / ON' : 'PAUSED', small: true }
+    ];
+  },
+  buttons: [
+    { label: 'Desk lamp', onClick: toggleLamp },
+    { label: 'Lamp pose', choices: st => Object.keys(LAMP_POSES).map(k => ({
+        label: LAMP_POSES[k].label,
+        current: st.pose === k && !st.moving,
+        onClick: setLampPose(k)
+      }))
+    },
+    { label: 'Lo-fi beats', onClick: toggleTurntable },
+    { label: 'Night ambiance', choices: st => [
+        { label: st.fairyOn ? 'Fairy lights: on' : 'Fairy lights: off', onClick: setAmbiance('fairy') },
+        { label: st.rain ? 'Window rain: on' : 'Window rain: off',      onClick: setAmbiance('rain') },
+        { label: 'All cozy on',  current: st.lampOn && st.fairyOn && st.rain, onClick: setAmbiance('cozy') },
+        { label: 'Moonlight only', current: !st.lampOn && !st.fairyOn && !st.rain && !st.playing, onClick: setAmbiance('quiet') }
+      ]
+    },
+    { label: 'Turn page / drawer', onClick: flipNotebookOrDrawer }
+  ],
+  acts: {
+    lampSwitch: (st, el, ui) => toggleLamp(st, ui),
+    lampShade:  (st, el, ui) => {
+      const ks = Object.keys(LAMP_POSES), next = ks[(ks.indexOf(st.pose) + 1) % ks.length];
+      setLampPose(next)(st, ui);
+    },
+    turntable:  (st, el, ui) => toggleTurntable(st, ui),
+    headphones: (st, el, ui) => toggleTurntable(st, ui),
+    window:     (st, el, ui) => setAmbiance('rain')(st, ui),
+    fairy:      (st, el, ui) => setAmbiance('fairy')(st, ui),
+    cat:        (st, el, ui) => {
+      st.catAwake = 1.6;
+      ui.flash('Purr... the ginger cat stretches on the windowsill');
+      ensureLoop();
+    },
+    notebook:   (st, el, ui) => {
+      st.pageFlip = .03;
+      ui.flash('Flipped to the next study notebook spread');
+      ensureLoop();
+    },
+    drawer:     (st, el, ui) => {
+      st.drawerOpen = !st.drawerOpen;
+      ui.flash(st.drawerOpen ? 'Desk drawer slid open - cassette tape inside' : 'Desk drawer closed');
+      ensureLoop();
+    },
+    mug:        (st, el, ui) => {
+      st.steamPhase = (st.steamPhase || 0) + 1.5;
+      ui.flash('Fresh hot cocoa steaming in the ceramic mug');
+    },
+    chair:      (st, el, ui) => {
+      st.chairFrom = st.chairYaw;
+      st.chairTo = st.chairYaw < 0 ? 18 : -18;
+      st.chairK = 0;
+      st.chairAnim = true;
+      ui.flash('Swivelled the study chair');
+      ensureLoop();
+    }
+  },
+  params: (st, q) => {
+    const thm = q.get('theme') || q.get('dark');
+    if (thm === '0' || thm === 'light') st.dark = false;
+    else if (thm === '1' || thm === 'dark') st.dark = true;
+    document.documentElement.classList.toggle('dark', !!st.dark);
+    if (q.get('lamp') === '0'){ st.lampOn = false; st.lampGlow = 0; }
+    if (q.get('lamp') === '1'){ st.lampOn = true;  st.lampGlow = 1; }
+    if (LAMP_POSES[q.get('pose')]){ st.pose = q.get('pose'); st.ang = LAMP_POSES[st.pose].a.slice(); }
+    if (q.get('beats') === '0'){ st.playing = false; st.armPos = 0; }
+    if (q.get('beats') === '1'){ st.playing = true;  st.armPos = 1; }
+    if (q.get('fairy') === '0'){ st.fairyOn = false; st.fairyGlow = 0; }
+    if (q.get('rain') === '0') st.rain = false;
+    if (q.get('drawer') === '1'){ st.drawerOpen = true; st.drawer = 1; }
+  }
+});
+
+xrMount(() => ui, XR_CAPTION);
+const creditEl = document.querySelector('.made-with');
+if (creditEl) {
+  creditEl.innerHTML = 'Made with <a href="https://april-zhu.com/colorfigures" target="_blank" rel="noopener">Colorfigures ↗</a> (April Zhu, MIT) / extends <a href="https://github.com/April-Yz/iso-glow" target="_blank" rel="noopener">ISO-GLOW</a> (April Zhu, MIT) &amp; <a href="https://github.com/tolgacohce/iso-figure" target="_blank" rel="noopener">iso-figure</a> (Tolga Cohce, MIT)';
+}
+</script><style>@media (max-width:560px),(pointer:coarse){#art{filter:none!important}.ctl:has(#wb){display:none!important}}</style>
+<style>@media (max-width:560px){.vset{margin:8px 0 2px!important}}</style>
+<script>requestAnimationFrame(() => { const v = document.querySelector(".vset"), s = document.getElementById("stats"), z = document.querySelector(".zwrap"); if (!v) return; if (z && z.parentNode === v.parentNode){ z.after(v); } else if (s && s.parentNode) s.parentNode.insertBefore(v, s); });</script>
+<style>.zwrap{position:relative}.zwrap.on{overflow:hidden}.zwrap #fig{transform-origin:50% 50%}
+.zchip{position:absolute;right:8px;bottom:8px;display:flex;align-items:center;gap:2px;font:600 11.5px ui-monospace,Menlo,monospace;
+ background:var(--hud-bg,rgba(242,239,231,.88));border:1px solid var(--rule,rgba(35,30,22,.25));border-radius:999px;padding:3px 4px;z-index:10;user-select:none;backdrop-filter:blur(8px)}
+@media (min-width:561px){.zchip{position:fixed!important;right:24px!important;bottom:16px!important}}
+.zchip button{all:unset;cursor:pointer;min-width:24px;height:24px;line-height:24px;text-align:center;border-radius:999px;color:var(--ink,#231e16)}
+.zchip button:hover{background:rgba(128,128,128,.16)}.zchip .zp{min-width:48px}</style>
+<script>(() => { const fig = document.getElementById("fig"); if (!fig) return;
+  const wrap = document.createElement("div"); wrap.className = "zwrap"; fig.parentNode.insertBefore(wrap, fig); wrap.appendChild(fig);
+  const chip = document.createElement("div"); chip.className = "zchip";
+  chip.innerHTML = '<button class="zm" aria-label="Zoom out">−</button><button class="zp" aria-label="Reset zoom">100%</button><button class="zi" aria-label="Zoom in">+</button>';
+  wrap.appendChild(chip);
+  const MIN_S = 0.75, MAX_S = 4.0;
+  const STEPS = [0.75, 1.0, 1.25, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0];
+  let s = 1, tx = 0, ty = 0;
+  const box = () => ({ w: fig.clientWidth, h: fig.clientHeight, ww: wrap.clientWidth || fig.clientWidth, wh: wrap.clientHeight || fig.clientHeight });
+  const apply = () => { const { w, h, ww, wh } = box(); s = Math.min(MAX_S, Math.max(MIN_S, s));
+    if (Math.abs(s - 1) < 0.005){ s = 1; tx = ty = 0; }
+    else {
+      const maxX = Math.max(0, (w * s - ww * 0.35) / 2), maxY = Math.max(0, (h * s - wh * 0.35) / 2);
+      tx = Math.min(maxX, Math.max(-maxX, tx)); ty = Math.min(maxY, Math.max(-maxY, ty));
+    }
+    fig.style.transform = s === 1 ? "" : `translate(${tx}px,${ty}px) scale(${s})`;
+    wrap.classList.toggle("on", s !== 1); document.documentElement.classList.toggle("zoomed", s > 1);
+    chip.querySelector(".zp").textContent = Math.round(s*100) + "%"; grain(); };
+  const grain = () => { const fl = document.getElementById("hand"); if (!fl) return;
+    const ts = [...fl.querySelectorAll("feTurbulence")]; if (!ts.length) return;
+    const g = ts.find(t => t.getAttribute("result") === "n1") || ts.reduce((a, b) => parseFloat(b.getAttribute("baseFrequency")) > parseFloat(a.getAttribute("baseFrequency")) ? b : a);
+    if (!g.dataset.f0) g.dataset.f0 = g.getAttribute("baseFrequency");
+    const v = (parseFloat(g.dataset.f0) * s).toFixed(4); if (g.getAttribute("baseFrequency") !== v) g.setAttribute("baseFrequency", v); };
+  const fd = document.getElementById("fdefs"); if (fd) new MutationObserver(() => grain()).observe(fd, { childList: true, subtree: true });
+  const zoomTo = (s2, ox = 0, oy = 0) => { s2 = Math.min(MAX_S, Math.max(MIN_S, s2)); tx = ox - (ox - tx)*(s2/s); ty = oy - (oy - ty)*(s2/s); s = s2; apply(); };
+  const zoomAt = (k, ox = 0, oy = 0) => zoomTo(s * k, ox, oy);
+  const offsetFromCenter = e => { const r = wrap.getBoundingClientRect(); return [e.clientX - (r.left + r.width/2), e.clientY - (r.top + r.height/2)]; };
+  wrap.addEventListener("wheel", e => {
+    if (innerWidth > 560 || e.ctrlKey || e.metaKey){
+      e.preventDefault();
+      const [ox, oy] = offsetFromCenter(e);
+      zoomAt(Math.exp(-Math.max(-60, Math.min(60, e.deltaY)) * .0045), ox, oy);
+    } else if (s > 1){
+      e.preventDefault(); tx -= e.deltaX; ty -= e.deltaY; apply();
+    }
+  }, { passive: false });
+  chip.querySelector(".zi").onclick = () => {
+    const next = STEPS.find(v => v > s + 0.02) || MAX_S;
+    zoomTo(next, 0, 0);
+  };
+  chip.querySelector(".zm").onclick = () => {
+    const prev = [...STEPS].reverse().find(v => v < s - 0.02) || MIN_S;
+    zoomTo(prev, 0, 0);
+  };
+  chip.querySelector(".zp").onclick = () => { s = 1; tx = ty = 0; apply(); };
+  chip.addEventListener("pointerdown", e => e.stopPropagation());
+  const pts = new Map(); let pinch = null;
+  const two = () => { const [a, b] = [...pts.values()]; return { d: Math.hypot(a.x - b.x, a.y - b.y), x: (a.x + b.x)/2, y: (a.y + b.y)/2 }; };
+  wrap.addEventListener("pointerdown", e => { if (e.pointerType !== "touch") return; pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pts.size === 2){ pinch = two(); e.stopPropagation(); } }, true);
+  wrap.addEventListener("pointermove", e => { if (!pts.has(e.pointerId)) return; pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pinch && pts.size === 2){ e.stopPropagation(); e.preventDefault(); const n = two(), r = wrap.getBoundingClientRect();
+      const ox = n.x - (r.left + r.width/2), oy = n.y - (r.top + r.height/2);
+      tx += n.x - pinch.x; ty += n.y - pinch.y; zoomAt(n.d / pinch.d, ox, oy); pinch = n; } }, true);
+  const up = e => { pts.delete(e.pointerId); if (pts.size < 2) pinch = null; };
+  wrap.addEventListener("pointerup", up, true); wrap.addEventListener("pointercancel", up, true);
+  addEventListener("resize", apply);
+})();</script>
+<style>.toast{position:fixed!important;left:50%!important;right:auto!important;top:22px!important;bottom:auto!important;z-index:20!important;
+  transform:translate(-50%,8px)!important;opacity:0!important;pointer-events:none!important;display:flex!important;align-items:center;gap:8px;
+  width:max-content;max-width:min(86%,440px);white-space:normal!important;font:600 12.5px/1.35 ui-monospace,Menlo,monospace!important;
+  letter-spacing:.01em!important;text-transform:none!important;color:#231e16!important;background:#fff1bf!important;
+  border:1px solid rgba(35,30,22,.28)!important;border-radius:8px!important;box-shadow:0 8px 22px rgba(0,0,0,.22)!important;
+  padding:7px 13px 7px 9px!important;transition:opacity .18s ease,transform .18s ease!important}
+.toast::before{content:"!";flex:none;width:17px;height:17px;border-radius:50%;background:#231e16;color:#fff1bf;font:800 11px/17px ui-monospace,Menlo,monospace;text-align:center}
+.toast.show{opacity:1!important;transform:translate(-50%,0)!important}</style>
+<script>(() => { const cap = () => { const t = document.getElementById("toast"); if (!t) return; const s = t.textContent;
+  if (s && s[0] !== s[0].toUpperCase()) t.textContent = s[0].toUpperCase() + s.slice(1); };
+  let seen = null; const watch = () => { const t = document.getElementById("toast"); if (!t || t === seen) return; seen = t;
+    const zw = document.querySelector(".zwrap"); if (zw && t.parentNode !== zw) zw.appendChild(t);
+    new MutationObserver(cap).observe(t, { childList: true, characterData: true, subtree: true }); cap(); };
+  watch(); const st = document.querySelector(".stage"); if (st) new MutationObserver(watch).observe(st, { childList: true }); })();</script>
+<script>(() => { const fix = () => { const art = document.getElementById('art'); if (!art) return;
+    for (const el of art.querySelectorAll('[fill="#41538f" i]')){ let top = null, a = el.parentElement;
+      while (a && a !== art){ const o = a.getAttribute('opacity'); if (o !== null && +o < 1) top = a; a = a.parentElement; }
+      if (top) top.parentNode.insertBefore(el, top); } };
+  const go = () => { const art = document.getElementById('art'); if (!art) return setTimeout(go, 50); fix(); new MutationObserver(fix).observe(art, { childList: true }); };
+  if (document.readyState === 'loading') addEventListener('DOMContentLoaded', go); else go(); })();</script>
+<style>.lgd{display:none}@media (max-width:560px){html:not(.nolabels) .lgd.has{display:grid}}
+.lgd{grid-template-columns:1fr 1fr;gap:2px 8px;margin:4px 0 12px;font:700 10.5px/1.25 ui-monospace,Menlo,monospace;letter-spacing:.03em;color:var(--ink,#231e16)}
+.lgd button{all:unset;display:flex;align-items:center;gap:6px;cursor:pointer;padding:4px;border-radius:7px;-webkit-tap-highlight-color:transparent}
+.lgd b{flex:none;min-width:17px;height:17px;padding:0 3px;box-sizing:border-box;border-radius:999px;border:1.2px solid #231e16;background:#fff4d6;color:#231e16;text-align:center;font:800 10px/15px ui-monospace,Menlo,monospace}
+.lgd .on b{background:var(--accent,#f4b829);color:#191610}
+.lgd .sel{background:rgba(128,128,128,.14)}.lgd .sel b{background:#231e16;color:#fff4d6}
+html.dark .lgd b{background:#1e243b;color:#efe8d8;border-color:#8a92b2}
+html.dark .lgd .on b{background:#f4b829;color:#191610;border-color:#fff4d6}
+html.dark .lgd .sel b{background:#efe8d8;color:#131624}</style>
+<script>(() => { const fig = document.getElementById("fig"); if (!fig) return;
+  const lg = document.createElement("div"); lg.className = "lgd"; const at = document.querySelector(".zwrap") || fig; at.parentNode.insertBefore(lg, at.nextSibling);
+  const hs = document.createElement("style"); document.head.appendChild(hs);
+  let sig = "", sel = 0, q = 0, names = "", num = new Map();
+  const renum = () => { if (innerWidth > 560) return; const gs = [...fig.querySelectorAll(".tag[data-t]")];
+    const key = gs.map(g => g.dataset.t).sort().join("|");
+    if (key !== names){ names = key; num = new Map(); const vb = fig.viewBox.baseVal, cx = vb.x + vb.width/2;
+      const at = g => { const r = g.querySelector("rect"); return r ? [+r.getAttribute("x") + r.getAttribute("width")/2, +r.getAttribute("y")] : [0, 0]; };
+      gs.map(g => [g.dataset.t, ...at(g)]).sort((a, b) => ((a[1] > cx) - (b[1] > cx)) || a[2] - b[2]).forEach(([t]) => { if (!num.has(t)) num.set(t, num.size + 1); }); }
+    for (const g of gs){ const n = String(num.get(g.dataset.t)); if (g.dataset.n !== n){ g.dataset.n = n; const t = g.querySelector("text"); if (t) t.textContent = n; } } };
+  const mark = () => { hs.textContent = sel ? `#fig .tag[data-n="${sel}"] rect{fill:#f4b829!important}#fig .tag[data-n="${sel}"] text{fill:#191610!important}#fig .tag[data-n="${sel}"] path{stroke-width:2.4}` : "";
+    for (const x of lg.children) x.classList.toggle("sel", +x.dataset.n === sel); };
+  const upd = () => { q = 0; const m = new Map();
+    if (innerWidth <= 560) for (const g of fig.querySelectorAll(".tag[data-n]")){ const n = +g.dataset.n; if (!m.has(n)) m.set(n, [g.dataset.t, g.classList.contains("on")]); }
+    const a = [...m].sort((x, y) => x[0] - y[0]), s = JSON.stringify(a); if (s === sig) return; sig = s;
+    lg.classList.toggle("has", a.length > 0);
+    lg.innerHTML = a.map(([n, [t, on]]) => `<button data-n="${n}" class="${on ? "on" : ""}"><b>${n}</b><span>${t}</span></button>`).join(""); mark(); };
+  lg.addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; sel = sel === +b.dataset.n ? 0 : +b.dataset.n; mark(); });
+  new MutationObserver(() => { renum(); if (!q) q = requestAnimationFrame(upd); }).observe(fig, { childList: true, subtree: true }); renum();
+  addEventListener("resize", () => { if (!q) q = requestAnimationFrame(upd); }); upd(); })();</script></body></html>

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "version": 2,
+  "format": "procedural-svg",
+  "units": "m",
+  "upAxis": "Y",
+  "measurement": {
+    "status": "estimated",
+    "note": "Estimated source-space placement envelope converted by the shared 0.75 m desk-height calibration. Not measured geometry bounds. Original painter-sort envelopes are used as estimates; steam, glow and shadows are not physical dimensions. All assets share one uniform scale."
+  },
+  "provenance": {
+    "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
+    "license": "MIT",
+    "note": "Published Colorfigures/ISO-GLOW/iso-figure derivative; attribution in THIRD_PARTY_NOTICES.md."
+  },
+  "id": "lofi-right-wall",
+  "name": "Right wall, clock and acoustic panels",
+  "library": "lofi-night-room",
+  "source": "assets/lofi-night-room/walls.js",
+  "entry": "drawRightWall",
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "previousVersion": "versions/1.json",
+  "sourceCoordinates": {
+    "units": "drawing-units",
+    "upAxis": "Z",
+    "origin": [
+      59.0,
+      3.0,
+      5
+    ],
+    "bounds": {
+      "min": [
+        6,
+        0,
+        5
+      ],
+      "max": [
+        112,
+        6,
+        88
+      ]
+    }
+  },
+  "bounds": {
+    "min": [
+      -1.419642857,
+      0.0,
+      -0.080357143
+    ],
+    "max": [
+      1.419642857,
+      2.223214286,
+      0.080357143
+    ]
+  },
+  "dimensions": [
+    2.839285714,
+    2.223214286,
+    0.160714286
+  ],
+  "footprint": [
+    [
+      -1.419642857,
+      -0.080357143
+    ],
+    [
+      1.419642857,
+      -0.080357143
+    ],
+    [
+      1.419642857,
+      0.080357143
+    ],
+    [
+      -1.419642857,
+      0.080357143
+    ]
+  ],
+  "boundsKind": "estimated-placement-envelope"
+}

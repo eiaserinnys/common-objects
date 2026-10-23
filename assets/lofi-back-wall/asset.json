@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "version": 2,
+  "format": "procedural-svg",
+  "units": "m",
+  "upAxis": "Y",
+  "measurement": {
+    "status": "estimated",
+    "note": "Estimated source-space placement envelope converted by the shared 0.75 m desk-height calibration. Not measured geometry bounds. Original painter-sort envelopes are used as estimates; steam, glow and shadows are not physical dimensions. All assets share one uniform scale."
+  },
+  "provenance": {
+    "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
+    "license": "MIT",
+    "note": "Published Colorfigures/ISO-GLOW/iso-figure derivative; attribution in THIRD_PARTY_NOTICES.md."
+  },
+  "id": "lofi-back-wall",
+  "name": "Window wall and city skyline",
+  "library": "lofi-night-room",
+  "source": "assets/lofi-night-room/walls.js",
+  "entry": "drawBackWall",
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "previousVersion": "versions/1.json",
+  "sourceCoordinates": {
+    "units": "drawing-units",
+    "upAxis": "Z",
+    "origin": [
+      1.5,
+      63.0,
+      5
+    ],
+    "bounds": {
+      "min": [
+        -3,
+        6,
+        5
+      ],
+      "max": [
+        6,
+        120,
+        88
+      ]
+    }
+  },
+  "bounds": {
+    "min": [
+      -0.120535714,
+      0.0,
+      -1.526785714
+    ],
+    "max": [
+      0.120535714,
+      2.223214286,
+      1.526785714
+    ]
+  },
+  "dimensions": [
+    0.241071429,
+    2.223214286,
+    3.053571429
+  ],
+  "footprint": [
+    [
+      -0.120535714,
+      -1.526785714
+    ],
+    [
+      0.120535714,
+      -1.526785714
+    ],
+    [
+      0.120535714,
+      1.526785714
+    ],
+    [
+      -0.120535714,
+      1.526785714
+    ]
+  ],
+  "boundsKind": "estimated-placement-envelope"
+}

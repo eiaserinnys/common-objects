@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "units": "m",
+  "upAxis": "Y",
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "note": "Metric placements reconstruct the published assembly. All scale values are 1; positions are metres. This is a placement list, not a saved interactive preview scene.",
+  "placements": [
+    {
+      "assetId": "lofi-floor",
+      "assetVersion": 2,
+      "position": [
+        0.040178571,
+        0.0,
+        -0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-corner-pillar",
+      "assetVersion": 2,
+      "position": [
+        -1.379464286,
+        0.133928571,
+        1.526785714
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-back-wall",
+      "assetVersion": 2,
+      "position": [
+        -1.419642857,
+        0.133928571,
+        -0.080357143
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-right-wall",
+      "assetVersion": 2,
+      "position": [
+        0.120535714,
+        0.133928571,
+        1.526785714
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-windowsill-cat",
+      "assetVersion": 2,
+      "position": [
+        -1.189285714,
+        0.889285714,
+        0.428571429
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-wall-shelf",
+      "assetVersion": 2,
+      "position": [
+        -1.189285714,
+        1.232142857,
+        -0.964285714
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-fairy-lights",
+      "assetVersion": 2,
+      "position": [
+        0.120535714,
+        2.169642857,
+        -0.080357143
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-vinyl-crate",
+      "assetVersion": 2,
+      "position": [
+        0.763392857,
+        0.133928571,
+        1.25625
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-desk-under",
+      "assetVersion": 2,
+      "position": [
+        -0.515625,
+        0.133928571,
+        -0.080357143
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-desktop",
+      "assetVersion": 2,
+      "position": [
+        -0.508928571,
+        0.803571429,
+        -0.080357143
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-turntable",
+      "assetVersion": 2,
+      "position": [
+        -0.65625,
+        0.883928571,
+        0.616071429
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-mug",
+      "assetVersion": 2,
+      "position": [
+        -0.147321429,
+        0.883928571,
+        0.569196429
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-notebook-pen",
+      "assetVersion": 2,
+      "position": [
+        -0.401785714,
+        0.883928571,
+        -0.1875
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-desk-lamp",
+      "assetVersion": 2,
+      "position": [
+        -0.776785714,
+        0.883928571,
+        -0.883928571
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-headphones",
+      "assetVersion": 2,
+      "position": [
+        -0.241071429,
+        0.883928571,
+        -0.870535714
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-study-chair",
+      "assetVersion": 2,
+      "position": [
+        0.522321429,
+        0.133928571,
+        -0.214285714
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-floor-plant",
+      "assetVersion": 2,
+      "position": [
+        0.441964286,
+        0.133928571,
+        -1.151785714
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "assetId": "lofi-mechanisms",
+      "assetVersion": 2,
+      "position": [
+        0.0,
+        0.133928571,
+        -0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "version": 2,
+  "format": "procedural-svg",
+  "units": "m",
+  "upAxis": "Y",
+  "measurement": {
+    "status": "estimated",
+    "note": "Estimated source-space placement envelope converted by the shared 0.75 m desk-height calibration. Not measured geometry bounds. Original painter-sort envelopes are used as estimates; steam, glow and shadows are not physical dimensions. All assets share one uniform scale. Mug envelope is estimated from body/coaster/handle, excluding steam (drawCoffeeMug z=33..39.3)."
+  },
+  "provenance": {
+    "source": "https://pages.eiaserinnys.me/d/lofi-night-room/r/2",
+    "license": "MIT",
+    "note": "Published Colorfigures/ISO-GLOW/iso-figure derivative; attribution in THIRD_PARTY_NOTICES.md."
+  },
+  "id": "lofi-mug",
+  "name": "Cocoa mug and coaster",
+  "library": "lofi-night-room",
+  "source": "assets/lofi-night-room/desktop.js",
+  "entry": "drawCoffeeMug",
+  "origin": "ground-contact-center",
+  "defaultScale": [
+    1,
+    1,
+    1
+  ],
+  "calibrationFile": "assets/lofi-night-room/calibration.json",
+  "previousVersion": "versions/1.json",
+  "sourceCoordinates": {
+    "units": "drawing-units",
+    "upAxis": "Z",
+    "origin": [
+      49.0,
+      38.75,
+      33
+    ],
+    "bounds": {
+      "min": [
+        45,
+        34,
+        33
+      ],
+      "max": [
+        53,
+        43.5,
+        39.3
+      ]
+    }
+  },
+  "bounds": {
+    "min": [
+      -0.107142857,
+      0.0,
+      -0.127232143
+    ],
+    "max": [
+      0.107142857,
+      0.16875,
+      0.127232143
+    ]
+  },
+  "dimensions": [
+    0.214285714,
+    0.16875,
+    0.254464286
+  ],
+  "footprint": [
+    [
+      -0.107142857,
+      -0.127232143
+    ],
+    [
+      0.107142857,
+      -0.127232143
+    ],
+    [
+      0.107142857,
+      0.127232143
+    ],
+    [
+      -0.107142857,
+      0.127232143
+    ]
+  ],
+  "boundsKind": "estimated-placement-envelope"
+}
