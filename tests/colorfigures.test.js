@@ -59,3 +59,14 @@ test('SVG lamp opens existing version 1 arrangements without losing state', asyn
  const x = createInstance(original, 'saved-lamp', [.3,0,.4]); x.state.on=true;
  assert.deepEqual(loadScene(saveScene([x]),new Map([[lamp.id,lamp]])),[x]);
 });
+test('ground grid stays below the horizon when zoom brings its far edge behind the camera', async () => {
+ const lamp = await json('assets/desk-lamp/asset.json');
+ const svg = svgScene(lamp, [], {yaw:0,pitch:0,distance:.65}, 400, 400);
+ const lines = [...svg.matchAll(/<path d="M([^L]+)L([^\"]+)"/g)];
+ assert.ok(lines.length > 0);
+ for(const line of lines) for(const p of line.slice(1)) {
+  const [x,y]=p.split(',').map(Number);
+  assert.ok(Number.isFinite(x) && Number.isFinite(y));
+  assert.ok(y>=200, 'a ground line behind the camera was mirrored above the horizon');
+ }
+});

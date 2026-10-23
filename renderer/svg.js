@@ -9,10 +9,22 @@ export function svgScene(asset, instances, camera, width, height) {
   const project = v => [width / 2 + focal * v[0] / -v[2], height / 2 - focal * v[1] / -v[2]];
   const xy = v => project(v).map(n => n.toFixed(3)).join(',');
   const layers = [], matrices = worldParts(asset);
-  const line = (a, b, color, strokeWidth) => layers.push({
-    depth: (a[2] + b[2]) / 2 + .00001,
-    svg: `<path d="M${xy(a)}L${xy(b)}" fill="none" stroke="${color}" stroke-width="${strokeWidth}"/>`
-  });
+  const line = (a, b, color, strokeWidth) => {
+    // Match the metric renderer's 1 cm near plane. The floor grid can cross
+    // behind the camera even at the default view; projecting it there mirrors it.
+    const nearZ = -.01;
+    if (a[2] > nearZ && b[2] > nearZ) return;
+    if ((a[2] > nearZ) !== (b[2] > nearZ)) {
+      const k = (nearZ - a[2]) / (b[2] - a[2]);
+      const clipped = a.map((v, i) => v + (b[i] - v) * k);
+      if (a[2] > nearZ) a = clipped;
+      else b = clipped;
+    }
+    layers.push({
+      depth: (a[2] + b[2]) / 2 + .00001,
+      svg: `<path d="M${xy(a)}L${xy(b)}" fill="none" stroke="${color}" stroke-width="${strokeWidth}"/>`
+    });
+  };
   for (let n = -10; n <= 10; n++) {
     const v = n / 10;
     line(point(view, [-1, 0, v]), point(view, [1, 0, v]), '#c9c9bd', .5);
