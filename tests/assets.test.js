@@ -1,0 +1,9 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';
+import {validate} from '../scripts/validate.mjs';import {createInstance,act,saveScene,loadScene} from '../renderer/model.js';import {transform,point} from '../renderer/geometry.js';
+const a=JSON.parse(await readFile(new URL('../assets/desk-lamp/asset.json',import.meta.url)));
+test('geometry agrees with real-world bounds and catalog contract',()=>validate(a));
+test('independent instance state and transform',()=>{const x=createInstance(a,'a'),y=createInstance(a,'b');act(a,x,'toggle');x.position[0]=1;assert.equal(y.state.on,false);assert.equal(a.state.on,false);assert.equal(y.position[0],0);assert.deepEqual(y.scale,[1,1,1]);});
+test('scene restores transform, version and state without aliases',()=>{const x=createInstance(a,'a',[.3,0,.4]);x.rotation[1]=Math.PI/2;act(a,x,'toggle');const y=loadScene(saveScene([x]),new Map([[a.id,a]]));assert.deepEqual(y,[x]);y[0].state.on=false;assert.equal(x.state.on,true);});
+test('reject invalid assets: bounds, cycle, scale, axis',()=>{for(const change of [b=>b.bounds.max[1]=1,b=>b.parts[0].parent='base',b=>b.defaultScale[0]=2,b=>b.upAxis='Z']){const b=structuredClone(a);change(b);assert.throws(()=>validate(b));}});
+test('reject invalid scene version, duplicates and non-finite transform',()=>{const x=createInstance(a,'a'),assets=new Map([[a.id,a]]);assert.throws(()=>loadScene(saveScene([x,x]),assets));x.assetVersion=9;assert.throws(()=>loadScene(saveScene([x]),assets));x.assetVersion=1;x.position[0]=NaN;assert.throws(()=>loadScene(saveScene([x]),assets));});
+test('Y rotation preserves metric distances',()=>{const p=point(transform([0,0,0],[0,Math.PI/2,0]),[1,0,0]);assert.ok(Math.abs(p[0])<1e-9);assert.ok(Math.abs(p[2]+1)<1e-9);});
