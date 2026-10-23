@@ -13,7 +13,17 @@
 - Scene JSON contains schemaVersion and instances: id, assetId, assetVersion, position, rotation, scale and state. Unknown versions fail explicitly. Current preview storage is browser-local. Per-part animated state and migrations are future extensions.
 
 ## Adding a batch
-Create one directory per asset, author metric source and provenance, append catalog paths, then validate and inspect each. Build copies all catalog sources. The pilot preview loads the lamp explicitly; a future catalog UI and multi-asset scene loader must select geometry by assetId. The renderer currently shares geometry across copies of one asset. No daily scheduler is included in this repository.
+Create one directory per asset, author metric source and provenance, append catalog paths, then validate and inspect each. Build copies all catalog sources. The default preview loads the complete published room; preview/desk-lamp.html loads the metric lamp explicitly. The renderer currently shares geometry across copies of one asset. No daily scheduler is included in this repository.
 
 ## Rendering constraints
-Shared WebGL depth testing handles intersecting/overlapping opaque objects; outlines use the same depth buffer. This is not SVG painter sorting. No transparent sorting, shadows, physics, GLB exporter or performance guarantees are included. Geometry buffers are cached; rendering is event-driven. Test representative low-end devices before choosing scene budgets. Do not use per-object camera scaling to make differently sized objects appear equal.
+The active previews use SVG painter sorting. Intersecting geometry can show ordering artifacts; there is no shared WebGL depth buffer. The earlier WebGL renderer remains available for metric consumers. No transparent sorting, shadows, physics, GLB exporter or performance guarantees are included. Geometry buffers are cached; rendering is event-driven. Test representative low-end devices before choosing scene budgets. Do not use per-object camera scaling to make differently sized objects appear equal.
+
+## Procedural SVG imports
+
+The catalog also accepts `format: procedural-svg`, schemaVersion 1. This format preserves published SVG-generating JavaScript instead of converting it to metric primitives. It declares `units: drawing-units`, `upAxis: Z`, and `measurement.status: illustrative`. No metre dimensions, exact physical bounds or contact footprint are inferred from drawing coordinates.
+
+Each entry has a stable id/version/name, source (repository-relative JavaScript file), entry (function name) and provenance source/license. Component entries name their library; the room library has ordered sourceFiles, framingSize and components. Groups keep their original dependencies and compound contents. The sourceFiles define geometry; loading preview/room.js additionally mounts the published UI and animation lifecycle. Per-frame palette and state arguments follow the original function signatures.
+
+The room contains 16 painter-sorted blocks plus the floor/rug and mechanisms layers. Painter-sort envelopes in the source are drawing hints, not exact geometry bounds. The room framing size 112 × 120 × 88 uses drawing units. A consumer needing metric placement must calibrate a separate new version.
+
+The study lamp uses `format: metric-svg`, version 2. Its geometry/material contract above is unchanged; renderer/svg.js replaces the display backend. The immutable version 1 source is versions/1.json. Scene loading explicitly accepts that version for the desk lamp and retains its version when re-saving.

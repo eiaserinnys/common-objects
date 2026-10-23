@@ -1,4 +1,4 @@
-import {createRenderer} from '../renderer/webgl.js';
+import {createRenderer} from '../renderer/svg.js';
 import {createInstance,act,saveScene,loadScene} from '../renderer/model.js';
 const $=id=>document.getElementById(id), status=t=>$('status').textContent=t;
 try{

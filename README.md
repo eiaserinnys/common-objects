@@ -1,9 +1,10 @@
 # Common Objects
 
-A growing collection of metric household props, kept separate from their renderer and UI. First asset: an interactive **study lamp**, estimated **0.24 m wide × 0.48 m high × 0.26 m deep**. Geometry stays at scale (1,1,1); Y is up and the origin is at the circular base's ground-contact center.
+Reusable household props and a Colorfigures SVG player. The default preview is the published **Lo-fi night room r2**, with its orbit camera, zoom up to 400%, Night/Light theme, lamp poses, turntable, room ambiance, drawer, see-through wiring and labels.
 
 ## Run
-Requires Node.js 20+ for checks and Python 3 for the local server. No npm dependencies or install step.
+
+Node.js 20+ and Python 3. No npm dependencies or install step.
 
 ```sh
 npm run validate
@@ -12,20 +13,22 @@ npm run build
 npm run dev
 ```
 
-Open http://localhost:8000/preview/ (not file://). Build output is `dist/`; `python3 -m http.server 8000 --directory dist` serves the same `/preview/` path.
+Open http://localhost:8000/preview/ for the room. Choose **Study lamp ↗** to open the original collection lamp, now drawn with SVG. Its estimated 24 × 48 × 26 cm geometry, on/off state, rotation, independent duplicates and browser-local arrangement storage are preserved. Existing saved v1 arrangements remain supported.
 
-Drag to orbit; scroll or use the slider to zoom. Switch the selected lamp on/off, rotate it, duplicate it, select another copy, and save/restore the arrangement in browser local storage. Keyboard controls are available for buttons and sliders. A 10 cm ground grid and metric dimensions expose the real size. The switch changes bulb and shade appearance, not physically simulated room illumination.
+Build output is dist/; serve it with `python3 -m http.server 8000 --directory dist`. Both players use relative local sources, including when served under a subdirectory.
 
-## Layout
+## Assets
 
-- `assets/catalog.json`: asset index.
-- `assets/desk-lamp/asset.json`: original reusable geometry, dimensions, materials, parts and state.
-- `renderer/geometry.js`: procedural triangle generation and metric transforms.
-- `renderer/webgl.js`: shared depth-tested renderer and ink-like edge lines.
-- `renderer/model.js`: independent instances, actions and scene serialization.
-- `preview/`: browser interface, separate from assets.
-- `scripts/`: source validation and dependency-free static build.
-- `tests/`: contract, transforms, persistence and independent-state checks.
-- `docs/asset-spec.md`: authoring contract and known limits.
+`assets/catalog.json` registers 20 entries: the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
 
-Muted colors and ink contours are inspired by [Colorfigures](https://april-zhu.com/colorfigures). No Colorfigures source or assets are embedded. Code is MIT; the lamp's original procedural asset is CC0-1.0 as recorded in its metadata. The collection is prepared for additional assets; today's implementation contains one type only. Scheduling future production is separate from this repository.
+- `metric-svg`: metre-based JSON geometry rendered by `renderer/svg.js`. Study lamp v2 retains its v1 parts and dimensions; the immutable v1 source is `assets/desk-lamp/versions/1.json`.
+- `procedural-svg`: original SVG-generating functions in `assets/lofi-night-room/`, using drawing units and Z-up. These are illustrative coordinates, with no claimed metre conversion. Each component's metadata points to its defining source and shared library. Load the room library's ordered `sourceFiles`, then call its entry function with the published state, palette and lamp geometry as applicable. The UI lifecycle is separate in `preview/room.js`.
+- `renderer/colorfigures/`: shared projection, SVG primitives, page shell, labels and see-through support.
+- `sources/colorfigures/`: byte-preserved published HTML, source URL/hash and script-to-file mapping. The executable source is split into files; the snapshot is an audit reference.
+- `preview/desk-lamp.html`: the original lamp interface using the SVG renderer. Version 1 JSON remains readable through the scene loader.
+
+## Rendering and credits
+
+The players use SVG painter sorting; they do not provide WebGL depth testing, general intersection handling, physics or metric conversion of the room. The lamp switch changes bulb/shade appearance. The room's drawn light pools, rain and mechanisms are illustrative.
+
+Imported Colorfigures code is MIT by April Zhu, based on ISO-GLOW and Tolga Cohce's iso-figure. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the upstream notice. The original metric lamp geometry remains CC0-1.0; repository code is MIT.

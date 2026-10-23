@@ -1,1 +1,25 @@
-{"schemaVersion":1,"assets":["desk-lamp/asset.json"]}
+{
+  "schemaVersion": 1,
+  "assets": [
+    "desk-lamp/asset.json",
+    "lofi-night-room/asset.json",
+    "lofi-floor/asset.json",
+    "lofi-corner-pillar/asset.json",
+    "lofi-back-wall/asset.json",
+    "lofi-right-wall/asset.json",
+    "lofi-windowsill-cat/asset.json",
+    "lofi-wall-shelf/asset.json",
+    "lofi-fairy-lights/asset.json",
+    "lofi-vinyl-crate/asset.json",
+    "lofi-desk-under/asset.json",
+    "lofi-desktop/asset.json",
+    "lofi-turntable/asset.json",
+    "lofi-mug/asset.json",
+    "lofi-notebook-pen/asset.json",
+    "lofi-desk-lamp/asset.json",
+    "lofi-headphones/asset.json",
+    "lofi-study-chair/asset.json",
+    "lofi-floor-plant/asset.json",
+    "lofi-mechanisms/asset.json"
+  ]
+}

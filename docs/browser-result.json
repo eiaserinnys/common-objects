@@ -1,0 +1,11 @@
+{
+  "scope": "remaining narrow-room and lamp flows",
+  "checks": [
+    "keyboard orbit",
+    "room narrow viewport has no horizontal overflow",
+    "lamp SVG, independent duplicate state, rotation, zoom and persistence",
+    "both players are reachable through their actual links"
+  ],
+  "pageAndConsoleErrors": [],
+  "httpFailures": []
+}

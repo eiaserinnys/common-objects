@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {pathToFileURL} from 'node:url';
 import {mesh,point,worldParts} from '../renderer/geometry.js';
+import {validateProcedural} from './validate-svg.mjs';
 const vector=(v,n=3)=>Array.isArray(v)&&v.length===n&&v.every(Number.isFinite);
 export function validate(a){
  assert.equal(a.schemaVersion,1);assert.match(a.id,/^[a-z][a-z0-9-]*$/);assert.ok(Number.isInteger(a.version)&&a.version>0);
@@ -22,4 +23,15 @@ export function validate(a){
  assert.deepEqual(a.footprint,[[min[0],min[2]],[max[0],min[2]],[max[0],max[2]],[min[0],max[2]]].map(v=>v.map(n=>Math.round(n*1e9)/1e9)));
  return {id:a.id,parts:a.parts.length,min,max};
 }
-if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){const catalog=JSON.parse(await readFile(new URL('../assets/catalog.json',import.meta.url)));const ids=new Set();for(const path of catalog.assets){assert.ok(!path.includes('..')&&path.endsWith('/asset.json'));const a=JSON.parse(await readFile(new URL('../assets/'+path,import.meta.url)));assert.ok(!ids.has(a.id));ids.add(a.id);console.log(validate(a));}}
+if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){
+ const catalog=JSON.parse(await readFile(new URL('../assets/catalog.json',import.meta.url))),assets=new Map();
+ for(const path of catalog.assets){
+  assert.ok(!path.includes('..')&&path.endsWith('/asset.json'));
+  const a=JSON.parse(await readFile(new URL('../assets/'+path,import.meta.url)));
+  assert.ok(!assets.has(a.id));assets.set(a.id,a);
+ }
+ for(const a of assets.values()){
+  if(a.format==='procedural-svg')console.log(await validateProcedural(a,assets));
+  else {assert.ok(a.format===undefined||a.format==='metric-svg');console.log(validate(a));}
+ }
+}

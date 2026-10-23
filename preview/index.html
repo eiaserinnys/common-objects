@@ -1,4 +1,144 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Common Objects · Study lamp</title>
-<style>*{box-sizing:border-box}body{margin:0;background:#f0eee5;color:#29362f;font:16px system-ui}header{padding:28px 5vw;border-bottom:1px solid #c8c9bd;display:flex;justify-content:space-between;align-items:center}header small{letter-spacing:.18em}main{display:grid;grid-template-columns:1fr 320px;min-height:78vh}section{position:relative}canvas{width:100%;height:70vh;display:block;touch-action:none}aside{padding:32px;border-left:1px solid #c8c9bd}h1{font:42px Georgia;margin:12px 0}p{line-height:1.6}.muted{color:#687266;font-size:14px}button,select,input{font:inherit}button,select{padding:12px;background:#e4e7d9;border:1px solid #8a9582;border-radius:6px;margin:4px 0;width:100%;cursor:pointer}button.primary{background:#344e3f;color:white}label{display:block;margin:16px 0 6px}input{width:100%}.tag{padding:10px 5vw;font-size:13px}.status{min-height:40px;font-size:14px}footer{padding:18px 5vw;border-top:1px solid #c8c9bd;font-size:13px}@media(max-width:700px){main{grid-template-columns:1fr}canvas{height:50vh}aside{border-left:0;padding:24px}header{padding:20px}h1{font-size:34px}}</style>
-<header><div><small>COMMON OBJECTS / 001</small><h1>Study lamp</h1></div><span>Metric collection<br><small>1 unit = 1 metre</small></span></header>
-<main><section><canvas id="scene" aria-label="Interactive 3D study lamp preview"></canvas><div class="tag">Drag to orbit · Scroll or use slider to zoom · Grid spacing 10 cm</div></section><aside><small>OBJECT / ESTIMATED SIZE</small><h2 id="dimensions"></h2><p class="muted">Original procedural geometry. Ground-centered, life-size, scale 1:1:1.</p><label for="selected">Selected instance</label><select id="selected"></select><button id="toggle" class="primary">Turn on</button><button id="duplicate">Duplicate lamp</button><label for="rotation">Object rotation <output id="degrees">0°</output></label><input id="rotation" type="range" min="-180" max="180" value="0"><label for="zoom">Camera distance</label><input id="zoom" type="range" min="0.65" max="4" value="1.25" step="0.01"><button id="reset">Reset camera</button><button id="save">Save arrangement</button><button id="restore">Restore arrangement</button><p id="status" class="status" role="status"></p><p class="muted">Switch changes bulb and shade emission. Room lighting and cast shadows are not simulated.</p></aside></main><footer>Shared WebGL renderer · Depth-tested geometry · JSON asset source · No external requests</footer><script type="module" src="./app.js"></script></html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lo-fi night room</title>
+<meta name="description" content="Interactive 3D isometric lo-fi night study room built with Colorfigures - drag to orbit 360°, toggle Night/Light theme, desk lamp, vinyl turntable, fairy lights &amp; rain, and inspect see-through wiring.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pages - eiaserinnys.me">
+<meta property="og:title" content="Fig. 27 - Lo-fi night room (Colorfigures Isometric Diorama)">
+<meta property="og:description" content="Interactive 3D isometric lo-fi night study room built with Colorfigures - drag to orbit 360°, toggle Night/Light theme, desk lamp, vinyl turntable, fairy lights &amp; rain, and inspect see-through wiring.">
+<meta property="og:image" content="https://pub-236dc9dc170e487faec4c8b5e2d084c6.r2.dev/pages/lofi-night-room/og-lofi-room.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fig. 27 - Lo-fi night room (Colorfigures Isometric Diorama)">
+<meta name="twitter:description" content="Interactive 3D isometric lo-fi night study room built with Colorfigures - drag to orbit 360°, toggle Night/Light theme, desk lamp, vinyl turntable, fairy lights &amp; rain, and inspect see-through wiring.">
+<meta name="twitter:image" content="https://pub-236dc9dc170e487faec4c8b5e2d084c6.r2.dev/pages/lofi-night-room/og-lofi-room.png">
+<script>document.documentElement.classList.add("dark");</script><style>:root{--hud-bg:rgba(242,239,231,.92)}html.dark{--paper:#131624;--ink:#efe8d8;--muted:#9ba0b8;--rule:rgba(239,232,216,.22);--hud-bg:rgba(22,26,44,.92)}html.dark body{background:radial-gradient(circle at 50% 50%,#252c4d 0%,#181d33 48%,#101322 100%)!important;color:var(--ink)!important}html.dark .act{background:rgba(24,29,49,.9);color:var(--ink);border-color:rgba(239,232,216,.26)}html.dark .act:hover{background:rgba(38,45,74,.95);border-color:rgba(239,232,216,.45)}html.dark .act:active,html.dark .act.flash,html.dark .act[aria-pressed="true"]{background:#f4b829;color:#191610;border-color:#f4b829}html.dark .amenu{background:#1b2036;border-color:rgba(239,232,216,.28);box-shadow:0 10px 28px rgba(0,0,0,.48)}html.dark .amenu button{color:var(--ink)}html.dark .amenu button:hover{background:rgba(239,232,216,.1)}html.dark .amenu button.cur::before{background:#f4b829}html.dark .stat .k{color:#9ba0b8}html.dark .stat .v{color:#f7eedc;text-shadow:0 2px 10px rgba(0,0,0,.45)}html.dark .seg{border-color:rgba(239,232,216,.26)}html.dark .seg button{background:rgba(24,29,49,.92);color:var(--ink);border-right-color:rgba(239,232,216,.2)}html.dark .seg button[aria-pressed="true"]{background:#f4b829;color:#191610;font-weight:700}html.dark .ctl input[type=range]{background:rgba(239,232,216,.28)}html.dark .ctl input[type=range]::-webkit-slider-thumb{background:#f4b829;border:2px solid #131624}html.dark .sw{border-color:rgba(239,232,216,.3)}html.dark .sw[aria-pressed="true"]{outline-color:#f4b829}html.dark #fig .tag path{stroke:#d8d0c0!important;opacity:.78!important}html.dark #fig .tag:not(.on) rect{fill:#1e243b!important;stroke:#8a92b2!important}html.dark #fig .tag:not(.on) text{fill:#efe8d8!important}html.dark #fig .tag.on rect{fill:#f4b829!important;stroke:#fff4d6!important}html.dark #fig .tag.on text{fill:#191610!important}html.dark #fig .tag circle{fill:#f4b829!important;stroke:#191610!important}.mcap{display:none!important}@media (max-width:560px){.stat .v{font-size:20px!important}.stats{align-items:flex-end}body > header{display:none}}@media (min-width:561px){html,body{width:100vw;height:100dvh;margin:0!important;padding:0!important;overflow:hidden!important;position:relative}.stage{position:fixed!important;inset:0!important;max-width:none!important;width:100vw!important;height:100dvh!important;margin:0!important;padding:0!important;display:flex!important;align-items:center!important;justify-content:center!important}.zwrap{position:fixed!important;inset:0!important;width:100vw!important;height:100dvh!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important;z-index:1}#fig{width:min(82vw,calc(84dvh / 0.75))!important;height:auto!important;max-width:none!important;max-height:84dvh!important;margin:0!important;display:block!important;transform-origin:50% 50%!important;flex:none}body > header{position:fixed!important;top:20px!important;left:24px!important;z-index:10!important;margin:0!important;max-width:none!important;width:auto!important;pointer-events:none}.actions#btns{position:fixed!important;top:50px!important;left:24px!important;right:auto!important;z-index:10!important;max-width:calc(100vw - 420px)}.vset{position:fixed!important;top:20px!important;right:24px!important;left:auto!important;z-index:10!important;margin:0!important}#stats{position:fixed!important;top:64px!important;right:24px!important;left:auto!important;z-index:10!important}.controls{position:fixed!important;bottom:42px!important;left:24px!important;right:auto!important;top:auto!important;z-index:10!important;margin:0!important;padding:10px 14px!important;width:auto!important;max-width:none!important;display:flex!important;flex-direction:row!important;align-items:center!important;gap:20px!important;background:var(--hud-bg);border:1px solid var(--rule);border-radius:10px}#viewctl{position:fixed!important;bottom:54px!important;right:24px!important;left:auto!important;top:auto!important;z-index:10!important;padding:8px 12px!important;background:var(--hud-bg);border:1px solid var(--rule);border-radius:10px}.made-with{position:fixed!important;bottom:14px!important;left:26px!important;right:auto!important;z-index:10!important;margin:0!important;padding:0!important;max-width:none!important;text-align:left!important}}</style><script>window.FIG_A = () => innerWidth <= 560 ? 1.1 : .75;</script><script>window.LBL_U = () => { if (innerWidth > 560) return 0; const s = document.getElementById("fig"); return s && s.clientWidth && s.viewBox.baseVal.width ? s.viewBox.baseVal.width / s.clientWidth : 0; };</script></head><body>
+<script src="../renderer/colorfigures/drawing.js"></script>
+<script src="../renderer/colorfigures/shell.js"></script>
+<script src="../renderer/colorfigures/extras.js"></script>
+<script src="../assets/lofi-night-room/materials.js"></script>
+<script src="../assets/lofi-night-room/floor.js"></script>
+<script src="../assets/lofi-night-room/walls.js"></script>
+<script src="../assets/lofi-night-room/wall-items.js"></script>
+<script src="../assets/lofi-night-room/furniture.js"></script>
+<script src="../assets/lofi-night-room/desktop.js"></script>
+<script src="../assets/lofi-night-room/floor-furniture.js"></script>
+<script src="../assets/lofi-night-room/mechanisms.js"></script>
+<script src="../assets/lofi-night-room/scene.js"></script>
+<script src="../preview/room.js"></script><style>@media (max-width:560px),(pointer:coarse){#art{filter:none!important}.ctl:has(#wb){display:none!important}}</style>
+<style>@media (max-width:560px){.vset{margin:8px 0 2px!important}}</style>
+<script>requestAnimationFrame(() => { const v = document.querySelector(".vset"), s = document.getElementById("stats"), z = document.querySelector(".zwrap"); if (!v) return; if (z && z.parentNode === v.parentNode){ z.after(v); } else if (s && s.parentNode) s.parentNode.insertBefore(v, s); });</script>
+<style>.zwrap{position:relative}.zwrap.on{overflow:hidden}.zwrap #fig{transform-origin:50% 50%}
+.zchip{position:absolute;right:8px;bottom:8px;display:flex;align-items:center;gap:2px;font:600 11.5px ui-monospace,Menlo,monospace;
+ background:var(--hud-bg,rgba(242,239,231,.88));border:1px solid var(--rule,rgba(35,30,22,.25));border-radius:999px;padding:3px 4px;z-index:10;user-select:none;backdrop-filter:blur(8px)}
+@media (min-width:561px){.zchip{position:fixed!important;right:24px!important;bottom:16px!important}}
+.zchip button{all:unset;cursor:pointer;min-width:24px;height:24px;line-height:24px;text-align:center;border-radius:999px;color:var(--ink,#231e16)}
+.zchip button:hover{background:rgba(128,128,128,.16)}.zchip .zp{min-width:48px}</style>
+<script>(() => { const fig = document.getElementById("fig"); if (!fig) return;
+  const wrap = document.createElement("div"); wrap.className = "zwrap"; fig.parentNode.insertBefore(wrap, fig); wrap.appendChild(fig);
+  const chip = document.createElement("div"); chip.className = "zchip";
+  chip.innerHTML = '<button class="zm" aria-label="Zoom out">−</button><button class="zp" aria-label="Reset zoom">100%</button><button class="zi" aria-label="Zoom in">+</button>';
+  wrap.appendChild(chip);
+  const MIN_S = 0.75, MAX_S = 4.0;
+  const STEPS = [0.75, 1.0, 1.25, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0];
+  let s = 1, tx = 0, ty = 0;
+  const box = () => ({ w: fig.clientWidth, h: fig.clientHeight, ww: wrap.clientWidth || fig.clientWidth, wh: wrap.clientHeight || fig.clientHeight });
+  const apply = () => { const { w, h, ww, wh } = box(); s = Math.min(MAX_S, Math.max(MIN_S, s));
+    if (Math.abs(s - 1) < 0.005){ s = 1; tx = ty = 0; }
+    else {
+      const maxX = Math.max(0, (w * s - ww * 0.35) / 2), maxY = Math.max(0, (h * s - wh * 0.35) / 2);
+      tx = Math.min(maxX, Math.max(-maxX, tx)); ty = Math.min(maxY, Math.max(-maxY, ty));
+    }
+    fig.style.transform = s === 1 ? "" : `translate(${tx}px,${ty}px) scale(${s})`;
+    wrap.classList.toggle("on", s !== 1); document.documentElement.classList.toggle("zoomed", s > 1);
+    chip.querySelector(".zp").textContent = Math.round(s*100) + "%"; grain(); };
+  const grain = () => { const fl = document.getElementById("hand"); if (!fl) return;
+    const ts = [...fl.querySelectorAll("feTurbulence")]; if (!ts.length) return;
+    const g = ts.find(t => t.getAttribute("result") === "n1") || ts.reduce((a, b) => parseFloat(b.getAttribute("baseFrequency")) > parseFloat(a.getAttribute("baseFrequency")) ? b : a);
+    if (!g.dataset.f0) g.dataset.f0 = g.getAttribute("baseFrequency");
+    const v = (parseFloat(g.dataset.f0) * s).toFixed(4); if (g.getAttribute("baseFrequency") !== v) g.setAttribute("baseFrequency", v); };
+  const fd = document.getElementById("fdefs"); if (fd) new MutationObserver(() => grain()).observe(fd, { childList: true, subtree: true });
+  const zoomTo = (s2, ox = 0, oy = 0) => { s2 = Math.min(MAX_S, Math.max(MIN_S, s2)); tx = ox - (ox - tx)*(s2/s); ty = oy - (oy - ty)*(s2/s); s = s2; apply(); };
+  const zoomAt = (k, ox = 0, oy = 0) => zoomTo(s * k, ox, oy);
+  const offsetFromCenter = e => { const r = wrap.getBoundingClientRect(); return [e.clientX - (r.left + r.width/2), e.clientY - (r.top + r.height/2)]; };
+  wrap.addEventListener("wheel", e => {
+    if (innerWidth > 560 || e.ctrlKey || e.metaKey){
+      e.preventDefault();
+      const [ox, oy] = offsetFromCenter(e);
+      zoomAt(Math.exp(-Math.max(-60, Math.min(60, e.deltaY)) * .0045), ox, oy);
+    } else if (s > 1){
+      e.preventDefault(); tx -= e.deltaX; ty -= e.deltaY; apply();
+    }
+  }, { passive: false });
+  chip.querySelector(".zi").onclick = () => {
+    const next = STEPS.find(v => v > s + 0.02) || MAX_S;
+    zoomTo(next, 0, 0);
+  };
+  chip.querySelector(".zm").onclick = () => {
+    const prev = [...STEPS].reverse().find(v => v < s - 0.02) || MIN_S;
+    zoomTo(prev, 0, 0);
+  };
+  chip.querySelector(".zp").onclick = () => { s = 1; tx = ty = 0; apply(); };
+  chip.addEventListener("pointerdown", e => e.stopPropagation());
+  const pts = new Map(); let pinch = null;
+  const two = () => { const [a, b] = [...pts.values()]; return { d: Math.hypot(a.x - b.x, a.y - b.y), x: (a.x + b.x)/2, y: (a.y + b.y)/2 }; };
+  wrap.addEventListener("pointerdown", e => { if (e.pointerType !== "touch") return; pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pts.size === 2){ pinch = two(); e.stopPropagation(); } }, true);
+  wrap.addEventListener("pointermove", e => { if (!pts.has(e.pointerId)) return; pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pinch && pts.size === 2){ e.stopPropagation(); e.preventDefault(); const n = two(), r = wrap.getBoundingClientRect();
+      const ox = n.x - (r.left + r.width/2), oy = n.y - (r.top + r.height/2);
+      tx += n.x - pinch.x; ty += n.y - pinch.y; zoomAt(n.d / pinch.d, ox, oy); pinch = n; } }, true);
+  const up = e => { pts.delete(e.pointerId); if (pts.size < 2) pinch = null; };
+  wrap.addEventListener("pointerup", up, true); wrap.addEventListener("pointercancel", up, true);
+  addEventListener("resize", apply);
+})();</script>
+<style>.toast{position:fixed!important;left:50%!important;right:auto!important;top:22px!important;bottom:auto!important;z-index:20!important;
+  transform:translate(-50%,8px)!important;opacity:0!important;pointer-events:none!important;display:flex!important;align-items:center;gap:8px;
+  width:max-content;max-width:min(86%,440px);white-space:normal!important;font:600 12.5px/1.35 ui-monospace,Menlo,monospace!important;
+  letter-spacing:.01em!important;text-transform:none!important;color:#231e16!important;background:#fff1bf!important;
+  border:1px solid rgba(35,30,22,.28)!important;border-radius:8px!important;box-shadow:0 8px 22px rgba(0,0,0,.22)!important;
+  padding:7px 13px 7px 9px!important;transition:opacity .18s ease,transform .18s ease!important}
+.toast::before{content:"!";flex:none;width:17px;height:17px;border-radius:50%;background:#231e16;color:#fff1bf;font:800 11px/17px ui-monospace,Menlo,monospace;text-align:center}
+.toast.show{opacity:1!important;transform:translate(-50%,0)!important}</style>
+<script>(() => { const cap = () => { const t = document.getElementById("toast"); if (!t) return; const s = t.textContent;
+  if (s && s[0] !== s[0].toUpperCase()) t.textContent = s[0].toUpperCase() + s.slice(1); };
+  let seen = null; const watch = () => { const t = document.getElementById("toast"); if (!t || t === seen) return; seen = t;
+    const zw = document.querySelector(".zwrap"); if (zw && t.parentNode !== zw) zw.appendChild(t);
+    new MutationObserver(cap).observe(t, { childList: true, characterData: true, subtree: true }); cap(); };
+  watch(); const st = document.querySelector(".stage"); if (st) new MutationObserver(watch).observe(st, { childList: true }); })();</script>
+<script>(() => { const fix = () => { const art = document.getElementById('art'); if (!art) return;
+    for (const el of art.querySelectorAll('[fill="#41538f" i]')){ let top = null, a = el.parentElement;
+      while (a && a !== art){ const o = a.getAttribute('opacity'); if (o !== null && +o < 1) top = a; a = a.parentElement; }
+      if (top) top.parentNode.insertBefore(el, top); } };
+  const go = () => { const art = document.getElementById('art'); if (!art) return setTimeout(go, 50); fix(); new MutationObserver(fix).observe(art, { childList: true }); };
+  if (document.readyState === 'loading') addEventListener('DOMContentLoaded', go); else go(); })();</script>
+<style>.lgd{display:none}@media (max-width:560px){html:not(.nolabels) .lgd.has{display:grid}}
+.lgd{grid-template-columns:1fr 1fr;gap:2px 8px;margin:4px 0 12px;font:700 10.5px/1.25 ui-monospace,Menlo,monospace;letter-spacing:.03em;color:var(--ink,#231e16)}
+.lgd button{all:unset;display:flex;align-items:center;gap:6px;cursor:pointer;padding:4px;border-radius:7px;-webkit-tap-highlight-color:transparent}
+.lgd b{flex:none;min-width:17px;height:17px;padding:0 3px;box-sizing:border-box;border-radius:999px;border:1.2px solid #231e16;background:#fff4d6;color:#231e16;text-align:center;font:800 10px/15px ui-monospace,Menlo,monospace}
+.lgd .on b{background:var(--accent,#f4b829);color:#191610}
+.lgd .sel{background:rgba(128,128,128,.14)}.lgd .sel b{background:#231e16;color:#fff4d6}
+html.dark .lgd b{background:#1e243b;color:#efe8d8;border-color:#8a92b2}
+html.dark .lgd .on b{background:#f4b829;color:#191610;border-color:#fff4d6}
+html.dark .lgd .sel b{background:#efe8d8;color:#131624}</style>
+<script>(() => { const fig = document.getElementById("fig"); if (!fig) return;
+  const lg = document.createElement("div"); lg.className = "lgd"; const at = document.querySelector(".zwrap") || fig; at.parentNode.insertBefore(lg, at.nextSibling);
+  const hs = document.createElement("style"); document.head.appendChild(hs);
+  let sig = "", sel = 0, q = 0, names = "", num = new Map();
+  const renum = () => { if (innerWidth > 560) return; const gs = [...fig.querySelectorAll(".tag[data-t]")];
+    const key = gs.map(g => g.dataset.t).sort().join("|");
+    if (key !== names){ names = key; num = new Map(); const vb = fig.viewBox.baseVal, cx = vb.x + vb.width/2;
+      const at = g => { const r = g.querySelector("rect"); return r ? [+r.getAttribute("x") + r.getAttribute("width")/2, +r.getAttribute("y")] : [0, 0]; };
+      gs.map(g => [g.dataset.t, ...at(g)]).sort((a, b) => ((a[1] > cx) - (b[1] > cx)) || a[2] - b[2]).forEach(([t]) => { if (!num.has(t)) num.set(t, num.size + 1); }); }
+    for (const g of gs){ const n = String(num.get(g.dataset.t)); if (g.dataset.n !== n){ g.dataset.n = n; const t = g.querySelector("text"); if (t) t.textContent = n; } } };
+  const mark = () => { hs.textContent = sel ? `#fig .tag[data-n="${sel}"] rect{fill:#f4b829!important}#fig .tag[data-n="${sel}"] text{fill:#191610!important}#fig .tag[data-n="${sel}"] path{stroke-width:2.4}` : "";
+    for (const x of lg.children) x.classList.toggle("sel", +x.dataset.n === sel); };
+  const upd = () => { q = 0; const m = new Map();
+    if (innerWidth <= 560) for (const g of fig.querySelectorAll(".tag[data-n]")){ const n = +g.dataset.n; if (!m.has(n)) m.set(n, [g.dataset.t, g.classList.contains("on")]); }
+    const a = [...m].sort((x, y) => x[0] - y[0]), s = JSON.stringify(a); if (s === sig) return; sig = s;
+    lg.classList.toggle("has", a.length > 0);
+    lg.innerHTML = a.map(([n, [t, on]]) => `<button data-n="${n}" class="${on ? "on" : ""}"><b>${n}</b><span>${t}</span></button>`).join(""); mark(); };
+  lg.addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; sel = sel === +b.dataset.n ? 0 : +b.dataset.n; mark(); });
+  new MutationObserver(() => { renum(); if (!q) q = requestAnimationFrame(upd); }).observe(fig, { childList: true, subtree: true }); renum();
+  addEventListener("resize", () => { if (!q) q = requestAnimationFrame(upd); }); upd(); })();</script><script src="./navigation.js"></script></body></html>
