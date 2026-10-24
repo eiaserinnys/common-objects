@@ -19,7 +19,7 @@ Build output is dist/; serve it with `python3 -m http.server 8000 --directory di
 
 ## Assets
 
-`assets/catalog.json` registers 20 entries: the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
+`assets/catalog.json` registers 40 entries: ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
 
 All placeable entries use **1 unit = 1 metre**, Y-up and default scale [1,1,1].
 
@@ -40,3 +40,7 @@ Imported Colorfigures code is MIT by April Zhu, based on ISO-GLOW and Tolga Cohc
 ### Kitchen rituals · 2026-10-23
 
 [Open the kitchen set](preview/kitchen.html): ten original metric props in sage, wood and cream, with independent functional states. Includes cutting board, serving tray, butter dish, bread box, salt cellar, oil cruet, utensil crock, napkin holder, kitchen scale and pepper mill. All dimensions are estimates; source geometry stays at scale `[1,1,1]`. Select **Inspect selected** for four-side inspection, or **Whole set** for shared placement. Sources and SVG thumbnails are catalogued under `assets/kitchen-*/`; [batch verification](docs/kitchen-2026-10-23.md) records scope and limits.
+
+### Mending afternoon · 2026-10-25 KST
+
+[Open the sewing set](preview/sewing.html): thread spool, pincushion, scissors, thimble, seam ripper, retractable tape measure, needle case, sewing box, embroidery hoop and travel iron. Ten distinct original metric SVG props, with independent discrete states and saved mixed scenes. [Production record and visual evidence](docs/sewing-2026-10-25.md). These are projected 3D-coordinate SVG drawings, not delivered GLB meshes.

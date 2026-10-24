@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "clustered spool behind box, thimble on lid, pincushion in front: shared SVG occlusion capture",
+    "thimble contacts sewing box lid at Y=0.142 m, scale one, shared scene",
+    "object-1: four sides, alternate state, independent copy, unit scale",
+    "object-2: four sides, alternate state, independent copy, unit scale",
+    "object-3: four sides, alternate state, independent copy, unit scale",
+    "object-4: four sides, alternate state, independent copy, unit scale",
+    "object-5: four sides, alternate state, independent copy, unit scale",
+    "object-6: four sides, alternate state, independent copy, unit scale",
+    "object-7: four sides, alternate state, independent copy, unit scale",
+    "object-8: four sides, alternate state, independent copy, unit scale",
+    "object-9: four sides, alternate state, independent copy, unit scale",
+    "object-10: four sides, alternate state, independent copy, unit scale",
+    "mixed 20-instance scene: transforms, states, versions saved and restored after reload",
+    "390px viewport: no overflow, pointer orbit, selection, camera focus, action"
+  ],
+  "errors": []
+}

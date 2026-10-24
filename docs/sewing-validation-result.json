@@ -1,0 +1,738 @@
+{
+  "batch": "sewing-2026-10-25",
+  "count": 10,
+  "objects": [
+    {
+      "id": "sewing-thread-spool",
+      "version": 1,
+      "dimensions": [
+        0.064,
+        0.074,
+        0.064
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sewing-thread-spool",
+        "parts": 15,
+        "min": [
+          -0.032,
+          0,
+          -0.032
+        ],
+        "max": [
+          0.032,
+          0.074,
+          0.032
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "threaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.032,
+              0,
+              -0.032
+            ],
+            "max": [
+              0.032,
+              0.074,
+              0.032
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "threaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.032,
+              0,
+              -0.032
+            ],
+            "max": [
+              0.032,
+              0.074,
+              0.032
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/sewing-thread-spool/thumbnail.svg"
+    },
+    {
+      "id": "sewing-pincushion",
+      "version": 1,
+      "dimensions": [
+        0.094,
+        0.0885,
+        0.094
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sewing-pincushion",
+        "parts": 9,
+        "min": [
+          -0.047,
+          0,
+          -0.047
+        ],
+        "max": [
+          0.047,
+          0.0885,
+          0.047
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "pinned": true
+          },
+          "bounds": {
+            "min": [
+              -0.047,
+              0,
+              -0.047
+            ],
+            "max": [
+              0.047,
+              0.0885,
+              0.047
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "pinned": false
+          },
+          "bounds": {
+            "min": [
+              -0.047,
+              0,
+              -0.047
+            ],
+            "max": [
+              0.047,
+              0.061,
+              0.047
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/sewing-pincushion/thumbnail.svg"
+    },
+    {
+      "id": "sewing-scissors",
+      "version": 1,
+      "dimensions": [
+        0.108,
+        0.016,
+        0.194
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sewing-scissors",
+        "parts": 70,
+        "min": [
+          -0.054000000000000006,
+          0,
+          -0.097
+        ],
+        "max": [
+          0.054000000000000006,
+          0.016,
+          0.097
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "sheathed": true
+          },
+          "bounds": {
+            "min": [
+              -0.054000000000000006,
+              0,
+              -0.097
+            ],
+            "max": [
+              0.054000000000000006,
+              0.016,
+              0.097
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "sheathed": false
+          },
+          "bounds": {
+            "min": [
+              -0.054000000000000006,
+              0,
+              -0.09485256837115841
+            ],
+            "max": [
+              0.054000000000000006,
+              0.012,
+              0.097
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/sewing-scissors/thumbnail.svg"
+    },
+    {
+      "id": "sewing-thimble",
+      "version": 1,
+      "dimensions": [
+        0.048,
+        0.025,
+        0.048
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sewing-thimble",
+        "parts": 47,
+        "min": [
+          -0.024,
+          0,
+          -0.024
+        ],
+        "max": [
+          0.024,
+          0.025,
+          0.024
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "stored": true
+          },
+          "bounds": {
+            "min": [
+              -0.024,
+              0,
+              -0.024
+            ],
+            "max": [
+              0.024,
+              0.025,
+              0.024
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "stored": false
+          },
+          "bounds": {
+            "min": [
+              -0.014,
+              0,
+              -0.014
+            ],
+            "max": [
+              0.014,
+              0.025,
+              0.014
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/sewing-thimble/thumbnail.svg"
+    },
+    {
+      "id": "sewing-seam-ripper",
+      "version": 1,
+      "dimensions": [
+        0.022,
+        0.113,
+        0.022
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sewing-seam-ripper",
+        "parts": 6,
+        "min": [
+          -0.011,
+          0,
+          -0.011
+        ],
+        "max": [
+          0.011,
+          0.113,
+          0.011
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "capped": true
+          },
+          "bounds": {
+            "min": [
+              -0.011,
+              0,
+              -0.011
+            ],
+            "max": [
+              0.011,
+              0.113,
+              0.011
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "capped": false
+          },
+          "bounds": {
+            "min": [
+              -0.009,
+              0,
+              -0.009
+            ],
+            "max": [
+              0.009,
+              0.11,
+              0.009
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/sewing-seam-ripper/thumbnail.svg"
+    },
+    {
+      "id": "sewing-tape-measure",
+      "version": 1,
+      "dimensions": [
+        0.2115,
+        0.019,
+        0.06
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sewing-tape-measure",
+        "parts": 20,
+        "min": [
+          -0.03,
+          0,
+          -0.03
+        ],
+        "max": [
+          0.1815,
+          0.019000000000000003,
+          0.03
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "extended": false
+          },
+          "bounds": {
+            "min": [
+              -0.03,
+              0,
+              -0.03
+            ],
+            "max": [
+              0.0315,
+              0.019000000000000003,
+              0.03
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "extended": true
+          },
+          "bounds": {
+            "min": [
+              -0.03,
+              0,
+              -0.03
+            ],
+            "max": [
+              0.1815,
+              0.019000000000000003,
+              0.03
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/sewing-tape-measure/thumbnail.svg"
+    },
+    {
+      "id": "sewing-needle-case",
+      "version": 1,
+      "dimensions": [
+        0.09,
+        0.019,
+        0.035
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sewing-needle-case",
+        "parts": 10,
+        "min": [
+          -0.045,
+          0,
+          -0.0175
+        ],
+        "max": [
+          0.045,
+          0.019,
+          0.0175
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": true
+          },
+          "bounds": {
+            "min": [
+              -0.045,
+              0,
+              -0.0175
+            ],
+            "max": [
+              0.045,
+              0.019,
+              0.0175
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": false
+          },
+          "bounds": {
+            "min": [
+              -0.045,
+              0,
+              -0.0175
+            ],
+            "max": [
+              0.045,
+              0.014,
+              0.0175
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/sewing-needle-case/thumbnail.svg"
+    },
+    {
+      "id": "sewing-box",
+      "version": 1,
+      "dimensions": [
+        0.31,
+        0.179,
+        0.212
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sewing-box",
+        "parts": 11,
+        "min": [
+          -0.155,
+          0,
+          -0.105
+        ],
+        "max": [
+          0.155,
+          0.179,
+          0.107
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": true
+          },
+          "bounds": {
+            "min": [
+              -0.155,
+              0,
+              -0.105
+            ],
+            "max": [
+              0.155,
+              0.179,
+              0.107
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "lid-top",
+              "vertices": [
+                [
+                  -0.14,
+                  0.142,
+                  -0.08
+                ],
+                [
+                  -0.06,
+                  0.142,
+                  -0.08
+                ],
+                [
+                  -0.06,
+                  0.142,
+                  0.08
+                ],
+                [
+                  -0.14,
+                  0.142,
+                  0.08
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "closed": false
+          },
+          "bounds": {
+            "min": [
+              -0.15,
+              0,
+              -0.1
+            ],
+            "max": [
+              0.15,
+              0.133,
+              0.107
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "left-compartment",
+              "vertices": [
+                [
+                  -0.14,
+                  0.008,
+                  -0.085
+                ],
+                [
+                  -0.01,
+                  0.008,
+                  -0.085
+                ],
+                [
+                  -0.01,
+                  0.008,
+                  0.085
+                ],
+                [
+                  -0.14,
+                  0.008,
+                  0.085
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "thumbnail": "assets/sewing-box/thumbnail.svg"
+    },
+    {
+      "id": "sewing-embroidery-hoop",
+      "version": 1,
+      "dimensions": [
+        0.208,
+        0.014,
+        0.22
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sewing-embroidery-hoop",
+        "parts": 68,
+        "min": [
+          -0.10400000000000001,
+          0,
+          -0.11
+        ],
+        "max": [
+          0.10400000000000001,
+          0.014,
+          0.11
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "fabric": true
+          },
+          "bounds": {
+            "min": [
+              -0.10400000000000001,
+              0,
+              -0.11
+            ],
+            "max": [
+              0.10400000000000001,
+              0.014,
+              0.11
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "fabric": false
+          },
+          "bounds": {
+            "min": [
+              -0.10400000000000001,
+              0,
+              -0.11
+            ],
+            "max": [
+              0.10400000000000001,
+              0.014,
+              0.11
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/sewing-embroidery-hoop/thumbnail.svg"
+    },
+    {
+      "id": "sewing-iron",
+      "version": 1,
+      "dimensions": [
+        0.09,
+        0.1,
+        0.175
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sewing-iron",
+        "parts": 9,
+        "min": [
+          -0.045,
+          0,
+          -0.0875
+        ],
+        "max": [
+          0.045,
+          0.09999999999999999,
+          0.0875
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false
+          },
+          "bounds": {
+            "min": [
+              -0.045,
+              0,
+              -0.0875
+            ],
+            "max": [
+              0.045,
+              0.09999999999999999,
+              0.0875
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true
+          },
+          "bounds": {
+            "min": [
+              -0.045,
+              0,
+              -0.0875
+            ],
+            "max": [
+              0.045,
+              0.09999999999999999,
+              0.0875
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/sewing-iron/thumbnail.svg"
+    }
+  ]
+}

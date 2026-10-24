@@ -30,6 +30,16 @@
     "kitchen-utensil-crock/asset.json",
     "kitchen-napkin-holder/asset.json",
     "kitchen-scale/asset.json",
-    "kitchen-pepper-mill/asset.json"
+    "kitchen-pepper-mill/asset.json",
+    "sewing-thread-spool/asset.json",
+    "sewing-pincushion/asset.json",
+    "sewing-scissors/asset.json",
+    "sewing-thimble/asset.json",
+    "sewing-seam-ripper/asset.json",
+    "sewing-tape-measure/asset.json",
+    "sewing-needle-case/asset.json",
+    "sewing-box/asset.json",
+    "sewing-embroidery-hoop/asset.json",
+    "sewing-iron/asset.json"
   ]
 }
