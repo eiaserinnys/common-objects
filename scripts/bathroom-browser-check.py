@@ -23,7 +23,7 @@ try:
   page.wait_for_function('document.documentElement.dataset.ready === "true"')
   page.screenshot(path=str(OUT/'set-desktop.png'),full_page=True)
   # Place cup on riser mat; cluster dispenser behind and soap dish in front.
-  for obj,x,y,z in [('object-1','0','0','0'),('object-4','0','0.063','0'),('object-3','0.02','0','-0.18'),('object-2','0.02','0','0.20'),('object-8','-0.28','0','0.20')]:
+  for obj,x,y,z in [('object-1','0','0','0'),('object-4','0','0.063','0'),('object-3','0.02','0','-0.18'),('object-2','0.02','0','0.20'),('object-8','-0.23','0','0.18')]:
    page.locator('#selected').select_option(obj)
    for field,value in [('x',x),('y',y),('z',z)]:
     page.locator('#'+field).fill(value);page.locator('#'+field).dispatch_event('change')
