@@ -1,0 +1,712 @@
+{
+  "batch": "bathroom-2026-10-26",
+  "count": 10,
+  "objects": [
+    {
+      "id": "bathroom-riser",
+      "version": 1,
+      "dimensions": [
+        0.32,
+        0.063,
+        0.216
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bathroom-riser",
+        "parts": 12,
+        "min": [
+          -0.16,
+          0,
+          -0.108
+        ],
+        "max": [
+          0.16,
+          0.063,
+          0.108
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "lined": true
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.108
+            ],
+            "max": [
+              0.16,
+              0.063,
+              0.108
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "mat-top",
+              "vertices": [
+                [
+                  -0.15,
+                  0.063,
+                  -0.1
+                ],
+                [
+                  0.15,
+                  0.063,
+                  -0.1
+                ],
+                [
+                  0.15,
+                  0.063,
+                  0.1
+                ],
+                [
+                  -0.15,
+                  0.063,
+                  0.1
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "lined": false
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.108
+            ],
+            "max": [
+              0.16,
+              0.06,
+              0.108
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/bathroom-riser/thumbnail.svg"
+    },
+    {
+      "id": "bathroom-soap-dish",
+      "version": 1,
+      "dimensions": [
+        0.13,
+        0.037,
+        0.09
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bathroom-soap-dish",
+        "parts": 11,
+        "min": [
+          -0.065,
+          0,
+          -0.045
+        ],
+        "max": [
+          0.065,
+          0.037000000000000005,
+          0.045
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "filled": true
+          },
+          "bounds": {
+            "min": [
+              -0.065,
+              0,
+              -0.045
+            ],
+            "max": [
+              0.065,
+              0.037000000000000005,
+              0.045
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "filled": false
+          },
+          "bounds": {
+            "min": [
+              -0.065,
+              0,
+              -0.045
+            ],
+            "max": [
+              0.065,
+              0.018,
+              0.045
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/bathroom-soap-dish/thumbnail.svg"
+    },
+    {
+      "id": "bathroom-dispenser",
+      "version": 1,
+      "dimensions": [
+        0.0885,
+        0.192,
+        0.072
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bathroom-dispenser",
+        "parts": 8,
+        "min": [
+          -0.036,
+          0,
+          -0.036
+        ],
+        "max": [
+          0.052500000000000005,
+          0.192,
+          0.036
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "unlocked": true
+          },
+          "bounds": {
+            "min": [
+              -0.036,
+              0,
+              -0.036
+            ],
+            "max": [
+              0.052500000000000005,
+              0.192,
+              0.036
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "unlocked": false
+          },
+          "bounds": {
+            "min": [
+              -0.036,
+              0,
+              -0.036
+            ],
+            "max": [
+              0.052500000000000005,
+              0.192,
+              0.036
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/bathroom-dispenser/thumbnail.svg"
+    },
+    {
+      "id": "bathroom-cup",
+      "version": 1,
+      "dimensions": [
+        0.072,
+        0.106,
+        0.072
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bathroom-cup",
+        "parts": 34,
+        "min": [
+          -0.036,
+          0,
+          -0.036
+        ],
+        "max": [
+          0.036,
+          0.106,
+          0.036
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "covered": false
+          },
+          "bounds": {
+            "min": [
+              -0.034,
+              0,
+              -0.034
+            ],
+            "max": [
+              0.034,
+              0.1,
+              0.034
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "covered": true
+          },
+          "bounds": {
+            "min": [
+              -0.036,
+              0,
+              -0.036
+            ],
+            "max": [
+              0.036,
+              0.106,
+              0.036
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/bathroom-cup/thumbnail.svg"
+    },
+    {
+      "id": "bathroom-toothbrush",
+      "version": 1,
+      "dimensions": [
+        0.029,
+        0.025,
+        0.206
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bathroom-toothbrush",
+        "parts": 19,
+        "min": [
+          -0.0145,
+          0,
+          -0.10300000000000001
+        ],
+        "max": [
+          0.0145,
+          0.025,
+          0.10300000000000001
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "capped": false
+          },
+          "bounds": {
+            "min": [
+              -0.0115,
+              0,
+              -0.0995
+            ],
+            "max": [
+              0.0115,
+              0.02,
+              0.10300000000000001
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "capped": true
+          },
+          "bounds": {
+            "min": [
+              -0.0145,
+              0,
+              -0.10300000000000001
+            ],
+            "max": [
+              0.0145,
+              0.025,
+              0.10300000000000001
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/bathroom-toothbrush/thumbnail.svg"
+    },
+    {
+      "id": "bathroom-toothpaste",
+      "version": 1,
+      "dimensions": [
+        0.052,
+        0.15,
+        0.04
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bathroom-toothpaste",
+        "parts": 6,
+        "min": [
+          -0.026,
+          0,
+          -0.02
+        ],
+        "max": [
+          0.026,
+          0.15,
+          0.02
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "capped": false
+          },
+          "bounds": {
+            "min": [
+              -0.026,
+              0,
+              -0.02
+            ],
+            "max": [
+              0.026,
+              0.14500000000000002,
+              0.02
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "capped": true
+          },
+          "bounds": {
+            "min": [
+              -0.026,
+              0,
+              -0.02
+            ],
+            "max": [
+              0.026,
+              0.15,
+              0.02
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/bathroom-toothpaste/thumbnail.svg"
+    },
+    {
+      "id": "bathroom-tissue-box",
+      "version": 1,
+      "dimensions": [
+        0.23,
+        0.155255251,
+        0.12
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bathroom-tissue-box",
+        "parts": 11,
+        "min": [
+          -0.115,
+          0,
+          -0.06
+        ],
+        "max": [
+          0.115,
+          0.15525525115750793,
+          0.06
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.115,
+              0,
+              -0.06
+            ],
+            "max": [
+              0.115,
+              0.15525525115750793,
+              0.06
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.115,
+              0,
+              -0.06
+            ],
+            "max": [
+              0.115,
+              0.096,
+              0.06
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/bathroom-tissue-box/thumbnail.svg"
+    },
+    {
+      "id": "bathroom-cotton-jar",
+      "version": 1,
+      "dimensions": [
+        0.092,
+        0.098,
+        0.092
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bathroom-cotton-jar",
+        "parts": 43,
+        "min": [
+          -0.046,
+          0,
+          -0.046
+        ],
+        "max": [
+          0.046,
+          0.098,
+          0.046
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": true
+          },
+          "bounds": {
+            "min": [
+              -0.046,
+              0,
+              -0.046
+            ],
+            "max": [
+              0.046,
+              0.098,
+              0.046
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": false
+          },
+          "bounds": {
+            "min": [
+              -0.044000000000000004,
+              0,
+              -0.044000000000000004
+            ],
+            "max": [
+              0.044,
+              0.078,
+              0.044
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/bathroom-cotton-jar/thumbnail.svg"
+    },
+    {
+      "id": "bathroom-comb",
+      "version": 1,
+      "dimensions": [
+        0.15,
+        0.012,
+        0.057
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bathroom-comb",
+        "parts": 17,
+        "min": [
+          -0.075,
+          0,
+          -0.0285
+        ],
+        "max": [
+          0.075,
+          0.012,
+          0.0285
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "sleeved": false
+          },
+          "bounds": {
+            "min": [
+              -0.07,
+              0,
+              -0.028
+            ],
+            "max": [
+              0.07,
+              0.006,
+              0.024999999999999998
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "sleeved": true
+          },
+          "bounds": {
+            "min": [
+              -0.075,
+              0,
+              -0.0285
+            ],
+            "max": [
+              0.075,
+              0.012,
+              0.0285
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/bathroom-comb/thumbnail.svg"
+    },
+    {
+      "id": "bathroom-mirror",
+      "version": 1,
+      "dimensions": [
+        0.118,
+        0.014,
+        0.217
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bathroom-mirror",
+        "parts": 37,
+        "min": [
+          -0.059,
+          0,
+          -0.10850000000000001
+        ],
+        "max": [
+          0.05900000000000001,
+          0.014,
+          0.10849999999999999
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "covered": false
+          },
+          "bounds": {
+            "min": [
+              -0.059,
+              0,
+              -0.10850000000000001
+            ],
+            "max": [
+              0.05900000000000001,
+              0.011000000000000001,
+              0.10849999999999999
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "covered": true
+          },
+          "bounds": {
+            "min": [
+              -0.059,
+              0,
+              -0.10850000000000001
+            ],
+            "max": [
+              0.05900000000000001,
+              0.014,
+              0.10849999999999999
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/bathroom-mirror/thumbnail.svg"
+    }
+  ]
+}

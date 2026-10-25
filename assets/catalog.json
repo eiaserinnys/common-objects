@@ -40,6 +40,16 @@
     "sewing-needle-case/asset.json",
     "sewing-box/asset.json",
     "sewing-embroidery-hoop/asset.json",
-    "sewing-iron/asset.json"
+    "sewing-iron/asset.json",
+    "bathroom-riser/asset.json",
+    "bathroom-soap-dish/asset.json",
+    "bathroom-dispenser/asset.json",
+    "bathroom-cup/asset.json",
+    "bathroom-toothbrush/asset.json",
+    "bathroom-toothpaste/asset.json",
+    "bathroom-tissue-box/asset.json",
+    "bathroom-cotton-jar/asset.json",
+    "bathroom-comb/asset.json",
+    "bathroom-mirror/asset.json"
   ]
 }

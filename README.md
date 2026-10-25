@@ -19,7 +19,7 @@ Build output is dist/; serve it with `python3 -m http.server 8000 --directory di
 
 ## Assets
 
-`assets/catalog.json` registers 40 entries: ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
+`assets/catalog.json` registers 50 entries: ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
 
 All placeable entries use **1 unit = 1 metre**, Y-up and default scale [1,1,1].
 
@@ -44,3 +44,7 @@ Imported Colorfigures code is MIT by April Zhu, based on ISO-GLOW and Tolga Cohc
 ### Mending afternoon · 2026-10-25 KST
 
 [Open the sewing set](preview/sewing.html): thread spool, pincushion, scissors, thimble, seam ripper, retractable tape measure, needle case, sewing box, embroidery hoop and travel iron. Ten distinct original metric SVG props, with independent discrete states and saved mixed scenes. [Production record and visual evidence](docs/sewing-2026-10-25.md). These are projected 3D-coordinate SVG drawings, not delivered GLB meshes.
+
+### Quiet morning · 2026-10-26 KST
+
+[Open the bathroom set](preview/bathroom.html): slatted vanity riser, draining soap dish, pump dispenser, toothbrush tumbler, manual toothbrush, toothpaste tube, tissue box, cotton pad jar, wide tooth comb and hand mirror. Ten original metric SVG props with removable covers/contents, independent duplicate states, and saved arrangements. Dimensions are estimates at scale `[1,1,1]`. [Verification and visual evidence](docs/bathroom-2026-10-26.md).
