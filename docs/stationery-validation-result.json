@@ -1,0 +1,738 @@
+{
+  "batch": "stationery-2026-10-27",
+  "count": 10,
+  "objects": [
+    {
+      "id": "stationery-letter-tray",
+      "version": 1,
+      "dimensions": [
+        0.25,
+        0.045,
+        0.34
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "stationery-letter-tray",
+        "parts": 6,
+        "min": [
+          -0.125,
+          0,
+          -0.17
+        ],
+        "max": [
+          0.125,
+          0.045,
+          0.17
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.125,
+              0,
+              -0.17
+            ],
+            "max": [
+              0.125,
+              0.045,
+              0.17
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "paper-top",
+              "vertices": [
+                [
+                  -0.105,
+                  0.018,
+                  -0.1485
+                ],
+                [
+                  0.105,
+                  0.018,
+                  -0.1485
+                ],
+                [
+                  0.105,
+                  0.018,
+                  0.1485
+                ],
+                [
+                  -0.105,
+                  0.018,
+                  0.1485
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.125,
+              0,
+              -0.17
+            ],
+            "max": [
+              0.125,
+              0.045,
+              0.17
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/stationery-letter-tray/thumbnail.svg"
+    },
+    {
+      "id": "stationery-stapler",
+      "version": 1,
+      "dimensions": [
+        0.042,
+        0.069799207,
+        0.14
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "stationery-stapler",
+        "parts": 7,
+        "min": [
+          -0.021,
+          0,
+          -0.07
+        ],
+        "max": [
+          0.021,
+          0.06979920685024897,
+          0.07
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.021,
+              0,
+              -0.07
+            ],
+            "max": [
+              0.021,
+              0.06979920685024897,
+              0.07
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.021,
+              0,
+              -0.07
+            ],
+            "max": [
+              0.021,
+              0.06979920685024897,
+              0.07
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/stationery-stapler/thumbnail.svg"
+    },
+    {
+      "id": "stationery-hole-punch",
+      "version": 1,
+      "dimensions": [
+        0.13,
+        0.064967211,
+        0.11
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "stationery-hole-punch",
+        "parts": 6,
+        "min": [
+          -0.065,
+          0,
+          -0.047
+        ],
+        "max": [
+          0.065,
+          0.064967210759302,
+          0.063
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.065,
+              0,
+              -0.047
+            ],
+            "max": [
+              0.065,
+              0.064967210759302,
+              0.063
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.065,
+              0,
+              -0.0375
+            ],
+            "max": [
+              0.065,
+              0.064967210759302,
+              0.0375
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/stationery-hole-punch/thumbnail.svg"
+    },
+    {
+      "id": "stationery-tape-dispenser",
+      "version": 1,
+      "dimensions": [
+        0.06,
+        0.090203722,
+        0.135
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "stationery-tape-dispenser",
+        "parts": 30,
+        "min": [
+          -0.03,
+          0,
+          -0.0675
+        ],
+        "max": [
+          0.03,
+          0.09020372166676278,
+          0.0675
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.03,
+              0,
+              -0.0675
+            ],
+            "max": [
+              0.03,
+              0.09020372166676278,
+              0.0675
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.03,
+              0,
+              -0.0675
+            ],
+            "max": [
+              0.03,
+              0.073,
+              0.0675
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/stationery-tape-dispenser/thumbnail.svg"
+    },
+    {
+      "id": "stationery-sharpener",
+      "version": 1,
+      "dimensions": [
+        0.045,
+        0.044,
+        0.051
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "stationery-sharpener",
+        "parts": 5,
+        "min": [
+          -0.0225,
+          0,
+          -0.021
+        ],
+        "max": [
+          0.0225,
+          0.044,
+          0.03
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": true
+          },
+          "bounds": {
+            "min": [
+              -0.0225,
+              0,
+              -0.021
+            ],
+            "max": [
+              0.0225,
+              0.044,
+              0.03
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": false
+          },
+          "bounds": {
+            "min": [
+              -0.0225,
+              0,
+              -0.021
+            ],
+            "max": [
+              0.0225,
+              0.044,
+              0.021
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/stationery-sharpener/thumbnail.svg"
+    },
+    {
+      "id": "stationery-pencil",
+      "version": 1,
+      "dimensions": [
+        0.012,
+        0.012,
+        0.202
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "stationery-pencil",
+        "parts": 6,
+        "min": [
+          -0.006,
+          -4.336808689942018e-18,
+          -0.10099999999999999
+        ],
+        "max": [
+          0.006,
+          0.012,
+          0.101
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "capped": false
+          },
+          "bounds": {
+            "min": [
+              -0.0043,
+              -4.336808689942018e-18,
+              -0.097
+            ],
+            "max": [
+              0.0043,
+              0.0086,
+              0.101
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "capped": true
+          },
+          "bounds": {
+            "min": [
+              -0.006,
+              -4.336808689942018e-18,
+              -0.10099999999999999
+            ],
+            "max": [
+              0.006,
+              0.012,
+              0.101
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/stationery-pencil/thumbnail.svg"
+    },
+    {
+      "id": "stationery-ruler",
+      "version": 1,
+      "dimensions": [
+        0.22,
+        0.007,
+        0.036
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "stationery-ruler",
+        "parts": 43,
+        "min": [
+          -0.11,
+          0,
+          -0.018
+        ],
+        "max": [
+          0.11,
+          0.007,
+          0.018
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "sleeved": false
+          },
+          "bounds": {
+            "min": [
+              -0.1075,
+              0,
+              -0.015
+            ],
+            "max": [
+              0.1075,
+              0.0033,
+              0.015
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "sleeved": true
+          },
+          "bounds": {
+            "min": [
+              -0.11,
+              0,
+              -0.018
+            ],
+            "max": [
+              0.11,
+              0.007,
+              0.018
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/stationery-ruler/thumbnail.svg"
+    },
+    {
+      "id": "stationery-eraser",
+      "version": 1,
+      "dimensions": [
+        0.055,
+        0.0215,
+        0.026
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "stationery-eraser",
+        "parts": 5,
+        "min": [
+          -0.0275,
+          0,
+          -0.013000000000000001
+        ],
+        "max": [
+          0.0275,
+          0.021500000000000002,
+          0.013000000000000001
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "wrapped": true
+          },
+          "bounds": {
+            "min": [
+              -0.0275,
+              0,
+              -0.013000000000000001
+            ],
+            "max": [
+              0.0275,
+              0.021500000000000002,
+              0.013000000000000001
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "wrapped": false
+          },
+          "bounds": {
+            "min": [
+              -0.0275,
+              0,
+              -0.012
+            ],
+            "max": [
+              0.0275,
+              0.02,
+              0.012
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/stationery-eraser/thumbnail.svg"
+    },
+    {
+      "id": "stationery-bookend",
+      "version": 1,
+      "dimensions": [
+        0.12,
+        0.164,
+        0.12
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "stationery-bookend",
+        "parts": 4,
+        "min": [
+          -0.06,
+          0,
+          -0.060000000000000005
+        ],
+        "max": [
+          0.06,
+          0.164,
+          0.06
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "padded": true
+          },
+          "bounds": {
+            "min": [
+              -0.06,
+              0,
+              -0.060000000000000005
+            ],
+            "max": [
+              0.06,
+              0.164,
+              0.06
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "felt-top",
+              "vertices": [
+                [
+                  -0.05,
+                  0.006,
+                  -0.045
+                ],
+                [
+                  0.05,
+                  0.006,
+                  -0.045
+                ],
+                [
+                  0.05,
+                  0.006,
+                  0.045
+                ],
+                [
+                  -0.05,
+                  0.006,
+                  0.045
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "padded": false
+          },
+          "bounds": {
+            "min": [
+              -0.06,
+              0,
+              -0.060000000000000005
+            ],
+            "max": [
+              0.06,
+              0.164,
+              0.06
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/stationery-bookend/thumbnail.svg"
+    },
+    {
+      "id": "stationery-bin",
+      "version": 1,
+      "dimensions": [
+        0.14,
+        0.17,
+        0.14
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "stationery-bin",
+        "parts": 10,
+        "min": [
+          -0.07,
+          0,
+          -0.07
+        ],
+        "max": [
+          0.07,
+          0.17,
+          0.07
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "lined": true
+          },
+          "bounds": {
+            "min": [
+              -0.07,
+              0,
+              -0.07
+            ],
+            "max": [
+              0.07,
+              0.17,
+              0.07
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "lined": false
+          },
+          "bounds": {
+            "min": [
+              -0.07,
+              0,
+              -0.07
+            ],
+            "max": [
+              0.07,
+              0.17,
+              0.07
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/stationery-bin/thumbnail.svg"
+    }
+  ]
+}

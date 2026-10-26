@@ -50,6 +50,16 @@
     "bathroom-tissue-box/asset.json",
     "bathroom-cotton-jar/asset.json",
     "bathroom-comb/asset.json",
-    "bathroom-mirror/asset.json"
+    "bathroom-mirror/asset.json",
+    "stationery-letter-tray/asset.json",
+    "stationery-stapler/asset.json",
+    "stationery-hole-punch/asset.json",
+    "stationery-tape-dispenser/asset.json",
+    "stationery-sharpener/asset.json",
+    "stationery-pencil/asset.json",
+    "stationery-ruler/asset.json",
+    "stationery-eraser/asset.json",
+    "stationery-bookend/asset.json",
+    "stationery-bin/asset.json"
   ]
 }
