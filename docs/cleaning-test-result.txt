@@ -1,0 +1,48 @@
+
+> test
+> node --test --test-timeout=60000 --test-concurrency=1
+
+✔ geometry agrees with real-world bounds and catalog contract (5.127456ms)
+✔ independent instance state and transform (0.308445ms)
+✔ scene restores transform, version and state without aliases (0.3939ms)
+✔ reject invalid assets: bounds, cycle, scale, axis (4.857418ms)
+✔ reject invalid scene version, duplicates and non-finite transform (0.272682ms)
+✔ Y rotation preserves metric distances (0.234456ms)
+✔ ten different metric bathroom objects have valid exact bounds and support metadata (15.536051ms)
+✔ every meaningful state changes drawing independently and survives mixed scene restore (181.558904ms)
+✔ cup fits riser mat and support changes with mat state (1.466721ms)
+✔ ten different metric cleaning objects have valid exact bounds and support metadata (12.445077ms)
+✔ every meaningful state changes drawing independently and survives mixed scene restore (86.289546ms)
+✔ sponge fits closed bucket at exact support height (1.087372ms)
+✔ catalog includes published room and every scene layer (28.884411ms)
+✔ published source scripts reconstruct the imported source byte for byte (4.052541ms)
+✔ desk lamp keeps immutable v1 source and gains an SVG renderer (1.895583ms)
+✔ SVG lamp responds to independent state, rotation and zoom (131.726933ms)
+✔ SVG validator rejects missing definitions, uncalibrated units and absent components (21.712583ms)
+✔ SVG lamp opens existing version 1 arrangements without losing state (1.199567ms)
+✔ ground grid stays below the horizon when zoom brings its far edge behind the camera (1.380274ms)
+✔ ten different metric kitchen objects have valid exact bounds and support metadata (10.34969ms)
+✔ every meaningful state changes drawing independently and survives mixed scene restore (43.479005ms)
+✔ support availability follows lid state and object fits on bread box lid at scale one (0.479757ms)
+✔ global scene painter orders near object over farther geometry regardless of instance order (5.362121ms)
+✔ spanning face and contour split around occluding plane (1.101683ms)
+✔ near clipping removes behind-camera polygons and keeps finite intersection points (0.260834ms)
+✔ shared calibration makes the authored desktop height 0.75 m above the floor (1.313235ms)
+✔ source axes map to right-handed Y-up metres and round trip without normalization (0.281455ms)
+✔ every imported group has estimated metric bounds and assembles at the source location (21.575541ms)
+✔ stored assembly places every original group at metre positions with scale 1 (5.061868ms)
+✔ the existing lamp keeps its 0.48 m height beside calibrated props, independent of camera (0.779429ms)
+✔ ten different metric sewing objects have valid exact bounds and support metadata (17.185583ms)
+✔ every meaningful state changes drawing independently and survives mixed scene restore (261.656055ms)
+✔ thimble fits the clear lid patch and support changes with box state (1.28261ms)
+✔ ten different metric stationery objects have valid exact bounds and support metadata (14.150721ms)
+✔ every meaningful state changes drawing independently and survives mixed scene restore (76.327878ms)
+✔ eraser fits loaded letter tray at exact support height (0.388613ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1499.255654

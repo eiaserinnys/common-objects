@@ -19,7 +19,7 @@ Build output is dist/; serve it with `python3 -m http.server 8000 --directory di
 
 ## Assets
 
-`assets/catalog.json` registers 60 entries: ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
+`assets/catalog.json` registers 70 entries: ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
 
 All placeable entries use **1 unit = 1 metre**, Y-up and default scale [1,1,1].
 
@@ -52,3 +52,7 @@ Imported Colorfigures code is MIT by April Zhu, based on ISO-GLOW and Tolga Cohc
 ### Paperwork afternoon · 2026-10-27 KST
 
 [Open the stationery set](preview/stationery.html): desktop letter tray, stapler, two hole punch, tape dispenser, pencil sharpener, drawing pencil, twenty centimetre ruler, paper wrapped eraser, steel bookend and desktop waste bin. Ten distinct metric SVG props in sage, wood and cream, with independent removable-part states and saved arrangements. Dimensions are estimates, scale remains `[1,1,1]`. [Verification and visual evidence](docs/stationery-2026-10-27.md).
+
+### Utility cupboard · 2026-10-27 19:00 UTC
+
+[Open the cleaning and laundry set](preview/cleaning.html): lidded bucket, dustpan, hand brush, trigger spray bottle, scouring sponge, window squeegee, lint roller, slatted laundry basket, wooden clothespin and washboard. Ten original metric SVG props with removable components, independent states and saved arrangements. Dimensions are estimates; scale stays `[1,1,1]`. [Verification and visual evidence](docs/cleaning-2026-10-27.md).

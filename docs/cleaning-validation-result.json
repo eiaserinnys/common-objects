@@ -1,0 +1,712 @@
+{
+  "batch": "cleaning-2026-10-27",
+  "count": 10,
+  "objects": [
+    {
+      "id": "cleaning-bucket",
+      "version": 1,
+      "dimensions": [
+        0.312,
+        0.25,
+        0.343
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cleaning-bucket",
+        "parts": 11,
+        "min": [
+          -0.156,
+          0,
+          -0.17800000000000002
+        ],
+        "max": [
+          0.156,
+          0.25,
+          0.165
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": true
+          },
+          "bounds": {
+            "min": [
+              -0.156,
+              0,
+              -0.17800000000000002
+            ],
+            "max": [
+              0.156,
+              0.25,
+              0.165
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "lid-top",
+              "vertices": [
+                [
+                  -0.125,
+                  0.25,
+                  -0.145
+                ],
+                [
+                  0.125,
+                  0.25,
+                  -0.145
+                ],
+                [
+                  0.125,
+                  0.25,
+                  0.145
+                ],
+                [
+                  -0.125,
+                  0.25,
+                  0.145
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "closed": false
+          },
+          "bounds": {
+            "min": [
+              -0.156,
+              0,
+              -0.17800000000000002
+            ],
+            "max": [
+              0.156,
+              0.24000000000000002,
+              0.165
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/cleaning-bucket/thumbnail.svg"
+    },
+    {
+      "id": "cleaning-dustpan",
+      "version": 1,
+      "dimensions": [
+        0.234,
+        0.048,
+        0.345
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cleaning-dustpan",
+        "parts": 7,
+        "min": [
+          -0.117,
+          0,
+          -0.23600000000000002
+        ],
+        "max": [
+          0.117,
+          0.048,
+          0.109
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "covered": false
+          },
+          "bounds": {
+            "min": [
+              -0.115,
+              0,
+              -0.23600000000000002
+            ],
+            "max": [
+              0.115,
+              0.048,
+              0.10700000000000001
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "covered": true
+          },
+          "bounds": {
+            "min": [
+              -0.117,
+              0,
+              -0.23600000000000002
+            ],
+            "max": [
+              0.117,
+              0.048,
+              0.109
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/cleaning-dustpan/thumbnail.svg"
+    },
+    {
+      "id": "cleaning-hand-brush",
+      "version": 1,
+      "dimensions": [
+        0.075,
+        0.057,
+        0.2625
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cleaning-hand-brush",
+        "parts": 31,
+        "min": [
+          -0.037500000000000006,
+          0,
+          -0.19
+        ],
+        "max": [
+          0.037500000000000006,
+          0.056999999999999995,
+          0.07250000000000001
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "fitted": true
+          },
+          "bounds": {
+            "min": [
+              -0.037500000000000006,
+              0,
+              -0.19
+            ],
+            "max": [
+              0.037500000000000006,
+              0.056999999999999995,
+              0.07250000000000001
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "fitted": false
+          },
+          "bounds": {
+            "min": [
+              -0.037500000000000006,
+              0,
+              -0.19
+            ],
+            "max": [
+              0.037500000000000006,
+              0.056999999999999995,
+              0.07250000000000001
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/cleaning-hand-brush/thumbnail.svg"
+    },
+    {
+      "id": "cleaning-spray-bottle",
+      "version": 1,
+      "dimensions": [
+        0.086,
+        0.251,
+        0.114
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cleaning-spray-bottle",
+        "parts": 9,
+        "min": [
+          -0.043,
+          0,
+          -0.043
+        ],
+        "max": [
+          0.043,
+          0.251,
+          0.071
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "fitted": true
+          },
+          "bounds": {
+            "min": [
+              -0.043,
+              0,
+              -0.043
+            ],
+            "max": [
+              0.043,
+              0.251,
+              0.071
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "fitted": false
+          },
+          "bounds": {
+            "min": [
+              -0.043,
+              0,
+              -0.043
+            ],
+            "max": [
+              0.043,
+              0.21000000000000002,
+              0.044
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/cleaning-spray-bottle/thumbnail.svg"
+    },
+    {
+      "id": "cleaning-sponge",
+      "version": 1,
+      "dimensions": [
+        0.1,
+        0.032,
+        0.072
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cleaning-sponge",
+        "parts": 20,
+        "min": [
+          -0.05,
+          0,
+          -0.036
+        ],
+        "max": [
+          0.05,
+          0.032,
+          0.036
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "wrapped": true
+          },
+          "bounds": {
+            "min": [
+              -0.05,
+              0,
+              -0.036
+            ],
+            "max": [
+              0.05,
+              0.032,
+              0.036
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "wrapped": false
+          },
+          "bounds": {
+            "min": [
+              -0.05,
+              0,
+              -0.035
+            ],
+            "max": [
+              0.05,
+              0.031,
+              0.035
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/cleaning-sponge/thumbnail.svg"
+    },
+    {
+      "id": "cleaning-squeegee",
+      "version": 1,
+      "dimensions": [
+        0.26,
+        0.031,
+        0.235
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cleaning-squeegee",
+        "parts": 6,
+        "min": [
+          -0.13,
+          0,
+          -0.10825
+        ],
+        "max": [
+          0.13,
+          0.031,
+          0.12675
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "fitted": true
+          },
+          "bounds": {
+            "min": [
+              -0.13,
+              0,
+              -0.10825
+            ],
+            "max": [
+              0.13,
+              0.031,
+              0.12675
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "fitted": false
+          },
+          "bounds": {
+            "min": [
+              -0.13,
+              0,
+              -0.10825
+            ],
+            "max": [
+              0.13,
+              0.031,
+              0.10825
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/cleaning-squeegee/thumbnail.svg"
+    },
+    {
+      "id": "cleaning-lint-roller",
+      "version": 1,
+      "dimensions": [
+        0.1205,
+        0.056,
+        0.244
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cleaning-lint-roller",
+        "parts": 7,
+        "min": [
+          -0.06,
+          0,
+          -0.12125
+        ],
+        "max": [
+          0.0605,
+          0.05600000000000001,
+          0.12275
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.06,
+              0,
+              -0.12125
+            ],
+            "max": [
+              0.0605,
+              0.05600000000000001,
+              0.12275
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.06,
+              0,
+              -0.12125
+            ],
+            "max": [
+              0.0605,
+              0.04000000000000001,
+              0.12125
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/cleaning-lint-roller/thumbnail.svg"
+    },
+    {
+      "id": "cleaning-laundry-basket",
+      "version": 1,
+      "dimensions": [
+        0.38,
+        0.345,
+        0.463
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cleaning-laundry-basket",
+        "parts": 48,
+        "min": [
+          -0.19,
+          0,
+          -0.2315
+        ],
+        "max": [
+          0.19,
+          0.34500000000000003,
+          0.2315
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "lined": true
+          },
+          "bounds": {
+            "min": [
+              -0.19,
+              0,
+              -0.2315
+            ],
+            "max": [
+              0.19,
+              0.34500000000000003,
+              0.2315
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "lined": false
+          },
+          "bounds": {
+            "min": [
+              -0.19,
+              0,
+              -0.2315
+            ],
+            "max": [
+              0.19,
+              0.34500000000000003,
+              0.2315
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/cleaning-laundry-basket/thumbnail.svg"
+    },
+    {
+      "id": "cleaning-clothespin",
+      "version": 1,
+      "dimensions": [
+        0.048,
+        0.018,
+        0.109
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cleaning-clothespin",
+        "parts": 6,
+        "min": [
+          -0.024,
+          0,
+          -0.039
+        ],
+        "max": [
+          0.024,
+          0.018000000000000002,
+          0.07
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "clipped": true
+          },
+          "bounds": {
+            "min": [
+              -0.024,
+              0,
+              -0.039
+            ],
+            "max": [
+              0.024,
+              0.018000000000000002,
+              0.07
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "clipped": false
+          },
+          "bounds": {
+            "min": [
+              -0.00875,
+              0,
+              -0.039
+            ],
+            "max": [
+              0.00875,
+              0.018000000000000002,
+              0.039
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/cleaning-clothespin/thumbnail.svg"
+    },
+    {
+      "id": "cleaning-washboard",
+      "version": 1,
+      "dimensions": [
+        0.25,
+        0.032,
+        0.45
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cleaning-washboard",
+        "parts": 23,
+        "min": [
+          -0.125,
+          0,
+          -0.225
+        ],
+        "max": [
+          0.125,
+          0.032,
+          0.225
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "fitted": true
+          },
+          "bounds": {
+            "min": [
+              -0.125,
+              0,
+              -0.225
+            ],
+            "max": [
+              0.125,
+              0.032,
+              0.225
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "fitted": false
+          },
+          "bounds": {
+            "min": [
+              -0.125,
+              0,
+              -0.225
+            ],
+            "max": [
+              0.125,
+              0.032,
+              0.225
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/cleaning-washboard/thumbnail.svg"
+    }
+  ]
+}

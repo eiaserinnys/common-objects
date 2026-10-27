@@ -1,0 +1,16 @@
+{
+  "scope": "full",
+  "checks": [
+    "published SVG art matches byte for byte",
+    "room lamp, pose, turntable, drawer, theme, xray, labels, zoom and keyboard orbit",
+    "keyboard orbit",
+    "room narrow viewport has no horizontal overflow",
+    "lamp SVG, independent duplicate state, rotation, zoom and persistence",
+    "both players are reachable through their actual links"
+  ],
+  "pageAndConsoleErrors": [],
+  "httpFailures": [],
+  "optionalFaviconRequests": [
+    "Failed to load resource: the server responded with a status of 404 (File not found) @ {'url': 'http://127.0.0.1:37473/favicon.ico', 'line': 0, 'column': 0, 'lineNumber': 0, 'columnNumber': 0}"
+  ]
+}

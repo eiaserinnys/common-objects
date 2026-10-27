@@ -60,6 +60,16 @@
     "stationery-ruler/asset.json",
     "stationery-eraser/asset.json",
     "stationery-bookend/asset.json",
-    "stationery-bin/asset.json"
+    "stationery-bin/asset.json",
+    "cleaning-bucket/asset.json",
+    "cleaning-dustpan/asset.json",
+    "cleaning-hand-brush/asset.json",
+    "cleaning-spray-bottle/asset.json",
+    "cleaning-sponge/asset.json",
+    "cleaning-squeegee/asset.json",
+    "cleaning-lint-roller/asset.json",
+    "cleaning-laundry-basket/asset.json",
+    "cleaning-clothespin/asset.json",
+    "cleaning-washboard/asset.json"
   ]
 }
