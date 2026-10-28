@@ -70,6 +70,16 @@
     "cleaning-lint-roller/asset.json",
     "cleaning-laundry-basket/asset.json",
     "cleaning-clothespin/asset.json",
-    "cleaning-washboard/asset.json"
+    "cleaning-washboard/asset.json",
+    "gardening-watering-can/asset.json",
+    "gardening-trowel/asset.json",
+    "gardening-cultivator/asset.json",
+    "gardening-dibber/asset.json",
+    "gardening-seed-tray/asset.json",
+    "gardening-plant-label/asset.json",
+    "gardening-pruners/asset.json",
+    "gardening-sieve/asset.json",
+    "gardening-moisture-meter/asset.json",
+    "gardening-pot-caddy/asset.json"
   ]
 }
