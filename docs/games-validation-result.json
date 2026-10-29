@@ -1,0 +1,712 @@
+{
+  "batch": "games-2026-10-29",
+  "count": 10,
+  "objects": [
+    {
+      "id": "games-dice",
+      "version": 1,
+      "dimensions": [
+        0.0248,
+        0.0244,
+        0.0248
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "games-dice",
+        "parts": 22,
+        "min": [
+          -0.012400000000000001,
+          0,
+          -0.012400000000000001
+        ],
+        "max": [
+          0.012400000000000001,
+          0.024399999999999998,
+          0.012400000000000001
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "marked": true
+          },
+          "bounds": {
+            "min": [
+              -0.012400000000000001,
+              0,
+              -0.012400000000000001
+            ],
+            "max": [
+              0.012400000000000001,
+              0.024399999999999998,
+              0.012400000000000001
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "marked": false
+          },
+          "bounds": {
+            "min": [
+              -0.012,
+              0,
+              -0.012
+            ],
+            "max": [
+              0.012,
+              0.024,
+              0.012
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/games-dice/thumbnail.svg"
+    },
+    {
+      "id": "games-domino",
+      "version": 1,
+      "dimensions": [
+        0.025,
+        0.0085,
+        0.05
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "games-domino",
+        "parts": 14,
+        "min": [
+          -0.0125,
+          0,
+          -0.025
+        ],
+        "max": [
+          0.0125,
+          0.0085,
+          0.025
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "marked": true
+          },
+          "bounds": {
+            "min": [
+              -0.0125,
+              0,
+              -0.025
+            ],
+            "max": [
+              0.0125,
+              0.0085,
+              0.025
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "marked": false
+          },
+          "bounds": {
+            "min": [
+              -0.0125,
+              0,
+              -0.025
+            ],
+            "max": [
+              0.0125,
+              0.0085,
+              0.025
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/games-domino/thumbnail.svg"
+    },
+    {
+      "id": "games-rook",
+      "version": 1,
+      "dimensions": [
+        0.046,
+        0.081,
+        0.046
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "games-rook",
+        "parts": 11,
+        "min": [
+          -0.023,
+          0,
+          -0.023
+        ],
+        "max": [
+          0.023,
+          0.081,
+          0.023
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "crowned": true
+          },
+          "bounds": {
+            "min": [
+              -0.023,
+              0,
+              -0.023
+            ],
+            "max": [
+              0.023,
+              0.081,
+              0.023
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "crowned": false
+          },
+          "bounds": {
+            "min": [
+              -0.023,
+              0,
+              -0.023
+            ],
+            "max": [
+              0.023,
+              0.063,
+              0.023
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/games-rook/thumbnail.svg"
+    },
+    {
+      "id": "games-checkers",
+      "version": 1,
+      "dimensions": [
+        0.036,
+        0.021,
+        0.036
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "games-checkers",
+        "parts": 99,
+        "min": [
+          -0.018000000000000002,
+          0,
+          -0.018000000000000002
+        ],
+        "max": [
+          0.018000000000000002,
+          0.021,
+          0.018000000000000002
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "stacked": true
+          },
+          "bounds": {
+            "min": [
+              -0.018000000000000002,
+              0,
+              -0.018000000000000002
+            ],
+            "max": [
+              0.018000000000000002,
+              0.021,
+              0.018000000000000002
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "stacked": false
+          },
+          "bounds": {
+            "min": [
+              -0.018000000000000002,
+              0,
+              -0.018000000000000002
+            ],
+            "max": [
+              0.018000000000000002,
+              0.014,
+              0.018000000000000002
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/games-checkers/thumbnail.svg"
+    },
+    {
+      "id": "games-dice-cup",
+      "version": 1,
+      "dimensions": [
+        0.078,
+        0.084,
+        0.078
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "games-dice-cup",
+        "parts": 67,
+        "min": [
+          -0.03900000000000001,
+          0,
+          -0.03900000000000001
+        ],
+        "max": [
+          0.03900000000000001,
+          0.08399999999999999,
+          0.03900000000000001
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.03900000000000001,
+              0,
+              -0.03900000000000001
+            ],
+            "max": [
+              0.03900000000000001,
+              0.08399999999999999,
+              0.03900000000000001
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.03900000000000001,
+              0,
+              -0.03900000000000001
+            ],
+            "max": [
+              0.03900000000000001,
+              0.08399999999999999,
+              0.03900000000000001
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/games-dice-cup/thumbnail.svg"
+    },
+    {
+      "id": "games-tile-rack",
+      "version": 1,
+      "dimensions": [
+        0.28,
+        0.04,
+        0.045
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "games-tile-rack",
+        "parts": 24,
+        "min": [
+          -0.14,
+          0,
+          -0.0225
+        ],
+        "max": [
+          0.14,
+          0.04,
+          0.0225
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.14,
+              0,
+              -0.0225
+            ],
+            "max": [
+              0.14,
+              0.04,
+              0.0225
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.14,
+              0,
+              -0.0225
+            ],
+            "max": [
+              0.14,
+              0.04,
+              0.0225
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/games-tile-rack/thumbnail.svg"
+    },
+    {
+      "id": "games-card-shoe",
+      "version": 1,
+      "dimensions": [
+        0.085,
+        0.053,
+        0.16
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "games-card-shoe",
+        "parts": 13,
+        "min": [
+          -0.0425,
+          0,
+          -0.08
+        ],
+        "max": [
+          0.0425,
+          0.053,
+          0.08
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.0425,
+              0,
+              -0.08
+            ],
+            "max": [
+              0.0425,
+              0.053,
+              0.08
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.0425,
+              0,
+              -0.08
+            ],
+            "max": [
+              0.0425,
+              0.053,
+              0.08
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/games-card-shoe/thumbnail.svg"
+    },
+    {
+      "id": "games-hourglass",
+      "version": 1,
+      "dimensions": [
+        0.08,
+        0.123,
+        0.08
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "games-hourglass",
+        "parts": 8,
+        "min": [
+          -0.04,
+          0,
+          -0.04
+        ],
+        "max": [
+          0.04,
+          0.123,
+          0.04
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "capped": true
+          },
+          "bounds": {
+            "min": [
+              -0.04,
+              0,
+              -0.04
+            ],
+            "max": [
+              0.04,
+              0.123,
+              0.04
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "capped": false
+          },
+          "bounds": {
+            "min": [
+              -0.04,
+              0,
+              -0.04
+            ],
+            "max": [
+              0.04,
+              0.11399999999999999,
+              0.04
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/games-hourglass/thumbnail.svg"
+    },
+    {
+      "id": "games-peg-board",
+      "version": 1,
+      "dimensions": [
+        0.09,
+        0.035,
+        0.26
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "games-peg-board",
+        "parts": 27,
+        "min": [
+          -0.045,
+          0,
+          -0.13
+        ],
+        "max": [
+          0.045,
+          0.035,
+          0.13
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "pegged": true
+          },
+          "bounds": {
+            "min": [
+              -0.045,
+              0,
+              -0.13
+            ],
+            "max": [
+              0.045,
+              0.035,
+              0.13
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "pegged": false
+          },
+          "bounds": {
+            "min": [
+              -0.045,
+              0,
+              -0.13
+            ],
+            "max": [
+              0.045,
+              0.0184,
+              0.13
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/games-peg-board/thumbnail.svg"
+    },
+    {
+      "id": "games-game-box",
+      "version": 1,
+      "dimensions": [
+        0.33,
+        0.0636,
+        0.33
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "games-game-box",
+        "parts": 70,
+        "min": [
+          -0.165,
+          0,
+          -0.165
+        ],
+        "max": [
+          0.165,
+          0.06359999999999999,
+          0.165
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": true
+          },
+          "bounds": {
+            "min": [
+              -0.165,
+              0,
+              -0.165
+            ],
+            "max": [
+              0.165,
+              0.06359999999999999,
+              0.165
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "board-top",
+              "vertices": [
+                [
+                  -0.14,
+                  0.0636,
+                  -0.14
+                ],
+                [
+                  0.14,
+                  0.0636,
+                  -0.14
+                ],
+                [
+                  0.14,
+                  0.0636,
+                  0.14
+                ],
+                [
+                  -0.14,
+                  0.0636,
+                  0.14
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "closed": false
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.16
+            ],
+            "max": [
+              0.16,
+              0.055,
+              0.16
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/games-game-box/thumbnail.svg"
+    }
+  ]
+}

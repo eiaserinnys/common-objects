@@ -80,6 +80,16 @@
     "gardening-pruners/asset.json",
     "gardening-sieve/asset.json",
     "gardening-moisture-meter/asset.json",
-    "gardening-pot-caddy/asset.json"
+    "gardening-pot-caddy/asset.json",
+    "games-dice/asset.json",
+    "games-domino/asset.json",
+    "games-rook/asset.json",
+    "games-checkers/asset.json",
+    "games-dice-cup/asset.json",
+    "games-tile-rack/asset.json",
+    "games-card-shoe/asset.json",
+    "games-hourglass/asset.json",
+    "games-peg-board/asset.json",
+    "games-game-box/asset.json"
   ]
 }

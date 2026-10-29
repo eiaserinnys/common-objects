@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "object-5: overhead interior and removable content",
+    "object-10: overhead interior and removable content"
+  ],
+  "errors": []
+}

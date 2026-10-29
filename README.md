@@ -19,7 +19,7 @@ Build output is dist/; serve it with `python3 -m http.server 8000 --directory di
 
 ## Assets
 
-`assets/catalog.json` registers 80 entries: ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
+`assets/catalog.json` registers 90 entries: ten tabletop game props, ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
 
 All placeable entries use **1 unit = 1 metre**, Y-up and default scale [1,1,1].
 
@@ -60,3 +60,7 @@ Imported Colorfigures code is MIT by April Zhu, based on ISO-GLOW and Tolga Cohc
 ### Windowsill tending · 2026-10-28 19:00 UTC
 
 [Open the indoor gardening set](preview/gardening.html): watering can, trowel, three tine cultivator, seed dibber, six cell seedling tray, plant label, pruning shears, potting sieve, analog moisture meter and rolling plant caddy. Ten distinct original metric props with removable components and independent saved states. Estimated dimensions, Y-up, contact-centered origins and scale `[1,1,1]`. [Verification, dimensions and visual evidence](docs/gardening-2026-10-28.md).
+
+### Tabletop evening · 2026-10-29 19:00 UTC
+
+[Open the tabletop set](preview/games.html): pipped die, double-six domino, chess rook, draughts stack, felt-lined dice cup, letter tile rack, dealing shoe, sand timer, scoring peg board and lidded game box. Ten original metric SVG props with independent removable parts and saved arrangements. All dimensions are estimates at scale `[1,1,1]`. [Verification and visual evidence](docs/games-2026-10-29.md).
