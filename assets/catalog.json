@@ -90,6 +90,16 @@
     "games-card-shoe/asset.json",
     "games-hourglass/asset.json",
     "games-peg-board/asset.json",
-    "games-game-box/asset.json"
+    "games-game-box/asset.json",
+    "baking-rolling-pin/asset.json",
+    "baking-whisk/asset.json",
+    "baking-measuring-spoon/asset.json",
+    "baking-measuring-jug/asset.json",
+    "baking-funnel/asset.json",
+    "baking-pastry-brush/asset.json",
+    "baking-bench-scraper/asset.json",
+    "baking-cookie-cutter/asset.json",
+    "baking-muffin-tin/asset.json",
+    "baking-cooling-rack/asset.json"
   ]
 }

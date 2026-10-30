@@ -1,0 +1,712 @@
+{
+  "batch": "baking-2026-10-31",
+  "count": 10,
+  "objects": [
+    {
+      "id": "baking-rolling-pin",
+      "version": 1,
+      "dimensions": [
+        0.4,
+        0.054,
+        0.054
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "baking-rolling-pin",
+        "parts": 3,
+        "min": [
+          -0.2,
+          -6.938893903907228e-18,
+          -0.027000000000000003
+        ],
+        "max": [
+          0.2,
+          0.054000000000000006,
+          0.026999999999999996
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "handled": true
+          },
+          "bounds": {
+            "min": [
+              -0.2,
+              -6.938893903907228e-18,
+              -0.027000000000000003
+            ],
+            "max": [
+              0.2,
+              0.054000000000000006,
+              0.026999999999999996
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "handled": false
+          },
+          "bounds": {
+            "min": [
+              -0.125,
+              -6.938893903907228e-18,
+              -0.027000000000000003
+            ],
+            "max": [
+              0.125,
+              0.054000000000000006,
+              0.026999999999999996
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/baking-rolling-pin/thumbnail.svg"
+    },
+    {
+      "id": "baking-whisk",
+      "version": 1,
+      "dimensions": [
+        0.072368701,
+        0.24942916,
+        0.072368701
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "baking-whisk",
+        "parts": 50,
+        "min": [
+          -0.03618435066831786,
+          0,
+          -0.03618435066831786
+        ],
+        "max": [
+          0.03618435066831786,
+          0.24942915963831938,
+          0.03618435066831786
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "headed": true
+          },
+          "bounds": {
+            "min": [
+              -0.03618435066831786,
+              0,
+              -0.03618435066831786
+            ],
+            "max": [
+              0.03618435066831786,
+              0.24942915963831938,
+              0.03618435066831786
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "headed": false
+          },
+          "bounds": {
+            "min": [
+              -0.015,
+              0,
+              -0.015
+            ],
+            "max": [
+              0.015,
+              0.133,
+              0.015
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/baking-whisk/thumbnail.svg"
+    },
+    {
+      "id": "baking-measuring-spoon",
+      "version": 1,
+      "dimensions": [
+        0.048,
+        0.017,
+        0.1455
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "baking-measuring-spoon",
+        "parts": 19,
+        "min": [
+          -0.024,
+          0,
+          -0.1215
+        ],
+        "max": [
+          0.024,
+          0.017,
+          0.024
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "filled": true
+          },
+          "bounds": {
+            "min": [
+              -0.024,
+              0,
+              -0.1215
+            ],
+            "max": [
+              0.024,
+              0.017,
+              0.024
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "filled": false
+          },
+          "bounds": {
+            "min": [
+              -0.024,
+              0,
+              -0.1215
+            ],
+            "max": [
+              0.024,
+              0.017,
+              0.024
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/baking-measuring-spoon/thumbnail.svg"
+    },
+    {
+      "id": "baking-measuring-jug",
+      "version": 1,
+      "dimensions": [
+        0.124,
+        0.093,
+        0.099
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "baking-measuring-jug",
+        "parts": 26,
+        "min": [
+          -0.046000000000000006,
+          0,
+          -0.052
+        ],
+        "max": [
+          0.078,
+          0.093,
+          0.047
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "filled": true
+          },
+          "bounds": {
+            "min": [
+              -0.046000000000000006,
+              0,
+              -0.052
+            ],
+            "max": [
+              0.078,
+              0.093,
+              0.047
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "filled": false
+          },
+          "bounds": {
+            "min": [
+              -0.046000000000000006,
+              0,
+              -0.052
+            ],
+            "max": [
+              0.078,
+              0.093,
+              0.047
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/baking-measuring-jug/thumbnail.svg"
+    },
+    {
+      "id": "baking-funnel",
+      "version": 1,
+      "dimensions": [
+        0.107923141,
+        0.104,
+        0.107923141
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "baking-funnel",
+        "parts": 28,
+        "min": [
+          -0.053961570560806464,
+          0,
+          -0.05396157056080646
+        ],
+        "max": [
+          0.053961570560806464,
+          0.104,
+          0.053961570560806464
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "strained": true
+          },
+          "bounds": {
+            "min": [
+              -0.053961570560806464,
+              0,
+              -0.05396157056080646
+            ],
+            "max": [
+              0.053961570560806464,
+              0.104,
+              0.053961570560806464
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "strained": false
+          },
+          "bounds": {
+            "min": [
+              -0.053961570560806464,
+              0,
+              -0.05396157056080646
+            ],
+            "max": [
+              0.053961570560806464,
+              0.104,
+              0.053961570560806464
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/baking-funnel/thumbnail.svg"
+    },
+    {
+      "id": "baking-pastry-brush",
+      "version": 1,
+      "dimensions": [
+        0.04,
+        0.018,
+        0.23
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "baking-pastry-brush",
+        "parts": 11,
+        "min": [
+          -0.02,
+          0,
+          -0.0925
+        ],
+        "max": [
+          0.02,
+          0.018,
+          0.13749999999999998
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "headed": true
+          },
+          "bounds": {
+            "min": [
+              -0.02,
+              0,
+              -0.0925
+            ],
+            "max": [
+              0.02,
+              0.018,
+              0.13749999999999998
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "headed": false
+          },
+          "bounds": {
+            "min": [
+              -0.02,
+              0,
+              -0.0925
+            ],
+            "max": [
+              0.02,
+              0.018,
+              0.0925
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/baking-pastry-brush/thumbnail.svg"
+    },
+    {
+      "id": "baking-bench-scraper",
+      "version": 1,
+      "dimensions": [
+        0.154,
+        0.117,
+        0.028
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "baking-bench-scraper",
+        "parts": 3,
+        "min": [
+          -0.077,
+          0,
+          -0.014
+        ],
+        "max": [
+          0.077,
+          0.11699999999999999,
+          0.014
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "sleeved": true
+          },
+          "bounds": {
+            "min": [
+              -0.077,
+              0,
+              -0.014
+            ],
+            "max": [
+              0.077,
+              0.11699999999999999,
+              0.014
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "sleeved": false
+          },
+          "bounds": {
+            "min": [
+              -0.075,
+              0,
+              -0.014
+            ],
+            "max": [
+              0.075,
+              0.11699999999999999,
+              0.014
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/baking-bench-scraper/thumbnail.svg"
+    },
+    {
+      "id": "baking-cookie-cutter",
+      "version": 1,
+      "dimensions": [
+        0.08,
+        0.026,
+        0.08
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "baking-cookie-cutter",
+        "parts": 33,
+        "min": [
+          -0.039999999999999994,
+          0,
+          -0.04
+        ],
+        "max": [
+          0.04000000000000001,
+          0.026000000000000002,
+          0.04
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "pressed": true
+          },
+          "bounds": {
+            "min": [
+              -0.039999999999999994,
+              0,
+              -0.04
+            ],
+            "max": [
+              0.04000000000000001,
+              0.026000000000000002,
+              0.04
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "pressed": false
+          },
+          "bounds": {
+            "min": [
+              -0.039999999999999994,
+              0,
+              -0.04
+            ],
+            "max": [
+              0.04000000000000001,
+              0.026000000000000002,
+              0.04
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/baking-cookie-cutter/thumbnail.svg"
+    },
+    {
+      "id": "baking-muffin-tin",
+      "version": 1,
+      "dimensions": [
+        0.248,
+        0.035,
+        0.158
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "baking-muffin-tin",
+        "parts": 211,
+        "min": [
+          -0.124,
+          0,
+          -0.079
+        ],
+        "max": [
+          0.124,
+          0.035,
+          0.079
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.124,
+              0,
+              -0.079
+            ],
+            "max": [
+              0.124,
+              0.035,
+              0.079
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.124,
+              0,
+              -0.079
+            ],
+            "max": [
+              0.124,
+              0.035,
+              0.079
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/baking-muffin-tin/thumbnail.svg"
+    },
+    {
+      "id": "baking-cooling-rack",
+      "version": 1,
+      "dimensions": [
+        0.32,
+        0.036,
+        0.266
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "baking-cooling-rack",
+        "parts": 25,
+        "min": [
+          -0.16,
+          0,
+          -0.133
+        ],
+        "max": [
+          0.16,
+          0.036000000000000004,
+          0.133
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "matted": true
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.133
+            ],
+            "max": [
+              0.16,
+              0.036000000000000004,
+              0.133
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "mat-top",
+              "vertices": [
+                [
+                  -0.15,
+                  0.036,
+                  -0.12
+                ],
+                [
+                  0.15,
+                  0.036,
+                  -0.12
+                ],
+                [
+                  0.15,
+                  0.036,
+                  0.12
+                ],
+                [
+                  -0.15,
+                  0.036,
+                  0.12
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "matted": false
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.133
+            ],
+            "max": [
+              0.16,
+              0.03300000000000001,
+              0.133
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/baking-cooling-rack/thumbnail.svg"
+    }
+  ]
+}

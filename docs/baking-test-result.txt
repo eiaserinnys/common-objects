@@ -1,0 +1,64 @@
+
+> test
+> node --test --test-timeout=60000 --test-concurrency=1
+
+✔ geometry agrees with real-world bounds and catalog contract (6.951464ms)
+✔ independent instance state and transform (0.305015ms)
+✔ scene restores transform, version and state without aliases (0.557944ms)
+✔ reject invalid assets: bounds, cycle, scale, axis (6.321343ms)
+✔ reject invalid scene version, duplicates and non-finite transform (0.351224ms)
+✔ Y rotation preserves metric distances (0.289522ms)
+✔ ten different metric baking objects have valid exact bounds and support metadata (27.863112ms)
+✔ every meaningful state changes drawing independently and survives mixed scene restore (346.170592ms)
+✔ muffin-tin fits the cooling mat at exact support height (7.514372ms)
+✔ funnel shell leaves both mouths open without changing metric bounds (2.554225ms)
+✔ funnel rim segments meet at authored endpoints in all quadrants (2.160736ms)
+✔ ten different metric bathroom objects have valid exact bounds and support metadata (22.358129ms)
+✔ every meaningful state changes drawing independently and survives mixed scene restore (241.85913ms)
+✔ cup fits riser mat and support changes with mat state (1.121069ms)
+✔ ten different metric cleaning objects have valid exact bounds and support metadata (19.9543ms)
+✔ every meaningful state changes drawing independently and survives mixed scene restore (115.078071ms)
+✔ sponge fits closed bucket at exact support height (1.157052ms)
+✔ catalog includes published room and every scene layer (39.493869ms)
+✔ published source scripts reconstruct the imported source byte for byte (5.746454ms)
+✔ desk lamp keeps immutable v1 source and gains an SVG renderer (2.585753ms)
+✔ SVG lamp responds to independent state, rotation and zoom (129.461068ms)
+✔ SVG validator rejects missing definitions, uncalibrated units and absent components (33.595686ms)
+✔ SVG lamp opens existing version 1 arrangements without losing state (1.316391ms)
+✔ ground grid stays below the horizon when zoom brings its far edge behind the camera (1.424884ms)
+✔ ten different metric games objects have valid exact bounds and support metadata (35.059589ms)
+✔ every meaningful state changes drawing independently and survives mixed scene restore (311.715709ms)
+✔ rook fits the game board at exact support height (0.907369ms)
+✔ ten different metric gardening objects have valid exact bounds and support metadata (15.543065ms)
+✔ every meaningful state changes drawing independently and survives mixed scene restore (150.972209ms)
+✔ sieve fits the stand mat at exact support height (3.139641ms)
+✔ ten different metric kitchen objects have valid exact bounds and support metadata (15.085875ms)
+✔ every meaningful state changes drawing independently and survives mixed scene restore (57.124725ms)
+✔ support availability follows lid state and object fits on bread box lid at scale one (0.669082ms)
+✔ global scene painter orders near object over farther geometry regardless of instance order (4.977604ms)
+✔ spanning face and contour split around occluding plane (1.389742ms)
+✔ near clipping removes behind-camera polygons and keeps finite intersection points (0.404065ms)
+✔ shared calibration makes the authored desktop height 0.75 m above the floor (1.619355ms)
+✔ source axes map to right-handed Y-up metres and round trip without normalization (0.343094ms)
+✔ every imported group has estimated metric bounds and assembles at the source location (42.590056ms)
+✔ stored assembly places every original group at metre positions with scale 1 (5.757161ms)
+✔ the existing lamp keeps its 0.48 m height beside calibrated props, independent of camera (1.081449ms)
+✔ ten different metric sewing objects have valid exact bounds and support metadata (24.047689ms)
+✔ every meaningful state changes drawing independently and survives mixed scene restore (287.222633ms)
+✔ thimble fits the clear lid patch and support changes with box state (1.637121ms)
+✔ ten different metric stationery objects have valid exact bounds and support metadata (16.817623ms)
+✔ every meaningful state changes drawing independently and survives mixed scene restore (79.55015ms)
+✔ eraser fits loaded letter tray at exact support height (0.463965ms)
+ℹ tests 47
+ℹ suites 0
+ℹ pass 47
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2952.847524
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

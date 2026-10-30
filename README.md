@@ -19,7 +19,7 @@ Build output is dist/; serve it with `python3 -m http.server 8000 --directory di
 
 ## Assets
 
-`assets/catalog.json` registers 90 entries: ten tabletop game props, ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
+`assets/catalog.json` registers 100 entries: ten home baking tools, ten tabletop game props, ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
 
 All placeable entries use **1 unit = 1 metre**, Y-up and default scale [1,1,1].
 
@@ -64,3 +64,7 @@ Imported Colorfigures code is MIT by April Zhu, based on ISO-GLOW and Tolga Cohc
 ### Tabletop evening · 2026-10-29 19:00 UTC
 
 [Open the tabletop set](preview/games.html): pipped die, double-six domino, chess rook, draughts stack, felt-lined dice cup, letter tile rack, dealing shoe, sand timer, scoring peg board and lidded game box. Ten original metric SVG props with independent removable parts and saved arrangements. All dimensions are estimates at scale `[1,1,1]`. [Verification and visual evidence](docs/games-2026-10-29.md).
+
+### Baking afternoon · 2026-10-31 04:00 KST
+
+[Open the baking set](preview/baking.html): handled rolling pin, balloon whisk, tablespoon measure, graduated measuring jug, wide mouth funnel, silicone pastry brush, bench scraper, biscuit cutter, six cup muffin tin and raised cooling rack. Ten original metric SVG props with independent removable components and saved arrangements. Estimated dimensions, Y-up and scale `[1,1,1]`. [Verification and visual evidence](docs/baking-2026-10-31.md).

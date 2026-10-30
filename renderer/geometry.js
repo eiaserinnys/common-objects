@@ -12,7 +12,7 @@ export function mesh(g) {
     const p=(i,r,y)=>[Math.cos(i*2*Math.PI/n)*r,y,Math.sin(i*2*Math.PI/n)*r];
     for(let i=0;i<n;i++){
       const a=p(i,g.radiusBottom,-h),b=p(i+1,g.radiusBottom,-h),c=p(i+1,g.radiusTop,h),d=p(i,g.radiusTop,h);
-      tri(a,c,b);tri(a,d,c);tri([0,h,0],c,d);
+      tri(a,c,b);tri(a,d,c);if(!g.openTop)tri([0,h,0],c,d);
       if(!g.openBottom)tri([0,-h,0],a,b);
       edge(a,b);edge(c,d);if(i%(n/4)===0)edge(a,d);
     }
