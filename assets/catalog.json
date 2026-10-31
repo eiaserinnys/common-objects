@@ -100,6 +100,16 @@
     "baking-bench-scraper/asset.json",
     "baking-cookie-cutter/asset.json",
     "baking-muffin-tin/asset.json",
-    "baking-cooling-rack/asset.json"
+    "baking-cooling-rack/asset.json",
+    "beverage-teapot/asset.json",
+    "beverage-dripper/asset.json",
+    "beverage-filter-holder/asset.json",
+    "beverage-french-press/asset.json",
+    "beverage-hand-grinder/asset.json",
+    "beverage-tamper/asset.json",
+    "beverage-knock-box/asset.json",
+    "beverage-tea-infuser/asset.json",
+    "beverage-tea-tin/asset.json",
+    "beverage-coaster-rack/asset.json"
   ]
 }

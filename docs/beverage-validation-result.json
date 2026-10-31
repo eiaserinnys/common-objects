@@ -1,0 +1,790 @@
+{
+  "batch": "beverage-2026-10-31",
+  "count": 10,
+  "objects": [
+    {
+      "id": "beverage-teapot",
+      "version": 1,
+      "dimensions": [
+        0.229151048,
+        0.132,
+        0.124
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "beverage-teapot",
+        "parts": 9,
+        "min": [
+          -0.12365104766446153,
+          0,
+          -0.062
+        ],
+        "max": [
+          0.1055,
+          0.132,
+          0.062
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "lidded": true
+          },
+          "bounds": {
+            "min": [
+              -0.12365104766446153,
+              0,
+              -0.062
+            ],
+            "max": [
+              0.1055,
+              0.132,
+              0.062
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "lidded": false
+          },
+          "bounds": {
+            "min": [
+              -0.12365104766446153,
+              0,
+              -0.062
+            ],
+            "max": [
+              0.1055,
+              0.106,
+              0.062
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/beverage-teapot/thumbnail.svg"
+    },
+    {
+      "id": "beverage-dripper",
+      "version": 1,
+      "dimensions": [
+        0.144,
+        0.088,
+        0.118
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "beverage-dripper",
+        "parts": 25,
+        "min": [
+          -0.059,
+          0,
+          -0.059
+        ],
+        "max": [
+          0.085,
+          0.088,
+          0.059
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "filtered": true
+          },
+          "bounds": {
+            "min": [
+              -0.059,
+              0,
+              -0.059
+            ],
+            "max": [
+              0.085,
+              0.088,
+              0.059
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "filtered": false
+          },
+          "bounds": {
+            "min": [
+              -0.059,
+              0,
+              -0.059
+            ],
+            "max": [
+              0.085,
+              0.08299999999999999,
+              0.059
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/beverage-dripper/thumbnail.svg"
+    },
+    {
+      "id": "beverage-filter-holder",
+      "version": 1,
+      "dimensions": [
+        0.14,
+        0.12043518,
+        0.064
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "beverage-filter-holder",
+        "parts": 10,
+        "min": [
+          -0.07,
+          0,
+          -0.032
+        ],
+        "max": [
+          0.07,
+          0.12043518021835842,
+          0.032
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "stocked": true
+          },
+          "bounds": {
+            "min": [
+              -0.07,
+              0,
+              -0.032
+            ],
+            "max": [
+              0.07,
+              0.12043518021835842,
+              0.032
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "stocked": false
+          },
+          "bounds": {
+            "min": [
+              -0.07,
+              0,
+              -0.032
+            ],
+            "max": [
+              0.07,
+              0.0955,
+              0.032
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/beverage-filter-holder/thumbnail.svg"
+    },
+    {
+      "id": "beverage-french-press",
+      "version": 1,
+      "dimensions": [
+        0.131,
+        0.234,
+        0.092
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "beverage-french-press",
+        "parts": 10,
+        "min": [
+          -0.046,
+          0,
+          -0.046
+        ],
+        "max": [
+          0.08499999999999999,
+          0.234,
+          0.046
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "plunged": true
+          },
+          "bounds": {
+            "min": [
+              -0.046,
+              0,
+              -0.046
+            ],
+            "max": [
+              0.08499999999999999,
+              0.234,
+              0.046
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "plunged": false
+          },
+          "bounds": {
+            "min": [
+              -0.044,
+              0,
+              -0.044
+            ],
+            "max": [
+              0.08499999999999999,
+              0.15400000000000003,
+              0.044
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/beverage-french-press/thumbnail.svg"
+    },
+    {
+      "id": "beverage-hand-grinder",
+      "version": 1,
+      "dimensions": [
+        0.1235,
+        0.2165,
+        0.073
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "beverage-hand-grinder",
+        "parts": 15,
+        "min": [
+          -0.036500000000000005,
+          0,
+          -0.036500000000000005
+        ],
+        "max": [
+          0.087,
+          0.21650000000000003,
+          0.036500000000000005
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "cranked": true
+          },
+          "bounds": {
+            "min": [
+              -0.036500000000000005,
+              0,
+              -0.036500000000000005
+            ],
+            "max": [
+              0.087,
+              0.21650000000000003,
+              0.036500000000000005
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "cranked": false
+          },
+          "bounds": {
+            "min": [
+              -0.036500000000000005,
+              0,
+              -0.036500000000000005
+            ],
+            "max": [
+              0.036500000000000005,
+              0.16,
+              0.036500000000000005
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/beverage-hand-grinder/thumbnail.svg"
+    },
+    {
+      "id": "beverage-tamper",
+      "version": 1,
+      "dimensions": [
+        0.058,
+        0.078,
+        0.058
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "beverage-tamper",
+        "parts": 4,
+        "min": [
+          -0.029,
+          0,
+          -0.029
+        ],
+        "max": [
+          0.029,
+          0.078,
+          0.029
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "handled": true
+          },
+          "bounds": {
+            "min": [
+              -0.029,
+              0,
+              -0.029
+            ],
+            "max": [
+              0.029,
+              0.078,
+              0.029
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "handled": false
+          },
+          "bounds": {
+            "min": [
+              -0.029,
+              0,
+              -0.029
+            ],
+            "max": [
+              0.029,
+              0.027,
+              0.029
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/beverage-tamper/thumbnail.svg"
+    },
+    {
+      "id": "beverage-knock-box",
+      "version": 1,
+      "dimensions": [
+        0.15,
+        0.1,
+        0.13
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "beverage-knock-box",
+        "parts": 6,
+        "min": [
+          -0.075,
+          0,
+          -0.065
+        ],
+        "max": [
+          0.075,
+          0.1,
+          0.065
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "barred": true
+          },
+          "bounds": {
+            "min": [
+              -0.075,
+              0,
+              -0.065
+            ],
+            "max": [
+              0.075,
+              0.1,
+              0.065
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "barred": false
+          },
+          "bounds": {
+            "min": [
+              -0.07,
+              0,
+              -0.065
+            ],
+            "max": [
+              0.07,
+              0.1,
+              0.065
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "interior-floor",
+              "vertices": [
+                [
+                  -0.062,
+                  0.008,
+                  -0.057
+                ],
+                [
+                  0.062,
+                  0.008,
+                  -0.057
+                ],
+                [
+                  0.062,
+                  0.008,
+                  0.057
+                ],
+                [
+                  -0.062,
+                  0.008,
+                  0.057
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "thumbnail": "assets/beverage-knock-box/thumbnail.svg"
+    },
+    {
+      "id": "beverage-tea-infuser",
+      "version": 1,
+      "dimensions": [
+        0.062,
+        0.069,
+        0.1315
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "beverage-tea-infuser",
+        "parts": 84,
+        "min": [
+          -0.031,
+          0,
+          -0.1005
+        ],
+        "max": [
+          0.031,
+          0.069,
+          0.031
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "capped": true
+          },
+          "bounds": {
+            "min": [
+              -0.031,
+              0,
+              -0.1005
+            ],
+            "max": [
+              0.031,
+              0.069,
+              0.031
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "capped": false
+          },
+          "bounds": {
+            "min": [
+              -0.029957570560806467,
+              0,
+              -0.1005
+            ],
+            "max": [
+              0.029957570560806463,
+              0.056,
+              0.02995757056080646
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/beverage-tea-infuser/thumbnail.svg"
+    },
+    {
+      "id": "beverage-tea-tin",
+      "version": 1,
+      "dimensions": [
+        0.096,
+        0.128,
+        0.096
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "beverage-tea-tin",
+        "parts": 8,
+        "min": [
+          -0.048,
+          0,
+          -0.048
+        ],
+        "max": [
+          0.048,
+          0.128,
+          0.048
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "lidded": true
+          },
+          "bounds": {
+            "min": [
+              -0.048,
+              0,
+              -0.048
+            ],
+            "max": [
+              0.048,
+              0.128,
+              0.048
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "lid-top",
+              "vertices": [
+                [
+                  -0.045,
+                  0.128,
+                  -0.045
+                ],
+                [
+                  0.045,
+                  0.128,
+                  -0.045
+                ],
+                [
+                  0.045,
+                  0.128,
+                  0.045
+                ],
+                [
+                  -0.045,
+                  0.128,
+                  0.045
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "lidded": false
+          },
+          "bounds": {
+            "min": [
+              -0.045,
+              0,
+              -0.045
+            ],
+            "max": [
+              0.045,
+              0.12,
+              0.047
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/beverage-tea-tin/thumbnail.svg"
+    },
+    {
+      "id": "beverage-coaster-rack",
+      "version": 1,
+      "dimensions": [
+        0.14,
+        0.057,
+        0.14
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "beverage-coaster-rack",
+        "parts": 9,
+        "min": [
+          -0.07,
+          0,
+          -0.07
+        ],
+        "max": [
+          0.07,
+          0.057,
+          0.07
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "stacked": true
+          },
+          "bounds": {
+            "min": [
+              -0.07,
+              0,
+              -0.07
+            ],
+            "max": [
+              0.07,
+              0.057,
+              0.07
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "coaster-top",
+              "vertices": [
+                [
+                  -0.055,
+                  0.039,
+                  -0.055
+                ],
+                [
+                  0.055,
+                  0.039,
+                  -0.055
+                ],
+                [
+                  0.055,
+                  0.039,
+                  0.055
+                ],
+                [
+                  -0.055,
+                  0.039,
+                  0.055
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "stacked": false
+          },
+          "bounds": {
+            "min": [
+              -0.07,
+              0,
+              -0.07
+            ],
+            "max": [
+              0.07,
+              0.057,
+              0.07
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "empty-base",
+              "vertices": [
+                [
+                  -0.058,
+                  0.012,
+                  -0.058
+                ],
+                [
+                  0.058,
+                  0.012,
+                  -0.058
+                ],
+                [
+                  0.058,
+                  0.012,
+                  0.058
+                ],
+                [
+                  -0.058,
+                  0.012,
+                  0.058
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "thumbnail": "assets/beverage-coaster-rack/thumbnail.svg"
+    }
+  ]
+}

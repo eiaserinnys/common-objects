@@ -1,0 +1,37 @@
+{
+  "batch": "beverage-2026-10-31",
+  "accepted": 10,
+  "catalogCount": 110,
+  "checks": [
+    {
+      "command": "npm run validate",
+      "exitCode": 0
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "passed": 50,
+      "failed": 0
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0
+    },
+    {
+      "command": "node scripts/beverage-check.mjs",
+      "exitCode": 0
+    },
+    {
+      "command": "python3 scripts/beverage-browser-check.py",
+      "exitCode": 0
+    }
+  ],
+  "pixelInspection": [
+    "inspection-contact-sheet.jpg",
+    "set-desktop.png",
+    "set-mobile.png",
+    "support-placement.png"
+  ],
+  "screenshotDirectory": "docs/screenshots/beverage-2026-10-31",
+  "ci": "No .github/workflows in repository; remote commit check queried after push."
+}

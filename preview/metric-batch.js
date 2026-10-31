@@ -7,8 +7,9 @@ try {
  const list=await Promise.all(catalog.assets.filter(p=>p.startsWith(batch+'-')).map(async p=>{const r=await fetch('../assets/'+p);if(!r.ok)throw Error(p);return r.json();}));
  const assets=new Map(list.map(a=>[a.id,a]));let serial=10,isolated=false;
  const layoutIndex=n=>n;
- let instances=list.map((a,n)=>{const k=layoutIndex(n);return createInstance(a,'object-'+(n+1),[(k%5-2)*.48,0,(Math.floor(k/5)-.5)*.58]);}),selected=instances[0].id;
- const overviewDistance=()=>window.innerWidth<700?4.1:3.0;
+ const spacingX=Number(document.documentElement.dataset.spacingX)||.48,spacingZ=Number(document.documentElement.dataset.spacingZ)||.58;
+ let instances=list.map((a,n)=>{const k=layoutIndex(n);return createInstance(a,'object-'+(n+1),[(k%5-2)*spacingX,0,(Math.floor(k/5)-.5)*spacingZ]);}),selected=instances[0].id;
+ const overviewDistance=()=>window.innerWidth<700?(Number(document.documentElement.dataset.mobileDistance)||4.1):(Number(document.documentElement.dataset.distance)||3.0);
  const camera={yaw:-.35,pitch:.65,distance:overviewDistance(),target:[0,.10,0]},renderer=createRenderer($('scene'),assets);
  const current=()=>instances.find(i=>i.id===selected),asset=()=>assets.get(current().assetId),render=()=>renderer.render(isolated?[current()]:instances,camera);
  function refresh(){const i=current(),a=asset();$('selected').replaceChildren(...instances.map(i=>{const o=document.createElement('option');o.value=i.id;o.textContent=assets.get(i.assetId).name+' · '+i.id;return o;}));$('selected').value=selected;$('dimensions').textContent=a.dimensions.map(v=>(v*100).toFixed(1)).join(' × ')+' cm · estimated';$('toggle').textContent=a.actions[0].label;$('toggle').setAttribute('aria-pressed',Object.values(i.state)[0]);$('state').textContent=Object.entries(i.state).map(([k,v])=>k+': '+v).join(', ');$('rotation').value=i.rotation[1]*180/Math.PI;$('x').value=i.position[0];$('y').value=i.position[1];$('z').value=i.position[2];$('zoom').value=camera.distance;$('supports').textContent='Support surfaces: '+(a.supportSurfaces.filter(s=>!s.availableWhen||Object.entries(s.availableWhen).every(([k,v])=>i.state[k]===v)).map(s=>s.id+' at '+s.height+' m').join(', ')||'none available');render();}
