@@ -110,6 +110,16 @@
     "beverage-knock-box/asset.json",
     "beverage-tea-infuser/asset.json",
     "beverage-tea-tin/asset.json",
-    "beverage-coaster-rack/asset.json"
+    "beverage-coaster-rack/asset.json",
+    "fitness-yoga-mat/asset.json",
+    "fitness-yoga-block/asset.json",
+    "fitness-dumbbell/asset.json",
+    "fitness-kettlebell/asset.json",
+    "fitness-pushup-bar/asset.json",
+    "fitness-ab-wheel/asset.json",
+    "fitness-foam-roller/asset.json",
+    "fitness-massage-tool/asset.json",
+    "fitness-balance-board/asset.json",
+    "fitness-stretch-strap/asset.json"
   ]
 }

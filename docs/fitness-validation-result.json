@@ -1,0 +1,790 @@
+{
+  "batch": "fitness-2026-11-01",
+  "count": 10,
+  "objects": [
+    {
+      "id": "fitness-yoga-mat",
+      "version": 1,
+      "dimensions": [
+        0.6,
+        0.151,
+        0.13
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "fitness-yoga-mat",
+        "parts": 6,
+        "min": [
+          -0.3,
+          -1.3877787807814457e-17,
+          -0.06500000000000002
+        ],
+        "max": [
+          0.3,
+          0.151,
+          0.06499999999999999
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "strapped": true
+          },
+          "bounds": {
+            "min": [
+              -0.3,
+              -1.3877787807814457e-17,
+              -0.06500000000000002
+            ],
+            "max": [
+              0.3,
+              0.151,
+              0.06499999999999999
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "strapped": false
+          },
+          "bounds": {
+            "min": [
+              -0.3,
+              -1.3877787807814457e-17,
+              -0.06500000000000002
+            ],
+            "max": [
+              0.3,
+              0.13,
+              0.06499999999999999
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/fitness-yoga-mat/thumbnail.svg"
+    },
+    {
+      "id": "fitness-yoga-block",
+      "version": 1,
+      "dimensions": [
+        0.23,
+        0.077,
+        0.154
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "fitness-yoga-block",
+        "parts": 4,
+        "min": [
+          -0.115,
+          0,
+          -0.077
+        ],
+        "max": [
+          0.115,
+          0.077,
+          0.077
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "sleeved": true
+          },
+          "bounds": {
+            "min": [
+              -0.115,
+              0,
+              -0.077
+            ],
+            "max": [
+              0.115,
+              0.077,
+              0.077
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "block-top",
+              "vertices": [
+                [
+                  -0.04,
+                  0.077,
+                  -0.075
+                ],
+                [
+                  0.04,
+                  0.077,
+                  -0.075
+                ],
+                [
+                  0.04,
+                  0.077,
+                  0.075
+                ],
+                [
+                  -0.04,
+                  0.077,
+                  0.075
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "sleeved": false
+          },
+          "bounds": {
+            "min": [
+              -0.115,
+              0,
+              -0.075
+            ],
+            "max": [
+              0.115,
+              0.075,
+              0.075
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "bare-top",
+              "vertices": [
+                [
+                  -0.115,
+                  0.075,
+                  -0.075
+                ],
+                [
+                  0.115,
+                  0.075,
+                  -0.075
+                ],
+                [
+                  0.115,
+                  0.075,
+                  0.075
+                ],
+                [
+                  -0.115,
+                  0.075,
+                  0.075
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "thumbnail": "assets/fitness-yoga-block/thumbnail.svg"
+    },
+    {
+      "id": "fitness-dumbbell",
+      "version": 1,
+      "dimensions": [
+        0.32,
+        0.13,
+        0.13
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "fitness-dumbbell",
+        "parts": 6,
+        "min": [
+          -0.16,
+          0,
+          -0.06500000000000002
+        ],
+        "max": [
+          0.16,
+          0.13,
+          0.06499999999999999
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "loaded": true
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.06500000000000002
+            ],
+            "max": [
+              0.16,
+              0.13,
+              0.06499999999999999
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "loaded": false
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.06500000000000002
+            ],
+            "max": [
+              0.16,
+              0.13,
+              0.06499999999999999
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/fitness-dumbbell/thumbnail.svg"
+    },
+    {
+      "id": "fitness-kettlebell",
+      "version": 1,
+      "dimensions": [
+        0.13,
+        0.198,
+        0.13
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "fitness-kettlebell",
+        "parts": 6,
+        "min": [
+          -0.065,
+          0,
+          -0.065
+        ],
+        "max": [
+          0.065,
+          0.198,
+          0.065
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "wrapped": true
+          },
+          "bounds": {
+            "min": [
+              -0.065,
+              0,
+              -0.065
+            ],
+            "max": [
+              0.065,
+              0.198,
+              0.065
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "wrapped": false
+          },
+          "bounds": {
+            "min": [
+              -0.065,
+              0,
+              -0.065
+            ],
+            "max": [
+              0.065,
+              0.194,
+              0.065
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/fitness-kettlebell/thumbnail.svg"
+    },
+    {
+      "id": "fitness-pushup-bar",
+      "version": 1,
+      "dimensions": [
+        0.245,
+        0.134,
+        0.16
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "fitness-pushup-bar",
+        "parts": 6,
+        "min": [
+          -0.1225,
+          0,
+          -0.08
+        ],
+        "max": [
+          0.1225,
+          0.134,
+          0.08
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "padded": true
+          },
+          "bounds": {
+            "min": [
+              -0.1225,
+              0,
+              -0.08
+            ],
+            "max": [
+              0.1225,
+              0.134,
+              0.08
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "padded": false
+          },
+          "bounds": {
+            "min": [
+              -0.1225,
+              0,
+              -0.08
+            ],
+            "max": [
+              0.1225,
+              0.12400000000000001,
+              0.08
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/fitness-pushup-bar/thumbnail.svg"
+    },
+    {
+      "id": "fitness-ab-wheel",
+      "version": 1,
+      "dimensions": [
+        0.32,
+        0.17,
+        0.17
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "fitness-ab-wheel",
+        "parts": 5,
+        "min": [
+          -0.16,
+          0,
+          -0.08500000000000002
+        ],
+        "max": [
+          0.16,
+          0.17,
+          0.08499999999999999
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "gripped": true
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.08500000000000002
+            ],
+            "max": [
+              0.16,
+              0.17,
+              0.08499999999999999
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "gripped": false
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.08500000000000002
+            ],
+            "max": [
+              0.16,
+              0.17,
+              0.08499999999999999
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/fitness-ab-wheel/thumbnail.svg"
+    },
+    {
+      "id": "fitness-foam-roller",
+      "version": 1,
+      "dimensions": [
+        0.32,
+        0.14,
+        0.14
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "fitness-foam-roller",
+        "parts": 10,
+        "min": [
+          -0.16,
+          -1.3877787807814457e-17,
+          -0.07000000000000002
+        ],
+        "max": [
+          0.16,
+          0.14,
+          0.06999999999999999
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "cored": true
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              -1.3877787807814457e-17,
+              -0.07000000000000002
+            ],
+            "max": [
+              0.16,
+              0.14,
+              0.06999999999999999
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "cored": false
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              -1.3877787807814457e-17,
+              -0.07000000000000002
+            ],
+            "max": [
+              0.16,
+              0.14,
+              0.06999999999999999
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/fitness-foam-roller/thumbnail.svg"
+    },
+    {
+      "id": "fitness-massage-tool",
+      "version": 1,
+      "dimensions": [
+        0.104,
+        0.078,
+        0.104
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "fitness-massage-tool",
+        "parts": 6,
+        "min": [
+          -0.052,
+          0,
+          -0.052
+        ],
+        "max": [
+          0.052,
+          0.078,
+          0.052
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "handled": true
+          },
+          "bounds": {
+            "min": [
+              -0.052,
+              0,
+              -0.052
+            ],
+            "max": [
+              0.052,
+              0.078,
+              0.052
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "handled": false
+          },
+          "bounds": {
+            "min": [
+              -0.052,
+              0,
+              -0.052
+            ],
+            "max": [
+              0.052,
+              0.043000000000000003,
+              0.052
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/fitness-massage-tool/thumbnail.svg"
+    },
+    {
+      "id": "fitness-balance-board",
+      "version": 1,
+      "dimensions": [
+        0.38,
+        0.067,
+        0.38
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "fitness-balance-board",
+        "parts": 3,
+        "min": [
+          -0.19,
+          0,
+          -0.19
+        ],
+        "max": [
+          0.19,
+          0.067,
+          0.19
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "padded": true
+          },
+          "bounds": {
+            "min": [
+              -0.19,
+              0,
+              -0.19
+            ],
+            "max": [
+              0.19,
+              0.067,
+              0.19
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "pad-top",
+              "vertices": [
+                [
+                  -0.12,
+                  0.067,
+                  -0.12
+                ],
+                [
+                  0.12,
+                  0.067,
+                  -0.12
+                ],
+                [
+                  0.12,
+                  0.067,
+                  0.12
+                ],
+                [
+                  -0.12,
+                  0.067,
+                  0.12
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "padded": false
+          },
+          "bounds": {
+            "min": [
+              -0.19,
+              0,
+              -0.19
+            ],
+            "max": [
+              0.19,
+              0.063,
+              0.19
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "deck-top",
+              "vertices": [
+                [
+                  -0.12,
+                  0.063,
+                  -0.12
+                ],
+                [
+                  0.12,
+                  0.063,
+                  -0.12
+                ],
+                [
+                  0.12,
+                  0.063,
+                  0.12
+                ],
+                [
+                  -0.12,
+                  0.063,
+                  0.12
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "thumbnail": "assets/fitness-balance-board/thumbnail.svg"
+    },
+    {
+      "id": "fitness-stretch-strap",
+      "version": 1,
+      "dimensions": [
+        0.2,
+        0.028,
+        0.05
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "fitness-stretch-strap",
+        "parts": 8,
+        "min": [
+          -0.09,
+          0,
+          -0.025
+        ],
+        "max": [
+          0.11,
+          0.028,
+          0.025
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "buckled": true
+          },
+          "bounds": {
+            "min": [
+              -0.09,
+              0,
+              -0.025
+            ],
+            "max": [
+              0.11,
+              0.028,
+              0.025
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "buckled": false
+          },
+          "bounds": {
+            "min": [
+              -0.09,
+              0,
+              -0.0175
+            ],
+            "max": [
+              0.09,
+              0.019000000000000003,
+              0.0175
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "thumbnail": "assets/fitness-stretch-strap/thumbnail.svg"
+    }
+  ]
+}
