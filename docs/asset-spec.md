@@ -15,6 +15,9 @@ All placeable assets, including new daily props, use 1 unit = 1 metre, Y-up, XZ 
 - Scene JSON contains schemaVersion and instances: id, assetId, assetVersion, position, rotation, scale and state. Unknown versions fail explicitly. Current preview storage is browser-local. Per-part animated state and migrations are future extensions.
 
 ## Adding a batch
+
+First follow [production policy](production-policy.md): review cumulative and recent catalog coverage, existing previews and duplicates, then select a useful home/office/commercial interior theme. A batch has no mandatory ten-object size. Keep room/group counts distinct from new independent assets and prefer verified mixed-size scenes over small-object filler.
+
 Create one directory per asset, author metric source and provenance, append catalog paths, then validate and inspect each. Build copies all catalog sources. The default preview loads the complete published room; preview/desk-lamp.html loads the metric lamp explicitly. The renderer currently shares geometry across copies of one asset. No daily scheduler is included in this repository.
 
 ## Rendering constraints

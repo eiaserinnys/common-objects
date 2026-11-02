@@ -1,6 +1,12 @@
 # Common Objects
 
-Reusable household props and a Colorfigures SVG player. The default preview is the published **Lo-fi night room r2**, with its orbit camera, zoom up to 400%, Night/Light theme, lamp poses, turntable, room ambiance, drawer, see-through wiring and labels.
+Reusable props, furniture, fixtures, equipment and machines for everyday home, office and commercial interiors, with a Colorfigures SVG player. The default preview is the published **Lo-fi night room r2**, with its orbit camera, zoom up to 400%, Night/Light theme, lamp poses, turntable, room ambiance, drawer, see-through wiring and labels.
+
+## Collection scope and production planning
+
+Select new work from the whole collection's gaps in space, scale and function. Review the [production policy](docs/production-policy.md), [catalog balance and next priorities](docs/catalog-balance.md) and [complete audited inventory](docs/catalog-inventory-2026-11-02.md) before modeling. The 2026-11-02 audit found 101 independent metric sources (100 small, one medium portable mat), plus one original room and its 18 component groups. The latest ten batches added 100 portable/tabletop objects and no human-scale furniture or installed service fixtures. The immediate priority is an office document/copy station using existing stationery alongside new furniture and equipment; the audit records duplicate checks and subsequent themes.
+
+Favor coherent mixed-size interior scenes and quality over a fixed ten-object count. Keep useful small props, but do not fill batches with easy small variants. Room assemblies, their components and reused objects must not inflate new-object totals. Technical placement, interaction and validation requirements remain unchanged.
 
 ## Run
 
