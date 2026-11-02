@@ -120,6 +120,11 @@
     "fitness-foam-roller/asset.json",
     "fitness-massage-tool/asset.json",
     "fitness-balance-board/asset.json",
-    "fitness-stretch-strap/asset.json"
+    "fitness-stretch-strap/asset.json",
+    "office-credenza/asset.json",
+    "office-printer/asset.json",
+    "office-paper-cart/asset.json",
+    "office-archive-shelf/asset.json",
+    "office-sorting-table/asset.json"
   ]
 }

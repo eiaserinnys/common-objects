@@ -4,7 +4,7 @@ Reusable props, furniture, fixtures, equipment and machines for everyday home, o
 
 ## Collection scope and production planning
 
-Select new work from the whole collection's gaps in space, scale and function. Review the [production policy](docs/production-policy.md), [catalog balance and next priorities](docs/catalog-balance.md) and [complete audited inventory](docs/catalog-inventory-2026-11-02.md) before modeling. The 2026-11-02 audit found 101 independent metric sources (100 small, one medium portable mat), plus one original room and its 18 component groups. The latest ten batches added 100 portable/tabletop objects and no human-scale furniture or installed service fixtures. The immediate priority is an office document/copy station using existing stationery alongside new furniture and equipment; the audit records duplicate checks and subsequent themes.
+Select new work from the whole collection's gaps in space, scale and function. Review the [production policy](docs/production-policy.md), [catalog balance and next priorities](docs/catalog-balance.md) and [complete audited inventory](docs/catalog-inventory-2026-11-02.md) before modeling. The 2026-11-02 audit found 101 independent metric sources (100 small, one medium portable mat), plus one original room and its 18 component groups. The latest ten batches added 100 portable/tabletop objects and no human-scale furniture or installed service fixtures. The next production added five independent office anchors with five reused desktop objects, giving 106 independent sources and 125 registrations. The next priorities are commercial service equipment and domestic utility fixtures; see the updated balance review.
 
 Favor coherent mixed-size interior scenes and quality over a fixed ten-object count. Keep useful small props, but do not fill batches with easy small variants. Room assemblies, their components and reused objects must not inflate new-object totals. Technical placement, interaction and validation requirements remain unchanged.
 
@@ -25,7 +25,7 @@ Build output is dist/; serve it with `python3 -m http.server 8000 --directory di
 
 ## Assets
 
-`assets/catalog.json` registers 120 entries: ten home exercise props, ten tea and coffee tools, ten home baking tools, ten tabletop game props, ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
+`assets/catalog.json` registers 125 entries: five office furniture/equipment anchors, ten home exercise props, ten tea and coffee tools, ten home baking tools, ten tabletop game props, ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
 
 All placeable entries use **1 unit = 1 metre**, Y-up and default scale [1,1,1].
 
@@ -82,3 +82,7 @@ Imported Colorfigures code is MIT by April Zhu, based on ISO-GLOW and Tolga Cohc
 ### Home movement corner · 2026-11-01 19:00 UTC
 
 [Open the fitness set](preview/fitness.html): rolled yoga mat, cork yoga block, adjustable dumbbell, kettlebell, push up bar, abdominal wheel, hollow foam roller, wooden massage tool, balance board and stretching strap. Ten distinct original metric SVG props with removable parts, independent states and saved arrangements. Estimated dimensions, Y-up and scale `[1,1,1]`. [Verification and visual evidence](docs/fitness-2026-11-01.md).
+
+### Document & copy station · 2026-11-02 19:00 UTC
+
+[Open the furnished office](preview/office.html): printer credenza, multifunction printer, two-tier paper cart, archive shelving and standing sorting table. Five new anchors plus five reused objects, all at shared metre scale. Discrete drawer travel and before/after paper transfer; three static furniture objects. [Production record, limitations and visual evidence](docs/office-2026-11-02.md).

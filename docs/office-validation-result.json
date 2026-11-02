@@ -1,0 +1,571 @@
+{
+  "batch": "office-2026-11-02",
+  "count": 5,
+  "objects": [
+    {
+      "id": "office-credenza",
+      "version": 1,
+      "dimensions": [
+        1.2,
+        0.75,
+        0.9075
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "office-credenza",
+        "parts": 25,
+        "min": [
+          -0.6,
+          0,
+          -0.3
+        ],
+        "max": [
+          0.6,
+          0.75,
+          0.6074999999999999
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.3
+            ],
+            "max": [
+              0.6,
+              0.75,
+              0.3275
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.58,
+                  0.75,
+                  -0.28
+                ],
+                [
+                  0.58,
+                  0.75,
+                  -0.28
+                ],
+                [
+                  0.58,
+                  0.75,
+                  0.28
+                ],
+                [
+                  -0.58,
+                  0.75,
+                  0.28
+                ]
+              ]
+            },
+            {
+              "id": "lower-shelf",
+              "vertices": [
+                [
+                  -0.55,
+                  0.351,
+                  -0.25
+                ],
+                [
+                  0.55,
+                  0.351,
+                  -0.25
+                ],
+                [
+                  0.55,
+                  0.351,
+                  0.25
+                ],
+                [
+                  -0.55,
+                  0.351,
+                  0.25
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.3
+            ],
+            "max": [
+              0.6,
+              0.75,
+              0.6074999999999999
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.58,
+                  0.75,
+                  -0.28
+                ],
+                [
+                  0.58,
+                  0.75,
+                  -0.28
+                ],
+                [
+                  0.58,
+                  0.75,
+                  0.28
+                ],
+                [
+                  -0.58,
+                  0.75,
+                  0.28
+                ]
+              ]
+            },
+            {
+              "id": "lower-shelf",
+              "vertices": [
+                [
+                  -0.55,
+                  0.351,
+                  -0.25
+                ],
+                [
+                  0.55,
+                  0.351,
+                  -0.25
+                ],
+                [
+                  0.55,
+                  0.351,
+                  0.25
+                ],
+                [
+                  -0.55,
+                  0.351,
+                  0.25
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Entire drawer moves 0.28 m along +Z between two fixed poses. No interpolated slide, stops, lock or collision physics.",
+      "thumbnail": "assets/office-credenza/thumbnail.svg"
+    },
+    {
+      "id": "office-printer",
+      "version": 1,
+      "dimensions": [
+        0.54,
+        0.463,
+        0.552
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "office-printer",
+        "parts": 38,
+        "min": [
+          -0.27,
+          0,
+          -0.24
+        ],
+        "max": [
+          0.27,
+          0.463,
+          0.312
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "printed": false
+          },
+          "bounds": {
+            "min": [
+              -0.27,
+              0,
+              -0.24
+            ],
+            "max": [
+              0.27,
+              0.463,
+              0.312
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "printed": true
+          },
+          "bounds": {
+            "min": [
+              -0.27,
+              0,
+              -0.24
+            ],
+            "max": [
+              0.27,
+              0.463,
+              0.312
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Discrete before/after sheet transfer: blank A4-sized feed sheet becomes printed output with bars. Scanner lid and cassette static. No scanning, continuous roller animation, document processing, electrical or thermal simulation.",
+      "thumbnail": "assets/office-printer/thumbnail.svg"
+    },
+    {
+      "id": "office-paper-cart",
+      "version": 1,
+      "dimensions": [
+        0.6,
+        0.82,
+        0.42
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "office-paper-cart",
+        "parts": 17,
+        "min": [
+          -0.3,
+          0,
+          -0.21
+        ],
+        "max": [
+          0.3,
+          0.8200000000000001,
+          0.21
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.3,
+              0,
+              -0.21
+            ],
+            "max": [
+              0.3,
+              0.8200000000000001,
+              0.21
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "upper-tray",
+              "vertices": [
+                [
+                  -0.27,
+                  0.692,
+                  -0.18
+                ],
+                [
+                  0.27,
+                  0.692,
+                  -0.18
+                ],
+                [
+                  0.27,
+                  0.692,
+                  0.18
+                ],
+                [
+                  -0.27,
+                  0.692,
+                  0.18
+                ]
+              ]
+            },
+            {
+              "id": "lower-tray",
+              "vertices": [
+                [
+                  -0.27,
+                  0.232,
+                  -0.18
+                ],
+                [
+                  0.27,
+                  0.232,
+                  -0.18
+                ],
+                [
+                  0.27,
+                  0.232,
+                  0.18
+                ],
+                [
+                  -0.27,
+                  0.232,
+                  0.18
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Static rolling-cart depiction. Move the instance using placement controls; wheels do not spin and no rolling physics is claimed.",
+      "thumbnail": "assets/office-paper-cart/thumbnail.svg"
+    },
+    {
+      "id": "office-archive-shelf",
+      "version": 1,
+      "dimensions": [
+        0.9,
+        1.65,
+        0.364
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "office-archive-shelf",
+        "parts": 15,
+        "min": [
+          -0.45,
+          0,
+          -0.18000000000000002
+        ],
+        "max": [
+          0.45,
+          1.65,
+          0.184
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.45,
+              0,
+              -0.18000000000000002
+            ],
+            "max": [
+              0.45,
+              1.65,
+              0.184
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "bottom",
+              "vertices": [
+                [
+                  -0.405,
+                  0.1175,
+                  -0.155
+                ],
+                [
+                  0.405,
+                  0.1175,
+                  -0.155
+                ],
+                [
+                  0.405,
+                  0.1175,
+                  0.155
+                ],
+                [
+                  -0.405,
+                  0.1175,
+                  0.155
+                ]
+              ]
+            },
+            {
+              "id": "shelf-1",
+              "vertices": [
+                [
+                  -0.405,
+                  0.5025,
+                  -0.155
+                ],
+                [
+                  0.405,
+                  0.5025,
+                  -0.155
+                ],
+                [
+                  0.405,
+                  0.5025,
+                  0.155
+                ],
+                [
+                  -0.405,
+                  0.5025,
+                  0.155
+                ]
+              ]
+            },
+            {
+              "id": "shelf-2",
+              "vertices": [
+                [
+                  -0.405,
+                  0.8875,
+                  -0.155
+                ],
+                [
+                  0.405,
+                  0.8875,
+                  -0.155
+                ],
+                [
+                  0.405,
+                  0.8875,
+                  0.155
+                ],
+                [
+                  -0.405,
+                  0.8875,
+                  0.155
+                ]
+              ]
+            },
+            {
+              "id": "shelf-3",
+              "vertices": [
+                [
+                  -0.405,
+                  1.2725,
+                  -0.155
+                ],
+                [
+                  0.405,
+                  1.2725,
+                  -0.155
+                ],
+                [
+                  0.405,
+                  1.2725,
+                  0.155
+                ],
+                [
+                  -0.405,
+                  1.2725,
+                  0.155
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Static shelving. No adjustable shelves, wall anchoring or tip/load simulation.",
+      "thumbnail": "assets/office-archive-shelf/thumbnail.svg"
+    },
+    {
+      "id": "office-sorting-table",
+      "version": 1,
+      "dimensions": [
+        1.4,
+        0.975,
+        0.7
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "office-sorting-table",
+        "parts": 14,
+        "min": [
+          -0.7,
+          0,
+          -0.35000000000000003
+        ],
+        "max": [
+          0.7,
+          0.975,
+          0.35
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.7,
+              0,
+              -0.35000000000000003
+            ],
+            "max": [
+              0.7,
+              0.975,
+              0.35
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "worktop",
+              "vertices": [
+                [
+                  -0.67,
+                  0.92,
+                  -0.32
+                ],
+                [
+                  0.67,
+                  0.92,
+                  -0.32
+                ],
+                [
+                  0.67,
+                  0.92,
+                  0.32
+                ],
+                [
+                  -0.67,
+                  0.92,
+                  0.32
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Static standing worktable. No height adjustment, folding or load simulation.",
+      "thumbnail": "assets/office-sorting-table/thumbnail.svg"
+    }
+  ]
+}

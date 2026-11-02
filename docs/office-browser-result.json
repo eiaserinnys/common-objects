@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "object-1: four sides, available state, independent copy, unit scale",
+    "object-2: four sides, available state, independent copy, unit scale",
+    "object-3: four sides, available state, independent copy, unit scale",
+    "object-4: four sides, available state, independent copy, unit scale",
+    "object-5: four sides, available state, independent copy, unit scale",
+    "all five reused assets: select, focus, toggle, independent copies including legacy lamp without support metadata",
+    "mixed 20-instance scene: transforms, states, versions saved and restored after reload",
+    "390px viewport: no overflow, pointer orbit, selection, camera focus, action"
+  ],
+  "errors": []
+}

@@ -1,6 +1,6 @@
 # Catalog inventory · 2026-11-02
 
-Snapshot: `bee62d3c9b256025c4b83a6753af24a2de49d607`. All 120 registered current `asset.json` files were read; archived versions, thumbnails and room contents are not additional objects. See [audit and priorities](catalog-balance.md) and [production policy](production-policy.md).
+Updated after office production on base `6593ab4b52599b698aaec780a4599ce501d37b4e`. All 125 registered current `asset.json` files were read; archived versions, thumbnails and room contents are not additional objects. See [audit and priorities](catalog-balance.md) and [production policy](production-policy.md).
 
 Dimensions below are X × Y × Z in metres, rounded to 4 decimals for readability; source JSON retains precision. Every source says **estimated**. Metric sources describe authored rest geometry; imported room descriptors are calibrated placement envelopes, not measured products.
 
@@ -132,3 +132,10 @@ Roles are also non-exclusive: storage includes small containers (not just furnit
 | [fitness-massage-tool](../assets/fitness-massage-tool/asset.json) — Four foot wooden massage tool | independent | fitness-2026-11-01 | 0.104 × 0.078 × 0.104 | S | H,C | exercise |
 | [fitness-balance-board](../assets/fitness-balance-board/asset.json) — Circular balance board with removable pad | independent | fitness-2026-11-01 | 0.38 × 0.067 × 0.38 | S | H,C | exercise |
 | [fitness-stretch-strap](../assets/fitness-stretch-strap/asset.json) — Folded stretching strap with buckle | independent | fitness-2026-11-01 | 0.2 × 0.028 × 0.05 | S | H,C | exercise |
+| [office-credenza](../assets/office-credenza/asset.json) — Printer credenza with sliding supply drawer | independent | office-2026-11-02 | 1.2 × 0.75 × 0.9075 | L | H,O,C | storage, support |
+| [office-printer](../assets/office-printer/asset.json) — Compact multifunction printer | independent | office-2026-11-02 | 0.54 × 0.463 × 0.552 | M | H,O,C | machine |
+| [office-paper-cart](../assets/office-paper-cart/asset.json) — Two-tier mobile paper cart | independent | office-2026-11-02 | 0.6 × 0.82 × 0.42 | M | H,O,C | storage, transport |
+| [office-archive-shelf](../assets/office-archive-shelf/asset.json) — Open archive shelving | independent | office-2026-11-02 | 0.9 × 1.65 × 0.364 | L | H,O,C | storage |
+| [office-sorting-table](../assets/office-sorting-table/asset.json) — Standing document sorting table | independent | office-2026-11-02 | 1.4 × 0.975 × 0.7 | L | H,O,C | support |
+
+Office envelopes include both discrete poses (credenza depth includes 0.28 m drawer travel). Active state bounds and surfaces: [validation](office-validation-result.json). Assembly references are not extra catalog entries. Totals: 125 registrations = 106 independent sources + 18 original groups + 1 original room. Independent S/M/L = 100/3/3.

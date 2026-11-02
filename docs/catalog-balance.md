@@ -1,5 +1,28 @@
 # Catalog balance and next production priorities
 
+## Current review: office production, 2026-11-02 19:00 UTC
+
+Refreshed all catalog sources on clean fetched base `6593ab4b52599b698aaec780a4599ce501d37b4e`; no overlapping branch/worktree was found. Added **5 independent anchors**, reused **5 existing objects** in a 10-instance office scene; its assembly is not separately registered. [Production and evidence](office-2026-11-02.md), [125-row inventory](catalog-inventory-2026-11-02.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 106 | 100 | 3 | 3 |
+| Original room groups | 18 | 2 | 3 | 13 |
+| Original room | 1 | 0 | 0 | 1 |
+| Registered total | 125 | 102 | 6 | 17 |
+
+Size bins retain max dimension <0.5 / 0.5–<1 / ≥1 m. The new printer and cart are medium; credenza, archive shelf and standing worktable are large. Broad candidate-use counts among independent objects are H=106, O=52, C=106; these overlap and do not prove furnished coverage. Independent storage tags now 28, support 7, machine 1, transport 1; all other baseline role counts below are unchanged. Three new furniture assets are static; the printer's sheet transfer and credenza's drawer use discrete poses.
+
+Recent window now means the last **ten** batches from sewing through office: **95 objects, S/M/L 89/3/3**. Across all eleven production batches: 105, S/M/L 99/3/3. The office cycle adds 0 small, 2 medium, 3 large. Most of the collection still consists of small tools; this cycle begins to address that imbalance, it does not resolve it.
+
+Reviewed all previous batch desktop images and the original room before selection, then the new desktop/mobile mixed scene, all five assets at four angles and their available states. The [representative scene](screenshots/office-2026-11-02/representative-interior.png) establishes 0.75 m printer support and 0.92 m working height. Supports, unit scales, drawer clearance, independent states and save/restore are checked. Five anchors were chosen over 10–15 filler assets; see the production record for limits.
+
+**Next priorities:** (1) commercial service counter with undercounter refrigerator/espresso equipment, reusing beverage props; (2) utility sink/washer/tall storage, reusing cleaning props; (3) seating/waiting area. Human seating variety and fixed service fixtures remain absent outside the original chair group. The new office shelving is empty and the scene is a furniture arrangement, not a complete architectural room. Do not treat it as ten newly modeled objects.
+
+## Historical baseline audit (before this production)
+
+The following 120-entry figures and proposed office priority describe the earlier audit; use the current table above for production selection.
+
 Reviewed 2026-11-02 against `bee62d3c9b256025c4b83a6753af24a2de49d607` (remote main matched at inspection). This is a baseline audit and planning change: **0 new assets**. The complete [120-row inventory](catalog-inventory-2026-11-02.md) links every current source and records dimensions, scope, candidate spaces and function. Follow the ongoing [production policy](production-policy.md); refresh this review after subsequent production, rather than treating this snapshot as current forever.
 
 ## Counting and physical scale
