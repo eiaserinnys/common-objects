@@ -125,6 +125,16 @@
     "office-printer/asset.json",
     "office-paper-cart/asset.json",
     "office-archive-shelf/asset.json",
-    "office-sorting-table/asset.json"
+    "office-sorting-table/asset.json",
+    "cafe-service-counter/asset.json",
+    "cafe-refrigerator/asset.json",
+    "cafe-espresso-machine/asset.json",
+    "cafe-pastry-display/asset.json",
+    "cafe-pedestal-table/asset.json",
+    "cafe-dining-chair/asset.json",
+    "cafe-menu-board/asset.json",
+    "cafe-sorting-bin/asset.json",
+    "cafe-queue-rail/asset.json",
+    "cafe-service-sink/asset.json"
   ]
 }

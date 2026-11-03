@@ -1,6 +1,33 @@
 # Catalog balance and next production priorities
 
-## Current review: office production, 2026-11-02 19:00 UTC
+## Current review: café production, 2026-11-03
+
+Fetched and reviewed clean base `b0adefaa189c1f93a1308f16bcf2f1ce671a9f97`; no overlapping worktree, remote work branch or open PR. Added **10 independent anchors**, reusing **5 existing objects** in a 15-instance service scene. Neither the scene nor its demonstration cup/door/panels are extra catalog objects. [Production record](cafe-2026-11-03.md), [135-row complete inventory](catalog-inventory-2026-11-03.md), [recomputed distribution and source metadata](cafe-catalog-audit.json).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 116 | 100 | 8 | 8 |
+| Original room groups | 18 | 2 | 3 | 13 |
+| Original room | 1 | 0 | 0 | 1 |
+| Registered total | 135 | 102 | 11 | 22 |
+
+The new batch is **0 S / 5 M / 5 L**. The refrigerator's 1.1425 m open-door union and sink's 1.1327 m tap make them L by the existing maximum-envelope convention; their cabinet bodies are approximately 0.85 and 0.90 m high. This is not a claim that the closed refrigerator is over one metre wide. Medium objects: espresso machine, pastry display, pedestal table, dining chair and waste station. Large: counter, refrigerator clearance envelope, menu stand, queue rail and sink/tap.
+
+Last ten cycles now run **bathroom → café**, totaling **95 new objects, S/M/L 79/8/8**. All twelve production cycles total 115 (99/8/8), plus the original independent study lamp. Candidate space tags among the 116 independent assets: **H=114, O=61, C=116**, overlapping reuse judgments, not furnished-room counts. Role tags: storage 32, support 10, tools 46, instruments 5, appliances 2, machines 2, lighting 1, recreation 9, exercise 10, transport 1, seating 1, signage 1, waste 1, circulation 1, fixture 1. The first independent human chair and first service sink begin closing seating and fixture gaps; one chair/sink does not establish comprehensive coverage.
+
+Selection follows the previous office record's first priority: commercial service equipment. Existing tea/coffee hand tools were already numerous, so none were remade. Counter and display establish service surfaces; refrigerator and espresso equipment add missing equipment; table/chair establish human scale; menu, waste and queue furnishings complete distinct service roles; sink adds a fixed fixture. Ten accepted new assets meet the lower end of the 10–15 target, with **zero shortfall against ten**. Seven objects are honestly static; refrigerator, espresso and sink offer independently saved discrete operation illustrations. Existing beverage props retain their original limitations.
+
+Reviewed all eleven previous whole-set previews and original room before selection, then new four-side/alternate views and desktop/mobile mixed scene. [Representative](screenshots/cafe-2026-11-03/representative-interior.png). This is a service-area demonstration arrangement without architectural walls, a customer/staff partition or certified accessible circulation. Existing small props now sit on real 0.95 m counter, 0.74 m table and tiered display surfaces at scale one. Generated source geometry, immutable prior assets, thumbnails, mixed assembly and validation evidence are retained.
+
+**Next priorities (supersede historical lists below):**
+
+1. **Domestic/shared utility zone:** washing machine, tall cleaning cabinet and drying rack. Reuse the new service sink and existing laundry basket, bucket, spray bottle and brush; do not produce another sink or a ten-tool filler batch. Test washer door/drum or label it a static depiction; reserve actual opening/working clearance.
+2. **Home/office waiting and living zone:** sofa or upholstered bench, low table, floor lighting and useful storage. Reuse the new café chair/table for dining where appropriate. This closes soft seating and home-scale lounging gaps without cloning the chair.
+3. **Architectural/installed coverage:** doors, windows, independently placeable wall/ceiling lighting, sanitary fixtures. Original room groups do not supply a reusable complete room system; deliberate attachment and support contracts are needed.
+
+The prior baseline and office review below remain historical evidence; their counts and proposed priorities are not current.
+
+## Historical review: office production, 2026-11-02 19:00 UTC
 
 Refreshed all catalog sources on clean fetched base `6593ab4b52599b698aaec780a4599ce501d37b4e`; no overlapping branch/worktree was found. Added **5 independent anchors**, reused **5 existing objects** in a 10-instance office scene; its assembly is not separately registered. [Production and evidence](office-2026-11-02.md), [125-row inventory](catalog-inventory-2026-11-02.md).
 

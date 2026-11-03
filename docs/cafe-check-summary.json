@@ -1,0 +1,56 @@
+{
+  "baseCommit": "b0adefaa189c1f93a1308f16bcf2f1ce671a9f97",
+  "commands": {
+    "npm run validate": {
+      "exitCode": 0,
+      "catalogEntries": 135
+    },
+    "npm test": {
+      "exitCode": 0,
+      "tests": 62,
+      "pass": 62,
+      "fail": 0
+    },
+    "npm run build": {
+      "exitCode": 0
+    },
+    "python3 scripts/cafe-browser-check.py": {
+      "exitCode": 0,
+      "viewports": [
+        [
+          1280,
+          900
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "savedRestoredInstances": 30,
+      "errors": []
+    }
+  },
+  "acceptedNewAssets": 10,
+  "targetRange": [
+    10,
+    15
+  ],
+  "shortfallAgainstMinimum": 0,
+  "reusedAssets": 5,
+  "sourcePreservation": "Existing asset JSON/version files unchanged",
+  "inventoryAndLocalLinks": "135 unique source records; changed-document links resolve",
+  "visualReview": [
+    "four sides of ten assets",
+    "three alternate states from four sides",
+    "desktop and narrow-screen set",
+    "mixed scene and reverse orbit",
+    "espresso stream and fridge door",
+    "waste opening divider revision"
+  ],
+  "limits": [
+    "discrete endpoint poses, no continuous sweep",
+    "SVG projection; no physics, thermal or fluid simulation",
+    "Chromium only, no physical mobile device",
+    "No website deployment or CI execution"
+  ]
+}

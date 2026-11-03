@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "cafe-service-counter",
+      "assetVersion": 1,
+      "position": [
+        -0.5,
+        0,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-2",
+      "assetId": "cafe-refrigerator",
+      "assetVersion": 1,
+      "position": [
+        -2,
+        0,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "cafe-espresso-machine",
+      "assetVersion": 1,
+      "position": [
+        -0.98,
+        0.95,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "brewing": false
+      }
+    },
+    {
+      "id": "object-4",
+      "assetId": "cafe-pastry-display",
+      "assetVersion": 1,
+      "position": [
+        -0.1,
+        0.95,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-5",
+      "assetId": "cafe-pedestal-table",
+      "assetVersion": 1,
+      "position": [
+        -1.4,
+        0,
+        1.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-6",
+      "assetId": "cafe-dining-chair",
+      "assetVersion": 1,
+      "position": [
+        -1.4,
+        0,
+        1.72
+      ],
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-7",
+      "assetId": "cafe-menu-board",
+      "assetVersion": 1,
+      "position": [
+        2,
+        0,
+        1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-8",
+      "assetId": "cafe-sorting-bin",
+      "assetVersion": 1,
+      "position": [
+        2,
+        0,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-9",
+      "assetId": "cafe-queue-rail",
+      "assetVersion": 1,
+      "position": [
+        0.15,
+        0,
+        1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-10",
+      "assetId": "cafe-service-sink",
+      "assetVersion": 1,
+      "position": [
+        1.25,
+        0,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "running": false
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "beverage-tamper",
+      "assetVersion": 1,
+      "position": [
+        -0.61,
+        0.95,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "handled": true
+      }
+    },
+    {
+      "id": "object-12",
+      "assetId": "beverage-knock-box",
+      "assetVersion": 1,
+      "position": [
+        -0.3,
+        1.089,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "barred": true
+      }
+    },
+    {
+      "id": "object-13",
+      "assetId": "beverage-tea-tin",
+      "assetVersion": 1,
+      "position": [
+        0.15,
+        1.089,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lidded": true
+      }
+    },
+    {
+      "id": "object-14",
+      "assetId": "kitchen-serving-tray",
+      "assetVersion": 1,
+      "position": [
+        -0.1,
+        1.334,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lined": true
+      }
+    },
+    {
+      "id": "object-15",
+      "assetId": "beverage-teapot",
+      "assetVersion": 1,
+      "position": [
+        -1.4,
+        0.74,
+        1.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lidded": true
+      }
+    }
+  ]
+}
