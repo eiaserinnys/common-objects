@@ -13,7 +13,7 @@
   },
   "validation": {
     "catalogRegistrations": 145,
-    "testsPassed": 67,
+    "testsPassed": 70,
     "testsFailed": 0,
     "build": "passed",
     "browser": "passed",
@@ -21,15 +21,22 @@
   },
   "visualInspection": {
     "allTenFourSides": true,
-    "bothAccessStatesFourSides": true,
     "mixedFrontAndReverse": true,
     "desktop": true,
-    "narrow390px": true
+    "narrow390px": true,
+    "sixOperatingObjectsAlternateViews": true
   },
   "limitations": [
-    "Estimated physical dimensions",
-    "Two discrete access states; eight static new assets",
-    "No wash cycle, humidity, cloth, physics, continuous hinges or swept-volume solver",
-    "Unenclosed furniture arrangement; no certified accessibility or load ratings"
-  ]
+    "Estimated dimensions",
+    "Discrete access/height/brake poses; four fixed furniture assets",
+    "Illustrative dehumidifier cycle model, not physical humidity simulation",
+    "No wash cycle, cloth attachment, rolling physics or automatic supported-content movement",
+    "v1 changed-asset saves fail explicitly; no automatic migration",
+    "Unenclosed furniture scene; no certified loads/accessibility"
+  ],
+  "revisionBase": "5876e2a038ed300e30e724df7470ad5fd181aa90",
+  "revisedAssets": 4,
+  "operatingAssets": 6,
+  "justifiedStaticAssets": 4,
+  "excludedAssets": 0
 }

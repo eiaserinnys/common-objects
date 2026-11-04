@@ -218,7 +218,7 @@
     },
     {
       "id": "utility-drying-rack",
-      "version": 1,
+      "version": 2,
       "dimensions": [
         1.095,
         1.412,
@@ -232,7 +232,7 @@
       "measurement": "estimated",
       "geometry": {
         "id": "utility-drying-rack",
-        "parts": 25,
+        "parts": 42,
         "min": [
           -0.5475,
           0,
@@ -246,7 +246,9 @@
       },
       "states": [
         {
-          "state": {},
+          "state": {
+            "lowered": false
+          },
           "bounds": {
             "min": [
               -0.5475,
@@ -260,9 +262,27 @@
             ]
           },
           "supportSurfaces": []
+        },
+        {
+          "state": {
+            "lowered": true
+          },
+          "bounds": {
+            "min": [
+              -0.5475,
+              0,
+              -0.35
+            ],
+            "max": [
+              0.5475,
+              0.832,
+              0.35
+            ]
+          },
+          "supportSurfaces": []
         }
       ],
-      "interactionNote": "Static deployed two-tier drying frame. Rails are not flat support surfaces; no hanging-cloth attachment, folding or evaporation simulation.",
+      "interactionNote": "Upper drying tier and inner posts telescope down 0.58 m for loading/storage in two fixed height settings; lower frame and feet remain fixed. No cloth attachment, evaporation or continuous animation.",
       "thumbnail": "assets/utility-drying-rack/thumbnail.svg"
     },
     {
@@ -367,7 +387,7 @@
     },
     {
       "id": "utility-ironing-board",
-      "version": 1,
+      "version": 2,
       "dimensions": [
         1.54,
         0.9,
@@ -381,7 +401,7 @@
       "measurement": "estimated",
       "geometry": {
         "id": "utility-ironing-board",
-        "parts": 9,
+        "parts": 16,
         "min": [
           -0.85,
           0,
@@ -395,7 +415,9 @@
       },
       "states": [
         {
-          "state": {},
+          "state": {
+            "low": false
+          },
           "bounds": {
             "min": [
               -0.85,
@@ -410,7 +432,7 @@
           },
           "supportSurfaces": [
             {
-              "id": "pressing-area",
+              "id": "pressing-area-high",
               "vertices": [
                 [
                   -0.54,
@@ -435,7 +457,7 @@
               ]
             },
             {
-              "id": "iron-rest",
+              "id": "iron-rest-high",
               "vertices": [
                 [
                   -0.83,
@@ -460,14 +482,83 @@
               ]
             }
           ]
+        },
+        {
+          "state": {
+            "low": true
+          },
+          "bounds": {
+            "min": [
+              -0.85,
+              0,
+              -0.26
+            ],
+            "max": [
+              0.69,
+              0.7499999999999999,
+              0.26
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "pressing-area-low",
+              "vertices": [
+                [
+                  -0.54,
+                  0.75,
+                  -0.16
+                ],
+                [
+                  0.44,
+                  0.75,
+                  -0.16
+                ],
+                [
+                  0.44,
+                  0.75,
+                  0.16
+                ],
+                [
+                  -0.54,
+                  0.75,
+                  0.16
+                ]
+              ]
+            },
+            {
+              "id": "iron-rest-low",
+              "vertices": [
+                [
+                  -0.83,
+                  0.72,
+                  -0.125
+                ],
+                [
+                  -0.62,
+                  0.72,
+                  -0.125
+                ],
+                [
+                  -0.62,
+                  0.72,
+                  0.125
+                ],
+                [
+                  -0.83,
+                  0.72,
+                  0.125
+                ]
+              ]
+            }
+          ]
         }
       ],
-      "interactionNote": "Static deployed ironing board at 0.90 m. No folding or height adjustment; iron heat and contact are not simulated. Support polygons exclude rounded nose and edge rails.",
+      "interactionNote": "Scissor frame and deck switch between 0.90 m and 0.75 m ironing settings. Supported height follows state; existing loose contents do not follow automatically and must be repositioned. Two fixed poses, no continuous folding or heat simulation.",
       "thumbnail": "assets/utility-ironing-board/thumbnail.svg"
     },
     {
       "id": "utility-linen-cart",
-      "version": 1,
+      "version": 2,
       "dimensions": [
         0.7,
         0.955,
@@ -481,7 +572,7 @@
       "measurement": "estimated",
       "geometry": {
         "id": "utility-linen-cart",
-        "parts": 36,
+        "parts": 44,
         "min": [
           -0.35,
           0,
@@ -495,7 +586,53 @@
       },
       "states": [
         {
-          "state": {},
+          "state": {
+            "braked": false
+          },
+          "bounds": {
+            "min": [
+              -0.35,
+              0,
+              -0.27
+            ],
+            "max": [
+              0.35,
+              0.955,
+              0.27
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "basket-floor",
+              "vertices": [
+                [
+                  -0.3,
+                  0.1325,
+                  -0.215
+                ],
+                [
+                  0.3,
+                  0.1325,
+                  -0.215
+                ],
+                [
+                  0.3,
+                  0.1325,
+                  0.215
+                ],
+                [
+                  -0.3,
+                  0.1325,
+                  0.215
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "braked": true
+          },
           "bounds": {
             "min": [
               -0.35,
@@ -537,7 +674,7 @@
           ]
         }
       ],
-      "interactionNote": "Static wheeled open cage for linen transport, distinct from the shallow office printer cart. Casters do not roll or swivel; contents may be placed on basket floor, no cloth simulation.",
+      "interactionNote": "Two caster pedals and shoes engage parking brakes in fixed poses. Preview placement edits are blocked while braked; release to move the cart. No rolling animation or physics; child contents do not follow placement edits automatically.",
       "thumbnail": "assets/utility-linen-cart/thumbnail.svg"
     },
     {
@@ -666,10 +803,10 @@
     },
     {
       "id": "utility-dehumidifier",
-      "version": 1,
+      "version": 2,
       "dimensions": [
         0.396,
-        0.548,
+        0.554,
         0.338
       ],
       "scale": [
@@ -680,7 +817,7 @@
       "measurement": "estimated",
       "geometry": {
         "id": "utility-dehumidifier",
-        "parts": 25,
+        "parts": 27,
         "min": [
           -0.198,
           0,
@@ -688,13 +825,39 @@
         ],
         "max": [
           0.198,
-          0.548,
+          0.554,
           0.18000000000000002
         ]
       },
       "states": [
         {
-          "state": {},
+          "state": {
+            "humidity": 65,
+            "waterMl": 0,
+            "wet": false,
+            "full": false
+          },
+          "bounds": {
+            "min": [
+              -0.198,
+              0,
+              -0.158
+            ],
+            "max": [
+              0.198,
+              0.548,
+              0.18000000000000002
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "humidity": 60,
+            "waterMl": 200,
+            "wet": true,
+            "full": false
+          },
           "bounds": {
             "min": [
               -0.198,
@@ -710,7 +873,7 @@
           "supportSurfaces": []
         }
       ],
-      "interactionNote": "Static appliance depiction with intake, exhaust, tank, controls and carry recesses. No air flow, humidity sensing, tank extraction, power or condensation simulation.",
+      "interactionNote": "Discrete illustrative drying model: each cycle lowers simulated relative humidity by 5 points toward 45% and collects 200 mL up to a 600 mL tank; full tank blocks further cycles until emptied. Water level/full indicator and numeric values are instance state, not measured room humidity or a physical thermodynamic simulation.",
       "thumbnail": "assets/utility-dehumidifier/thumbnail.svg"
     },
     {

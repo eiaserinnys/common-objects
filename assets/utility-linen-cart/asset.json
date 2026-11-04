@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "utility-linen-cart",
-  "version": 1,
+  "version": 2,
   "name": "Wheeled open linen transport cart",
   "format": "metric-svg",
   "renderer": "renderer/svg.js",
@@ -74,8 +74,17 @@
       ]
     }
   },
-  "state": {},
-  "actions": [],
+  "state": {
+    "braked": false
+  },
+  "actions": [
+    {
+      "id": "toggle",
+      "type": "toggle",
+      "stateKey": "braked",
+      "label": "Engage / release caster parking brakes"
+    }
+  ],
   "parts": [
     {
       "id": "wheel-00",
@@ -1332,6 +1341,310 @@
         ]
       },
       "material": "dark"
+    },
+    {
+      "id": "brake--1-false",
+      "parent": null,
+      "position": [
+        -0.3,
+        0.092,
+        0.22
+      ],
+      "rotation": [
+        0.35,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        -0.025
+      ],
+      "rotationAxis": [
+        1,
+        0,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.012,
+          0.025
+        ]
+      },
+      "material": "sage",
+      "visibleWhen": {
+        "braked": false
+      }
+    },
+    {
+      "id": "brake-shoe--1-false",
+      "parent": null,
+      "position": [
+        -0.3,
+        0.11,
+        0.22
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.03,
+          0.012,
+          0.026
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "braked": false
+      }
+    },
+    {
+      "id": "brake--1-true",
+      "parent": null,
+      "position": [
+        -0.3,
+        0.092,
+        0.22
+      ],
+      "rotation": [
+        -0.65,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        -0.025
+      ],
+      "rotationAxis": [
+        1,
+        0,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.012,
+          0.025
+        ]
+      },
+      "material": "sage",
+      "visibleWhen": {
+        "braked": true
+      }
+    },
+    {
+      "id": "brake-shoe--1-true",
+      "parent": null,
+      "position": [
+        -0.3,
+        0.085,
+        0.22
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.03,
+          0.012,
+          0.026
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "braked": true
+      }
+    },
+    {
+      "id": "brake-1-false",
+      "parent": null,
+      "position": [
+        0.3,
+        0.092,
+        0.22
+      ],
+      "rotation": [
+        0.35,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        -0.025
+      ],
+      "rotationAxis": [
+        1,
+        0,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.012,
+          0.025
+        ]
+      },
+      "material": "sage",
+      "visibleWhen": {
+        "braked": false
+      }
+    },
+    {
+      "id": "brake-shoe-1-false",
+      "parent": null,
+      "position": [
+        0.3,
+        0.11,
+        0.22
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.03,
+          0.012,
+          0.026
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "braked": false
+      }
+    },
+    {
+      "id": "brake-1-true",
+      "parent": null,
+      "position": [
+        0.3,
+        0.092,
+        0.22
+      ],
+      "rotation": [
+        -0.65,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        -0.025
+      ],
+      "rotationAxis": [
+        1,
+        0,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.012,
+          0.025
+        ]
+      },
+      "material": "sage",
+      "visibleWhen": {
+        "braked": true
+      }
+    },
+    {
+      "id": "brake-shoe-1-true",
+      "parent": null,
+      "position": [
+        0.3,
+        0.085,
+        0.22
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.03,
+          0.012,
+          0.026
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "braked": true
+      }
     }
   ],
   "supportSurfaces": [
@@ -1364,9 +1677,12 @@
       "note": "Inset usable rectangle; no load rating or attachment physics."
     }
   ],
-  "interactionNote": "Static wheeled open cage for linen transport, distinct from the shallow office printer cart. Casters do not roll or swivel; contents may be placed on basket floor, no cloth simulation.",
+  "interactionNote": "Two caster pedals and shoes engage parking brakes in fixed poses. Preview placement edits are blocked while braked; release to move the cart. No rolling animation or physics; child contents do not follow placement edits automatically.",
   "thumbnail": "thumbnail.svg",
   "preview": "preview/utility.html",
+  "placementLockWhen": {
+    "braked": true
+  },
   "bounds": {
     "min": [
       -0.35,

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "utility-ironing-board",
-  "version": 1,
+  "version": 2,
   "name": "Full-size freestanding ironing board",
   "format": "metric-svg",
   "renderer": "renderer/svg.js",
@@ -74,8 +74,17 @@
       ]
     }
   },
-  "state": {},
-  "actions": [],
+  "state": {
+    "low": false
+  },
+  "actions": [
+    {
+      "id": "toggle",
+      "type": "toggle",
+      "stateKey": "low",
+      "label": "Set ironing height 0.90 / 0.75 m"
+    }
+  ],
   "parts": [
     {
       "id": "runner-0",
@@ -105,7 +114,7 @@
       "geometry": {
         "type": "box",
         "size": [
-          0.055,
+          0.18,
           0.035,
           0.52
         ]
@@ -140,7 +149,7 @@
       "geometry": {
         "type": "box",
         "size": [
-          0.055,
+          0.18,
           0.035,
           0.52
         ]
@@ -148,7 +157,7 @@
       "material": "dark"
     },
     {
-      "id": "angled-leg-0",
+      "id": "angled-leg-0-high",
       "parent": null,
       "position": [
         0,
@@ -180,10 +189,51 @@
           0.035
         ]
       },
-      "material": "metal"
+      "material": "metal",
+      "visibleWhen": {
+        "low": false
+      }
     },
     {
-      "id": "angled-leg-1",
+      "id": "angled-leg-0-low",
+      "parent": null,
+      "position": [
+        0,
+        0.365,
+        -0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.865
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.035,
+          1.08,
+          0.035
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "low": true
+      }
+    },
+    {
+      "id": "angled-leg-1-high",
       "parent": null,
       "position": [
         0,
@@ -215,10 +265,51 @@
           0.035
         ]
       },
-      "material": "metal"
+      "material": "metal",
+      "visibleWhen": {
+        "low": false
+      }
     },
     {
-      "id": "padded-deck",
+      "id": "angled-leg-1-low",
+      "parent": null,
+      "position": [
+        0,
+        0.365,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0.865
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.035,
+          1.08,
+          0.035
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "low": true
+      }
+    },
+    {
+      "id": "padded-deck-high",
       "parent": null,
       "position": [
         -0.05,
@@ -250,10 +341,51 @@
           0.38
         ]
       },
-      "material": "sage"
+      "material": "sage",
+      "visibleWhen": {
+        "low": false
+      }
     },
     {
-      "id": "rounded-nose",
+      "id": "padded-deck-low",
+      "parent": null,
+      "position": [
+        -0.05,
+        0.7324999999999999,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          1.1,
+          0.035,
+          0.38
+        ]
+      },
+      "material": "sage",
+      "visibleWhen": {
+        "low": true
+      }
+    },
+    {
+      "id": "rounded-nose-high",
       "parent": null,
       "position": [
         0.5,
@@ -284,10 +416,50 @@
         "height": 0.035,
         "segments": 24
       },
-      "material": "sage"
+      "material": "sage",
+      "visibleWhen": {
+        "low": false
+      }
     },
     {
-      "id": "iron-rest",
+      "id": "rounded-nose-low",
+      "parent": null,
+      "position": [
+        0.5,
+        0.7324999999999999,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "cylinder",
+        "radiusBottom": 0.19,
+        "radiusTop": 0.19,
+        "height": 0.035,
+        "segments": 24
+      },
+      "material": "sage",
+      "visibleWhen": {
+        "low": true
+      }
+    },
+    {
+      "id": "iron-rest-high",
       "parent": null,
       "position": [
         -0.725,
@@ -319,10 +491,51 @@
           0.3
         ]
       },
-      "material": "metal"
+      "material": "metal",
+      "visibleWhen": {
+        "low": false
+      }
     },
     {
-      "id": "rest-rim-0",
+      "id": "iron-rest-low",
+      "parent": null,
+      "position": [
+        -0.725,
+        0.71,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.25,
+          0.02,
+          0.3
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "low": true
+      }
+    },
+    {
+      "id": "rest-rim-0-high",
       "parent": null,
       "position": [
         -0.725,
@@ -354,10 +567,51 @@
           0.012
         ]
       },
-      "material": "dark"
+      "material": "dark",
+      "visibleWhen": {
+        "low": false
+      }
     },
     {
-      "id": "rest-rim-1",
+      "id": "rest-rim-0-low",
+      "parent": null,
+      "position": [
+        -0.725,
+        0.7324999999999999,
+        -0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.25,
+          0.025,
+          0.012
+        ]
+      },
+      "material": "dark",
+      "visibleWhen": {
+        "low": true
+      }
+    },
+    {
+      "id": "rest-rim-1-high",
       "parent": null,
       "position": [
         -0.725,
@@ -389,12 +643,53 @@
           0.012
         ]
       },
-      "material": "dark"
+      "material": "dark",
+      "visibleWhen": {
+        "low": false
+      }
+    },
+    {
+      "id": "rest-rim-1-low",
+      "parent": null,
+      "position": [
+        -0.725,
+        0.7324999999999999,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.25,
+          0.025,
+          0.012
+        ]
+      },
+      "material": "dark",
+      "visibleWhen": {
+        "low": true
+      }
     }
   ],
   "supportSurfaces": [
     {
-      "id": "pressing-area",
+      "id": "pressing-area-high",
       "height": 0.9,
       "polygon": [
         [
@@ -419,10 +714,44 @@
         1,
         0
       ],
-      "note": "Inset usable rectangle; no load rating or attachment physics."
+      "note": "Inset usable rectangle; no load rating or attachment physics.",
+      "availableWhen": {
+        "low": false
+      }
     },
     {
-      "id": "iron-rest",
+      "id": "pressing-area-low",
+      "height": 0.75,
+      "polygon": [
+        [
+          -0.54,
+          -0.16
+        ],
+        [
+          0.44,
+          -0.16
+        ],
+        [
+          0.44,
+          0.16
+        ],
+        [
+          -0.54,
+          0.16
+        ]
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "note": "Inset usable rectangle; no load rating or attachment physics.",
+      "availableWhen": {
+        "low": true
+      }
+    },
+    {
+      "id": "iron-rest-high",
       "height": 0.87,
       "polygon": [
         [
@@ -447,10 +776,44 @@
         1,
         0
       ],
-      "note": "Inset usable rectangle; no load rating or attachment physics."
+      "note": "Inset usable rectangle; no load rating or attachment physics.",
+      "availableWhen": {
+        "low": false
+      }
+    },
+    {
+      "id": "iron-rest-low",
+      "height": 0.72,
+      "polygon": [
+        [
+          -0.83,
+          -0.125
+        ],
+        [
+          -0.62,
+          -0.125
+        ],
+        [
+          -0.62,
+          0.125
+        ],
+        [
+          -0.83,
+          0.125
+        ]
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "note": "Inset usable rectangle; no load rating or attachment physics.",
+      "availableWhen": {
+        "low": true
+      }
     }
   ],
-  "interactionNote": "Static deployed ironing board at 0.90 m. No folding or height adjustment; iron heat and contact are not simulated. Support polygons exclude rounded nose and edge rails.",
+  "interactionNote": "Scissor frame and deck switch between 0.90 m and 0.75 m ironing settings. Supported height follows state; existing loose contents do not follow automatically and must be repositioned. Two fixed poses, no continuous folding or heat simulation.",
   "thumbnail": "thumbnail.svg",
   "preview": "preview/utility.html",
   "bounds": {

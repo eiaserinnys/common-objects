@@ -21,7 +21,7 @@ The laundry/utility theme follows the prior first priority. Washer loading acces
 
 1. Living/waiting zone: soft sofa seating, low table, floor lighting and media/storage furniture. Reuse benches/chairs where suitable; do not fill another cycle with small decorative variants.
 2. Architectural/installed assets: doors, windows, wall/ceiling lighting and sanitary fixtures with explicit attachment contracts. Current scenes are unenclosed furniture arrangements, not complete rooms.
-3. Richer meaningful equipment operation: washer cycle/drum motion, cloth attachment to drying rails, utility tool attachment and appliance controls. Current cycle provides loading/sliding access only; dehumidifier and the other eight new assets are static.
+3. Richer meaningful equipment operation: washer cycle/drum motion, cloth attachment to drying rails, utility tool attachment and appliance controls. Current revision has six operating objects (loading/sliding access, height adjustment, cart parking brakes and a discrete dehumidifier model); four fixed furniture objects remain static with role-specific justification. No cloth/physical simulation is claimed.
 
 ## Historical review: café production, 2026-11-03
 

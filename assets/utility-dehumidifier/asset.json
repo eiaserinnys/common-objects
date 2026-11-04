@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "utility-dehumidifier",
-  "version": 1,
+  "version": 2,
   "name": "Portable utility-room dehumidifier",
   "format": "metric-svg",
   "renderer": "renderer/svg.js",
@@ -74,8 +74,24 @@
       ]
     }
   },
-  "state": {},
-  "actions": [],
+  "state": {
+    "humidity": 65,
+    "waterMl": 0,
+    "wet": false,
+    "full": false
+  },
+  "actions": [
+    {
+      "id": "toggle",
+      "type": "dehumidify",
+      "label": "Run one simulated drying cycle"
+    },
+    {
+      "id": "drain",
+      "type": "empty-tank",
+      "label": "Empty collected water tank"
+    }
+  ],
   "parts": [
     {
       "id": "foot-00",
@@ -951,12 +967,94 @@
         ]
       },
       "material": "dark"
+    },
+    {
+      "id": "collected-water",
+      "parent": null,
+      "position": [
+        0.115,
+        0.14,
+        0.174
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.02,
+          0.085,
+          0.004
+        ]
+      },
+      "material": "sage",
+      "visibleWhen": {
+        "wet": true
+      }
+    },
+    {
+      "id": "tank-full-indicator",
+      "parent": null,
+      "position": [
+        0.045,
+        0.55,
+        0.11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.02,
+          0.008,
+          0.02
+        ]
+      },
+      "material": "food",
+      "visibleWhen": {
+        "full": true
+      }
     }
   ],
   "supportSurfaces": [],
-  "interactionNote": "Static appliance depiction with intake, exhaust, tank, controls and carry recesses. No air flow, humidity sensing, tank extraction, power or condensation simulation.",
+  "interactionNote": "Discrete illustrative drying model: each cycle lowers simulated relative humidity by 5 points toward 45% and collects 200 mL up to a 600 mL tank; full tank blocks further cycles until emptied. Water level/full indicator and numeric values are instance state, not measured room humidity or a physical thermodynamic simulation.",
   "thumbnail": "thumbnail.svg",
   "preview": "preview/utility.html",
+  "simulation": {
+    "targetHumidity": 45,
+    "humidityDropPerCycle": 5,
+    "waterPerCycleMl": 200,
+    "tankCapacityMl": 600
+  },
   "bounds": {
     "min": [
       -0.198,
@@ -965,13 +1063,13 @@
     ],
     "max": [
       0.198,
-      0.548,
+      0.554,
       0.18
     ]
   },
   "dimensions": [
     0.396,
-    0.548,
+    0.554,
     0.338
   ],
   "footprint": [

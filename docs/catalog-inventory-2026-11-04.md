@@ -147,5 +147,5 @@ Updated after utility production on base `2f00c0582b5c6ff1aae0e5ce910d0b98cd0b99
 | [utility-linen-cart](../assets/utility-linen-cart/asset.json) — Wheeled open linen transport cart | independent | utility-2026-11-04 | 0.7 × 0.955 × 0.54 | M | H,C | transport, storage |
 | [utility-changing-bench](../assets/utility-changing-bench/asset.json) — Utility changing bench with shoe shelf | independent | utility-2026-11-04 | 1 × 0.465 × 0.38 | L | H,O,C | seating |
 | [utility-mop-stand](../assets/utility-mop-stand/asset.json) — Freestanding long-tool parking stand | independent | utility-2026-11-04 | 0.62 × 1.395 × 0.4 | L | H,O,C | storage |
-| [utility-dehumidifier](../assets/utility-dehumidifier/asset.json) — Portable utility-room dehumidifier | independent | utility-2026-11-04 | 0.396 × 0.548 × 0.338 | M | H,O,C | appliance |
+| [utility-dehumidifier](../assets/utility-dehumidifier/asset.json) — Portable utility-room dehumidifier | independent | utility-2026-11-04 | 0.396 × 0.554 × 0.338 | M | H,O,C | appliance |
 | [utility-step-platform](../assets/utility-step-platform/asset.json) — Two-step utility access platform | independent | utility-2026-11-04 | 0.5 × 0.443 × 0.61 | M | H,O,C | access |

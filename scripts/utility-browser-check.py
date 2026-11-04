@@ -23,7 +23,16 @@ try:
   page.wait_for_function('document.documentElement.dataset.ready === "true"')
   page.screenshot(path=str(OUT/'set-desktop.png'),full_page=True)
   page.locator('#scene').screenshot(path=str(OUT/'representative-interior.png'))
-  for n in [1,2]:
+  page.locator('#selected').select_option('object-9')
+  for _ in range(4): page.locator('#toggle').click()
+  page.locator('#save').click()
+  state=next(i['state'] for i in page.evaluate('JSON.parse(localStorage.getItem("common-objects.utility.v1")).instances') if i['id']=='object-9')
+  assert state=={'humidity':50,'waterMl':600,'wet':True,'full':True}
+  page.locator('#focus').click()
+  page.screenshot(path=str(OUT/'dehumidifier-full-tank.png'),full_page=True)
+  page.locator('[data-action=drain]').click()
+  page.reload();page.wait_for_function('document.documentElement.dataset.ready === "true"')
+  for n in [1,2,3,5,6,9]:
    page.locator('#selected').select_option('object-'+str(n));page.locator('#toggle').click()
   page.locator('#scene').screenshot(path=str(OUT/'interior-operating.png'))
   page.mouse.move(400,300);page.mouse.down();page.mouse.move(714,300,steps=10);page.mouse.up()
@@ -37,7 +46,8 @@ try:
    if dynamic:
     page.locator('#toggle').click()
     assert before!=page.locator('#scene').inner_html()
-    page.locator('#toggle').click()
+    if n==9: page.locator('[data-action=drain]').click()
+    else: page.locator('#toggle').click()
    for angle in [0,90,180,270]:
     page.locator('#rotation').evaluate('(e,v)=>{e.value=v;e.dispatchEvent(new Event("input"))}',angle if angle<=180 else -90)
     page.locator('#scene').screenshot(path=str(OUT/f'object-{n}-{angle}.png'))
@@ -45,9 +55,13 @@ try:
    if dynamic:
     page.locator('#toggle').click()
     for angle in [90,180,270]:
+     if n==6: page.locator('#toggle').click()
      page.locator('#rotation').evaluate('(e,v)=>{e.value=v;e.dispatchEvent(new Event("input"))}',angle if angle<=180 else -90)
+     if n==6: page.locator('#toggle').click()
      page.locator('#scene').screenshot(path=str(OUT/f'object-{n}-alternate-{angle}.png'))
+    if n==6: page.locator('#toggle').click()
     page.locator('#rotation').evaluate('(e)=>{e.value=0;e.dispatchEvent(new Event("input"))}')
+    if n==6: page.locator('#toggle').click()
    page.locator('#scene').screenshot(path=str(OUT/f'object-{n}-alternate.png'))
    assert 'NaN' not in page.locator('#scene').inner_html()
    page.locator('#duplicate').click()
@@ -67,6 +81,12 @@ try:
    saved=page.evaluate('JSON.parse(localStorage.getItem("common-objects.utility.v1")).instances')
    assert next(i for i in saved if i['id']=='object-'+str(n))['state']!=saved[-1]['state']
   checks.append('all six reused assets: select, focus, toggle, independent copies')
+  page.locator('#selected').select_option('object-9');page.locator('[data-action=drain]').click()
+  page.locator('#selected').select_option('object-6')
+  if not page.locator('#x').is_disabled(): page.locator('#toggle').click()
+  assert page.locator('#x').is_disabled()
+  page.locator('#toggle').click();assert page.locator('#x').is_enabled()
+  checks.append('dehumidifier full-tank cutoff/drain and cart parking lock/release')
   page.locator('#x').fill('0.42');page.locator('#x').dispatch_event('change')
   page.locator('#z').fill('0.33');page.locator('#z').dispatch_event('change')
   page.locator('#zoom').evaluate('(e)=>{e.value=2.1;e.dispatchEvent(new Event("input"))}')
@@ -102,8 +122,8 @@ for n in range(1,11):
   sheet.paste(im,(j*300,(n-1)*200+24));draw.text((j*300+8,(n-1)*200+4),f'{n} / {view}',fill='black')
 sheet.save(OUT/'inspection-contact-sheet.jpg')
 
-operating=Image.new('RGB',(1400,900),'#f0eee5');draw=ImageDraw.Draw(operating)
-for row,n in enumerate([1,2]):
+operating=Image.new('RGB',(1400,1800),'#f0eee5');draw=ImageDraw.Draw(operating)
+for row,n in enumerate([1,2,3,5,6,9]):
  for col,angle in enumerate(['','-90','-180','-270']):
   im=Image.open(OUT/f'object-{n}-alternate{angle}.png').convert('RGB');im.thumbnail((345,270))
   operating.paste(im,(350*col,300*row+25));draw.text((350*col+8,300*row+5),f'{n} alternate {angle or "front"}',fill='black')

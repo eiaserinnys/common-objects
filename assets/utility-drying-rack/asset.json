@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "utility-drying-rack",
-  "version": 1,
+  "version": 2,
   "name": "Freestanding two-tier laundry drying rack",
   "format": "metric-svg",
   "renderer": "renderer/svg.js",
@@ -74,8 +74,17 @@
       ]
     }
   },
-  "state": {},
-  "actions": [],
+  "state": {
+    "lowered": false
+  },
+  "actions": [
+    {
+      "id": "toggle",
+      "type": "toggle",
+      "stateKey": "lowered",
+      "label": "Lower / raise telescoping drying tier"
+    }
+  ],
   "parts": [
     {
       "id": "runner-0",
@@ -146,146 +155,6 @@
         ]
       },
       "material": "dark"
-    },
-    {
-      "id": "upright-00",
-      "parent": null,
-      "position": [
-        -0.52,
-        0.7175,
-        -0.29
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "pivot": [
-        0,
-        0,
-        0
-      ],
-      "rotationAxis": [
-        0,
-        1,
-        0
-      ],
-      "joint": "fixed",
-      "state": {},
-      "geometry": {
-        "type": "box",
-        "size": [
-          0.024,
-          1.365,
-          0.024
-        ]
-      },
-      "material": "metal"
-    },
-    {
-      "id": "upright-01",
-      "parent": null,
-      "position": [
-        -0.52,
-        0.7175,
-        0.29
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "pivot": [
-        0,
-        0,
-        0
-      ],
-      "rotationAxis": [
-        0,
-        1,
-        0
-      ],
-      "joint": "fixed",
-      "state": {},
-      "geometry": {
-        "type": "box",
-        "size": [
-          0.024,
-          1.365,
-          0.024
-        ]
-      },
-      "material": "metal"
-    },
-    {
-      "id": "upright-10",
-      "parent": null,
-      "position": [
-        0.52,
-        0.7175,
-        -0.29
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "pivot": [
-        0,
-        0,
-        0
-      ],
-      "rotationAxis": [
-        0,
-        1,
-        0
-      ],
-      "joint": "fixed",
-      "state": {},
-      "geometry": {
-        "type": "box",
-        "size": [
-          0.024,
-          1.365,
-          0.024
-        ]
-      },
-      "material": "metal"
-    },
-    {
-      "id": "upright-11",
-      "parent": null,
-      "position": [
-        0.52,
-        0.7175,
-        0.29
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "pivot": [
-        0,
-        0,
-        0
-      ],
-      "rotationAxis": [
-        0,
-        1,
-        0
-      ],
-      "joint": "fixed",
-      "state": {},
-      "geometry": {
-        "type": "box",
-        "size": [
-          0.024,
-          1.365,
-          0.024
-        ]
-      },
-      "material": "metal"
     },
     {
       "id": "side-00",
@@ -603,7 +472,7 @@
       "material": "metal"
     },
     {
-      "id": "side-10",
+      "id": "side-10-high",
       "parent": null,
       "position": [
         -0.52,
@@ -635,10 +504,51 @@
           0.64
         ]
       },
-      "material": "sage"
+      "material": "sage",
+      "visibleWhen": {
+        "lowered": false
+      }
     },
     {
-      "id": "side-11",
+      "id": "side-10-low",
+      "parent": null,
+      "position": [
+        -0.52,
+        0.82,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.024,
+          0.024,
+          0.64
+        ]
+      },
+      "material": "sage",
+      "visibleWhen": {
+        "lowered": true
+      }
+    },
+    {
+      "id": "side-11-high",
       "parent": null,
       "position": [
         0.52,
@@ -670,10 +580,51 @@
           0.64
         ]
       },
-      "material": "sage"
+      "material": "sage",
+      "visibleWhen": {
+        "lowered": false
+      }
     },
     {
-      "id": "drying-rod-10",
+      "id": "side-11-low",
+      "parent": null,
+      "position": [
+        0.52,
+        0.82,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.024,
+          0.024,
+          0.64
+        ]
+      },
+      "material": "sage",
+      "visibleWhen": {
+        "lowered": true
+      }
+    },
+    {
+      "id": "drying-rod-10-high",
       "parent": null,
       "position": [
         0,
@@ -705,10 +656,51 @@
           0.014
         ]
       },
-      "material": "metal"
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": false
+      }
     },
     {
-      "id": "drying-rod-11",
+      "id": "drying-rod-10-low",
+      "parent": null,
+      "position": [
+        0,
+        0.82,
+        -0.27
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          1.04,
+          0.014,
+          0.014
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": true
+      }
+    },
+    {
+      "id": "drying-rod-11-high",
       "parent": null,
       "position": [
         0,
@@ -740,10 +732,51 @@
           0.014
         ]
       },
-      "material": "metal"
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": false
+      }
     },
     {
-      "id": "drying-rod-12",
+      "id": "drying-rod-11-low",
+      "parent": null,
+      "position": [
+        0,
+        0.82,
+        -0.18000000000000002
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          1.04,
+          0.014,
+          0.014
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": true
+      }
+    },
+    {
+      "id": "drying-rod-12-high",
       "parent": null,
       "position": [
         0,
@@ -775,10 +808,51 @@
           0.014
         ]
       },
-      "material": "metal"
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": false
+      }
     },
     {
-      "id": "drying-rod-13",
+      "id": "drying-rod-12-low",
+      "parent": null,
+      "position": [
+        0,
+        0.82,
+        -0.09000000000000002
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          1.04,
+          0.014,
+          0.014
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": true
+      }
+    },
+    {
+      "id": "drying-rod-13-high",
       "parent": null,
       "position": [
         0,
@@ -810,10 +884,51 @@
           0.014
         ]
       },
-      "material": "metal"
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": false
+      }
     },
     {
-      "id": "drying-rod-14",
+      "id": "drying-rod-13-low",
+      "parent": null,
+      "position": [
+        0,
+        0.82,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          1.04,
+          0.014,
+          0.014
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": true
+      }
+    },
+    {
+      "id": "drying-rod-14-high",
       "parent": null,
       "position": [
         0,
@@ -845,10 +960,51 @@
           0.014
         ]
       },
-      "material": "metal"
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": false
+      }
     },
     {
-      "id": "drying-rod-15",
+      "id": "drying-rod-14-low",
+      "parent": null,
+      "position": [
+        0,
+        0.82,
+        0.08999999999999997
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          1.04,
+          0.014,
+          0.014
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": true
+      }
+    },
+    {
+      "id": "drying-rod-15-high",
       "parent": null,
       "position": [
         0,
@@ -880,10 +1036,51 @@
           0.014
         ]
       },
-      "material": "metal"
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": false
+      }
     },
     {
-      "id": "drying-rod-16",
+      "id": "drying-rod-15-low",
+      "parent": null,
+      "position": [
+        0,
+        0.82,
+        0.17999999999999994
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          1.04,
+          0.014,
+          0.014
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": true
+      }
+    },
+    {
+      "id": "drying-rod-16-high",
       "parent": null,
       "position": [
         0,
@@ -915,7 +1112,48 @@
           0.014
         ]
       },
-      "material": "metal"
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": false
+      }
+    },
+    {
+      "id": "drying-rod-16-low",
+      "parent": null,
+      "position": [
+        0,
+        0.82,
+        0.27
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          1.04,
+          0.014,
+          0.014
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": true
+      }
     },
     {
       "id": "rear-brace",
@@ -951,10 +1189,454 @@
         ]
       },
       "material": "sage"
+    },
+    {
+      "id": "upright-00-outer",
+      "parent": null,
+      "position": [
+        -0.52,
+        0.39,
+        -0.29
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.03,
+          0.71,
+          0.03
+        ]
+      },
+      "material": "metal"
+    },
+    {
+      "id": "upright-00-high",
+      "parent": null,
+      "position": [
+        -0.52,
+        1.04,
+        -0.29
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.72,
+          0.018
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": false
+      }
+    },
+    {
+      "id": "upright-00-low",
+      "parent": null,
+      "position": [
+        -0.52,
+        0.46,
+        -0.29
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.72,
+          0.018
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": true
+      }
+    },
+    {
+      "id": "upright-01-outer",
+      "parent": null,
+      "position": [
+        -0.52,
+        0.39,
+        0.29
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.03,
+          0.71,
+          0.03
+        ]
+      },
+      "material": "metal"
+    },
+    {
+      "id": "upright-01-high",
+      "parent": null,
+      "position": [
+        -0.52,
+        1.04,
+        0.29
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.72,
+          0.018
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": false
+      }
+    },
+    {
+      "id": "upright-01-low",
+      "parent": null,
+      "position": [
+        -0.52,
+        0.46,
+        0.29
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.72,
+          0.018
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": true
+      }
+    },
+    {
+      "id": "upright-10-outer",
+      "parent": null,
+      "position": [
+        0.52,
+        0.39,
+        -0.29
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.03,
+          0.71,
+          0.03
+        ]
+      },
+      "material": "metal"
+    },
+    {
+      "id": "upright-10-high",
+      "parent": null,
+      "position": [
+        0.52,
+        1.04,
+        -0.29
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.72,
+          0.018
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": false
+      }
+    },
+    {
+      "id": "upright-10-low",
+      "parent": null,
+      "position": [
+        0.52,
+        0.46,
+        -0.29
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.72,
+          0.018
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": true
+      }
+    },
+    {
+      "id": "upright-11-outer",
+      "parent": null,
+      "position": [
+        0.52,
+        0.39,
+        0.29
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.03,
+          0.71,
+          0.03
+        ]
+      },
+      "material": "metal"
+    },
+    {
+      "id": "upright-11-high",
+      "parent": null,
+      "position": [
+        0.52,
+        1.04,
+        0.29
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.72,
+          0.018
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": false
+      }
+    },
+    {
+      "id": "upright-11-low",
+      "parent": null,
+      "position": [
+        0.52,
+        0.46,
+        0.29
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotationAxis": [
+        0,
+        1,
+        0
+      ],
+      "joint": "fixed",
+      "state": {},
+      "geometry": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.72,
+          0.018
+        ]
+      },
+      "material": "metal",
+      "visibleWhen": {
+        "lowered": true
+      }
     }
   ],
   "supportSurfaces": [],
-  "interactionNote": "Static deployed two-tier drying frame. Rails are not flat support surfaces; no hanging-cloth attachment, folding or evaporation simulation.",
+  "interactionNote": "Upper drying tier and inner posts telescope down 0.58 m for loading/storage in two fixed height settings; lower frame and feet remain fixed. No cloth attachment, evaporation or continuous animation.",
   "thumbnail": "thumbnail.svg",
   "preview": "preview/utility.html",
   "bounds": {

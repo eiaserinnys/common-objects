@@ -11,6 +11,7 @@
     "object-9: four sides, available state, independent copy, unit scale",
     "object-10: four sides, available state, independent copy, unit scale",
     "all six reused assets: select, focus, toggle, independent copies",
+    "dehumidifier full-tank cutoff/drain and cart parking lock/release",
     "mixed 32-instance scene: transforms, states, versions saved and restored after reload",
     "390px viewport: no overflow, pointer orbit, selection, camera focus, action"
   ],

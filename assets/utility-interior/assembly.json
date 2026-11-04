@@ -50,7 +50,7 @@
     {
       "id": "object-3",
       "assetId": "utility-drying-rack",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "position": [
         2.2,
         0,
@@ -66,7 +66,9 @@
         1,
         1
       ],
-      "state": {}
+      "state": {
+        "lowered": false
+      }
     },
     {
       "id": "object-4",
@@ -92,7 +94,7 @@
     {
       "id": "object-5",
       "assetId": "utility-ironing-board",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "position": [
         -1.25,
         0,
@@ -108,12 +110,14 @@
         1,
         1
       ],
-      "state": {}
+      "state": {
+        "low": false
+      }
     },
     {
       "id": "object-6",
       "assetId": "utility-linen-cart",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "position": [
         0.6,
         0,
@@ -129,7 +133,9 @@
         1,
         1
       ],
-      "state": {}
+      "state": {
+        "braked": false
+      }
     },
     {
       "id": "object-7",
@@ -176,7 +182,7 @@
     {
       "id": "object-9",
       "assetId": "utility-dehumidifier",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "position": [
         -2.6,
         0,
@@ -192,7 +198,12 @@
         1,
         1
       ],
-      "state": {}
+      "state": {
+        "humidity": 65,
+        "waterMl": 0,
+        "wet": false,
+        "full": false
+      }
     },
     {
       "id": "object-10",
@@ -335,9 +346,9 @@
       "assetId": "sewing-iron",
       "assetVersion": 1,
       "position": [
-        -1.4,
+        -1.05,
         0.9,
-        1.8
+        0.12
       ],
       "rotation": [
         0,

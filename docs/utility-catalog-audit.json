@@ -3132,7 +3132,9 @@
       "roles": [
         "fixture"
       ],
-      "states": {},
+      "states": {
+        "lowered": false
+      },
       "batch": "utility-2026-11-04"
     },
     {
@@ -3173,7 +3175,9 @@
       "roles": [
         "support"
       ],
-      "states": {},
+      "states": {
+        "low": false
+      },
       "batch": "utility-2026-11-04"
     },
     {
@@ -3194,7 +3198,9 @@
         "transport",
         "storage"
       ],
-      "states": {},
+      "states": {
+        "braked": false
+      },
       "batch": "utility-2026-11-04"
     },
     {
@@ -3245,7 +3251,7 @@
       "scope": "independent",
       "dimensions": [
         0.396,
-        0.548,
+        0.554,
         0.338
       ],
       "size": "M",
@@ -3257,7 +3263,12 @@
       "roles": [
         "appliance"
       ],
-      "states": {},
+      "states": {
+        "humidity": 65,
+        "waterMl": 0,
+        "wet": false,
+        "full": false
+      },
       "batch": "utility-2026-11-04"
     },
     {

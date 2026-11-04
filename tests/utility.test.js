@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {validate} from '../scripts/validate.mjs';
-import {createInstance,act,saveScene,loadScene} from '../renderer/model.js';
+import {createInstance,act,saveScene,loadScene,placementLocked} from '../renderer/model.js';
 import {instanceBounds,supportSurfaces,matches} from '../renderer/metric-state.js';
 import {mesh,point,worldParts} from '../renderer/geometry.js';
 const read=p=>JSON.parse(readFileSync(new URL('../'+p,import.meta.url)));
@@ -19,7 +19,7 @@ test('ten utility anchors retain metre scale, all-state bounds and centered grou
  const i=createInstance(a,'test');for(let n=0;n<2;n++){const b=instanceBounds(a,i);near(b.min[1],0);for(let k=0;k<3;k++){assert.ok(b.min[k]>=a.bounds.min[k]-1e-8);assert.ok(b.max[k]<=a.bounds.max[k]+1e-8);}if(a.actions.length)act(a,i,'toggle');}
  }
 });
-const placements=[['object-12','object-4','worktop'],['object-13','object-4','worktop'],['object-14','object-4','worktop'],['object-15','object-6','basket-floor'],['object-16','object-5','pressing-area']];
+const placements=[['object-12','object-4','worktop'],['object-13','object-4','worktop'],['object-14','object-4','worktop'],['object-15','object-6','basket-floor'],['object-16','object-4','worktop']];
 test('mixed utility has supported placements and reserved door/footprint clearance',()=>{
  for(const [childId,parentId,surfaceId] of placements){
  const child=scene.instances.find(i=>i.id===childId),parent=scene.instances.find(i=>i.id===parentId),b=instanceBounds(assets.get(child.assetId),child),s=supportSurfaces(assets.get(parent.assetId),parent).find(s=>s.id===surfaceId);
@@ -36,10 +36,10 @@ test('mixed utility has supported placements and reserved door/footprint clearan
  const b=[placements[j][0],placements[k][0]].map(id=>{const i=scene.instances.find(i=>i.id===id);return instanceBounds(assets.get(i.assetId),i);});assert.ok([0,2].some(k=>b[0].max[k]<=b[1].min[k]||b[1].max[k]<=b[0].min[k]));
  }
 });
-test('both access operations are instance independent and entire mixed layout round-trips',()=>{
+test('all six operating objects are instance independent and entire mixed layout round-trips',()=>{
  const instances=structuredClone(scene.instances);
  for(const a of fresh){const original=instances.find(i=>i.assetId===a.id),copy=structuredClone(original);copy.id+='-copy';copy.position[0]+=.3;if(a.actions.length){act(a,copy,'toggle');assert.notDeepEqual(original.state,copy.state);}instances.push(copy);}
- assert.deepEqual(loadScene(saveScene(instances),assets),instances);assert.equal(fresh.filter(a=>a.actions.length).length,2);assert.equal(instances.length,26);
+ assert.deepEqual(loadScene(saveScene(instances),assets),instances);assert.equal(fresh.filter(a=>a.actions.length).length,6);assert.equal(instances.length,26);
 });
 test('washer door preserves common Y hinge and opens loading access without mutating drum',()=>{
  const a=assets.get('utility-washer');
@@ -55,4 +55,14 @@ test('cabinet sliding door translates as one unit and exposes bounded shelf supp
  for(const suffix of ['door','pull']){const c=a.parts.find(p=>p.id==='closed-'+suffix),o=a.parts.find(p=>p.id==='open-'+suffix);near(o.position[0]-c.position[0],-.76);assert.deepEqual(c.geometry,o.geometry);}
  act(a,i,'toggle');assert.equal(supportSurfaces(a,i).length,3);
  for(const s of a.supportSurfaces){const shelf=partBounds(a,a.parts.find(p=>p.id===s.id));near(s.height,shelf.max[1]);for(const [x,z] of s.polygon){assert.ok(x>=shelf.min[0]&&x<=shelf.max[0]);assert.ok(z>=shelf.min[2]&&z<=shelf.max[2]);}}
+});
+test('drying rack telescopes without moving feet; board supports follow work height',()=>{
+ const rack=assets.get('utility-drying-rack'),r=createInstance(rack,'rack');const before=instanceBounds(rack,r);act(rack,r,'toggle');const after=instanceBounds(rack,r);near(before.max[1]-after.max[1],.58);near(after.min[1],0);
+ const board=assets.get('utility-ironing-board'),i=createInstance(board,'board');near(supportSurfaces(board,i)[0].vertices[0][1],.9);act(board,i,'toggle');near(supportSurfaces(board,i)[0].vertices[0][1],.75);near(instanceBounds(board,i).min[1],0);
+});
+test('cart brakes constrain placement mode independently and survive restoration',()=>{
+ const a=assets.get('utility-linen-cart'),one=createInstance(a,'one'),two=createInstance(a,'two');assert.equal(placementLocked(a,one),false);act(a,one,'toggle');assert.equal(placementLocked(a,one),true);assert.equal(placementLocked(a,two),false);assert.equal(placementLocked(a,loadScene(saveScene([one]),assets)[0]),true);act(a,one,'toggle');assert.equal(placementLocked(a,one),false);
+});
+test('dehumidifier cycles collect water, stop at tank capacity/target and drain independently',()=>{
+ const a=assets.get('utility-dehumidifier'),one=createInstance(a,'one'),two=createInstance(a,'two');for(let n=0;n<3;n++)act(a,one,'toggle');assert.deepEqual(one.state,{humidity:50,waterMl:600,wet:true,full:true});act(a,one,'toggle');assert.equal(one.state.humidity,50);assert.deepEqual(two.state,a.state);assert.deepEqual(loadScene(saveScene([one,two]),assets),[one,two]);act(a,one,'drain');assert.deepEqual(one.state,{humidity:50,waterMl:0,wet:false,full:false});act(a,one,'toggle');assert.equal(one.state.humidity,45);act(a,one,'toggle');assert.equal(one.state.waterMl,200);
 });
