@@ -1,0 +1,3285 @@
+{
+  "base": "2f00c0582b5c6ff1aae0e5ce910d0b98cd0b99d7",
+  "registrations": 145,
+  "scopes": {
+    "independent": {
+      "S": 100,
+      "M": 11,
+      "L": 15
+    },
+    "assembly": {
+      "L": 1
+    },
+    "room-group": {
+      "L": 13,
+      "M": 3,
+      "S": 2
+    }
+  },
+  "independentCandidateSpaces": {
+    "H": 124,
+    "O": 66,
+    "C": 126
+  },
+  "independentRoles": {
+    "lighting": 1,
+    "support": 12,
+    "storage": 36,
+    "instrument": 5,
+    "tool": 46,
+    "appliance": 3,
+    "recreation": 9,
+    "exercise": 10,
+    "machine": 3,
+    "transport": 2,
+    "seating": 2,
+    "signage": 1,
+    "waste": 1,
+    "circulation": 1,
+    "fixture": 2,
+    "access": 1
+  },
+  "batches": {
+    "kitchen-2026-10-23": {
+      "S": 10
+    },
+    "sewing-2026-10-25": {
+      "S": 10
+    },
+    "bathroom-2026-10-26": {
+      "S": 10
+    },
+    "stationery-2026-10-27": {
+      "S": 10
+    },
+    "cleaning-2026-10-27": {
+      "S": 10
+    },
+    "gardening-2026-10-28": {
+      "S": 10
+    },
+    "games-2026-10-29": {
+      "S": 10
+    },
+    "baking-2026-10-31": {
+      "S": 10
+    },
+    "beverage-2026-10-31": {
+      "S": 10
+    },
+    "fitness-2026-11-01": {
+      "M": 1,
+      "S": 9
+    },
+    "office-2026-11-02": {
+      "L": 3,
+      "M": 2
+    },
+    "cafe-2026-11-03": {
+      "L": 5,
+      "M": 5
+    },
+    "utility-2026-11-04": {
+      "L": 7,
+      "M": 3
+    }
+  },
+  "recentWindow": [
+    "stationery-2026-10-27",
+    "cleaning-2026-10-27",
+    "gardening-2026-10-28",
+    "games-2026-10-29",
+    "baking-2026-10-31",
+    "beverage-2026-10-31",
+    "fitness-2026-11-01",
+    "office-2026-11-02",
+    "cafe-2026-11-03",
+    "utility-2026-11-04"
+  ],
+  "recentSizes": {
+    "S": 69,
+    "M": 11,
+    "L": 15
+  },
+  "records": [
+    {
+      "id": "desk-lamp",
+      "source": "desk-lamp/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.24,
+        0.48,
+        0.26
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "lighting"
+      ],
+      "states": {
+        "on": false
+      },
+      "batch": "original"
+    },
+    {
+      "id": "lofi-night-room",
+      "source": "lofi-night-room/asset.json",
+      "scope": "assembly",
+      "dimensions": [
+        3.080357143,
+        2.357142857,
+        3.214285714
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "assembly"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-floor",
+      "source": "lofi-floor/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        3.0,
+        0.133928571,
+        3.214285714
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "architecture",
+        "decoration"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-corner-pillar",
+      "source": "lofi-corner-pillar/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        0.160714286,
+        2.223214286,
+        0.160714286
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "architecture"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-back-wall",
+      "source": "lofi-back-wall/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        0.241071429,
+        2.223214286,
+        3.053571429
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "architecture",
+        "decoration"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-right-wall",
+      "source": "lofi-right-wall/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        2.839285714,
+        2.223214286,
+        0.160714286
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "architecture",
+        "decoration"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-windowsill-cat",
+      "source": "lofi-windowsill-cat/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        0.219642857,
+        0.342857143,
+        1.607142857
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "architecture",
+        "decoration",
+        "support"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-wall-shelf",
+      "source": "lofi-wall-shelf/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        0.219642857,
+        0.803571429,
+        0.964285714
+      ],
+      "size": "M",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "storage",
+        "decoration"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-fairy-lights",
+      "source": "lofi-fairy-lights/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        2.839285714,
+        0.160714286,
+        3.053571429
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "lighting",
+        "decoration"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-vinyl-crate",
+      "source": "lofi-vinyl-crate/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        1.017857143,
+        0.723214286,
+        0.369642857
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "storage",
+        "lighting"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-desk-under",
+      "source": "lofi-desk-under/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        1.084821429,
+        0.669642857,
+        2.196428571
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "storage",
+        "worktop-component"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-desktop",
+      "source": "lofi-desktop/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        1.098214286,
+        0.080357143,
+        2.196428571
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "worktop-component"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-turntable",
+      "source": "lofi-turntable/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        0.642857143,
+        0.321428571,
+        0.642857143
+      ],
+      "size": "M",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "machine"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-mug",
+      "source": "lofi-mug/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        0.214285714,
+        0.16875,
+        0.254464286
+      ],
+      "size": "S",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-notebook-pen",
+      "source": "lofi-notebook-pen/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        0.616071429,
+        0.160714286,
+        0.75
+      ],
+      "size": "M",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-desk-lamp",
+      "source": "lofi-desk-lamp/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        0.508928571,
+        1.098214286,
+        0.482142857
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "lighting"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-headphones",
+      "source": "lofi-headphones/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        0.401785714,
+        0.1875,
+        0.455357143
+      ],
+      "size": "S",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "appliance"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-study-chair",
+      "source": "lofi-study-chair/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        0.642857143,
+        1.258928571,
+        0.642857143
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "seating"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-floor-plant",
+      "source": "lofi-floor-plant/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        0.589285714,
+        1.044642857,
+        0.589285714
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "decoration"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "lofi-mechanisms",
+      "source": "lofi-mechanisms/asset.json",
+      "scope": "room-group",
+      "dimensions": [
+        3.080357143,
+        2.223214286,
+        3.214285714
+      ],
+      "size": "L",
+      "spaces": [
+        "H (authored room)"
+      ],
+      "roles": [
+        "illustrative-system"
+      ],
+      "states": {},
+      "batch": "original"
+    },
+    {
+      "id": "kitchen-cutting-board",
+      "source": "kitchen-cutting-board/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.32,
+        0.043,
+        0.22
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "support"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "kitchen-2026-10-23"
+    },
+    {
+      "id": "kitchen-serving-tray",
+      "source": "kitchen-serving-tray/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.396,
+        0.035,
+        0.25
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "support"
+      ],
+      "states": {
+        "lined": true
+      },
+      "batch": "kitchen-2026-10-23"
+    },
+    {
+      "id": "kitchen-butter-dish",
+      "source": "kitchen-butter-dish/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.19,
+        0.083,
+        0.12
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "covered": true
+      },
+      "batch": "kitchen-2026-10-23"
+    },
+    {
+      "id": "kitchen-bread-box",
+      "source": "kitchen-bread-box/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.35,
+        0.21,
+        0.24
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "closed": true
+      },
+      "batch": "kitchen-2026-10-23"
+    },
+    {
+      "id": "kitchen-salt-cellar",
+      "source": "kitchen-salt-cellar/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.09,
+        0.074,
+        0.09
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "closed": true
+      },
+      "batch": "kitchen-2026-10-23"
+    },
+    {
+      "id": "kitchen-oil-cruet",
+      "source": "kitchen-oil-cruet/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.07,
+        0.228,
+        0.07
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "stoppered": true
+      },
+      "batch": "kitchen-2026-10-23"
+    },
+    {
+      "id": "kitchen-utensil-crock",
+      "source": "kitchen-utensil-crock/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.1,
+        0.251,
+        0.1
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "kitchen-2026-10-23"
+    },
+    {
+      "id": "kitchen-napkin-holder",
+      "source": "kitchen-napkin-holder/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.15,
+        0.127,
+        0.075
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "kitchen-2026-10-23"
+    },
+    {
+      "id": "kitchen-scale",
+      "source": "kitchen-scale/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.16,
+        0.033,
+        0.19
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "instrument"
+      ],
+      "states": {
+        "on": false
+      },
+      "batch": "kitchen-2026-10-23"
+    },
+    {
+      "id": "kitchen-pepper-mill",
+      "source": "kitchen-pepper-mill/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.068,
+        0.186,
+        0.068
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "capped": true
+      },
+      "batch": "kitchen-2026-10-23"
+    },
+    {
+      "id": "sewing-thread-spool",
+      "source": "sewing-thread-spool/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.064,
+        0.074,
+        0.064
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "threaded": true
+      },
+      "batch": "sewing-2026-10-25"
+    },
+    {
+      "id": "sewing-pincushion",
+      "source": "sewing-pincushion/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.094,
+        0.0885,
+        0.094
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "pinned": true
+      },
+      "batch": "sewing-2026-10-25"
+    },
+    {
+      "id": "sewing-scissors",
+      "source": "sewing-scissors/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.108,
+        0.016,
+        0.194
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "sheathed": true
+      },
+      "batch": "sewing-2026-10-25"
+    },
+    {
+      "id": "sewing-thimble",
+      "source": "sewing-thimble/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.048,
+        0.025,
+        0.048
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "stored": true
+      },
+      "batch": "sewing-2026-10-25"
+    },
+    {
+      "id": "sewing-seam-ripper",
+      "source": "sewing-seam-ripper/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.022,
+        0.113,
+        0.022
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "capped": true
+      },
+      "batch": "sewing-2026-10-25"
+    },
+    {
+      "id": "sewing-tape-measure",
+      "source": "sewing-tape-measure/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.2115,
+        0.019,
+        0.06
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "instrument"
+      ],
+      "states": {
+        "extended": false
+      },
+      "batch": "sewing-2026-10-25"
+    },
+    {
+      "id": "sewing-needle-case",
+      "source": "sewing-needle-case/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.09,
+        0.019,
+        0.035
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "closed": true
+      },
+      "batch": "sewing-2026-10-25"
+    },
+    {
+      "id": "sewing-box",
+      "source": "sewing-box/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.31,
+        0.179,
+        0.212
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "closed": true
+      },
+      "batch": "sewing-2026-10-25"
+    },
+    {
+      "id": "sewing-embroidery-hoop",
+      "source": "sewing-embroidery-hoop/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.208,
+        0.014,
+        0.22
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "fabric": true
+      },
+      "batch": "sewing-2026-10-25"
+    },
+    {
+      "id": "sewing-iron",
+      "source": "sewing-iron/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.09,
+        0.1,
+        0.175
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "appliance"
+      ],
+      "states": {
+        "on": false
+      },
+      "batch": "sewing-2026-10-25"
+    },
+    {
+      "id": "bathroom-riser",
+      "source": "bathroom-riser/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.32,
+        0.063,
+        0.216
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "support"
+      ],
+      "states": {
+        "lined": true
+      },
+      "batch": "bathroom-2026-10-26"
+    },
+    {
+      "id": "bathroom-soap-dish",
+      "source": "bathroom-soap-dish/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.13,
+        0.037,
+        0.09
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "filled": true
+      },
+      "batch": "bathroom-2026-10-26"
+    },
+    {
+      "id": "bathroom-dispenser",
+      "source": "bathroom-dispenser/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.0885,
+        0.192,
+        0.072
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "unlocked": true
+      },
+      "batch": "bathroom-2026-10-26"
+    },
+    {
+      "id": "bathroom-cup",
+      "source": "bathroom-cup/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.072,
+        0.106,
+        0.072
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "covered": false
+      },
+      "batch": "bathroom-2026-10-26"
+    },
+    {
+      "id": "bathroom-toothbrush",
+      "source": "bathroom-toothbrush/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.029,
+        0.025,
+        0.206
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "capped": false
+      },
+      "batch": "bathroom-2026-10-26"
+    },
+    {
+      "id": "bathroom-toothpaste",
+      "source": "bathroom-toothpaste/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.052,
+        0.15,
+        0.04
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "capped": false
+      },
+      "batch": "bathroom-2026-10-26"
+    },
+    {
+      "id": "bathroom-tissue-box",
+      "source": "bathroom-tissue-box/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.23,
+        0.155255251,
+        0.12
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "bathroom-2026-10-26"
+    },
+    {
+      "id": "bathroom-cotton-jar",
+      "source": "bathroom-cotton-jar/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.092,
+        0.098,
+        0.092
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "closed": true
+      },
+      "batch": "bathroom-2026-10-26"
+    },
+    {
+      "id": "bathroom-comb",
+      "source": "bathroom-comb/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.15,
+        0.012,
+        0.057
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "sleeved": false
+      },
+      "batch": "bathroom-2026-10-26"
+    },
+    {
+      "id": "bathroom-mirror",
+      "source": "bathroom-mirror/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.118,
+        0.014,
+        0.217
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "covered": false
+      },
+      "batch": "bathroom-2026-10-26"
+    },
+    {
+      "id": "stationery-letter-tray",
+      "source": "stationery-letter-tray/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.25,
+        0.045,
+        0.34
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "stationery-2026-10-27"
+    },
+    {
+      "id": "stationery-stapler",
+      "source": "stationery-stapler/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.042,
+        0.069799207,
+        0.14
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "stationery-2026-10-27"
+    },
+    {
+      "id": "stationery-hole-punch",
+      "source": "stationery-hole-punch/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.13,
+        0.064967211,
+        0.11
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "stationery-2026-10-27"
+    },
+    {
+      "id": "stationery-tape-dispenser",
+      "source": "stationery-tape-dispenser/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.06,
+        0.090203722,
+        0.135
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "stationery-2026-10-27"
+    },
+    {
+      "id": "stationery-sharpener",
+      "source": "stationery-sharpener/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.045,
+        0.044,
+        0.051
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "closed": true
+      },
+      "batch": "stationery-2026-10-27"
+    },
+    {
+      "id": "stationery-pencil",
+      "source": "stationery-pencil/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.012,
+        0.012,
+        0.202
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "capped": false
+      },
+      "batch": "stationery-2026-10-27"
+    },
+    {
+      "id": "stationery-ruler",
+      "source": "stationery-ruler/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.22,
+        0.007,
+        0.036
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "instrument"
+      ],
+      "states": {
+        "sleeved": false
+      },
+      "batch": "stationery-2026-10-27"
+    },
+    {
+      "id": "stationery-eraser",
+      "source": "stationery-eraser/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.055,
+        0.0215,
+        0.026
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "wrapped": true
+      },
+      "batch": "stationery-2026-10-27"
+    },
+    {
+      "id": "stationery-bookend",
+      "source": "stationery-bookend/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.12,
+        0.164,
+        0.12
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "padded": true
+      },
+      "batch": "stationery-2026-10-27"
+    },
+    {
+      "id": "stationery-bin",
+      "source": "stationery-bin/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.14,
+        0.17,
+        0.14
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "lined": true
+      },
+      "batch": "stationery-2026-10-27"
+    },
+    {
+      "id": "cleaning-bucket",
+      "source": "cleaning-bucket/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.312,
+        0.25,
+        0.343
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "closed": true
+      },
+      "batch": "cleaning-2026-10-27"
+    },
+    {
+      "id": "cleaning-dustpan",
+      "source": "cleaning-dustpan/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.234,
+        0.048,
+        0.345
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "covered": false
+      },
+      "batch": "cleaning-2026-10-27"
+    },
+    {
+      "id": "cleaning-hand-brush",
+      "source": "cleaning-hand-brush/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.075,
+        0.057,
+        0.2625
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "fitted": true
+      },
+      "batch": "cleaning-2026-10-27"
+    },
+    {
+      "id": "cleaning-spray-bottle",
+      "source": "cleaning-spray-bottle/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.086,
+        0.251,
+        0.114
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "fitted": true
+      },
+      "batch": "cleaning-2026-10-27"
+    },
+    {
+      "id": "cleaning-sponge",
+      "source": "cleaning-sponge/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.1,
+        0.032,
+        0.072
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "wrapped": true
+      },
+      "batch": "cleaning-2026-10-27"
+    },
+    {
+      "id": "cleaning-squeegee",
+      "source": "cleaning-squeegee/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.26,
+        0.031,
+        0.235
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "fitted": true
+      },
+      "batch": "cleaning-2026-10-27"
+    },
+    {
+      "id": "cleaning-lint-roller",
+      "source": "cleaning-lint-roller/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.1205,
+        0.056,
+        0.244
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "cleaning-2026-10-27"
+    },
+    {
+      "id": "cleaning-laundry-basket",
+      "source": "cleaning-laundry-basket/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.38,
+        0.345,
+        0.463
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "lined": true
+      },
+      "batch": "cleaning-2026-10-27"
+    },
+    {
+      "id": "cleaning-clothespin",
+      "source": "cleaning-clothespin/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.048,
+        0.018,
+        0.109
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "clipped": true
+      },
+      "batch": "cleaning-2026-10-27"
+    },
+    {
+      "id": "cleaning-washboard",
+      "source": "cleaning-washboard/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.25,
+        0.032,
+        0.45
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "fitted": true
+      },
+      "batch": "cleaning-2026-10-27"
+    },
+    {
+      "id": "gardening-watering-can",
+      "source": "gardening-watering-can/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.308778632,
+        0.170113932,
+        0.17
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "closed": true
+      },
+      "batch": "gardening-2026-10-28"
+    },
+    {
+      "id": "gardening-trowel",
+      "source": "gardening-trowel/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.078,
+        0.025,
+        0.29
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "sheathed": true
+      },
+      "batch": "gardening-2026-10-28"
+    },
+    {
+      "id": "gardening-cultivator",
+      "source": "gardening-cultivator/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.084,
+        0.03,
+        0.2775
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "guarded": true
+      },
+      "batch": "gardening-2026-10-28"
+    },
+    {
+      "id": "gardening-dibber",
+      "source": "gardening-dibber/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.08,
+        0.041,
+        0.2185
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "capped": true
+      },
+      "batch": "gardening-2026-10-28"
+    },
+    {
+      "id": "gardening-seed-tray",
+      "source": "gardening-seed-tray/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.24,
+        0.042,
+        0.16
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "filled": true
+      },
+      "batch": "gardening-2026-10-28"
+    },
+    {
+      "id": "gardening-plant-label",
+      "source": "gardening-plant-label/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.075,
+        0.0105,
+        0.1775
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "written": true
+      },
+      "batch": "gardening-2026-10-28"
+    },
+    {
+      "id": "gardening-pruners",
+      "source": "gardening-pruners/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.087521438,
+        0.0225,
+        0.171321639
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "locked": true
+      },
+      "batch": "gardening-2026-10-28"
+    },
+    {
+      "id": "gardening-sieve",
+      "source": "gardening-sieve/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.198,
+        0.035,
+        0.198
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "gardening-2026-10-28"
+    },
+    {
+      "id": "gardening-moisture-meter",
+      "source": "gardening-moisture-meter/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.055,
+        0.024,
+        0.227
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "instrument"
+      ],
+      "states": {
+        "capped": true
+      },
+      "batch": "gardening-2026-10-28"
+    },
+    {
+      "id": "gardening-pot-caddy",
+      "source": "gardening-pot-caddy/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.25,
+        0.106,
+        0.25
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "support"
+      ],
+      "states": {
+        "matted": true
+      },
+      "batch": "gardening-2026-10-28"
+    },
+    {
+      "id": "games-dice",
+      "source": "games-dice/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.0248,
+        0.0244,
+        0.0248
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "recreation"
+      ],
+      "states": {
+        "marked": true
+      },
+      "batch": "games-2026-10-29"
+    },
+    {
+      "id": "games-domino",
+      "source": "games-domino/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.025,
+        0.0085,
+        0.05
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "recreation"
+      ],
+      "states": {
+        "marked": true
+      },
+      "batch": "games-2026-10-29"
+    },
+    {
+      "id": "games-rook",
+      "source": "games-rook/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.046,
+        0.081,
+        0.046
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "recreation"
+      ],
+      "states": {
+        "crowned": true
+      },
+      "batch": "games-2026-10-29"
+    },
+    {
+      "id": "games-checkers",
+      "source": "games-checkers/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.036,
+        0.021,
+        0.036
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "recreation"
+      ],
+      "states": {
+        "stacked": true
+      },
+      "batch": "games-2026-10-29"
+    },
+    {
+      "id": "games-dice-cup",
+      "source": "games-dice-cup/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.078,
+        0.084,
+        0.078
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "recreation"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "games-2026-10-29"
+    },
+    {
+      "id": "games-tile-rack",
+      "source": "games-tile-rack/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.28,
+        0.04,
+        0.045
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "recreation"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "games-2026-10-29"
+    },
+    {
+      "id": "games-card-shoe",
+      "source": "games-card-shoe/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.085,
+        0.053,
+        0.16
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "recreation"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "games-2026-10-29"
+    },
+    {
+      "id": "games-hourglass",
+      "source": "games-hourglass/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.08,
+        0.123,
+        0.08
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "instrument"
+      ],
+      "states": {
+        "capped": true
+      },
+      "batch": "games-2026-10-29"
+    },
+    {
+      "id": "games-peg-board",
+      "source": "games-peg-board/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.09,
+        0.035,
+        0.26
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "recreation"
+      ],
+      "states": {
+        "pegged": true
+      },
+      "batch": "games-2026-10-29"
+    },
+    {
+      "id": "games-game-box",
+      "source": "games-game-box/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.33,
+        0.0636,
+        0.33
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "storage",
+        "recreation"
+      ],
+      "states": {
+        "closed": true
+      },
+      "batch": "games-2026-10-29"
+    },
+    {
+      "id": "baking-rolling-pin",
+      "source": "baking-rolling-pin/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.4,
+        0.054,
+        0.054
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "handled": true
+      },
+      "batch": "baking-2026-10-31"
+    },
+    {
+      "id": "baking-whisk",
+      "source": "baking-whisk/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.072368701,
+        0.24942916,
+        0.072368701
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "headed": true
+      },
+      "batch": "baking-2026-10-31"
+    },
+    {
+      "id": "baking-measuring-spoon",
+      "source": "baking-measuring-spoon/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.048,
+        0.017,
+        0.1455
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "filled": true
+      },
+      "batch": "baking-2026-10-31"
+    },
+    {
+      "id": "baking-measuring-jug",
+      "source": "baking-measuring-jug/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.124,
+        0.093,
+        0.099
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "filled": true
+      },
+      "batch": "baking-2026-10-31"
+    },
+    {
+      "id": "baking-funnel",
+      "source": "baking-funnel/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.107923141,
+        0.104,
+        0.107923141
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "strained": true
+      },
+      "batch": "baking-2026-10-31"
+    },
+    {
+      "id": "baking-pastry-brush",
+      "source": "baking-pastry-brush/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.04,
+        0.018,
+        0.23
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "headed": true
+      },
+      "batch": "baking-2026-10-31"
+    },
+    {
+      "id": "baking-bench-scraper",
+      "source": "baking-bench-scraper/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.154,
+        0.117,
+        0.028
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "sleeved": true
+      },
+      "batch": "baking-2026-10-31"
+    },
+    {
+      "id": "baking-cookie-cutter",
+      "source": "baking-cookie-cutter/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.08,
+        0.026,
+        0.08
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "pressed": true
+      },
+      "batch": "baking-2026-10-31"
+    },
+    {
+      "id": "baking-muffin-tin",
+      "source": "baking-muffin-tin/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.248,
+        0.035,
+        0.158
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "baking-2026-10-31"
+    },
+    {
+      "id": "baking-cooling-rack",
+      "source": "baking-cooling-rack/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.32,
+        0.036,
+        0.266
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "support"
+      ],
+      "states": {
+        "matted": true
+      },
+      "batch": "baking-2026-10-31"
+    },
+    {
+      "id": "beverage-teapot",
+      "source": "beverage-teapot/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.229151048,
+        0.132,
+        0.124
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "lidded": true
+      },
+      "batch": "beverage-2026-10-31"
+    },
+    {
+      "id": "beverage-dripper",
+      "source": "beverage-dripper/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.144,
+        0.088,
+        0.118
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "filtered": true
+      },
+      "batch": "beverage-2026-10-31"
+    },
+    {
+      "id": "beverage-filter-holder",
+      "source": "beverage-filter-holder/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.14,
+        0.12043518,
+        0.064
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "stocked": true
+      },
+      "batch": "beverage-2026-10-31"
+    },
+    {
+      "id": "beverage-french-press",
+      "source": "beverage-french-press/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.131,
+        0.234,
+        0.092
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "plunged": true
+      },
+      "batch": "beverage-2026-10-31"
+    },
+    {
+      "id": "beverage-hand-grinder",
+      "source": "beverage-hand-grinder/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.1235,
+        0.2165,
+        0.073
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "cranked": true
+      },
+      "batch": "beverage-2026-10-31"
+    },
+    {
+      "id": "beverage-tamper",
+      "source": "beverage-tamper/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.058,
+        0.078,
+        0.058
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "handled": true
+      },
+      "batch": "beverage-2026-10-31"
+    },
+    {
+      "id": "beverage-knock-box",
+      "source": "beverage-knock-box/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.15,
+        0.1,
+        0.13
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "barred": true
+      },
+      "batch": "beverage-2026-10-31"
+    },
+    {
+      "id": "beverage-tea-infuser",
+      "source": "beverage-tea-infuser/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.062,
+        0.069,
+        0.1315
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "tool"
+      ],
+      "states": {
+        "capped": true
+      },
+      "batch": "beverage-2026-10-31"
+    },
+    {
+      "id": "beverage-tea-tin",
+      "source": "beverage-tea-tin/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.096,
+        0.128,
+        0.096
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "lidded": true
+      },
+      "batch": "beverage-2026-10-31"
+    },
+    {
+      "id": "beverage-coaster-rack",
+      "source": "beverage-coaster-rack/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.14,
+        0.057,
+        0.14
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "stacked": true
+      },
+      "batch": "beverage-2026-10-31"
+    },
+    {
+      "id": "fitness-yoga-mat",
+      "source": "fitness-yoga-mat/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.6,
+        0.151,
+        0.13
+      ],
+      "size": "M",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "exercise"
+      ],
+      "states": {
+        "strapped": true
+      },
+      "batch": "fitness-2026-11-01"
+    },
+    {
+      "id": "fitness-yoga-block",
+      "source": "fitness-yoga-block/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.23,
+        0.077,
+        0.154
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "exercise"
+      ],
+      "states": {
+        "sleeved": true
+      },
+      "batch": "fitness-2026-11-01"
+    },
+    {
+      "id": "fitness-dumbbell",
+      "source": "fitness-dumbbell/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.32,
+        0.13,
+        0.13
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "exercise"
+      ],
+      "states": {
+        "loaded": true
+      },
+      "batch": "fitness-2026-11-01"
+    },
+    {
+      "id": "fitness-kettlebell",
+      "source": "fitness-kettlebell/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.13,
+        0.198,
+        0.13
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "exercise"
+      ],
+      "states": {
+        "wrapped": true
+      },
+      "batch": "fitness-2026-11-01"
+    },
+    {
+      "id": "fitness-pushup-bar",
+      "source": "fitness-pushup-bar/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.245,
+        0.134,
+        0.16
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "exercise"
+      ],
+      "states": {
+        "padded": true
+      },
+      "batch": "fitness-2026-11-01"
+    },
+    {
+      "id": "fitness-ab-wheel",
+      "source": "fitness-ab-wheel/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.32,
+        0.17,
+        0.17
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "exercise"
+      ],
+      "states": {
+        "gripped": true
+      },
+      "batch": "fitness-2026-11-01"
+    },
+    {
+      "id": "fitness-foam-roller",
+      "source": "fitness-foam-roller/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.32,
+        0.14,
+        0.14
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "exercise"
+      ],
+      "states": {
+        "cored": true
+      },
+      "batch": "fitness-2026-11-01"
+    },
+    {
+      "id": "fitness-massage-tool",
+      "source": "fitness-massage-tool/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.104,
+        0.078,
+        0.104
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "exercise"
+      ],
+      "states": {
+        "handled": true
+      },
+      "batch": "fitness-2026-11-01"
+    },
+    {
+      "id": "fitness-balance-board",
+      "source": "fitness-balance-board/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.38,
+        0.067,
+        0.38
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "exercise"
+      ],
+      "states": {
+        "padded": true
+      },
+      "batch": "fitness-2026-11-01"
+    },
+    {
+      "id": "fitness-stretch-strap",
+      "source": "fitness-stretch-strap/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.2,
+        0.028,
+        0.05
+      ],
+      "size": "S",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "exercise"
+      ],
+      "states": {
+        "buckled": true
+      },
+      "batch": "fitness-2026-11-01"
+    },
+    {
+      "id": "office-credenza",
+      "source": "office-credenza/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        1.2,
+        0.75,
+        0.9075
+      ],
+      "size": "L",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage",
+        "support"
+      ],
+      "states": {
+        "open": false
+      },
+      "batch": "office-2026-11-02"
+    },
+    {
+      "id": "office-printer",
+      "source": "office-printer/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.54,
+        0.463,
+        0.552
+      ],
+      "size": "M",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "machine"
+      ],
+      "states": {
+        "printed": false
+      },
+      "batch": "office-2026-11-02"
+    },
+    {
+      "id": "office-paper-cart",
+      "source": "office-paper-cart/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.6,
+        0.82,
+        0.42
+      ],
+      "size": "M",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage",
+        "transport"
+      ],
+      "states": {},
+      "batch": "office-2026-11-02"
+    },
+    {
+      "id": "office-archive-shelf",
+      "source": "office-archive-shelf/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.9,
+        1.65,
+        0.364
+      ],
+      "size": "L",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {},
+      "batch": "office-2026-11-02"
+    },
+    {
+      "id": "office-sorting-table",
+      "source": "office-sorting-table/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        1.4,
+        0.975,
+        0.7
+      ],
+      "size": "L",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "support"
+      ],
+      "states": {},
+      "batch": "office-2026-11-02"
+    },
+    {
+      "id": "cafe-service-counter",
+      "source": "cafe-service-counter/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        1.8,
+        0.95,
+        0.7275
+      ],
+      "size": "L",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage",
+        "support"
+      ],
+      "states": {},
+      "batch": "cafe-2026-11-03"
+    },
+    {
+      "id": "cafe-refrigerator",
+      "source": "cafe-refrigerator/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.6275,
+        0.85,
+        1.1425
+      ],
+      "size": "L",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "appliance",
+        "storage"
+      ],
+      "states": {
+        "open": false
+      },
+      "batch": "cafe-2026-11-03"
+    },
+    {
+      "id": "cafe-espresso-machine",
+      "source": "cafe-espresso-machine/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.6,
+        0.505,
+        0.484
+      ],
+      "size": "M",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "machine"
+      ],
+      "states": {
+        "brewing": false
+      },
+      "batch": "cafe-2026-11-03"
+    },
+    {
+      "id": "cafe-pastry-display",
+      "source": "cafe-pastry-display/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.9,
+        0.65,
+        0.48
+      ],
+      "size": "M",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage",
+        "support"
+      ],
+      "states": {},
+      "batch": "cafe-2026-11-03"
+    },
+    {
+      "id": "cafe-pedestal-table",
+      "source": "cafe-pedestal-table/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.72,
+        0.74,
+        0.72
+      ],
+      "size": "M",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "support"
+      ],
+      "states": {},
+      "batch": "cafe-2026-11-03"
+    },
+    {
+      "id": "cafe-dining-chair",
+      "source": "cafe-dining-chair/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.46,
+        0.82,
+        0.44
+      ],
+      "size": "M",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "seating"
+      ],
+      "states": {},
+      "batch": "cafe-2026-11-03"
+    },
+    {
+      "id": "cafe-menu-board",
+      "source": "cafe-menu-board/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.555,
+        1.35,
+        0.55
+      ],
+      "size": "L",
+      "spaces": [
+        "C"
+      ],
+      "roles": [
+        "signage"
+      ],
+      "states": {},
+      "batch": "cafe-2026-11-03"
+    },
+    {
+      "id": "cafe-sorting-bin",
+      "source": "cafe-sorting-bin/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.9,
+        0.82,
+        0.482
+      ],
+      "size": "M",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage",
+        "waste"
+      ],
+      "states": {},
+      "batch": "cafe-2026-11-03"
+    },
+    {
+      "id": "cafe-queue-rail",
+      "source": "cafe-queue-rail/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        1.28,
+        0.935,
+        0.32
+      ],
+      "size": "L",
+      "spaces": [
+        "O",
+        "C"
+      ],
+      "roles": [
+        "circulation"
+      ],
+      "states": {},
+      "batch": "cafe-2026-11-03"
+    },
+    {
+      "id": "cafe-service-sink",
+      "source": "cafe-service-sink/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.7,
+        1.132664303,
+        0.6255
+      ],
+      "size": "L",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "fixture"
+      ],
+      "states": {
+        "running": false
+      },
+      "batch": "cafe-2026-11-03"
+    },
+    {
+      "id": "utility-washer",
+      "source": "utility-washer/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.6,
+        0.85,
+        1.11
+      ],
+      "size": "L",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "machine"
+      ],
+      "states": {
+        "open": false
+      },
+      "batch": "utility-2026-11-04"
+    },
+    {
+      "id": "utility-cleaning-cabinet",
+      "source": "utility-cleaning-cabinet/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        1.56,
+        1.8025,
+        0.555
+      ],
+      "size": "L",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {
+        "open": false
+      },
+      "batch": "utility-2026-11-04"
+    },
+    {
+      "id": "utility-drying-rack",
+      "source": "utility-drying-rack/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        1.095,
+        1.412,
+        0.7
+      ],
+      "size": "L",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "fixture"
+      ],
+      "states": {},
+      "batch": "utility-2026-11-04"
+    },
+    {
+      "id": "utility-folding-table",
+      "source": "utility-folding-table/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        1.4,
+        0.9,
+        0.72
+      ],
+      "size": "L",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "support",
+        "storage"
+      ],
+      "states": {},
+      "batch": "utility-2026-11-04"
+    },
+    {
+      "id": "utility-ironing-board",
+      "source": "utility-ironing-board/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        1.54,
+        0.9,
+        0.52
+      ],
+      "size": "L",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "support"
+      ],
+      "states": {},
+      "batch": "utility-2026-11-04"
+    },
+    {
+      "id": "utility-linen-cart",
+      "source": "utility-linen-cart/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.7,
+        0.955,
+        0.54
+      ],
+      "size": "M",
+      "spaces": [
+        "H",
+        "C"
+      ],
+      "roles": [
+        "transport",
+        "storage"
+      ],
+      "states": {},
+      "batch": "utility-2026-11-04"
+    },
+    {
+      "id": "utility-changing-bench",
+      "source": "utility-changing-bench/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        1,
+        0.465,
+        0.38
+      ],
+      "size": "L",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "seating"
+      ],
+      "states": {},
+      "batch": "utility-2026-11-04"
+    },
+    {
+      "id": "utility-mop-stand",
+      "source": "utility-mop-stand/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.62,
+        1.395,
+        0.4
+      ],
+      "size": "L",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "storage"
+      ],
+      "states": {},
+      "batch": "utility-2026-11-04"
+    },
+    {
+      "id": "utility-dehumidifier",
+      "source": "utility-dehumidifier/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.396,
+        0.548,
+        0.338
+      ],
+      "size": "M",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "appliance"
+      ],
+      "states": {},
+      "batch": "utility-2026-11-04"
+    },
+    {
+      "id": "utility-step-platform",
+      "source": "utility-step-platform/asset.json",
+      "scope": "independent",
+      "dimensions": [
+        0.5,
+        0.443,
+        0.61
+      ],
+      "size": "M",
+      "spaces": [
+        "H",
+        "O",
+        "C"
+      ],
+      "roles": [
+        "access"
+      ],
+      "states": {},
+      "batch": "utility-2026-11-04"
+    }
+  ]
+}

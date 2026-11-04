@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "utility-washer",
+      "assetVersion": 1,
+      "position": [
+        -1.75,
+        0,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-2",
+      "assetId": "utility-cleaning-cabinet",
+      "assetVersion": 1,
+      "position": [
+        1.4,
+        0,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "utility-drying-rack",
+      "assetVersion": 1,
+      "position": [
+        2.2,
+        0,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-4",
+      "assetId": "utility-folding-table",
+      "assetVersion": 1,
+      "position": [
+        -1.1,
+        0,
+        0.35
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-5",
+      "assetId": "utility-ironing-board",
+      "assetVersion": 1,
+      "position": [
+        -1.25,
+        0,
+        1.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-6",
+      "assetId": "utility-linen-cart",
+      "assetVersion": 1,
+      "position": [
+        0.6,
+        0,
+        0.35
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-7",
+      "assetId": "utility-changing-bench",
+      "assetVersion": 1,
+      "position": [
+        0.8,
+        0,
+        1.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-8",
+      "assetId": "utility-mop-stand",
+      "assetVersion": 1,
+      "position": [
+        2.3,
+        0,
+        1.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-9",
+      "assetId": "utility-dehumidifier",
+      "assetVersion": 1,
+      "position": [
+        -2.6,
+        0,
+        0.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-10",
+      "assetId": "utility-step-platform",
+      "assetVersion": 1,
+      "position": [
+        2.7,
+        0,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-11",
+      "assetId": "cafe-service-sink",
+      "assetVersion": 1,
+      "position": [
+        -0.8,
+        0,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "running": false
+      }
+    },
+    {
+      "id": "object-12",
+      "assetId": "cleaning-laundry-basket",
+      "assetVersion": 1,
+      "position": [
+        -1.4,
+        0.9,
+        0.35
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lined": true
+      }
+    },
+    {
+      "id": "object-13",
+      "assetId": "cleaning-spray-bottle",
+      "assetVersion": 1,
+      "position": [
+        -0.6,
+        0.9,
+        0.35
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "fitted": true
+      }
+    },
+    {
+      "id": "object-14",
+      "assetId": "cleaning-hand-brush",
+      "assetVersion": 1,
+      "position": [
+        -0.8,
+        0.9,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "fitted": true
+      }
+    },
+    {
+      "id": "object-15",
+      "assetId": "cleaning-bucket",
+      "assetVersion": 1,
+      "position": [
+        0.6,
+        0.1325,
+        0.35
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "closed": true
+      }
+    },
+    {
+      "id": "object-16",
+      "assetId": "sewing-iron",
+      "assetVersion": 1,
+      "position": [
+        -1.4,
+        0.9,
+        1.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      }
+    }
+  ]
+}

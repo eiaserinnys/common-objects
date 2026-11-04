@@ -4,7 +4,7 @@ Reusable props, furniture, fixtures, equipment and machines for everyday home, o
 
 ## Collection scope and production planning
 
-Select new work from the whole collection's gaps in space, scale and function. Review the [production policy](docs/production-policy.md), [catalog balance and next priorities](docs/catalog-balance.md) and [complete audited inventory](docs/catalog-inventory-2026-11-03.md) before modeling. After the office and café cycles there are 116 independent metric sources (100 small, eight medium, eight large), plus one original room and its 18 component groups: 135 registrations. The latest café cycle adds ten furniture/equipment/fixture anchors and reuses five existing props. Next priorities are a domestic/shared utility zone, soft seating and living spaces, then architectural/installed coverage.
+Select new work from the whole collection's gaps in space, scale and function. Review the [production policy](docs/production-policy.md), [catalog balance and next priorities](docs/catalog-balance.md) and [complete audited inventory](docs/catalog-inventory-2026-11-04.md) before modeling. After the utility cycle there are 126 independent metric sources (100 small, 11 medium, 15 large), plus one original room and its 18 component groups: 145 registrations. The latest [utility cycle](docs/utility-2026-11-04.md) adds ten furniture/equipment anchors and reuses six existing objects. Next priorities are soft seating and living spaces, architectural/installed coverage, then richer appliance behavior. Open [the utility preview](preview/utility.html) after starting the local server.
 
 Favor coherent mixed-size interior scenes and quality over a fixed ten-object count. Keep useful small props, but do not fill batches with easy small variants. Room assemblies, their components and reused objects must not inflate new-object totals. Technical placement, interaction and validation requirements remain unchanged.
 
@@ -25,7 +25,7 @@ Build output is dist/; serve it with `python3 -m http.server 8000 --directory di
 
 ## Assets
 
-`assets/catalog.json` registers 135 entries: ten café furniture/fixture/equipment anchors, five office furniture/equipment anchors, ten home exercise props, ten tea and coffee tools, ten home baking tools, ten tabletop game props, ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
+`assets/catalog.json` registers 145 entries: ten utility furniture/equipment anchors, ten café furniture/fixture/equipment anchors, five office furniture/equipment anchors, ten home exercise props, ten tea and coffee tools, ten home baking tools, ten tabletop game props, ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
 
 All placeable entries use **1 unit = 1 metre**, Y-up and default scale [1,1,1].
 

@@ -1,0 +1,766 @@
+{
+  "batch": "utility-2026-11-04",
+  "count": 10,
+  "objects": [
+    {
+      "id": "utility-washer",
+      "version": 1,
+      "dimensions": [
+        0.6,
+        0.85,
+        1.11
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "utility-washer",
+        "parts": 30,
+        "min": [
+          -0.3,
+          0,
+          -0.335
+        ],
+        "max": [
+          0.3,
+          0.85,
+          0.775
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.3,
+              0,
+              -0.335
+            ],
+            "max": [
+              0.3,
+              0.85,
+              0.38
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.3,
+              0,
+              -0.335
+            ],
+            "max": [
+              0.3,
+              0.85,
+              0.775
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Two fixed poses of the complete loading door about its left hinge expose a modeled drum and lifters. Loading access only; no drum animation, laundry, wash cycle, water, heat, power or interlock simulation. Door opening reserves endpoint clearance, not a swept collision volume.",
+      "thumbnail": "assets/utility-washer/thumbnail.svg"
+    },
+    {
+      "id": "utility-cleaning-cabinet",
+      "version": 1,
+      "dimensions": [
+        1.56,
+        1.8025,
+        0.555
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "utility-cleaning-cabinet",
+        "parts": 18,
+        "min": [
+          -1.1600000000000001,
+          0,
+          -0.25
+        ],
+        "max": [
+          0.4,
+          1.8025,
+          0.305
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -1.1600000000000001,
+              0,
+              -0.25
+            ],
+            "max": [
+              0.4,
+              1.8025,
+              0.305
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -1.1600000000000001,
+              0,
+              -0.25
+            ],
+            "max": [
+              0.4,
+              1.8025,
+              0.305
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "shelf-0",
+              "vertices": [
+                [
+                  0.11250000000000002,
+                  0.5125,
+                  -0.19
+                ],
+                [
+                  0.35250000000000004,
+                  0.5125,
+                  -0.19
+                ],
+                [
+                  0.35250000000000004,
+                  0.5125,
+                  0.19
+                ],
+                [
+                  0.11250000000000002,
+                  0.5125,
+                  0.19
+                ]
+              ]
+            },
+            {
+              "id": "shelf-1",
+              "vertices": [
+                [
+                  0.11250000000000002,
+                  0.9125,
+                  -0.19
+                ],
+                [
+                  0.35250000000000004,
+                  0.9125,
+                  -0.19
+                ],
+                [
+                  0.35250000000000004,
+                  0.9125,
+                  0.19
+                ],
+                [
+                  0.11250000000000002,
+                  0.9125,
+                  0.19
+                ]
+              ]
+            },
+            {
+              "id": "shelf-2",
+              "vertices": [
+                [
+                  0.11250000000000002,
+                  1.3125,
+                  -0.19
+                ],
+                [
+                  0.35250000000000004,
+                  1.3125,
+                  -0.19
+                ],
+                [
+                  0.35250000000000004,
+                  1.3125,
+                  0.19
+                ],
+                [
+                  0.11250000000000002,
+                  1.3125,
+                  0.19
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Door and pull translate 0.76 m left in two poses; track and clearance are retained. Tall left bay for cleaning equipment, three right shelves. No continuous sliding, latch or collision physics; open shelf support is state dependent.",
+      "thumbnail": "assets/utility-cleaning-cabinet/thumbnail.svg"
+    },
+    {
+      "id": "utility-drying-rack",
+      "version": 1,
+      "dimensions": [
+        1.095,
+        1.412,
+        0.7
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "utility-drying-rack",
+        "parts": 25,
+        "min": [
+          -0.5475,
+          0,
+          -0.35
+        ],
+        "max": [
+          0.5475,
+          1.412,
+          0.35
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.5475,
+              0,
+              -0.35
+            ],
+            "max": [
+              0.5475,
+              1.412,
+              0.35
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Static deployed two-tier drying frame. Rails are not flat support surfaces; no hanging-cloth attachment, folding or evaporation simulation.",
+      "thumbnail": "assets/utility-drying-rack/thumbnail.svg"
+    },
+    {
+      "id": "utility-folding-table",
+      "version": 1,
+      "dimensions": [
+        1.4,
+        0.9,
+        0.72
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "utility-folding-table",
+        "parts": 12,
+        "min": [
+          -0.7,
+          0,
+          -0.36
+        ],
+        "max": [
+          0.7,
+          0.8999999999999999,
+          0.36
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.7,
+              0,
+              -0.36
+            ],
+            "max": [
+              0.7,
+              0.8999999999999999,
+              0.36
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "worktop",
+              "vertices": [
+                [
+                  -0.67,
+                  0.9,
+                  -0.33
+                ],
+                [
+                  0.67,
+                  0.9,
+                  -0.33
+                ],
+                [
+                  0.67,
+                  0.9,
+                  0.33
+                ],
+                [
+                  -0.67,
+                  0.9,
+                  0.33
+                ]
+              ]
+            },
+            {
+              "id": "undertray",
+              "vertices": [
+                [
+                  -0.57,
+                  0.2625,
+                  -0.23
+                ],
+                [
+                  0.57,
+                  0.2625,
+                  -0.23
+                ],
+                [
+                  0.57,
+                  0.2625,
+                  0.23
+                ],
+                [
+                  -0.57,
+                  0.2625,
+                  0.23
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Static 0.90 m folding work surface with low basket tray. Distinct from office standing desk: broader laundry surface and low basket storage. No folding frame or height adjustment.",
+      "thumbnail": "assets/utility-folding-table/thumbnail.svg"
+    },
+    {
+      "id": "utility-ironing-board",
+      "version": 1,
+      "dimensions": [
+        1.54,
+        0.9,
+        0.52
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "utility-ironing-board",
+        "parts": 9,
+        "min": [
+          -0.85,
+          0,
+          -0.26
+        ],
+        "max": [
+          0.69,
+          0.8999999999999999,
+          0.26
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.85,
+              0,
+              -0.26
+            ],
+            "max": [
+              0.69,
+              0.8999999999999999,
+              0.26
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "pressing-area",
+              "vertices": [
+                [
+                  -0.54,
+                  0.9,
+                  -0.16
+                ],
+                [
+                  0.44,
+                  0.9,
+                  -0.16
+                ],
+                [
+                  0.44,
+                  0.9,
+                  0.16
+                ],
+                [
+                  -0.54,
+                  0.9,
+                  0.16
+                ]
+              ]
+            },
+            {
+              "id": "iron-rest",
+              "vertices": [
+                [
+                  -0.83,
+                  0.87,
+                  -0.125
+                ],
+                [
+                  -0.62,
+                  0.87,
+                  -0.125
+                ],
+                [
+                  -0.62,
+                  0.87,
+                  0.125
+                ],
+                [
+                  -0.83,
+                  0.87,
+                  0.125
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Static deployed ironing board at 0.90 m. No folding or height adjustment; iron heat and contact are not simulated. Support polygons exclude rounded nose and edge rails.",
+      "thumbnail": "assets/utility-ironing-board/thumbnail.svg"
+    },
+    {
+      "id": "utility-linen-cart",
+      "version": 1,
+      "dimensions": [
+        0.7,
+        0.955,
+        0.54
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "utility-linen-cart",
+        "parts": 36,
+        "min": [
+          -0.35,
+          0,
+          -0.27
+        ],
+        "max": [
+          0.35,
+          0.955,
+          0.27
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.35,
+              0,
+              -0.27
+            ],
+            "max": [
+              0.35,
+              0.955,
+              0.27
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "basket-floor",
+              "vertices": [
+                [
+                  -0.3,
+                  0.1325,
+                  -0.215
+                ],
+                [
+                  0.3,
+                  0.1325,
+                  -0.215
+                ],
+                [
+                  0.3,
+                  0.1325,
+                  0.215
+                ],
+                [
+                  -0.3,
+                  0.1325,
+                  0.215
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Static wheeled open cage for linen transport, distinct from the shallow office printer cart. Casters do not roll or swivel; contents may be placed on basket floor, no cloth simulation.",
+      "thumbnail": "assets/utility-linen-cart/thumbnail.svg"
+    },
+    {
+      "id": "utility-changing-bench",
+      "version": 1,
+      "dimensions": [
+        1,
+        0.465,
+        0.38
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "utility-changing-bench",
+        "parts": 15,
+        "min": [
+          -0.5,
+          0,
+          -0.19
+        ],
+        "max": [
+          0.5,
+          0.465,
+          0.19
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.5,
+              0,
+              -0.19
+            ],
+            "max": [
+              0.5,
+              0.465,
+              0.19
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "seat",
+              "vertices": [
+                [
+                  -0.46,
+                  0.465,
+                  -0.17
+                ],
+                [
+                  0.46,
+                  0.465,
+                  -0.17
+                ],
+                [
+                  0.46,
+                  0.465,
+                  0.17
+                ],
+                [
+                  -0.46,
+                  0.465,
+                  0.17
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Static bench for changing shoes with slatted shoe shelf; no occupant or load certification. Lower rails are not a continuous support polygon.",
+      "thumbnail": "assets/utility-changing-bench/thumbnail.svg"
+    },
+    {
+      "id": "utility-mop-stand",
+      "version": 1,
+      "dimensions": [
+        0.62,
+        1.395,
+        0.4
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "utility-mop-stand",
+        "parts": 11,
+        "min": [
+          -0.31,
+          0,
+          -0.2
+        ],
+        "max": [
+          0.31,
+          1.395,
+          0.2
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.31,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.31,
+              1.395,
+              0.2
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Static stand for long cleaning tools with catch tray and three hooks. No magnetic gripping or object attachment; not a duplicate handheld tool. Hooks are not horizontal placement surfaces.",
+      "thumbnail": "assets/utility-mop-stand/thumbnail.svg"
+    },
+    {
+      "id": "utility-dehumidifier",
+      "version": 1,
+      "dimensions": [
+        0.396,
+        0.548,
+        0.338
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "utility-dehumidifier",
+        "parts": 25,
+        "min": [
+          -0.198,
+          0,
+          -0.158
+        ],
+        "max": [
+          0.198,
+          0.548,
+          0.18000000000000002
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.198,
+              0,
+              -0.158
+            ],
+            "max": [
+              0.198,
+              0.548,
+              0.18000000000000002
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Static appliance depiction with intake, exhaust, tank, controls and carry recesses. No air flow, humidity sensing, tank extraction, power or condensation simulation.",
+      "thumbnail": "assets/utility-dehumidifier/thumbnail.svg"
+    },
+    {
+      "id": "utility-step-platform",
+      "version": 1,
+      "dimensions": [
+        0.5,
+        0.443,
+        0.61
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "utility-step-platform",
+        "parts": 16,
+        "min": [
+          -0.25,
+          0,
+          -0.29
+        ],
+        "max": [
+          0.25,
+          0.443,
+          0.32
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.25,
+              0,
+              -0.29
+            ],
+            "max": [
+              0.25,
+              0.443,
+              0.32
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Static two-step access platform. Treads carry grip strips, so no generic flat object support is certified. No folding, person animation, load rating or safety certification.",
+      "thumbnail": "assets/utility-step-platform/thumbnail.svg"
+    }
+  ]
+}

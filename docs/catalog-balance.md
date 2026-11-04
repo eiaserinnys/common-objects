@@ -1,6 +1,29 @@
 # Catalog balance and next production priorities
 
-## Current review: café production, 2026-11-03
+## Current review: utility production, 2026-11-04
+
+Inspected clean remote base `2f00c0582b5c6ff1aae0e5ce910d0b98cd0b99d7`, one worktree and no overlapping remote branch/open PR. Reviewed all prior batch desktop previews plus original room. The current [145-row inventory](catalog-inventory-2026-11-04.md) and [source audit](utility-catalog-audit.json) recompute all dimensions, states, roles and recent windows.
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 126 | 100 | 11 | 15 |
+| Original room groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Registered total | 145 | 102 | 14 | 29 |
+
+New cycle: **10 independent assets, 0 S / 3 M / 7 L**. Washer is L because its full open-door envelope is 1.11 m deep; closed body is approximately 0.60 × 0.85 × 0.62 m. Cabinet includes lateral sliding clearance. These are union bounds of authored poses, not a claim that closed bodies occupy the full envelope. Last ten cycles (stationery through utility): 95 new objects, 69 S / 11 M / 15 L. All 13 batches: 125 new objects, 99 S / 11 M / 15 L, plus original lamp.
+
+Candidate H/O/C counts: 124/66/126, overlapping uses. Independent role counts: storage 36, support 12, tool 46, instrument 5, appliance 3, machine 3, lighting 1, recreation 9, exercise 10, transport 2, seating 2, signage 1, waste 1, circulation 1, fixture 2, access 1. These tags describe use, not functioning simulations or furnished rooms.
+
+The laundry/utility theme follows the prior first priority. Washer loading access, tall divided cabinet, drying frame, folding worktop, ironing board, linen cart, changing bench, long-tool stand, dehumidifier depiction and access step each fill a distinct spatial role. Existing sink and five small cleaning/sewing objects remain reused sources, not new counts. The six-object reuse and 16-instance scene are recorded in the [production report](utility-2026-11-04.md). No replacement sink or miniature-tool filler was authored. Medium: cart, dehumidifier, step. Large: other seven. Small-object share remains 79.4% of independent sources; this cycle improves but does not erase the bias.
+
+**Next priorities, superseding older lists:**
+
+1. Living/waiting zone: soft sofa seating, low table, floor lighting and media/storage furniture. Reuse benches/chairs where suitable; do not fill another cycle with small decorative variants.
+2. Architectural/installed assets: doors, windows, wall/ceiling lighting and sanitary fixtures with explicit attachment contracts. Current scenes are unenclosed furniture arrangements, not complete rooms.
+3. Richer meaningful equipment operation: washer cycle/drum motion, cloth attachment to drying rails, utility tool attachment and appliance controls. Current cycle provides loading/sliding access only; dehumidifier and the other eight new assets are static.
+
+## Historical review: café production, 2026-11-03
 
 Fetched and reviewed clean base `b0adefaa189c1f93a1308f16bcf2f1ce671a9f97`; no overlapping worktree, remote work branch or open PR. Added **10 independent anchors**, reusing **5 existing objects** in a 15-instance service scene. Neither the scene nor its demonstration cup/door/panels are extra catalog objects. [Production record](cafe-2026-11-03.md), [135-row complete inventory](catalog-inventory-2026-11-03.md), [recomputed distribution and source metadata](cafe-catalog-audit.json).
 

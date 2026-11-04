@@ -135,6 +135,16 @@
     "cafe-menu-board/asset.json",
     "cafe-sorting-bin/asset.json",
     "cafe-queue-rail/asset.json",
-    "cafe-service-sink/asset.json"
+    "cafe-service-sink/asset.json",
+    "utility-washer/asset.json",
+    "utility-cleaning-cabinet/asset.json",
+    "utility-drying-rack/asset.json",
+    "utility-folding-table/asset.json",
+    "utility-ironing-board/asset.json",
+    "utility-linen-cart/asset.json",
+    "utility-changing-bench/asset.json",
+    "utility-mop-stand/asset.json",
+    "utility-dehumidifier/asset.json",
+    "utility-step-platform/asset.json"
   ]
 }

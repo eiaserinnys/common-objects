@@ -1,0 +1,35 @@
+{
+  "batch": "utility-2026-11-04",
+  "base": "2f00c0582b5c6ff1aae0e5ce910d0b98cd0b99d7",
+  "newAssets": 10,
+  "acceptedAssets": 10,
+  "reusedAssets": 6,
+  "sceneInstances": 16,
+  "shortfallAgainstMinimumTen": 0,
+  "sizeCounts": {
+    "S": 0,
+    "M": 3,
+    "L": 7
+  },
+  "validation": {
+    "catalogRegistrations": 145,
+    "testsPassed": 67,
+    "testsFailed": 0,
+    "build": "passed",
+    "browser": "passed",
+    "restoredInstances": 32
+  },
+  "visualInspection": {
+    "allTenFourSides": true,
+    "bothAccessStatesFourSides": true,
+    "mixedFrontAndReverse": true,
+    "desktop": true,
+    "narrow390px": true
+  },
+  "limitations": [
+    "Estimated physical dimensions",
+    "Two discrete access states; eight static new assets",
+    "No wash cycle, humidity, cloth, physics, continuous hinges or swept-volume solver",
+    "Unenclosed furniture arrangement; no certified accessibility or load ratings"
+  ]
+}

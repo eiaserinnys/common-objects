@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "object-1: four sides, available state, independent copy, unit scale",
+    "object-2: four sides, available state, independent copy, unit scale",
+    "object-3: four sides, available state, independent copy, unit scale",
+    "object-4: four sides, available state, independent copy, unit scale",
+    "object-5: four sides, available state, independent copy, unit scale",
+    "object-6: four sides, available state, independent copy, unit scale",
+    "object-7: four sides, available state, independent copy, unit scale",
+    "object-8: four sides, available state, independent copy, unit scale",
+    "object-9: four sides, available state, independent copy, unit scale",
+    "object-10: four sides, available state, independent copy, unit scale",
+    "all six reused assets: select, focus, toggle, independent copies",
+    "mixed 32-instance scene: transforms, states, versions saved and restored after reload",
+    "390px viewport: no overflow, pointer orbit, selection, camera focus, action"
+  ],
+  "errors": []
+}
