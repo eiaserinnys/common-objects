@@ -145,6 +145,16 @@
     "utility-changing-bench/asset.json",
     "utility-mop-stand/asset.json",
     "utility-dehumidifier/asset.json",
-    "utility-step-platform/asset.json"
+    "utility-step-platform/asset.json",
+    "living-sofa/asset.json",
+    "living-recliner/asset.json",
+    "living-coffee-table/asset.json",
+    "living-storage-ottoman/asset.json",
+    "living-media-console/asset.json",
+    "living-floor-lamp/asset.json",
+    "living-television/asset.json",
+    "living-privacy-screen/asset.json",
+    "living-coat-stand/asset.json",
+    "living-nesting-tables/asset.json"
   ]
 }

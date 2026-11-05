@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "living-sofa",
+      "assetVersion": 1,
+      "position": [
+        -1.55,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-2",
+      "assetId": "living-recliner",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        1.65
+      ],
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "reclined": false
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "living-coffee-table",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-4",
+      "assetId": "living-storage-ottoman",
+      "assetVersion": 1,
+      "position": [
+        -0.85,
+        0,
+        1.65
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-5",
+      "assetId": "living-media-console",
+      "assetVersion": 1,
+      "position": [
+        1.7,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-6",
+      "assetId": "living-floor-lamp",
+      "assetVersion": 1,
+      "position": [
+        -1.7,
+        0,
+        -1.65
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      }
+    },
+    {
+      "id": "object-7",
+      "assetId": "living-television",
+      "assetVersion": 1,
+      "position": [
+        1.7,
+        0.57,
+        0
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      }
+    },
+    {
+      "id": "object-8",
+      "assetId": "living-privacy-screen",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "folded": false
+      }
+    },
+    {
+      "id": "object-9",
+      "assetId": "living-coat-stand",
+      "assetVersion": 1,
+      "position": [
+        2,
+        0,
+        -1.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-10",
+      "assetId": "living-nesting-tables",
+      "assetVersion": 1,
+      "position": [
+        -2.1,
+        0,
+        1.65
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "extended": false
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "games-peg-board",
+      "assetVersion": 1,
+      "position": [
+        -0.26,
+        0.435,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "pegged": true
+      }
+    },
+    {
+      "id": "object-12",
+      "assetId": "games-hourglass",
+      "assetVersion": 1,
+      "position": [
+        0.34,
+        0.435,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "capped": true
+      }
+    },
+    {
+      "id": "object-13",
+      "assetId": "beverage-teapot",
+      "assetVersion": 1,
+      "position": [
+        -2.1,
+        0.58,
+        1.65
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lidded": true
+      }
+    },
+    {
+      "id": "object-14",
+      "assetId": "beverage-tea-tin",
+      "assetVersion": 1,
+      "position": [
+        0.32,
+        0.435,
+        -0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lidded": true
+      }
+    }
+  ]
+}

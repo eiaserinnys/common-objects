@@ -1,6 +1,29 @@
 # Catalog balance and next production priorities
 
-## Current review: utility production, 2026-11-04
+## Current review: living and waiting lounge, 2026-11-05
+
+Inspected clean fetched base `ffb03be368e307488b65ed62bc9563ef83ac58df`; remote main matched, one worktree, no other remote branch or open PR. Read all 145 original current sources via inventory refresh and reviewed all 13 preceding batch desktop previews plus the original room. [155-row inventory](catalog-inventory-2026-11-05.md), [full source audit](living-catalog-audit.json), [production record](living-2026-11-05.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent authored metric sources | 136 | 100 | 12 | 24 |
+| Original compound room groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 155 | 102 | 15 | 38 |
+
+New cycle: **10 sources, 0 S / 1 M / 9 L**. The small-object share falls from 79.4% to **73.5%**; a bias remains. Sizes use maximum union envelope, not closed body dimensions or screenshot prominence. Recliner and nesting tables are L due to deployed extent; ottoman is M even with its open lid. All dimensions are estimates. The nesting table pair is one independently authored two-table assembly, counted once; constituents are not registered again. The demonstration lounge is not a catalog asset. Original imported compound groups remain separate from independent production.
+
+Latest ten cycles (cleaning through living): **95 sources, 59 S / 12 M / 24 L**. All fourteen batches: 135 sources, 99 S / 12 M / 24 L, plus original lamp. Candidate H/O/C tags total **134/76/136**, overlapping uses rather than finished rooms. Independent role tags: seating 5, lighting 2, partition 1, storage 40, support 15, appliance 4, machine 3, tools 46, instruments 5, recreation 9, exercise 10, transport 2, signage 1, waste 1, circulation 1, fixture 2, access 1. Roles overlap and appliance tags do not imply simulation.
+
+Selection follows the prior living/waiting priority: soft seats, a low social surface, hidden soft-furniture storage, media support, floor lighting, screen equipment, spatial screening, outerwear parking and flexible side surfaces. No café chair/table, utility drying rack, sink, cart or small-tool variants were remade. Existing peg board, hourglass, teapot and tea tin are reused on certified surfaces. The TV stands on the media console; all five supported objects and floor endpoint envelopes are checked in tests. Seven operating sources have discrete actions; sofa, coffee table and coat stand are naturally fixed furniture.
+
+**Next priorities:**
+
+1. Architectural attachment contracts and installed assets: doors, windows, wall and ceiling lights. Define wall/ceiling reference planes before authoring; current scene is still an unenclosed arrangement.
+2. Sanitary/bathroom anchors: toilet, basin/vanity and shower enclosure. Reuse current hygiene props; existing service sink should not be renamed into a fresh asset.
+3. Child attachment and richer ordinary equipment operation: moving a furniture support should carry attached props; currently contents require manual repositioning. Add continuous or timed behavior only with explicit contracts and verification.
+
+## Historical review: utility production, 2026-11-04
 
 Inspected clean remote base `2f00c0582b5c6ff1aae0e5ce910d0b98cd0b99d7`, one worktree and no overlapping remote branch/open PR. Reviewed all prior batch desktop previews plus original room. The current [145-row inventory](catalog-inventory-2026-11-04.md) and [source audit](utility-catalog-audit.json) recompute all dimensions, states, roles and recent windows.
 

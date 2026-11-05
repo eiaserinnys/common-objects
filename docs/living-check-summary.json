@@ -1,0 +1,102 @@
+{
+  "batch": "living-2026-11-05",
+  "base": "ffb03be368e307488b65ed62bc9563ef83ac58df",
+  "newAccepted": 10,
+  "newRejected": 0,
+  "shortfallAgainstMinimum": 0,
+  "reusedSources": 4,
+  "initialInstances": 14,
+  "restoredBrowserInstances": 28,
+  "newSizeDistribution": {
+    "S": 0,
+    "M": 1,
+    "L": 9
+  },
+  "commands": {
+    "npm run validate": "155 registrations pass",
+    "npm test": "77 pass, 0 fail",
+    "npm run build": "pass",
+    "python scripts/living-browser-check.py": {
+      "checks": 16,
+      "errors": []
+    }
+  },
+  "visualReview": [
+    "rest four-side sheet",
+    "alternate four-side sheet",
+    "representative interior",
+    "operating interior",
+    "reverse interior",
+    "390px mobile overview/detail"
+  ],
+  "acceptance": [
+    {
+      "id": "living-sofa",
+      "accepted": true,
+      "kind": "fixed furniture",
+      "rationale": "Fixed upholstered sofa with three seats and arms; no adjustable or removable mechanism is represented. No cushion deformation, occupant animation or load certification."
+    },
+    {
+      "id": "living-recliner",
+      "accepted": true,
+      "kind": "discrete operation",
+      "rationale": "Backrest rotates 0.50 rad rearward and footrest rotates 90 degrees forward about distinct X hinges. Two coordinated endpoint poses; fixed seat, arms and feet. No powered actuation, continuous linkage or occupant simulation. Reserve rear and front clearance."
+    },
+    {
+      "id": "living-coffee-table",
+      "accepted": true,
+      "kind": "fixed furniture",
+      "rationale": "Rigid low table with a continuous top and lower shelf; no height or folding mechanism. Distinct from service-height and office tables."
+    },
+    {
+      "id": "living-storage-ottoman",
+      "accepted": true,
+      "kind": "discrete operation",
+      "rationale": "Cushioned lid rotates 90 degrees around rear X hinge to expose storage floor. No loose cushion removal masquerading as operation. Two poses, no damping or load rating."
+    },
+    {
+      "id": "living-media-console",
+      "accepted": true,
+      "kind": "discrete operation",
+      "rationale": "One door travels 0.78 m between two bays within cabinet width. Cable recess is illustrative; no cable routing, automatic child attachments or audio system. Different from office drawer credenza and tall utility cabinet."
+    },
+    {
+      "id": "living-floor-lamp",
+      "accepted": true,
+      "kind": "discrete operation",
+      "rationale": "Electrical on/off is represented by bulb material emission. Shade, stem and base remain fixed. No cast illumination, shadows, mains simulation or articulated shade."
+    },
+    {
+      "id": "living-television",
+      "accepted": true,
+      "kind": "discrete operation",
+      "rationale": "Display power toggles between blank screen and an original static test image. Not video playback, broadcast reception or audio. Feet rest on a certified console surface at unit scale; no wall mount."
+    },
+    {
+      "id": "living-privacy-screen",
+      "accepted": true,
+      "kind": "discrete operation",
+      "rationale": "Three connected leaves pivot about vertical hinge axes on a fixed weighted stand. Endpoint spreads change partition width without relocating the base. No freestanding balance or hinge collision simulation; endpoint clearance is included."
+    },
+    {
+      "id": "living-coat-stand",
+      "accepted": true,
+      "kind": "fixed furniture",
+      "rationale": "Rigid coat stand for reception or lounge entry. No folding, height mechanism or cloth attachment. Branches are not certified flat support surfaces; distinct from utility drip-tray tool stand."
+    },
+    {
+      "id": "living-nesting-tables",
+      "accepted": true,
+      "kind": "discrete operation",
+      "rationale": "One authored two-table assembly, counted once; neither constituent is separately registered. Smaller whole table translates 0.56 m to provide a second surface, rather than a cosmetic part toggle. Fixed endpoint poses; loose items do not follow table movement."
+    }
+  ],
+  "limits": [
+    "Estimated sizes, endpoint union rather than swept bounds",
+    "Discrete poses, no continuous mechanism or physics",
+    "TV test image only; lamp appearance without cast light",
+    "Loose props do not follow moving supports",
+    "Nesting pair counted once, original room groups counted separately",
+    "Initial historical task lookup unavailable; current repository instructions reviewed"
+  ]
+}
