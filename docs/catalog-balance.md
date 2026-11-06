@@ -1,6 +1,29 @@
 # Catalog balance and next production priorities
 
-## Current review: living and waiting lounge, 2026-11-05
+## Current review: sanitary suite, 2026-11-06
+
+Fetched clean base `ef13f47c8ae1c6ec8e2c8605feb99abfef67db9c`; origin/main matched, one checkout, no other remote branches or open PRs. Reviewed all 155 prior current sources and all fourteen preceding batch previews plus original room. [165-row refreshed inventory](catalog-inventory-2026-11-06.md), [full audit](sanitary-catalog-audit.json), [selection brief](sanitary-brief-2026-11-06.md), [production record](sanitary-2026-11-06.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent authored metric sources | 146 | 101 | 15 | 30 |
+| Original compound room groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 165 | 103 | 18 | 44 |
+
+New cycle: **10 sources, 1 S / 3 M / 6 L**. Small-object share falls from 73.5% to **69.2%**. The S entry is a full-size .48 m shower seat, not a miniature prop; bins describe maximum physical dimension, not role. Latest ten cycles (gardening through sanitary): 95 sources, 50 S / 15 M / 30 L. All fifteen batches: 145 sources, 100 S / 15 M / 30 L, plus the original lamp. Dimensions are estimated union bounds across authored discrete poses, not continuous swept envelopes.
+
+Candidate H/O/C use tags: **143/77/146**, overlapping rather than room counts. Independent roles: lighting 2, support 16, storage 42, instrument 5, tool 46, appliance 5, recreation 9, exercise 10, machine 4, transport 2, seating 6, signage 1, waste 1, circulation 1, fixture 7, access 2, partition 1, sanitation 2, bathing 2. Roles overlap. Equipment tags do not imply physical simulation.
+
+Sanitary anchors were missing despite ten existing hygiene props. The wide vanity, toilet, shower and tub now provide their surrounding scale; floor bidet, mirrored storage, drying equipment, wet-area seat and anchored assistance rail complete distinct roles. No café sink, laundry bench or step is republished under another name. Four hygiene props are reused and not counted. Eight sources have meaningful discrete access/operating illustrations; two are intentionally fixed. Floor anchoring is depicted, not structurally simulated. The 14-instance example is a layout, not a new room asset or accessibility-certified plan.
+
+**Next priorities, superseding earlier lists:**
+
+1. Architectural installation contracts: wall/ceiling attachment planes, doors/windows and installed lights. This cycle stays floor-based; rooms remain unenclosed.
+2. Bedroom/rest anchors: bed frame and mattress assembly, bedside storage and wardrobe, reusing lamps and hygiene props without duplicating lounge furniture.
+3. Supported child attachment and richer operations: moving supports should carry children; water/heat/air are discrete illustrations. Timers, true reflections/transparency and equipment simulation need separate contracts and verification.
+
+## Historical review: living and waiting lounge, 2026-11-05
 
 Inspected clean fetched base `ffb03be368e307488b65ed62bc9563ef83ac58df`; remote main matched, one worktree, no other remote branch or open PR. Read all 145 original current sources via inventory refresh and reviewed all 13 preceding batch desktop previews plus the original room. [155-row inventory](catalog-inventory-2026-11-05.md), [full source audit](living-catalog-audit.json), [production record](living-2026-11-05.md).
 

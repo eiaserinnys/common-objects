@@ -4,7 +4,7 @@ Reusable props, furniture, fixtures, equipment and machines for everyday home, o
 
 ## Collection scope and production planning
 
-Select new work from the whole collection's gaps in space, scale and function. Review the [production policy](docs/production-policy.md), [catalog balance and next priorities](docs/catalog-balance.md) and [complete audited inventory](docs/catalog-inventory-2026-11-05.md) before modeling. After the living cycle there are 136 independent metric sources (100 small, 12 medium, 24 large), plus one original room and its 18 component groups: 155 registrations. The latest [living cycle](docs/living-2026-11-05.md) adds ten lounge furniture/equipment sources and reuses four existing props. The nesting pair is one authored assembly, not two new catalog objects. Next priorities are architectural attachment contracts, sanitary fixtures, and richer equipment/child attachment behavior. Open [the living preview](preview/living.html) after starting the local server.
+Select new work from the whole collection's gaps in space, scale and function. Review the [production policy](docs/production-policy.md), [catalog balance and next priorities](docs/catalog-balance.md) and [complete audited inventory](docs/catalog-inventory-2026-11-06.md) before modeling. After the sanitary cycle there are 146 independent metric sources (101 small, 15 medium, 30 large), plus one original room and its 18 component groups: 165 registrations. The latest [sanitary cycle](docs/sanitary-2026-11-06.md) adds ten bathroom fixtures and equipment sources and reuses four hygiene props. Next priorities are architectural attachment contracts, bedroom anchors and supported child attachment behavior. Open [the sanitary preview](preview/sanitary.html) after starting the local server.
 
 Favor coherent mixed-size interior scenes and quality over a fixed ten-object count. Keep useful small props, but do not fill batches with easy small variants. Room assemblies, their components and reused objects must not inflate new-object totals. Technical placement, interaction and validation requirements remain unchanged.
 
@@ -25,7 +25,7 @@ Build output is dist/; serve it with `python3 -m http.server 8000 --directory di
 
 ## Assets
 
-`assets/catalog.json` registers 155 entries: ten living/waiting furniture and equipment sources, ten utility furniture/equipment anchors, ten café furniture/fixture/equipment anchors, five office furniture/equipment anchors, ten home exercise props, ten tea and coffee tools, ten home baking tools, ten tabletop game props, ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
+`assets/catalog.json` registers 165 entries: ten sanitary fixtures and equipment sources, ten living/waiting furniture and equipment sources, ten utility furniture/equipment anchors, ten café furniture/fixture/equipment anchors, five office furniture/equipment anchors, ten home exercise props, ten tea and coffee tools, ten home baking tools, ten tabletop game props, ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
 
 All placeable entries use **1 unit = 1 metre**, Y-up and default scale [1,1,1].
 
@@ -94,3 +94,7 @@ Imported Colorfigures code is MIT by April Zhu, based on ISO-GLOW and Tolga Cohc
 ### Living and waiting lounge · 2026-11-05
 
 [Open the lounge](preview/living.html): sofa, reclining chair, low coffee table, storage ottoman, media console, floor lamp, television, folding screen, coat stand and nesting side-table pair. Ten authored sources, four reused props, seven discrete operating objects and three justified fixed furniture objects. [Production record and limits](docs/living-2026-11-05.md).
+
+### Sanitary suite · 2026-11-06
+
+[Open the sanitary suite](preview/sanitary.html): toilet, wide vanity, sliding shower enclosure, bathtub, floor bidet, mirrored cabinet, towel warmer, shower seat, anchored grab rail and pedestal hand dryer. Ten new sources, four reused hygiene props, eight discrete operating objects and two justified fixed structures. Water, heat and airflow are illustrative; no physical plumbing or safety certification. [Production record and visual evidence](docs/sanitary-2026-11-06.md).

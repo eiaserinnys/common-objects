@@ -155,6 +155,16 @@
     "living-television/asset.json",
     "living-privacy-screen/asset.json",
     "living-coat-stand/asset.json",
-    "living-nesting-tables/asset.json"
+    "living-nesting-tables/asset.json",
+    "sanitary-toilet/asset.json",
+    "sanitary-vanity/asset.json",
+    "sanitary-shower/asset.json",
+    "sanitary-bathtub/asset.json",
+    "sanitary-bidet/asset.json",
+    "sanitary-mirror-cabinet/asset.json",
+    "sanitary-towel-warmer/asset.json",
+    "sanitary-shower-seat/asset.json",
+    "sanitary-grab-rail/asset.json",
+    "sanitary-hand-dryer/asset.json"
   ]
 }

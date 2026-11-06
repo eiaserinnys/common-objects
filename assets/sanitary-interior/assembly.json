@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "sanitary-toilet",
+      "assetVersion": 1,
+      "position": [
+        -1.45,
+        0,
+        -0.35
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false,
+        "flush": false
+      }
+    },
+    {
+      "id": "object-2",
+      "assetId": "sanitary-vanity",
+      "assetVersion": 1,
+      "position": [
+        0.1,
+        0,
+        -1.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false,
+        "flow": false
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "sanitary-shower",
+      "assetVersion": 1,
+      "position": [
+        1.65,
+        0,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false,
+        "flow": false
+      }
+    },
+    {
+      "id": "object-4",
+      "assetId": "sanitary-bathtub",
+      "assetVersion": 1,
+      "position": [
+        1.45,
+        0,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "filled": false
+      }
+    },
+    {
+      "id": "object-5",
+      "assetId": "sanitary-bidet",
+      "assetVersion": 1,
+      "position": [
+        -1.45,
+        0,
+        0.65
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "flow": false
+      }
+    },
+    {
+      "id": "object-6",
+      "assetId": "sanitary-mirror-cabinet",
+      "assetVersion": 1,
+      "position": [
+        -1.7,
+        0,
+        -1.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-7",
+      "assetId": "sanitary-towel-warmer",
+      "assetVersion": 1,
+      "position": [
+        0.3,
+        0,
+        1.65
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      }
+    },
+    {
+      "id": "object-8",
+      "assetId": "sanitary-shower-seat",
+      "assetVersion": 1,
+      "position": [
+        1.65,
+        0,
+        1.65
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-9",
+      "assetId": "sanitary-grab-rail",
+      "assetVersion": 1,
+      "position": [
+        -0.88,
+        0,
+        -0.35
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-10",
+      "assetId": "sanitary-hand-dryer",
+      "assetVersion": 1,
+      "position": [
+        -1.45,
+        0,
+        1.65
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "bathroom-soap-dish",
+      "assetVersion": 1,
+      "position": [
+        -0.32,
+        0.85,
+        -1.43
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "filled": true
+      }
+    },
+    {
+      "id": "object-12",
+      "assetId": "bathroom-dispenser",
+      "assetVersion": 1,
+      "position": [
+        -0.32,
+        0.85,
+        -1.67
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "unlocked": true
+      }
+    },
+    {
+      "id": "object-13",
+      "assetId": "bathroom-cup",
+      "assetVersion": 1,
+      "position": [
+        0.52,
+        0.85,
+        -1.52
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "covered": false
+      }
+    },
+    {
+      "id": "object-14",
+      "assetId": "bathroom-cotton-jar",
+      "assetVersion": 1,
+      "position": [
+        -1.7,
+        1.65,
+        -1.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "closed": true
+      }
+    }
+  ]
+}

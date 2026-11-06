@@ -1,0 +1,1057 @@
+{
+  "batch": "sanitary-2026-11-06",
+  "count": 10,
+  "objects": [
+    {
+      "id": "sanitary-toilet",
+      "version": 1,
+      "dimensions": [
+        0.41,
+        0.915,
+        0.62
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sanitary-toilet",
+        "parts": 18,
+        "min": [
+          -0.205,
+          0,
+          -0.32
+        ],
+        "max": [
+          0.205,
+          0.9149999999999999,
+          0.3
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false,
+            "flush": false
+          },
+          "bounds": {
+            "min": [
+              -0.205,
+              0,
+              -0.32
+            ],
+            "max": [
+              0.205,
+              0.833,
+              0.3
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "flush": false
+          },
+          "bounds": {
+            "min": [
+              -0.205,
+              0,
+              -0.32
+            ],
+            "max": [
+              0.205,
+              0.9149999999999999,
+              0.3
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": false,
+            "flush": true
+          },
+          "bounds": {
+            "min": [
+              -0.205,
+              0,
+              -0.32
+            ],
+            "max": [
+              0.205,
+              0.833,
+              0.3
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "flush": true
+          },
+          "bounds": {
+            "min": [
+              -0.205,
+              0,
+              -0.32
+            ],
+            "max": [
+              0.205,
+              0.9149999999999999,
+              0.3
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Lid rotates 90 degrees around rear X hinge. Separate flush button toggles rim jets and water-level endpoints; inspect with lid open. Illustrative flush, no timer, waste, fluid flow or plumbing simulation.",
+      "thumbnail": "assets/sanitary-toilet/thumbnail.svg"
+    },
+    {
+      "id": "sanitary-vanity",
+      "version": 1,
+      "dimensions": [
+        1.2,
+        1.048,
+        0.899
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sanitary-vanity",
+        "parts": 32,
+        "min": [
+          -0.6,
+          0,
+          -0.275
+        ],
+        "max": [
+          0.6,
+          1.048,
+          0.624
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false,
+            "flow": false
+          },
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.275
+            ],
+            "max": [
+              0.6,
+              1.048,
+              0.324
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "left-counter",
+              "vertices": [
+                [
+                  -0.57,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  -0.27,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  -0.27,
+                  0.85,
+                  0.235
+                ],
+                [
+                  -0.57,
+                  0.85,
+                  0.235
+                ]
+              ]
+            },
+            {
+              "id": "right-counter",
+              "vertices": [
+                [
+                  0.27,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  0.57,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  0.57,
+                  0.85,
+                  0.235
+                ],
+                [
+                  0.27,
+                  0.85,
+                  0.235
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": true,
+            "flow": false
+          },
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.275
+            ],
+            "max": [
+              0.6,
+              1.048,
+              0.624
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "left-counter",
+              "vertices": [
+                [
+                  -0.57,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  -0.27,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  -0.27,
+                  0.85,
+                  0.235
+                ],
+                [
+                  -0.57,
+                  0.85,
+                  0.235
+                ]
+              ]
+            },
+            {
+              "id": "right-counter",
+              "vertices": [
+                [
+                  0.27,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  0.57,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  0.57,
+                  0.85,
+                  0.235
+                ],
+                [
+                  0.27,
+                  0.85,
+                  0.235
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": false,
+            "flow": true
+          },
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.275
+            ],
+            "max": [
+              0.6,
+              1.048,
+              0.324
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "left-counter",
+              "vertices": [
+                [
+                  -0.57,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  -0.27,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  -0.27,
+                  0.85,
+                  0.235
+                ],
+                [
+                  -0.57,
+                  0.85,
+                  0.235
+                ]
+              ]
+            },
+            {
+              "id": "right-counter",
+              "vertices": [
+                [
+                  0.27,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  0.57,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  0.57,
+                  0.85,
+                  0.235
+                ],
+                [
+                  0.27,
+                  0.85,
+                  0.235
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": true,
+            "flow": true
+          },
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.275
+            ],
+            "max": [
+              0.6,
+              1.048,
+              0.624
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "left-counter",
+              "vertices": [
+                [
+                  -0.57,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  -0.27,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  -0.27,
+                  0.85,
+                  0.235
+                ],
+                [
+                  -0.57,
+                  0.85,
+                  0.235
+                ]
+              ]
+            },
+            {
+              "id": "right-counter",
+              "vertices": [
+                [
+                  0.27,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  0.57,
+                  0.85,
+                  -0.235
+                ],
+                [
+                  0.57,
+                  0.85,
+                  0.235
+                ],
+                [
+                  0.27,
+                  0.85,
+                  0.235
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Wide domestic washstand with inset bowl and two dry counters, unlike café service sink. Drawer travels .30 m below basin; independent tap flow. No plumbing, fluid simulation or child attachment.",
+      "thumbnail": "assets/sanitary-vanity/thumbnail.svg"
+    },
+    {
+      "id": "sanitary-shower",
+      "version": 1,
+      "dimensions": [
+        1,
+        2.0825,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sanitary-shower",
+        "parts": 20,
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          2.0825,
+          0.5
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false,
+            "flow": false
+          },
+          "bounds": {
+            "min": [
+              -0.5,
+              0,
+              -0.5
+            ],
+            "max": [
+              0.5,
+              2.0825,
+              0.5
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "flow": false
+          },
+          "bounds": {
+            "min": [
+              -0.5,
+              0,
+              -0.5
+            ],
+            "max": [
+              0.5,
+              2.0825,
+              0.5
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": false,
+            "flow": true
+          },
+          "bounds": {
+            "min": [
+              -0.5,
+              0,
+              -0.5
+            ],
+            "max": [
+              0.5,
+              2.0825,
+              0.5
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "flow": true
+          },
+          "bounds": {
+            "min": [
+              -0.5,
+              0,
+              -0.5
+            ],
+            "max": [
+              0.5,
+              2.0825,
+              0.5
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Door slides .48 m laterally, exposing right-hand entry. Independent jets below fixed shower head. Opaque pale panels deliberately avoid unsupported transparency. No seals, fluid physics or continuous animation.",
+      "thumbnail": "assets/sanitary-shower/thumbnail.svg"
+    },
+    {
+      "id": "sanitary-bathtub",
+      "version": 1,
+      "dimensions": [
+        1.7,
+        0.828,
+        0.78
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sanitary-bathtub",
+        "parts": 15,
+        "min": [
+          -0.85,
+          0,
+          -0.39
+        ],
+        "max": [
+          0.85,
+          0.8280000000000001,
+          0.39
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "filled": false
+          },
+          "bounds": {
+            "min": [
+              -0.85,
+              0,
+              -0.39
+            ],
+            "max": [
+              0.85,
+              0.8280000000000001,
+              0.39
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "filled": true
+          },
+          "bounds": {
+            "min": [
+              -0.85,
+              0,
+              -0.39
+            ],
+            "max": [
+              0.85,
+              0.8280000000000001,
+              0.39
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Filled/drained endpoints expose an actual hollow cavity; the filled endpoint includes spout stream. Not a timed fill, overflow or temperature simulation. No removable tub shell.",
+      "thumbnail": "assets/sanitary-bathtub/thumbnail.svg"
+    },
+    {
+      "id": "sanitary-bidet",
+      "version": 1,
+      "dimensions": [
+        0.38,
+        0.608,
+        0.59
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sanitary-bidet",
+        "parts": 12,
+        "min": [
+          -0.19,
+          0,
+          -0.295
+        ],
+        "max": [
+          0.19,
+          0.608,
+          0.295
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "flow": false
+          },
+          "bounds": {
+            "min": [
+              -0.19,
+              0,
+              -0.295
+            ],
+            "max": [
+              0.19,
+              0.608,
+              0.295
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "flow": true
+          },
+          "bounds": {
+            "min": [
+              -0.19,
+              0,
+              -0.295
+            ],
+            "max": [
+              0.19,
+              0.608,
+              0.295
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Low independent washing fixture with visible tap stream into open bowl. No toilet cistern or lid; no fluid or sanitary engineering simulation.",
+      "thumbnail": "assets/sanitary-bidet/thumbnail.svg"
+    },
+    {
+      "id": "sanitary-mirror-cabinet",
+      "version": 1,
+      "dimensions": [
+        0.6775,
+        1.65,
+        0.98
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sanitary-mirror-cabinet",
+        "parts": 20,
+        "min": [
+          -0.3525,
+          0,
+          -0.18000000000000002
+        ],
+        "max": [
+          0.325,
+          1.65,
+          0.8
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.18000000000000002
+            ],
+            "max": [
+              0.325,
+              1.65,
+              0.2325
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.285,
+                  1.65,
+                  -0.14
+                ],
+                [
+                  0.285,
+                  1.65,
+                  -0.14
+                ],
+                [
+                  0.285,
+                  1.65,
+                  0.14
+                ],
+                [
+                  -0.285,
+                  1.65,
+                  0.14
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.3525,
+              0,
+              -0.18000000000000002
+            ],
+            "max": [
+              0.325,
+              1.65,
+              0.8
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.285,
+                  1.65,
+                  -0.14
+                ],
+                [
+                  0.285,
+                  1.65,
+                  -0.14
+                ],
+                [
+                  0.285,
+                  1.65,
+                  0.14
+                ],
+                [
+                  -0.285,
+                  1.65,
+                  0.14
+                ]
+              ]
+            },
+            {
+              "id": "middle-shelf",
+              "vertices": [
+                [
+                  -0.27,
+                  0.8325,
+                  -0.135
+                ],
+                [
+                  0.27,
+                  0.8325,
+                  -0.135
+                ],
+                [
+                  0.27,
+                  0.8325,
+                  0.135
+                ],
+                [
+                  -0.27,
+                  0.8325,
+                  0.135
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Tall narrow bathroom storage with mirror-faced hinged door. Door rotates 90 degrees around vertical hinge to expose shelves. Mirror is a colored surface, not rendered reflection. Floor standing; no wall mount contract.",
+      "thumbnail": "assets/sanitary-mirror-cabinet/thumbnail.svg"
+    },
+    {
+      "id": "sanitary-towel-warmer",
+      "version": 1,
+      "dimensions": [
+        0.64,
+        1.24,
+        0.38
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sanitary-towel-warmer",
+        "parts": 16,
+        "min": [
+          -0.32,
+          0,
+          -0.19
+        ],
+        "max": [
+          0.32,
+          1.24,
+          0.19
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false
+          },
+          "bounds": {
+            "min": [
+              -0.32,
+              0,
+              -0.19
+            ],
+            "max": [
+              0.32,
+              1.13,
+              0.19
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true
+          },
+          "bounds": {
+            "min": [
+              -0.32,
+              0,
+              -0.19
+            ],
+            "max": [
+              0.32,
+              1.24,
+              0.19
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Controller changes and three heat-symbol strokes appear above rails. Symbolic electrical heating indication, not a measured temperature, drying process or cast glow. Clothes are not attached or simulated.",
+      "thumbnail": "assets/sanitary-towel-warmer/thumbnail.svg"
+    },
+    {
+      "id": "sanitary-shower-seat",
+      "version": 1,
+      "dimensions": [
+        0.435,
+        0.475,
+        0.42
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sanitary-shower-seat",
+        "parts": 15,
+        "min": [
+          -0.2175,
+          0,
+          -0.21
+        ],
+        "max": [
+          0.2175,
+          0.47500000000000003,
+          0.21
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.2175,
+              0,
+              -0.21
+            ],
+            "max": [
+              0.2175,
+              0.47500000000000003,
+              0.21
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Rigid waterproof-style slatted seat for wet-area rest; intentionally no folding or height adjustment. Gaps drain visually; no load, slip-resistance or accessibility certification. Distinct from long utility changing bench and upholstered seating.",
+      "thumbnail": "assets/sanitary-shower-seat/thumbnail.svg"
+    },
+    {
+      "id": "sanitary-grab-rail",
+      "version": 1,
+      "dimensions": [
+        0.22,
+        0.837,
+        0.82
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sanitary-grab-rail",
+        "parts": 10,
+        "min": [
+          -0.11,
+          0,
+          -0.41000000000000003
+        ],
+        "max": [
+          0.11,
+          0.8370000000000001,
+          0.41000000000000003
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.11,
+              0,
+              -0.41000000000000003
+            ],
+            "max": [
+              0.11,
+              0.8370000000000001,
+              0.41000000000000003
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Rigid floor-bolted assistance handrail. Static by design, no foldaway joint. Installation bolts are depicted but anchoring and structural strength are not simulated or certified; it is not a freestanding balance aid.",
+      "thumbnail": "assets/sanitary-grab-rail/thumbnail.svg"
+    },
+    {
+      "id": "sanitary-hand-dryer",
+      "version": 1,
+      "dimensions": [
+        0.42,
+        1.235,
+        0.4
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "sanitary-hand-dryer",
+        "parts": 11,
+        "min": [
+          -0.21,
+          0,
+          -0.2
+        ],
+        "max": [
+          0.21,
+          1.2349999999999999,
+          0.2
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false
+          },
+          "bounds": {
+            "min": [
+              -0.21,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.21,
+              1.2349999999999999,
+              0.2
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true
+          },
+          "bounds": {
+            "min": [
+              -0.21,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.21,
+              1.2349999999999999,
+              0.2
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Blower state has visible air-direction strokes below nozzle and a power indicator. Explicit manual preview trigger for an automatic dryer; no hand detection, moisture, fan rotation or airflow physics. Pedestal mount avoids unimplemented wall attachment.",
+      "thumbnail": "assets/sanitary-hand-dryer/thumbnail.svg"
+    }
+  ]
+}
