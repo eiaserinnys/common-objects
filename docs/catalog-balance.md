@@ -1,6 +1,29 @@
 # Catalog balance and next production priorities
 
-## Current review: sanitary suite, 2026-11-06
+## Current review: guest bedroom and luggage, 2026-11-07
+
+Fetched clean base `f12899f91ab6c953d6e081c36a6f127022b35717`, matching origin/main, single worktree, no other remote branch or open PR. Read all 165 pre-cycle sources and reviewed the original room plus all fifteen prior batch desktop previews. [Selection brief](bedroom-brief-2026-11-07.md), [175-row inventory](catalog-inventory-2026-11-07.md), [machine-readable audit](bedroom-catalog-audit.json), [production record](bedroom-2026-11-07.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 156 | 101 | 19 | 36 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 175 | 103 | 22 | 50 |
+
+New cycle: **10 sources, 0 S / 4 M / 6 L**. Independent small-object share improves 69.2% → **64.7%**. Latest ten cycles (games–bedroom): 95 sources, 40 S / 19 M / 36 L. All sixteen batches: 155 sources, 100 S / 19 M / 36 L, plus the original lamp. Size bins use maximum union bounds across authored poses, including handle extensions and illustrative airflow, not screenshot size or closed body size. Estimated dimensions, no manufacturer measurements.
+
+Overlapping candidate H/O/C use tags: **153/77/156**, not finished-room counts. New roles include sleep, whole-body dressing and travel storage; support 20, storage 47, appliances 7. Full role distribution in the audit. Bedroom wardrobe is hanging storage, not a renamed cleaning cabinet; chest is vertically stacked drawers, dressing desk has seated knee clearance, bedside cabinet is at bed-reach height. Mirror/bed/rack components are not separately counted. Five existing sources are reused: lamp, tissue box, handheld mirror, cotton jar and café chair. No new small variants or room registration.
+
+The example is a 15-instance unenclosed lodging arrangement, not an accessible/building-certified room. Four props contact documented fixed support surfaces. Eight sources operate through discrete states; bed and luggage rack are intentionally rigid. Fan rotor phase/head yaw is illustrated; purifier filter service is distinguished from power/air indication. Existing physical simulation and child-attachment limits remain explicit.
+
+**Next priorities (supersede historical lists):**
+
+1. Architectural wall/ceiling installation planes and placement validation before doors/windows/installed lights; furniture previews still lack an enclosure.
+2. Supported-child attachment, including moving/rotating parents and unavailable surfaces. Current props are separately positioned and do not follow furniture.
+3. Richer appliance operation and commercial equipment: explicit state machines, stopped service interlocks, continuous/timed fan motion and improved filtration illustration. No invented physical performance claims. Reuse the existing commercial counter/printer/espresso equipment and review duplicate roles first.
+
+## Historical review: sanitary suite, 2026-11-06
 
 Fetched clean base `ef13f47c8ae1c6ec8e2c8605feb99abfef67db9c`; origin/main matched, one checkout, no other remote branches or open PRs. Reviewed all 155 prior current sources and all fourteen preceding batch previews plus original room. [165-row refreshed inventory](catalog-inventory-2026-11-06.md), [full audit](sanitary-catalog-audit.json), [selection brief](sanitary-brief-2026-11-06.md), [production record](sanitary-2026-11-06.md).
 

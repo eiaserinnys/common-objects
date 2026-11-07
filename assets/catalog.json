@@ -165,6 +165,16 @@
     "sanitary-towel-warmer/asset.json",
     "sanitary-shower-seat/asset.json",
     "sanitary-grab-rail/asset.json",
-    "sanitary-hand-dryer/asset.json"
+    "sanitary-hand-dryer/asset.json",
+    "bedroom-bed/asset.json",
+    "bedroom-nightstand/asset.json",
+    "bedroom-wardrobe/asset.json",
+    "bedroom-chest/asset.json",
+    "bedroom-dressing-desk/asset.json",
+    "bedroom-mirror/asset.json",
+    "bedroom-luggage-rack/asset.json",
+    "bedroom-suitcase/asset.json",
+    "bedroom-fan/asset.json",
+    "bedroom-air-purifier/asset.json"
   ]
 }

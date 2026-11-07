@@ -1,0 +1,1152 @@
+{
+  "batch": "bedroom-2026-11-07",
+  "count": 10,
+  "objects": [
+    {
+      "id": "bedroom-bed",
+      "version": 1,
+      "dimensions": [
+        1.65,
+        1.05,
+        2.09
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bedroom-bed",
+        "parts": 15,
+        "min": [
+          -0.8250000000000001,
+          0,
+          -1.07
+        ],
+        "max": [
+          0.8250000000000001,
+          1.05,
+          1.02
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.8250000000000001,
+              0,
+              -1.07
+            ],
+            "max": [
+              0.8250000000000001,
+              1.05,
+              1.02
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Fixed bed/mattress/pillow assembly counted as one asset. Mattress top .54 m is occupied by bedding, so no certified prop surface. No removable mattress toggle, cloth deformation, sleep or load simulation.",
+      "thumbnail": "assets/bedroom-bed/thumbnail.svg"
+    },
+    {
+      "id": "bedroom-nightstand",
+      "version": 1,
+      "dimensions": [
+        0.46,
+        0.56,
+        0.687
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bedroom-nightstand",
+        "parts": 22,
+        "min": [
+          -0.23,
+          0,
+          -0.2
+        ],
+        "max": [
+          0.23,
+          0.56,
+          0.48700000000000004
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.23,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.23,
+              0.56,
+              0.247
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.2,
+                  0.56,
+                  -0.17
+                ],
+                [
+                  0.2,
+                  0.56,
+                  -0.17
+                ],
+                [
+                  0.2,
+                  0.56,
+                  0.17
+                ],
+                [
+                  -0.2,
+                  0.56,
+                  0.17
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.23,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.23,
+              0.56,
+              0.48700000000000004
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.2,
+                  0.56,
+                  -0.17
+                ],
+                [
+                  0.2,
+                  0.56,
+                  -0.17
+                ],
+                [
+                  0.2,
+                  0.56,
+                  0.17
+                ],
+                [
+                  -0.2,
+                  0.56,
+                  0.17
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Drawer translates .24 m to expose storage; top stays fixed. Lower open cubby differs from lounge side tables. No automatic child attachment or collision solver.",
+      "thumbnail": "assets/bedroom-nightstand/thumbnail.svg"
+    },
+    {
+      "id": "bedroom-wardrobe",
+      "version": 1,
+      "dimensions": [
+        1.26,
+        1.95,
+        1.18
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bedroom-wardrobe",
+        "parts": 24,
+        "min": [
+          -0.6299999999999999,
+          0,
+          -0.3
+        ],
+        "max": [
+          0.6299999999999999,
+          1.95,
+          0.8799999999999999
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false,
+            "rightOpen": false
+          },
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.3
+            ],
+            "max": [
+              0.6,
+              1.95,
+              0.355
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.56,
+                  1.95,
+                  -0.26
+                ],
+                [
+                  0.56,
+                  1.95,
+                  -0.26
+                ],
+                [
+                  0.56,
+                  1.95,
+                  0.26
+                ],
+                [
+                  -0.56,
+                  1.95,
+                  0.26
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": true,
+            "rightOpen": false
+          },
+          "bounds": {
+            "min": [
+              -0.6299999999999999,
+              0,
+              -0.3
+            ],
+            "max": [
+              0.6,
+              1.95,
+              0.8799999999999999
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.56,
+                  1.95,
+                  -0.26
+                ],
+                [
+                  0.56,
+                  1.95,
+                  -0.26
+                ],
+                [
+                  0.56,
+                  1.95,
+                  0.26
+                ],
+                [
+                  -0.56,
+                  1.95,
+                  0.26
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": false,
+            "rightOpen": true
+          },
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.3
+            ],
+            "max": [
+              0.6299999999999999,
+              1.95,
+              0.8799999999999999
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.56,
+                  1.95,
+                  -0.26
+                ],
+                [
+                  0.56,
+                  1.95,
+                  -0.26
+                ],
+                [
+                  0.56,
+                  1.95,
+                  0.26
+                ],
+                [
+                  -0.56,
+                  1.95,
+                  0.26
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": true,
+            "rightOpen": true
+          },
+          "bounds": {
+            "min": [
+              -0.6299999999999999,
+              0,
+              -0.3
+            ],
+            "max": [
+              0.6299999999999999,
+              1.95,
+              0.8799999999999999
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.56,
+                  1.95,
+                  -0.26
+                ],
+                [
+                  0.56,
+                  1.95,
+                  -0.26
+                ],
+                [
+                  0.56,
+                  1.95,
+                  0.26
+                ],
+                [
+                  -0.56,
+                  1.95,
+                  0.26
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Two independently operated hinged doors expose full hanging bay, rail and shelf. Left/right doors rotate 90 degrees about fixed vertical hinges. No hangers/clothing simulation or tip-over certification.",
+      "thumbnail": "assets/bedroom-wardrobe/thumbnail.svg"
+    },
+    {
+      "id": "bedroom-chest",
+      "version": 1,
+      "dimensions": [
+        0.76,
+        1.1,
+        0.797
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bedroom-chest",
+        "parts": 27,
+        "min": [
+          -0.38,
+          0,
+          -0.225
+        ],
+        "max": [
+          0.38,
+          1.1,
+          0.572
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.38,
+              0,
+              -0.225
+            ],
+            "max": [
+              0.38,
+              1.1,
+              0.2725
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.34,
+                  1.1,
+                  -0.185
+                ],
+                [
+                  0.34,
+                  1.1,
+                  -0.185
+                ],
+                [
+                  0.34,
+                  1.1,
+                  0.185
+                ],
+                [
+                  -0.34,
+                  1.1,
+                  0.185
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.38,
+              0,
+              -0.225
+            ],
+            "max": [
+              0.38,
+              1.1,
+              0.572
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.34,
+                  1.1,
+                  -0.185
+                ],
+                [
+                  0.34,
+                  1.1,
+                  -0.185
+                ],
+                [
+                  0.34,
+                  1.1,
+                  0.185
+                ],
+                [
+                  -0.34,
+                  1.1,
+                  0.185
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Top drawer slides .30 m; lower three drawers are fixed depictions and cannot open. Vertical folded-garment chest differs from printer credenza. No child attachment, tip-over or load simulation.",
+      "thumbnail": "assets/bedroom-chest/thumbnail.svg"
+    },
+    {
+      "id": "bedroom-dressing-desk",
+      "version": 1,
+      "dimensions": [
+        1.05,
+        0.76,
+        0.7125
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bedroom-dressing-desk",
+        "parts": 20,
+        "min": [
+          -0.525,
+          0,
+          -0.225
+        ],
+        "max": [
+          0.525,
+          0.76,
+          0.48750000000000004
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.525,
+              0,
+              -0.225
+            ],
+            "max": [
+              0.525,
+              0.76,
+              0.2675
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.485,
+                  0.76,
+                  -0.185
+                ],
+                [
+                  0.485,
+                  0.76,
+                  -0.185
+                ],
+                [
+                  0.485,
+                  0.76,
+                  0.185
+                ],
+                [
+                  -0.485,
+                  0.76,
+                  0.185
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.525,
+              0,
+              -0.225
+            ],
+            "max": [
+              0.525,
+              0.76,
+              0.48750000000000004
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.485,
+                  0.76,
+                  -0.185
+                ],
+                [
+                  0.485,
+                  0.76,
+                  -0.185
+                ],
+                [
+                  0.485,
+                  0.76,
+                  0.185
+                ],
+                [
+                  -0.485,
+                  0.76,
+                  0.185
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Seated worktop with .61 m drawer-under clearance and open knee space. Shallow drawer slides .22 m; existing handheld mirror and chair are reused. No integrated mirror duplicate or sitting simulation.",
+      "thumbnail": "assets/bedroom-dressing-desk/thumbnail.svg"
+    },
+    {
+      "id": "bedroom-mirror",
+      "version": 1,
+      "dimensions": [
+        0.58,
+        1.61,
+        0.46
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bedroom-mirror",
+        "parts": 11,
+        "min": [
+          -0.29,
+          0,
+          -0.23
+        ],
+        "max": [
+          0.29,
+          1.6099999999999999,
+          0.23
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "tilted": false
+          },
+          "bounds": {
+            "min": [
+              -0.29,
+              0,
+              -0.23
+            ],
+            "max": [
+              0.29,
+              1.6099999999999999,
+              0.23
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "tilted": true
+          },
+          "bounds": {
+            "min": [
+              -0.29,
+              0,
+              -0.23
+            ],
+            "max": [
+              0.29,
+              1.6048840983264423,
+              0.23
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Whole-length panel tilts 0.16 rad around fixed horizontal X axle. The pale mirror surface does not reflect. Stand is floor based; no wall attachment or stability simulation.",
+      "thumbnail": "assets/bedroom-mirror/thumbnail.svg"
+    },
+    {
+      "id": "bedroom-luggage-rack",
+      "version": 1,
+      "dimensions": [
+        0.72,
+        0.52,
+        0.48
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bedroom-luggage-rack",
+        "parts": 13,
+        "min": [
+          -0.36,
+          0,
+          -0.24
+        ],
+        "max": [
+          0.36,
+          0.52,
+          0.24
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.36,
+              0,
+              -0.24
+            ],
+            "max": [
+              0.36,
+              0.52,
+              0.24
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "strap-0",
+              "vertices": [
+                [
+                  -0.2825,
+                  0.52,
+                  -0.2
+                ],
+                [
+                  -0.19749999999999998,
+                  0.52,
+                  -0.2
+                ],
+                [
+                  -0.19749999999999998,
+                  0.52,
+                  0.2
+                ],
+                [
+                  -0.2825,
+                  0.52,
+                  0.2
+                ]
+              ]
+            },
+            {
+              "id": "strap-1",
+              "vertices": [
+                [
+                  -0.0425,
+                  0.52,
+                  -0.2
+                ],
+                [
+                  0.0425,
+                  0.52,
+                  -0.2
+                ],
+                [
+                  0.0425,
+                  0.52,
+                  0.2
+                ],
+                [
+                  -0.0425,
+                  0.52,
+                  0.2
+                ]
+              ]
+            },
+            {
+              "id": "strap-2",
+              "vertices": [
+                [
+                  0.19749999999999998,
+                  0.52,
+                  -0.2
+                ],
+                [
+                  0.2825,
+                  0.52,
+                  -0.2
+                ],
+                [
+                  0.2825,
+                  0.52,
+                  0.2
+                ],
+                [
+                  0.19749999999999998,
+                  0.52,
+                  0.2
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Rigid crossed-leg luggage rack with three webbing supports. This model is intentionally fixed, not foldable. Individual straps are certified support strips, not a fictitious solid deck; no fabric sag or weight certification.",
+      "thumbnail": "assets/bedroom-luggage-rack/thumbnail.svg"
+    },
+    {
+      "id": "bedroom-suitcase",
+      "version": 1,
+      "dimensions": [
+        0.4275,
+        0.9625,
+        0.645
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bedroom-suitcase",
+        "parts": 26,
+        "min": [
+          -0.2275,
+          0,
+          -0.125
+        ],
+        "max": [
+          0.2,
+          0.9624999999999999,
+          0.52
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false,
+            "extended": false
+          },
+          "bounds": {
+            "min": [
+              -0.2025,
+              0,
+              -0.125
+            ],
+            "max": [
+              0.2,
+              0.5725,
+              0.1625
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "extended": false
+          },
+          "bounds": {
+            "min": [
+              -0.2275,
+              0,
+              -0.125
+            ],
+            "max": [
+              0.2,
+              0.5725,
+              0.52
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": false,
+            "extended": true
+          },
+          "bounds": {
+            "min": [
+              -0.2025,
+              0,
+              -0.125
+            ],
+            "max": [
+              0.2,
+              0.9624999999999999,
+              0.1625
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "extended": true
+          },
+          "bounds": {
+            "min": [
+              -0.2275,
+              0,
+              -0.125
+            ],
+            "max": [
+              0.2,
+              0.9624999999999999,
+              0.52
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Lid swings 90 degrees around vertical hinge; separate pull handle extends .39 m. Open cavity remains visible. Wheels are fixed; no rolling, fabric packing, zipper or lock simulation.",
+      "thumbnail": "assets/bedroom-suitcase/thumbnail.svg"
+    },
+    {
+      "id": "bedroom-fan",
+      "version": 1,
+      "dimensions": [
+        0.511232965,
+        1.246145731,
+        0.56
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bedroom-fan",
+        "parts": 107,
+        "min": [
+          -0.21614573078641183,
+          0,
+          -0.2
+        ],
+        "max": [
+          0.2950872345242327,
+          1.2461457307864119,
+          0.36
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false,
+            "turned": false
+          },
+          "bounds": {
+            "min": [
+              -0.21614573078641183,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.21614573078641183,
+              1.2461457307864119,
+              0.2
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true,
+            "turned": false
+          },
+          "bounds": {
+            "min": [
+              -0.21614573078641183,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.21614573078641183,
+              1.2461457307864119,
+              0.36
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": false,
+            "turned": true
+          },
+          "bounds": {
+            "min": [
+              -0.2,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.2235109588921717,
+              1.2461457307864119,
+              0.2
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true,
+            "turned": true
+          },
+          "bounds": {
+            "min": [
+              -0.2,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.2950872345242327,
+              1.2461457307864119,
+              0.345293248834056
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Power changes discrete rotor phase and shows outlet direction strokes. Independent head yaw rotates the entire cage/motor/rotor assembly by .65 rad. Not continuous rotation, oscillation, cooling or airflow physics.",
+      "thumbnail": "assets/bedroom-fan/thumbnail.svg"
+    },
+    {
+      "id": "bedroom-air-purifier",
+      "version": 1,
+      "dimensions": [
+        0.32,
+        0.75,
+        0.5
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bedroom-air-purifier",
+        "parts": 60,
+        "min": [
+          -0.16,
+          0,
+          -0.14
+        ],
+        "max": [
+          0.16,
+          0.75,
+          0.36
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false,
+            "service": false
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.14
+            ],
+            "max": [
+              0.16,
+              0.623,
+              0.162
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true,
+            "service": false
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.14
+            ],
+            "max": [
+              0.16,
+              0.75,
+              0.162
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": false,
+            "service": true
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.14
+            ],
+            "max": [
+              0.16,
+              0.623,
+              0.36
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true,
+            "service": true
+          },
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.14
+            ],
+            "max": [
+              0.16,
+              0.75,
+              0.36
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Power has outlet-air strokes and a status indicator; separate filter cassette extends .20 m for service. Service access is not filtration operation. No measured clean-air rate, particulate removal, sensor, fan animation or electrical interlock.",
+      "thumbnail": "assets/bedroom-air-purifier/thumbnail.svg"
+    }
+  ]
+}

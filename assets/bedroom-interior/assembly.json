@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "bedroom-bed",
+      "assetVersion": 1,
+      "position": [
+        -0.85,
+        0,
+        -0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-2",
+      "assetId": "bedroom-nightstand",
+      "assetVersion": 1,
+      "position": [
+        -2.05,
+        0,
+        -0.95
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "bedroom-wardrobe",
+      "assetVersion": 1,
+      "position": [
+        1.1,
+        0,
+        -1.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false,
+        "rightOpen": false
+      }
+    },
+    {
+      "id": "object-4",
+      "assetId": "bedroom-chest",
+      "assetVersion": 1,
+      "position": [
+        2.5,
+        0,
+        -1.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-5",
+      "assetId": "bedroom-dressing-desk",
+      "assetVersion": 1,
+      "position": [
+        2.2,
+        0,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-6",
+      "assetId": "bedroom-mirror",
+      "assetVersion": 1,
+      "position": [
+        3.3,
+        0,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "tilted": false
+      }
+    },
+    {
+      "id": "object-7",
+      "assetId": "bedroom-luggage-rack",
+      "assetVersion": 1,
+      "position": [
+        0.6,
+        0,
+        1.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-8",
+      "assetId": "bedroom-suitcase",
+      "assetVersion": 1,
+      "position": [
+        1.6,
+        0,
+        1.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false,
+        "extended": false
+      }
+    },
+    {
+      "id": "object-9",
+      "assetId": "bedroom-fan",
+      "assetVersion": 1,
+      "position": [
+        -2,
+        0,
+        1.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false,
+        "turned": false
+      }
+    },
+    {
+      "id": "object-10",
+      "assetId": "bedroom-air-purifier",
+      "assetVersion": 1,
+      "position": [
+        -2.7,
+        0,
+        -0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false,
+        "service": false
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "desk-lamp",
+      "assetVersion": 2,
+      "position": [
+        -2.05,
+        0.56,
+        -0.95
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      }
+    },
+    {
+      "id": "object-12",
+      "assetId": "bathroom-tissue-box",
+      "assetVersion": 1,
+      "position": [
+        2.5,
+        1.1,
+        -1.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "loaded": true
+      }
+    },
+    {
+      "id": "object-13",
+      "assetId": "bathroom-mirror",
+      "assetVersion": 1,
+      "position": [
+        2,
+        0.76,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "covered": false
+      }
+    },
+    {
+      "id": "object-14",
+      "assetId": "bathroom-cotton-jar",
+      "assetVersion": 1,
+      "position": [
+        2.5,
+        0.76,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "closed": true
+      }
+    },
+    {
+      "id": "object-15",
+      "assetId": "cafe-dining-chair",
+      "assetVersion": 1,
+      "position": [
+        2.2,
+        0,
+        0.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    }
+  ]
+}
