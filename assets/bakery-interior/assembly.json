@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "bakery-deck-oven",
+      "assetVersion": 1,
+      "position": [
+        -1.8,
+        0,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-2",
+      "assetId": "bakery-dishwasher",
+      "assetVersion": 1,
+      "position": [
+        -3.1,
+        0,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "bakery-mixer",
+      "assetVersion": 1,
+      "position": [
+        -1.55,
+        0,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "mixed": false
+      }
+    },
+    {
+      "id": "object-4",
+      "assetId": "bakery-sheeter",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "rolled": false
+      }
+    },
+    {
+      "id": "object-5",
+      "assetId": "bakery-proofer",
+      "assetVersion": 1,
+      "position": [
+        0.1,
+        0,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-6",
+      "assetId": "bakery-slicer",
+      "assetVersion": 1,
+      "position": [
+        2,
+        0.9,
+        0.0825
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "sliced": false
+      }
+    },
+    {
+      "id": "object-7",
+      "assetId": "bakery-tray-rack",
+      "assetVersion": 1,
+      "position": [
+        1.15,
+        0,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-8",
+      "assetId": "bakery-ingredient-bin",
+      "assetVersion": 1,
+      "position": [
+        -1.6,
+        0,
+        1.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-9",
+      "assetId": "bakery-freezer",
+      "assetVersion": 1,
+      "position": [
+        2.35,
+        0,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-10",
+      "assetId": "bakery-divider",
+      "assetVersion": 1,
+      "position": [
+        1.15,
+        0,
+        1.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "pressed": false
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "utility-folding-table",
+      "assetVersion": 1,
+      "position": [
+        2,
+        0,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-12",
+      "assetId": "office-sorting-table",
+      "assetVersion": 1,
+      "position": [
+        -0.3,
+        0,
+        2.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-13",
+      "assetId": "cafe-service-sink",
+      "assetVersion": 1,
+      "position": [
+        -3.1,
+        0,
+        -0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "running": false
+      }
+    },
+    {
+      "id": "object-14",
+      "assetId": "baking-rolling-pin",
+      "assetVersion": 1,
+      "position": [
+        -0.6,
+        0.92,
+        2.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "handled": true
+      }
+    },
+    {
+      "id": "object-15",
+      "assetId": "baking-muffin-tin",
+      "assetVersion": 1,
+      "position": [
+        0.05,
+        0.92,
+        2.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "loaded": true
+      }
+    }
+  ]
+}

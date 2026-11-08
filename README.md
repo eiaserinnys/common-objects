@@ -4,7 +4,7 @@ Reusable props, furniture, fixtures, equipment and machines for everyday home, o
 
 ## Collection scope and production planning
 
-Select new work from the whole collection's gaps in space, scale and function. Review the [production policy](docs/production-policy.md), [catalog balance and next priorities](docs/catalog-balance.md) and [complete audited inventory](docs/catalog-inventory-2026-11-07.md) before modeling. After the bedroom cycle there are 156 independent metric sources (101 small, 19 medium, 36 large), plus one original room and its 18 component groups: 175 registrations. The latest [guest bedroom cycle](docs/bedroom-2026-11-07.md) adds ten bedroom furnishings and equipment sources and reuses five objects. Next priorities are architectural attachment contracts, supported child binding and richer appliance operation. Open [the bedroom preview](preview/bedroom.html) after starting the local server.
+Select new work from the whole collection's gaps in space, scale and function. Review the [production policy](docs/production-policy.md), [catalog balance and next priorities](docs/catalog-balance.md) and [complete audited inventory](docs/catalog-inventory-2026-11-08.md) before modeling. After the bakery cycle there are 166 independent metric sources (101 small, 20 medium, 45 large), plus one original room and its 18 component groups: 185 registrations. The latest [bakery production cycle](docs/bakery-2026-11-08.md) adds ten equipment sources and reuses five objects. Next priorities are architectural attachment, supported-child binding and guarded/timed equipment operation. Open [the bakery preview](preview/bakery.html) after starting the local server.
 
 Favor coherent mixed-size interior scenes and quality over a fixed ten-object count. Keep useful small props, but do not fill batches with easy small variants. Room assemblies, their components and reused objects must not inflate new-object totals. Technical placement, interaction and validation requirements remain unchanged.
 
@@ -25,7 +25,7 @@ Build output is dist/; serve it with `python3 -m http.server 8000 --directory di
 
 ## Assets
 
-`assets/catalog.json` registers 175 entries: ten bedroom furnishings and equipment sources, ten sanitary fixtures and equipment sources, ten living/waiting furniture and equipment sources, ten utility furniture/equipment anchors, ten café furniture/fixture/equipment anchors, five office furniture/equipment anchors, ten home exercise props, ten tea and coffee tools, ten home baking tools, ten tabletop game props, ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
+`assets/catalog.json` registers 185 entries: ten bakery equipment sources, ten bedroom furnishings and equipment sources, ten sanitary fixtures and equipment sources, ten living/waiting furniture and equipment sources, ten utility furniture/equipment anchors, ten café furniture/fixture/equipment anchors, five office furniture/equipment anchors, ten home exercise props, ten tea and coffee tools, ten home baking tools, ten tabletop game props, ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
 
 All placeable entries use **1 unit = 1 metre**, Y-up and default scale [1,1,1].
 
@@ -102,3 +102,7 @@ Imported Colorfigures code is MIT by April Zhu, based on ISO-GLOW and Tolga Cohc
 ### Guest bedroom and luggage · 2026-11-07
 
 [Open the bedroom](preview/bedroom.html): double bed assembly, bedside cabinet, hanging wardrobe, garment chest, dressing desk, tilting full-length mirror, luggage rack, cabin suitcase, pedestal fan and air purifier. Ten new sources (four medium / six large), five reused objects, eight independently operating sources and two justified fixed assemblies. Discrete drawer/hinge/handle/head poses and symbolic airflow; no reflection, air-quality physics or attached-child movement. [Production record and visual evidence](docs/bedroom-2026-11-07.md).
+
+### Bakery production and wash-up · 2026-11-08
+
+[Open the bakery set](preview/bakery.html): deck oven, dishwasher, planetary mixer, dough sheeter, proofing cabinet, bread slicer, tray rack, bulk ingredient bin, chest freezer and dough divider. Nine discrete loading/processing interactions, one fixed rack, five reused sources. 1 unit = 1 m, scale one, estimated dimensions. [Verification, limits and visual evidence](docs/bakery-2026-11-08.md).

@@ -1,0 +1,1127 @@
+{
+  "batch": "bakery-2026-11-08",
+  "count": 10,
+  "objects": [
+    {
+      "id": "bakery-deck-oven",
+      "version": 1,
+      "dimensions": [
+        1,
+        1.4,
+        1.28
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bakery-deck-oven",
+        "parts": 21,
+        "min": [
+          -0.5,
+          0,
+          -0.41
+        ],
+        "max": [
+          0.5,
+          1.4000000000000001,
+          0.87
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.5,
+              0,
+              -0.41
+            ],
+            "max": [
+              0.5,
+              1.4000000000000001,
+              0.4975
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.5,
+              0,
+              -0.41
+            ],
+            "max": [
+              0.5,
+              1.4000000000000001,
+              0.87
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Door drops 90 degrees around lower X hinge to expose stone deck. This supports loading access only: oven heat, baking, electrical controls and food timing are not simulated. The open door is not a certified prop surface.",
+      "thumbnail": "assets/bakery-deck-oven/thumbnail.svg"
+    },
+    {
+      "id": "bakery-dishwasher",
+      "version": 1,
+      "dimensions": [
+        0.65,
+        0.85,
+        1.27
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bakery-dishwasher",
+        "parts": 37,
+        "min": [
+          -0.325,
+          0,
+          -0.325
+        ],
+        "max": [
+          0.325,
+          0.85,
+          0.9450000000000001
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.325
+            ],
+            "max": [
+              0.325,
+              0.85,
+              0.4125
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.325
+            ],
+            "max": [
+              0.325,
+              0.85,
+              0.9450000000000001
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Loading pose lowers door 90 degrees and translates complete plate rack .50 m outward. The loaded rack remains visible in both states; closing returns it inside. No washing, water, detergent, heat or independent rack/door sequencing simulation.",
+      "thumbnail": "assets/bakery-dishwasher/thumbnail.svg"
+    },
+    {
+      "id": "bakery-mixer",
+      "version": 1,
+      "dimensions": [
+        0.52,
+        1.15,
+        0.685
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bakery-mixer",
+        "parts": 18,
+        "min": [
+          -0.26,
+          0,
+          -0.32
+        ],
+        "max": [
+          0.26,
+          1.1500000000000001,
+          0.365
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "mixed": false
+          },
+          "bounds": {
+            "min": [
+              -0.26,
+              0,
+              -0.32
+            ],
+            "max": [
+              0.26,
+              1.1500000000000001,
+              0.365
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "mixed": true
+          },
+          "bounds": {
+            "min": [
+              -0.26,
+              0,
+              -0.32
+            ],
+            "max": [
+              0.26,
+              1.1500000000000001,
+              0.365
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "A 1.2 rad beater orbit and changed dough form depict one mixing stroke. Bowl and motor remain present. No continuous motor, rheology, bowl removal or measured mixing performance. Open bowl is an illustration, not a safe operating guard design.",
+      "thumbnail": "assets/bakery-mixer/thumbnail.svg"
+    },
+    {
+      "id": "bakery-sheeter",
+      "version": 1,
+      "dimensions": [
+        1.8,
+        1.1325,
+        0.64
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bakery-sheeter",
+        "parts": 16,
+        "min": [
+          -0.9,
+          0,
+          -0.32
+        ],
+        "max": [
+          0.9,
+          1.1325,
+          0.32
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "rolled": false
+          },
+          "bounds": {
+            "min": [
+              -0.9,
+              0,
+              -0.32
+            ],
+            "max": [
+              0.9,
+              1.1325,
+              0.32
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "rolled": true
+          },
+          "bounds": {
+            "min": [
+              -0.9,
+              0,
+              -0.32
+            ],
+            "max": [
+              0.9,
+              1.1325,
+              0.32
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "A thick feed piece on the left becomes a thin output sheet on the right, with roller witness mark rotation. Same source/destination operation is reversible for inspection. No continuous belt, conserved-volume dough solver or safety guard certification.",
+      "thumbnail": "assets/bakery-sheeter/thumbnail.svg"
+    },
+    {
+      "id": "bakery-proofer",
+      "version": 1,
+      "dimensions": [
+        0.7225,
+        1.75,
+        1.38
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bakery-proofer",
+        "parts": 27,
+        "min": [
+          -0.3725,
+          0,
+          -0.375
+        ],
+        "max": [
+          0.35,
+          1.75,
+          1.005
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.35,
+              0,
+              -0.375
+            ],
+            "max": [
+              0.35,
+              1.75,
+              0.4625
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.3725,
+              0,
+              -0.375
+            ],
+            "max": [
+              0.35,
+              1.75,
+              1.005
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Hinged door exposes six tray positions for dough staging. Thermal/humidity proofing is static and unsupported. Opaque window is a stylized dark inset, not transparent glass. Not a renamed wardrobe: chamber tray spacing and controls serve bakery staging.",
+      "thumbnail": "assets/bakery-proofer/thumbnail.svg"
+    },
+    {
+      "id": "bakery-slicer",
+      "version": 1,
+      "dimensions": [
+        0.7,
+        0.745,
+        0.655
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bakery-slicer",
+        "parts": 37,
+        "min": [
+          -0.35,
+          0,
+          -0.31
+        ],
+        "max": [
+          0.35,
+          0.7450000000000001,
+          0.34500000000000003
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "sliced": false
+          },
+          "bounds": {
+            "min": [
+              -0.35,
+              0,
+              -0.31
+            ],
+            "max": [
+              0.35,
+              0.7450000000000001,
+              0.34500000000000003
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "sliced": true
+          },
+          "bounds": {
+            "min": [
+              -0.35,
+              0,
+              -0.31
+            ],
+            "max": [
+              0.35,
+              0.615,
+              0.34500000000000003
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Whole top-feed loaf becomes twelve separated output slices. Blade bank, decks and guard stay present. Discrete material-processing illustration only; no blade oscillation, crumb physics, sharpness or safe-machine certification. Tabletop contact origin; scene places it on the existing folding table.",
+      "thumbnail": "assets/bakery-slicer/thumbnail.svg"
+    },
+    {
+      "id": "bakery-tray-rack",
+      "version": 1,
+      "dimensions": [
+        0.615,
+        1.7,
+        0.76
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bakery-tray-rack",
+        "parts": 30,
+        "min": [
+          -0.3075,
+          0,
+          -0.38
+        ],
+        "max": [
+          0.3075,
+          1.7000000000000002,
+          0.38
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.3075,
+              0,
+              -0.38
+            ],
+            "max": [
+              0.3075,
+              1.7000000000000002,
+              0.38
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "rail-0--1",
+              "vertices": [
+                [
+                  -0.28750000000000003,
+                  0.25,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  0.25,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  0.25,
+                  0.31
+                ],
+                [
+                  -0.28750000000000003,
+                  0.25,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-0-1",
+              "vertices": [
+                [
+                  0.2525,
+                  0.25,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  0.25,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  0.25,
+                  0.31
+                ],
+                [
+                  0.2525,
+                  0.25,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-1--1",
+              "vertices": [
+                [
+                  -0.28750000000000003,
+                  0.4,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  0.4,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  0.4,
+                  0.31
+                ],
+                [
+                  -0.28750000000000003,
+                  0.4,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-1-1",
+              "vertices": [
+                [
+                  0.2525,
+                  0.4,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  0.4,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  0.4,
+                  0.31
+                ],
+                [
+                  0.2525,
+                  0.4,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-2--1",
+              "vertices": [
+                [
+                  -0.28750000000000003,
+                  0.55,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  0.55,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  0.55,
+                  0.31
+                ],
+                [
+                  -0.28750000000000003,
+                  0.55,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-2-1",
+              "vertices": [
+                [
+                  0.2525,
+                  0.55,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  0.55,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  0.55,
+                  0.31
+                ],
+                [
+                  0.2525,
+                  0.55,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-3--1",
+              "vertices": [
+                [
+                  -0.28750000000000003,
+                  0.7,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  0.7,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  0.7,
+                  0.31
+                ],
+                [
+                  -0.28750000000000003,
+                  0.7,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-3-1",
+              "vertices": [
+                [
+                  0.2525,
+                  0.7,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  0.7,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  0.7,
+                  0.31
+                ],
+                [
+                  0.2525,
+                  0.7,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-4--1",
+              "vertices": [
+                [
+                  -0.28750000000000003,
+                  0.85,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  0.85,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  0.85,
+                  0.31
+                ],
+                [
+                  -0.28750000000000003,
+                  0.85,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-4-1",
+              "vertices": [
+                [
+                  0.2525,
+                  0.85,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  0.85,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  0.85,
+                  0.31
+                ],
+                [
+                  0.2525,
+                  0.85,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-5--1",
+              "vertices": [
+                [
+                  -0.28750000000000003,
+                  1,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  1,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  1,
+                  0.31
+                ],
+                [
+                  -0.28750000000000003,
+                  1,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-5-1",
+              "vertices": [
+                [
+                  0.2525,
+                  1,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  1,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  1,
+                  0.31
+                ],
+                [
+                  0.2525,
+                  1,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-6--1",
+              "vertices": [
+                [
+                  -0.28750000000000003,
+                  1.15,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  1.15,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  1.15,
+                  0.31
+                ],
+                [
+                  -0.28750000000000003,
+                  1.15,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-6-1",
+              "vertices": [
+                [
+                  0.2525,
+                  1.15,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  1.15,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  1.15,
+                  0.31
+                ],
+                [
+                  0.2525,
+                  1.15,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-7--1",
+              "vertices": [
+                [
+                  -0.28750000000000003,
+                  1.3,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  1.3,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  1.3,
+                  0.31
+                ],
+                [
+                  -0.28750000000000003,
+                  1.3,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-7-1",
+              "vertices": [
+                [
+                  0.2525,
+                  1.3,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  1.3,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  1.3,
+                  0.31
+                ],
+                [
+                  0.2525,
+                  1.3,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-8--1",
+              "vertices": [
+                [
+                  -0.28750000000000003,
+                  1.45,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  1.45,
+                  -0.31
+                ],
+                [
+                  -0.2525,
+                  1.45,
+                  0.31
+                ],
+                [
+                  -0.28750000000000003,
+                  1.45,
+                  0.31
+                ]
+              ]
+            },
+            {
+              "id": "rail-8-1",
+              "vertices": [
+                [
+                  0.2525,
+                  1.45,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  1.45,
+                  -0.31
+                ],
+                [
+                  0.28750000000000003,
+                  1.45,
+                  0.31
+                ],
+                [
+                  0.2525,
+                  1.45,
+                  0.31
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Fixed mobile rack depiction; wheels do not roll and rack does not brake. Eighteen narrow paired rails are support strips, not solid shelves; a tray must bridge a pair. No load rating, thermal cooling simulation or automatic contents attachment.",
+      "thumbnail": "assets/bakery-tray-rack/thumbnail.svg"
+    },
+    {
+      "id": "bakery-ingredient-bin",
+      "version": 1,
+      "dimensions": [
+        0.57,
+        1.272868298,
+        0.656607231
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bakery-ingredient-bin",
+        "parts": 16,
+        "min": [
+          -0.285,
+          0,
+          -0.3366072308387228
+        ],
+        "max": [
+          0.285,
+          1.2728682977294925,
+          0.32
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.285,
+              0,
+              -0.326
+            ],
+            "max": [
+              0.285,
+              0.7050000000000001,
+              0.32
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.285,
+              0,
+              -0.3366072308387228
+            ],
+            "max": [
+              0.285,
+              1.2728682977294925,
+              0.31
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Rear-hinged top rotates 1.25 rad to expose a bulk ingredient hopper. Contents remain present. No dispensing, scooping, ingredient mass or food-contact certification; not a small tabletop container recolor.",
+      "thumbnail": "assets/bakery-ingredient-bin/thumbnail.svg"
+    },
+    {
+      "id": "bakery-freezer",
+      "version": 1,
+      "dimensions": [
+        1.17,
+        1.572728597,
+        0.753469539
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bakery-freezer",
+        "parts": 18,
+        "min": [
+          -0.585,
+          0,
+          -0.3884695385806676
+        ],
+        "max": [
+          0.585,
+          1.5727285968078801,
+          0.365
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.585,
+              0,
+              -0.366
+            ],
+            "max": [
+              0.585,
+              0.9450000000000001,
+              0.365
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.585,
+              0,
+              -0.3884695385806676
+            ],
+            "max": [
+              0.585,
+              1.5727285968078801,
+              0.365
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Insulated rear-hinged lid opens 1.25 rad to reveal cavity and compressor step. Top-loading bulk storage differs from the café undercounter front-opening refrigerator. No cooling, refrigerant, frost or thermostat simulation.",
+      "thumbnail": "assets/bakery-freezer/thumbnail.svg"
+    },
+    {
+      "id": "bakery-divider",
+      "version": 1,
+      "dimensions": [
+        0.65,
+        1.300761464,
+        0.733520485
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "bakery-divider",
+        "parts": 41,
+        "min": [
+          -0.325,
+          0,
+          -0.40852048450029166
+        ],
+        "max": [
+          0.325,
+          1.3007614640837348,
+          0.325
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "pressed": false
+          },
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.4030925494906816
+            ],
+            "max": [
+              0.325,
+              1.3007614640837348,
+              0.325
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "pressed": true
+          },
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.40852048450029166
+            ],
+            "max": [
+              0.325,
+              1.2049999999999998,
+              0.325
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Lever pivots about X, ram/platen descend .20 m and a slab becomes sixteen portions beneath the grid. Discrete press endpoints, not force, cutting physics, continuous linkage or safe-machine design.",
+      "thumbnail": "assets/bakery-divider/thumbnail.svg"
+    }
+  ]
+}

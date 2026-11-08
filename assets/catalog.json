@@ -175,6 +175,16 @@
     "bedroom-luggage-rack/asset.json",
     "bedroom-suitcase/asset.json",
     "bedroom-fan/asset.json",
-    "bedroom-air-purifier/asset.json"
+    "bedroom-air-purifier/asset.json",
+    "bakery-deck-oven/asset.json",
+    "bakery-dishwasher/asset.json",
+    "bakery-mixer/asset.json",
+    "bakery-sheeter/asset.json",
+    "bakery-proofer/asset.json",
+    "bakery-slicer/asset.json",
+    "bakery-tray-rack/asset.json",
+    "bakery-ingredient-bin/asset.json",
+    "bakery-freezer/asset.json",
+    "bakery-divider/asset.json"
   ]
 }

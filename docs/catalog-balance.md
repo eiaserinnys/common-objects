@@ -1,6 +1,27 @@
 # Catalog balance and next production priorities
 
-## Current review: guest bedroom and luggage, 2026-11-07
+## Current review: bakery production and wash-up, 2026-11-08
+
+Fetched clean base `c1e0eccb0c388c9a66143cc50ef354d74c1cc239`, matching origin/main, single checkout, no other remote branches/open PRs. Reviewed all 175 pre-cycle identities/dimensions/states and original room plus sixteen prior batch overview images. [Selection brief](bakery-brief-2026-11-08.md), [185-row inventory](catalog-inventory-2026-11-08.md), [full audit](bakery-catalog-audit.json), [production/verification](bakery-2026-11-08.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 166 | 101 | 20 | 45 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 185 | 103 | 23 | 59 |
+
+New cycle: **10 sources, 0 S / 1 M / 9 L**. Small independent share **64.7% → 60.8%**. Latest ten cycles baking–bakery: 95 sources (30 S / 20 M / 45 L). Seventeen batches: 165 sources (100 S / 20 M / 45 L), plus original lamp. Maximum endpoint envelope determines size; lid-open bin and freezer become L. All physical sizes are estimates.
+
+H/O/C candidate tags 153/77/166 overlap and are not finished-room counts. New commercial production roles complement café selling and existing baking hand tools: mixing, rolling/dividing, chamber loading, tray transport, bulk storage, slicing and wash-up. Distinct equipment geometry and operations, no recolored small props. Five reused sources: folding table, sorting table, service sink, rolling pin and muffin tin. Scene assembly and machine constituents are not additional sources. New machines distinguish loading/access from unsupported heating/washing/cooling; four have discrete material-processing illustrations, none promises physical performance. Tray rack is fixed. See per-source limits.
+
+**Next priorities (supersede historical lists):**
+
+1. Architectural wall/ceiling attachment and enclosure contracts; existing independent furniture can populate several rooms but cannot create a modular enclosed interior.
+2. Supported-child binding and support availability: slicer/props must move with their tables before dynamic arrangement can be considered attached. Existing placements remain independent.
+3. Equipment operation foundations: explicit guarded state transitions, timed motion and service interlocks. Do not multiply loading-door variants to stand in for actual baking, washing or cooling. Review ordinary office workstation gaps (independent adjustable desk/chair and computing equipment) before another commercial-machine batch.
+
+## Historical review: guest bedroom and luggage, 2026-11-07
 
 Fetched clean base `f12899f91ab6c953d6e081c36a6f127022b35717`, matching origin/main, single worktree, no other remote branch or open PR. Read all 165 pre-cycle sources and reviewed the original room plus all fifteen prior batch desktop previews. [Selection brief](bedroom-brief-2026-11-07.md), [175-row inventory](catalog-inventory-2026-11-07.md), [machine-readable audit](bedroom-catalog-audit.json), [production record](bedroom-2026-11-07.md).
 
