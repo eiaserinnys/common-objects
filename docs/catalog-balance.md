@@ -1,6 +1,29 @@
 # Catalog balance and next production priorities
 
-## Current review: bakery production and wash-up, 2026-11-08
+## Current review: office work and collaboration, 2026-11-09
+
+Fetched clean base `117d9f7fb2096d36af7a09a3d878ed931ad69de1`, matching origin/main; one checkout, no other remote branch/open PR. Reviewed all 185 pre-cycle dimensions/states and original room plus seventeen prior batch previews. [Selection brief](workplace-brief-2026-11-09.md), [195-row inventory](catalog-inventory-2026-11-09.md), [audit](workplace-catalog-audit.json), [production/validation](workplace-2026-11-09.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 176 | 102 | 22 | 52 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 195 | 104 | 25 | 66 |
+
+New **10 sources, 1 S / 2 M / 7 L**. Small independent share **60.8% → 58.0%**. Last ten cycles beverage–workplace: 95 (21 S / 22 M / 52 L). Eighteen production batches: 175 (101 S / 22 M / 52 L), plus original lamp. All dimensions estimated; bins use maximum endpoint envelope, not viewport or nominal closed size. Computer tower is S (.48 m), a required equipment role rather than hand-tool filler.
+
+H/O/C candidate uses 159/87/176 overlap. New workstation, computing, collaboration, adjustable seating, personal/plan storage and office processing address gaps left by the earlier copy/sorting station. Existing imported desk/chair groups are not double-counted. Terminal monitor/keyboard/mouse is one original authored assembly. Six reused instances come from five existing source IDs: lamp, letter tray, stapler, café chair and teapot. No new small stationery or chair recolors.
+
+The scene also implements the prior supported-child priority: five explicit support relations follow parent yaw/translation and changed worktop height; invalid/unavailable supports reject atomically, and detach/duplicate/save/restore semantics are tested. Old scenes remain independent unless authored with binding metadata. Nine new sources have discrete operations, one fixed meeting table. No timed/physical appliance performance is claimed.
+
+**Next priorities (supersede historical lists):**
+
+1. Architectural attachment/enclosure: wall/ceiling reference planes, installed lighting, doors/windows. Multiple furniture roles are now available but rooms remain unenclosed.
+2. Extend support bindings deliberately: an authoring UI, general moving-part parenting and non-horizontal supports need explicit contracts. Current convex horizontal yaw-only binding excludes them; sibling collisions and swept clearance remain unhandled.
+3. Guarded/timed equipment states: continuous/timed behavior, service interlocks and realistic feeding/processing should precede another simple access-door machine batch. Review remaining retail checkout/display and healthcare/wellness furniture gaps against existing service counter and storage sources before choosing the next set.
+
+## Historical review: bakery production and wash-up, 2026-11-08
 
 Fetched clean base `c1e0eccb0c388c9a66143cc50ef354d74c1cc239`, matching origin/main, single checkout, no other remote branches/open PRs. Reviewed all 175 pre-cycle identities/dimensions/states and original room plus sixteen prior batch overview images. [Selection brief](bakery-brief-2026-11-08.md), [185-row inventory](catalog-inventory-2026-11-08.md), [full audit](bakery-catalog-audit.json), [production/verification](bakery-2026-11-08.md).
 

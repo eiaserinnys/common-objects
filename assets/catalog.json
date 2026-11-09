@@ -185,6 +185,16 @@
     "bakery-tray-rack/asset.json",
     "bakery-ingredient-bin/asset.json",
     "bakery-freezer/asset.json",
-    "bakery-divider/asset.json"
+    "bakery-divider/asset.json",
+    "workplace-desk/asset.json",
+    "workplace-task-chair/asset.json",
+    "workplace-terminal/asset.json",
+    "workplace-tower/asset.json",
+    "workplace-whiteboard/asset.json",
+    "workplace-lockers/asset.json",
+    "workplace-shredder/asset.json",
+    "workplace-water-dispenser/asset.json",
+    "workplace-meeting-table/asset.json",
+    "workplace-flat-file/asset.json"
   ]
 }

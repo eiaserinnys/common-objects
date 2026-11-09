@@ -1,0 +1,35 @@
+{
+  "checks": [
+    "support binding: desk raises children .35m, yaw/translation follow, relation round-trips, attached controls lock and detach works",
+    "object-1: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-2: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-3: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-4: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-5: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-6: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-7: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-8: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-9: select, focus, independent duplicate, fixed furniture, four sides in all states",
+    "object-10: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-11: select, focus, independent duplicate, visible action, reused source",
+    "object-12: select, focus, independent duplicate, visible action, reused source",
+    "object-13: select, focus, independent duplicate, visible action, reused source",
+    "object-14: select, focus, independent duplicate, fixed furniture, reused source",
+    "object-15: select, focus, independent duplicate, fixed furniture, reused source",
+    "object-16: select, focus, independent duplicate, visible action, reused source",
+    "32 mixed instances: transforms, versions and states restored exactly after reload",
+    "390px viewport: no overflow, pointer orbit, selection, focus, chair height operation"
+  ],
+  "operatingObjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "errors": []
+}

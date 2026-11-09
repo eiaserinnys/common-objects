@@ -1,0 +1,25 @@
+{
+  "checks": [
+    "bakery.html: 15 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "baking.html: 10 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "bathroom.html: 10 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "bedroom.html: 15 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "beverage.html: 10 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "cafe.html: 15 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "cleaning.html: 10 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "desk-lamp.html: 1 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "fitness.html: 10 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "games.html: 10 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "gardening.html: 10 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "kitchen.html: 10 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "living.html: 14 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "office.html: 10 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "sanitary.html: 14 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "sewing.html: 10 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "stationery.html: 10 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "utility.html: 16 existing instances; action, independent duplicate, save/reload/restore unchanged",
+    "unavailable desk support rejects action atomically: saved parent state, child poses and bindings unchanged",
+    "duplicating an attached terminal creates a detached copy and preserves the original binding"
+  ],
+  "errors": []
+}

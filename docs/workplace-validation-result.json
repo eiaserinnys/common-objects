@@ -1,0 +1,806 @@
+{
+  "batch": "workplace-2026-11-09",
+  "count": 10,
+  "objects": [
+    {
+      "id": "workplace-desk",
+      "version": 1,
+      "dimensions": [
+        1.6,
+        1.1,
+        0.805
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "workplace-desk",
+        "parts": 17,
+        "min": [
+          -0.8,
+          0,
+          -0.4
+        ],
+        "max": [
+          0.8,
+          1.1,
+          0.405
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "high": false
+          },
+          "bounds": {
+            "min": [
+              -0.8,
+              0,
+              -0.4
+            ],
+            "max": [
+              0.8,
+              0.75,
+              0.405
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "worktop",
+              "vertices": [
+                [
+                  -0.75,
+                  0.75,
+                  -0.36
+                ],
+                [
+                  0.75,
+                  0.75,
+                  -0.36
+                ],
+                [
+                  0.75,
+                  0.75,
+                  0.36
+                ],
+                [
+                  -0.75,
+                  0.75,
+                  0.36
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "high": true
+          },
+          "bounds": {
+            "min": [
+              -0.8,
+              0,
+              -0.4
+            ],
+            "max": [
+              0.8,
+              1.1,
+              0.405
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "worktop",
+              "vertices": [
+                [
+                  -0.75,
+                  1.1,
+                  -0.36
+                ],
+                [
+                  0.75,
+                  1.1,
+                  -0.36
+                ],
+                [
+                  0.75,
+                  1.1,
+                  0.36
+                ],
+                [
+                  -0.75,
+                  1.1,
+                  0.36
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Two telescoping endpoint heights .75/1.10 m. Top, cable tray and control move together; foot bases stay grounded. Declared support attachments carry computer/lamp through height, position and yaw changes. No motor timing, intermediate collision or load certification.",
+      "thumbnail": "assets/workplace-desk/thumbnail.svg"
+    },
+    {
+      "id": "workplace-task-chair",
+      "version": 1,
+      "dimensions": [
+        0.64,
+        1.115,
+        0.612705098
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "workplace-task-chair",
+        "parts": 28,
+        "min": [
+          -0.31999999999999995,
+          0,
+          -0.3063525491562421
+        ],
+        "max": [
+          0.32000000000000006,
+          1.1150000000000002,
+          0.3063525491562421
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "raised": false
+          },
+          "bounds": {
+            "min": [
+              -0.31999999999999995,
+              0,
+              -0.3063525491562421
+            ],
+            "max": [
+              0.32000000000000006,
+              1.0150000000000001,
+              0.3063525491562421
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "raised": true
+          },
+          "bounds": {
+            "min": [
+              -0.31999999999999995,
+              0,
+              -0.3063525491562421
+            ],
+            "max": [
+              0.32000000000000006,
+              1.1150000000000002,
+              0.3063525491562421
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Seat, backrest and armrests translate .10 m as one upper assembly; gas-lift/base remain grounded. No swivel, recline, caster rolling or ergonomic/load certification. Human seating has no certified prop surface.",
+      "thumbnail": "assets/workplace-task-chair/thumbnail.svg"
+    },
+    {
+      "id": "workplace-terminal",
+      "version": 1,
+      "dimensions": [
+        0.62,
+        0.53,
+        0.507
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "workplace-terminal",
+        "parts": 61,
+        "min": [
+          -0.30374999999999996,
+          0,
+          -0.25250000000000006
+        ],
+        "max": [
+          0.31625000000000003,
+          0.53,
+          0.2545
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false
+          },
+          "bounds": {
+            "min": [
+              -0.30374999999999996,
+              0,
+              -0.25250000000000006
+            ],
+            "max": [
+              0.31625000000000003,
+              0.53,
+              0.2545
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true
+          },
+          "bounds": {
+            "min": [
+              -0.30374999999999996,
+              0,
+              -0.25250000000000006
+            ],
+            "max": [
+              0.31625000000000003,
+              0.53,
+              0.2545
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Monitor, keyboard and mouse form one authored terminal assembly, counted once. Power reveals an original illustrative chart; no actual software, typing, pointer interaction or adjustable display. All three contact patches sit on one desk support.",
+      "thumbnail": "assets/workplace-terminal/thumbnail.svg"
+    },
+    {
+      "id": "workplace-tower",
+      "version": 1,
+      "dimensions": [
+        0.253,
+        0.48,
+        0.47
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "workplace-tower",
+        "parts": 31,
+        "min": [
+          -0.12,
+          0,
+          -0.226
+        ],
+        "max": [
+          0.133,
+          0.48,
+          0.244
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false
+          },
+          "bounds": {
+            "min": [
+              -0.12,
+              0,
+              -0.226
+            ],
+            "max": [
+              0.133,
+              0.48,
+              0.244
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true
+          },
+          "bounds": {
+            "min": [
+              -0.12,
+              0,
+              -0.226
+            ],
+            "max": [
+              0.133,
+              0.48,
+              0.244
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Power changes status LED and side cooling-fan blade phase by .5 rad, with body retained. Static endpoint illustration, no computation, network, continuous fan or electrical simulation. Separate from terminal source.",
+      "thumbnail": "assets/workplace-tower/thumbnail.svg"
+    },
+    {
+      "id": "workplace-whiteboard",
+      "version": 1,
+      "dimensions": [
+        1.3,
+        1.775,
+        0.6
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "workplace-whiteboard",
+        "parts": 24,
+        "min": [
+          -0.65,
+          0,
+          -0.3
+        ],
+        "max": [
+          0.65,
+          1.775,
+          0.3
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "flipped": false
+          },
+          "bounds": {
+            "min": [
+              -0.65,
+              0,
+              -0.3
+            ],
+            "max": [
+              0.65,
+              1.775,
+              0.3
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "flipped": true
+          },
+          "bounds": {
+            "min": [
+              -0.65,
+              0,
+              -0.3
+            ],
+            "max": [
+              0.65,
+              1.775,
+              0.3
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Whole double-sided panel rotates 180 degrees about horizontal X axle between marked and blank faces. Frame and drawing remain attached to panel. No writing input, continuous sweep, brake or wheel simulation; endpoints have no sweep-clearance claim.",
+      "thumbnail": "assets/workplace-whiteboard/thumbnail.svg"
+    },
+    {
+      "id": "workplace-lockers",
+      "version": 1,
+      "dimensions": [
+        0.912,
+        1.8,
+        0.913
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "workplace-lockers",
+        "parts": 43,
+        "min": [
+          -0.46199999999999997,
+          0,
+          -0.25
+        ],
+        "max": [
+          0.45,
+          1.8,
+          0.663
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.45,
+              0,
+              -0.25
+            ],
+            "max": [
+              0.45,
+              1.8,
+              0.2975
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.46199999999999997,
+              0,
+              -0.25
+            ],
+            "max": [
+              0.45,
+              1.8,
+              0.663
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Lower-left compartment door swings 90 degrees with label/pull/vents attached. Other three doors intentionally fixed. Four personal bays distinguish this from garment wardrobe and archive shelving; no locks or security certification.",
+      "thumbnail": "assets/workplace-lockers/thumbnail.svg"
+    },
+    {
+      "id": "workplace-shredder",
+      "version": 1,
+      "dimensions": [
+        0.38,
+        0.835,
+        0.3
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "workplace-shredder",
+        "parts": 28,
+        "min": [
+          -0.19,
+          0,
+          -0.15000000000000002
+        ],
+        "max": [
+          0.19,
+          0.835,
+          0.15000000000000002
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "shredded": false
+          },
+          "bounds": {
+            "min": [
+              -0.19,
+              0,
+              -0.15000000000000002
+            ],
+            "max": [
+              0.19,
+              0.835,
+              0.15000000000000002
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "shredded": true
+          },
+          "bounds": {
+            "min": [
+              -0.19,
+              0,
+              -0.15000000000000002
+            ],
+            "max": [
+              0.19,
+              0.636,
+              0.15000000000000002
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "Feed sheet is consumed into fourteen visible narrow strips in the open inspection window. Body/head remain present. Discrete paper processing, not continuous feed, motor, security grade or enclosed safety design. Empty/reset restores illustrative input.",
+      "thumbnail": "assets/workplace-shredder/thumbnail.svg"
+    },
+    {
+      "id": "workplace-water-dispenser",
+      "version": 1,
+      "dimensions": [
+        0.36,
+        1.375,
+        0.36
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "workplace-water-dispenser",
+        "parts": 17,
+        "min": [
+          -0.18,
+          0,
+          -0.18000000000000002
+        ],
+        "max": [
+          0.18,
+          1.375,
+          0.18
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "filled": false
+          },
+          "bounds": {
+            "min": [
+              -0.18,
+              0,
+              -0.18000000000000002
+            ],
+            "max": [
+              0.18,
+              1.375,
+              0.18
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "filled": true
+          },
+          "bounds": {
+            "min": [
+              -0.18,
+              0,
+              -0.18000000000000002
+            ],
+            "max": [
+              0.18,
+              1.375,
+              0.18
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "interactionNote": "A stream and raised cup water level illustrate dispensing. Bottle, spout and cup remain present; cup is a modeled constituent, not a new asset. No liquid conservation, cooling/heating, filtration, plumbing or sanitation certification.",
+      "thumbnail": "assets/workplace-water-dispenser/thumbnail.svg"
+    },
+    {
+      "id": "workplace-meeting-table",
+      "version": 1,
+      "dimensions": [
+        2.2,
+        0.745,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "workplace-meeting-table",
+        "parts": 6,
+        "min": [
+          -1.1,
+          0,
+          -0.5
+        ],
+        "max": [
+          1.1,
+          0.745,
+          0.5
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -1.1,
+              0,
+              -0.5
+            ],
+            "max": [
+              1.1,
+              0.745,
+              0.5
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "worktop",
+              "vertices": [
+                [
+                  -1.05,
+                  0.74,
+                  -0.23000000000000004
+                ],
+                [
+                  1.05,
+                  0.74,
+                  -0.23000000000000004
+                ],
+                [
+                  1.05,
+                  0.74,
+                  0.45
+                ],
+                [
+                  -1.05,
+                  0.74,
+                  0.45
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Fixed long collaborative table on two inset pedestals. Surface excludes rear cable hatch. Different structure, capacity and shared-work role from single-pedestal café table; no folding, load or seating-capacity certification.",
+      "thumbnail": "assets/workplace-meeting-table/thumbnail.svg"
+    },
+    {
+      "id": "workplace-flat-file",
+      "version": 1,
+      "dimensions": [
+        1.1,
+        0.75,
+        1.35
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "workplace-flat-file",
+        "parts": 39,
+        "min": [
+          -0.55,
+          0,
+          -0.4
+        ],
+        "max": [
+          0.55,
+          0.75,
+          0.95
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.55,
+              0,
+              -0.4
+            ],
+            "max": [
+              0.55,
+              0.75,
+              0.45
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.51,
+                  0.75,
+                  -0.36
+                ],
+                [
+                  0.51,
+                  0.75,
+                  -0.36
+                ],
+                [
+                  0.51,
+                  0.75,
+                  0.36
+                ],
+                [
+                  -0.51,
+                  0.75,
+                  0.36
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.55,
+              0,
+              -0.4
+            ],
+            "max": [
+              0.55,
+              0.75,
+              0.95
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.51,
+                  0.75,
+                  -0.36
+                ],
+                [
+                  0.51,
+                  0.75,
+                  -0.36
+                ],
+                [
+                  0.51,
+                  0.75,
+                  0.36
+                ],
+                [
+                  -0.51,
+                  0.75,
+                  0.36
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interactionNote": "Top shallow drawer carries its complete box and plan sheet .50 m outward. Four lower drawers are fixed depictions. Wide flat drawing storage differs from garment chest and printer credenza. No anti-tip interlock, locks or load certification.",
+      "thumbnail": "assets/workplace-flat-file/thumbnail.svg"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Reusable props, furniture, fixtures, equipment and machines for everyday home, o
 
 ## Collection scope and production planning
 
-Select new work from the whole collection's gaps in space, scale and function. Review the [production policy](docs/production-policy.md), [catalog balance and next priorities](docs/catalog-balance.md) and [complete audited inventory](docs/catalog-inventory-2026-11-08.md) before modeling. After the bakery cycle there are 166 independent metric sources (101 small, 20 medium, 45 large), plus one original room and its 18 component groups: 185 registrations. The latest [bakery production cycle](docs/bakery-2026-11-08.md) adds ten equipment sources and reuses five objects. Next priorities are architectural attachment, supported-child binding and guarded/timed equipment operation. Open [the bakery preview](preview/bakery.html) after starting the local server.
+Select new work from the whole collection's gaps in space, scale and function. Review the [production policy](docs/production-policy.md), [catalog balance](docs/catalog-balance.md) and [complete audited inventory](docs/catalog-inventory-2026-11-09.md). After the workplace cycle there are 176 independent metric sources (102 small, 22 medium, 52 large), plus one original room and 18 component groups: 195 registrations. The latest [office work and collaboration cycle](docs/workplace-2026-11-09.md) adds ten sources and reuses five sources in six instances. Explicit support bindings now carry the terminal and lamp when their desk rises or moves. Next priorities are architectural installation, expanded attachment authoring and guarded/timed equipment operations. Open [the workplace preview](preview/workplace.html) after starting the local server.
 
 Favor coherent mixed-size interior scenes and quality over a fixed ten-object count. Keep useful small props, but do not fill batches with easy small variants. Room assemblies, their components and reused objects must not inflate new-object totals. Technical placement, interaction and validation requirements remain unchanged.
 
@@ -25,7 +25,7 @@ Build output is dist/; serve it with `python3 -m http.server 8000 --directory di
 
 ## Assets
 
-`assets/catalog.json` registers 185 entries: ten bakery equipment sources, ten bedroom furnishings and equipment sources, ten sanitary fixtures and equipment sources, ten living/waiting furniture and equipment sources, ten utility furniture/equipment anchors, ten café furniture/fixture/equipment anchors, five office furniture/equipment anchors, ten home exercise props, ten tea and coffee tools, ten home baking tools, ten tabletop game props, ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
+`assets/catalog.json` registers 195 entries: ten workplace furniture/equipment sources, ten bakery equipment sources, ten bedroom furnishings and equipment sources, ten sanitary fixtures and equipment sources, ten living/waiting furniture and equipment sources, ten utility furniture/equipment anchors, ten café furniture/fixture/equipment anchors, five office furniture/equipment anchors, ten home exercise props, ten tea and coffee tools, ten home baking tools, ten tabletop game props, ten indoor gardening props, ten cleaning/laundry props, ten stationery props, ten bathroom props, ten kitchen props, ten sewing props, the metric study lamp, the complete room and its 18 component groups (16 scene blocks, floor/rug, and see-through mechanisms). Original compound groups such as windowsill/cat and shelf/pothos are kept together to preserve the published geometry and animation.
 
 All placeable entries use **1 unit = 1 metre**, Y-up and default scale [1,1,1].
 
@@ -106,3 +106,7 @@ Imported Colorfigures code is MIT by April Zhu, based on ISO-GLOW and Tolga Cohc
 ### Bakery production and wash-up · 2026-11-08
 
 [Open the bakery set](preview/bakery.html): deck oven, dishwasher, planetary mixer, dough sheeter, proofing cabinet, bread slicer, tray rack, bulk ingredient bin, chest freezer and dough divider. Nine discrete loading/processing interactions, one fixed rack, five reused sources. 1 unit = 1 m, scale one, estimated dimensions. [Verification, limits and visual evidence](docs/bakery-2026-11-08.md).
+
+### Office work and collaboration · 2026-11-09
+
+[Open the workplace](preview/workplace.html): sit-stand desk, adjustable task chair, terminal assembly, tower, reversible whiteboard, locker bank, paper shredder, bottle dispenser, meeting table and flat-file cabinet. Nine discrete operations and one fixed source. Five support bindings follow translation/yaw/worktop height, preserve saved relations and allow detach; existing scenes keep independent placement. [Source dimensions, limitations and verification](docs/workplace-2026-11-09.md).

@@ -1,3 +1,4 @@
+import {resolveAttachments} from './attachments.js';
 export function createInstance(asset, id, position = [0,0,0]) {
   return {id, assetId:asset.id, assetVersion:asset.version, position:[...position], rotation:[0,0,0], scale:[...asset.defaultScale], state:structuredClone(asset.state)};
 }
@@ -26,7 +27,7 @@ export function loadScene(text, assets) {
     for(const k of ['position','rotation','scale']) if(!Array.isArray(i[k]) || i[k].length!==3 || !i[k].every(Number.isFinite)) throw Error('Invalid transform');
     if(i.scale.some(v=>v<=0) || !i.state || Object.keys(i.state).length!==Object.keys(a.state).length || Object.keys(a.state).some(k=>typeof i.state[k]!==typeof a.state[k])) throw Error('Invalid state/scale');
   }
-  return structuredClone(s.instances);
+  return resolveAttachments(s.instances,assets);
 }
 
 export function placementLocked(asset,instance){return !!asset.placementLockWhen&&Object.entries(asset.placementLockWhen).every(([k,v])=>instance.state[k]===v);}
