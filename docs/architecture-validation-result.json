@@ -1,0 +1,1117 @@
+{
+  "batch": "architecture-2026-11-10",
+  "count": 10,
+  "objects": [
+    {
+      "id": "architecture-wall",
+      "version": 1,
+      "dimensions": [
+        2.4,
+        2.4,
+        0.135
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "architecture-wall",
+        "parts": 2,
+        "min": [
+          -1.2,
+          0,
+          -0.0675
+        ],
+        "max": [
+          1.2,
+          2.4,
+          0.0675
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -1.2,
+              0,
+              -0.0675
+            ],
+            "max": [
+              1.2,
+              2.4,
+              0.0675
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "installationSurfaces": [
+        {
+          "id": "front",
+          "kind": "wall",
+          "position": [
+            0,
+            1.25,
+            0.05249999999999999
+          ],
+          "polygon": [
+            [
+              -1.15,
+              -1.13
+            ],
+            [
+              1.15,
+              -1.13
+            ],
+            [
+              1.15,
+              1.13
+            ],
+            [
+              -1.15,
+              1.13
+            ]
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "mountAnchors": [],
+      "motionRanges": [],
+      "interactionNote": "Fixed 2.4 m interior wall module. Front installation region excludes baseboard and edge margins. No building-code, structural, acoustic or fire rating; no automatic wall joining or cutaways.",
+      "thumbnail": "assets/architecture-wall/thumbnail.svg"
+    },
+    {
+      "id": "architecture-doorway",
+      "version": 1,
+      "dimensions": [
+        1.2,
+        2.4,
+        0.955
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "architecture-doorway",
+        "parts": 14,
+        "min": [
+          -0.6,
+          0,
+          -0.09
+        ],
+        "max": [
+          0.6,
+          2.4,
+          0.865
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.09
+            ],
+            "max": [
+              0.6,
+              2.4,
+              0.09000000000000001
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.09
+            ],
+            "max": [
+              0.6,
+              2.4,
+              0.865
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "installationSurfaces": [
+        {
+          "id": "switch-jamb",
+          "kind": "wall",
+          "position": [
+            -0.525,
+            1.15,
+            0.08
+          ],
+          "polygon": [
+            [
+              -0.06,
+              -0.95
+            ],
+            [
+              0.06,
+              -0.95
+            ],
+            [
+              0.06,
+              0.95
+            ],
+            [
+              -0.06,
+              0.95
+            ]
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "mountAnchors": [],
+      "motionRanges": [
+        {
+          "stateKey": "open",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            -1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "closed-hinge",
+            "open-hinge"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Complete door leaf, inset and lever rotate 90 degrees about vertical hinge; wall/header remain fixed. Leaf bottom .025 m clears floor. Door and wall are one reusable module, not separately counted. No latch, lock, egress or safety certification.",
+      "thumbnail": "assets/architecture-doorway/thumbnail.svg"
+    },
+    {
+      "id": "architecture-window",
+      "version": 1,
+      "dimensions": [
+        2.4,
+        2.4,
+        0.18
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "architecture-window",
+        "parts": 26,
+        "min": [
+          -1.2,
+          0,
+          -0.09
+        ],
+        "max": [
+          1.2,
+          2.4,
+          0.09
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "bounds": {
+            "min": [
+              -1.2,
+              0,
+              -0.09
+            ],
+            "max": [
+              1.2,
+              2.4,
+              0.09
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "bounds": {
+            "min": [
+              -1.2,
+              0,
+              -0.09
+            ],
+            "max": [
+              1.2,
+              2.4,
+              0.09
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "installationSurfaces": [
+        {
+          "id": "blind-header",
+          "kind": "wall",
+          "position": [
+            0,
+            2.25,
+            0.06
+          ],
+          "polygon": [
+            [
+              -0.97,
+              -0.12
+            ],
+            [
+              0.97,
+              -0.12
+            ],
+            [
+              0.97,
+              0.12
+            ],
+            [
+              -0.97,
+              0.12
+            ]
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "mountAnchors": [],
+      "motionRanges": [
+        {
+          "stateKey": "open",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            0.8
+          ],
+          "units": "m",
+          "parts": [
+            "closed-glass",
+            "slid-glass"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Left complete sash translates .80 m on the forward track, overlapping the fixed rear sash while exposing an actual wall aperture. Blue panels are opaque stylized glazing, not transparent rendering. No weather seal, glass physics or building certification.",
+      "thumbnail": "assets/architecture-window/thumbnail.svg"
+    },
+    {
+      "id": "architecture-beam-bay",
+      "version": 1,
+      "dimensions": [
+        2.9,
+        2.55,
+        0.212
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "architecture-beam-bay",
+        "parts": 5,
+        "min": [
+          -1.45,
+          0,
+          -0.1
+        ],
+        "max": [
+          1.45,
+          2.5500000000000003,
+          0.112
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -1.45,
+              0,
+              -0.1
+            ],
+            "max": [
+              1.45,
+              2.5500000000000003,
+              0.112
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "installationSurfaces": [
+        {
+          "id": "soffit",
+          "kind": "soffit",
+          "position": [
+            0,
+            2.4,
+            0
+          ],
+          "polygon": [
+            [
+              -1.3,
+              -0.09
+            ],
+            [
+              1.3,
+              -0.09
+            ],
+            [
+              1.3,
+              0.09
+            ],
+            [
+              -1.3,
+              0.09
+            ]
+          ],
+          "normal": [
+            0,
+            -1,
+            0
+          ]
+        }
+      ],
+      "mountAnchors": [],
+      "motionRanges": [],
+      "interactionNote": "Fixed floor-supported posts and overhead beam. Underside provides a real downward mounting plane. Open bay is not a roof or full ceiling enclosure; no span/load/structural certification. Posts and beam count once.",
+      "thumbnail": "assets/architecture-beam-bay/thumbnail.svg"
+    },
+    {
+      "id": "architecture-shelf",
+      "version": 1,
+      "dimensions": [
+        0.85,
+        0.3,
+        0.28
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "architecture-shelf",
+        "parts": 7,
+        "min": [
+          -0.425,
+          0,
+          -0.007500000000000007
+        ],
+        "max": [
+          0.425,
+          0.3,
+          0.2725
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "bounds": {
+            "min": [
+              -0.425,
+              0,
+              -0.007500000000000007
+            ],
+            "max": [
+              0.425,
+              0.3,
+              0.2725
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "top",
+              "vertices": [
+                [
+                  -0.395,
+                  0.3,
+                  0.0225
+                ],
+                [
+                  0.395,
+                  0.3,
+                  0.0225
+                ],
+                [
+                  0.395,
+                  0.3,
+                  0.2425
+                ],
+                [
+                  -0.395,
+                  0.3,
+                  0.2425
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "installationSurfaces": [],
+      "mountAnchors": [
+        {
+          "id": "back",
+          "kind": "wall",
+          "position": [
+            0,
+            0.135,
+            -0.0075
+          ],
+          "polygon": [
+            [
+              -0.325,
+              -0.135
+            ],
+            [
+              0.325,
+              -0.135
+            ],
+            [
+              0.325,
+              0.135
+            ],
+            [
+              -0.325,
+              0.135
+            ]
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Fixed shelf with rear plates, horizontal arms and diagonal braces. Explicit wall anchor carries the shelf and its separately supported contents. No load rating, fixings simulation or general moving-part attachment.",
+      "thumbnail": "assets/architecture-shelf/thumbnail.svg"
+    },
+    {
+      "id": "architecture-sconce",
+      "version": 1,
+      "dimensions": [
+        0.2,
+        0.4,
+        0.24
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "architecture-sconce",
+        "parts": 5,
+        "min": [
+          -0.1,
+          0,
+          -0.010000000000000002
+        ],
+        "max": [
+          0.1,
+          0.4,
+          0.23
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false
+          },
+          "bounds": {
+            "min": [
+              -0.1,
+              0,
+              -0.010000000000000002
+            ],
+            "max": [
+              0.1,
+              0.4,
+              0.23
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true
+          },
+          "bounds": {
+            "min": [
+              -0.1,
+              0,
+              -0.010000000000000002
+            ],
+            "max": [
+              0.1,
+              0.4,
+              0.23
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "installationSurfaces": [],
+      "mountAnchors": [
+        {
+          "id": "back",
+          "kind": "wall",
+          "position": [
+            0,
+            0.15,
+            -0.009999999999999995
+          ],
+          "polygon": [
+            [
+              -0.055,
+              -0.15
+            ],
+            [
+              0.055,
+              -0.15
+            ],
+            [
+              0.055,
+              0.15
+            ],
+            [
+              -0.055,
+              0.15
+            ]
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Fixed wall plate, arm and shade with a visibly changing diffuser. Installation uses rear plate contact; no cast light, electrical circuit or wall-load certification.",
+      "thumbnail": "assets/architecture-sconce/thumbnail.svg"
+    },
+    {
+      "id": "architecture-pendant",
+      "version": 1,
+      "dimensions": [
+        0.4,
+        0.885,
+        0.4
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "architecture-pendant",
+        "parts": 5,
+        "min": [
+          -0.2,
+          0,
+          -0.2
+        ],
+        "max": [
+          0.2,
+          0.885,
+          0.2
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false
+          },
+          "bounds": {
+            "min": [
+              -0.2,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.2,
+              0.885,
+              0.2
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true
+          },
+          "bounds": {
+            "min": [
+              -0.2,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.2,
+              0.885,
+              0.2
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "installationSurfaces": [],
+      "mountAnchors": [
+        {
+          "id": "top",
+          "kind": "soffit",
+          "position": [
+            0,
+            0.885,
+            0
+          ],
+          "polygon": [
+            [
+              -0.06,
+              -0.06
+            ],
+            [
+              0.06,
+              -0.06
+            ],
+            [
+              0.06,
+              0.06
+            ],
+            [
+              -0.06,
+              0.06
+            ]
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Canopy fixes to a downward soffit while cord and open-bottom shade hang below it. Bulb appearance toggles; no cable dynamics, real illumination or electrical simulation. Bottom-origin source remains unchanged during installation.",
+      "thumbnail": "assets/architecture-pendant/thumbnail.svg"
+    },
+    {
+      "id": "architecture-radiator",
+      "version": 1,
+      "dimensions": [
+        0.989,
+        0.6,
+        0.118
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "architecture-radiator",
+        "parts": 22,
+        "min": [
+          -0.43,
+          0,
+          -0.009
+        ],
+        "max": [
+          0.559,
+          0.6,
+          0.10900000000000001
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "high": false
+          },
+          "bounds": {
+            "min": [
+              -0.43,
+              0,
+              -0.009
+            ],
+            "max": [
+              0.559,
+              0.6,
+              0.10900000000000001
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "high": true
+          },
+          "bounds": {
+            "min": [
+              -0.43,
+              0,
+              -0.009
+            ],
+            "max": [
+              0.559,
+              0.6,
+              0.10900000000000001
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "installationSurfaces": [],
+      "mountAnchors": [
+        {
+          "id": "back",
+          "kind": "wall",
+          "position": [
+            0,
+            0.3,
+            -0.008999999999999994
+          ],
+          "polygon": [
+            [
+              -0.325,
+              -0.3
+            ],
+            [
+              0.325,
+              -0.3
+            ],
+            [
+              0.325,
+              0.3
+            ],
+            [
+              -0.325,
+              0.3
+            ]
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "high",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            1.2
+          ],
+          "units": "rad",
+          "parts": [
+            "low-mark",
+            "high-mark"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Thermostat witness mark rotates 1.2 rad about X; panel/manifolds remain fixed. This is valve adjustment only, not heating, water flow or temperature simulation. No plumbing or thermal/load certification.",
+      "thumbnail": "assets/architecture-radiator/thumbnail.svg"
+    },
+    {
+      "id": "architecture-blind",
+      "version": 1,
+      "dimensions": [
+        1.82,
+        1.4,
+        0.14
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "architecture-blind",
+        "parts": 8,
+        "min": [
+          -0.91,
+          0,
+          -0.1
+        ],
+        "max": [
+          0.91,
+          1.4000000000000001,
+          0.039999999999999994
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "raised": false
+          },
+          "bounds": {
+            "min": [
+              -0.91,
+              0,
+              -0.1
+            ],
+            "max": [
+              0.91,
+              1.4000000000000001,
+              0.039999999999999994
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "raised": true
+          },
+          "bounds": {
+            "min": [
+              -0.91,
+              1.14,
+              -0.1
+            ],
+            "max": [
+              0.91,
+              1.4000000000000001,
+              0.039999999999999994
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "installationSurfaces": [],
+      "mountAnchors": [
+        {
+          "id": "back",
+          "kind": "wall",
+          "position": [
+            0,
+            1.35,
+            -0.1
+          ],
+          "polygon": [
+            [
+              -0.89,
+              -0.05
+            ],
+            [
+              0.89,
+              -0.05
+            ],
+            [
+              0.89,
+              0.05
+            ],
+            [
+              -0.89,
+              0.05
+            ]
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "raised",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            1.14
+          ],
+          "units": "m",
+          "parts": [
+            "lowered-bottom-bar",
+            "raised-bottom-bar"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Cloth length shortens and bottom bar rises 1.14 m; headrail, brackets and roller remain attached. Endpoints only, no cloth/cord mechanics. Active raised geometry no longer touches local Y=0; immutable origin remains the lowered-state bottom contact center.",
+      "thumbnail": "assets/architecture-blind/thumbnail.svg"
+    },
+    {
+      "id": "architecture-switch",
+      "version": 1,
+      "dimensions": [
+        0.085,
+        0.09,
+        0.030862228
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "architecture-switch",
+        "parts": 3,
+        "min": [
+          -0.0425,
+          0,
+          -0.006
+        ],
+        "max": [
+          0.0425,
+          0.09,
+          0.024862228105295387
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false
+          },
+          "bounds": {
+            "min": [
+              -0.0425,
+              0,
+              -0.006
+            ],
+            "max": [
+              0.0425,
+              0.09,
+              0.024862228105295387
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true
+          },
+          "bounds": {
+            "min": [
+              -0.0425,
+              0,
+              -0.006
+            ],
+            "max": [
+              0.0425,
+              0.09,
+              0.024862228105295387
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "installationSurfaces": [],
+      "mountAnchors": [
+        {
+          "id": "back",
+          "kind": "wall",
+          "position": [
+            0,
+            0.045,
+            -0.006
+          ],
+          "polygon": [
+            [
+              -0.0425,
+              -0.045
+            ],
+            [
+              0.0425,
+              -0.045
+            ],
+            [
+              0.0425,
+              0.045
+            ],
+            [
+              -0.0425,
+              0.045
+            ]
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "on",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            -0.16,
+            0.16
+          ],
+          "units": "rad",
+          "parts": [
+            "off-rocker",
+            "on-rocker"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Rocker physically tilts between +/- .16 rad on X. Standalone interface; it does not control other light instances or simulate wiring, voltage or electrical certification.",
+      "thumbnail": "assets/architecture-switch/thumbnail.svg"
+    }
+  ]
+}

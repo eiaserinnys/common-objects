@@ -1,6 +1,29 @@
 # Catalog balance and next production priorities
 
-## Current review: office work and collaboration, 2026-11-09
+## Current review: installed study corner, 2026-11-10
+
+Fetched clean base `deaa69e32daaaa1b13bd10cc79cec8b749bf1d8a`, matching origin/main; one worktree and no other remote branch or open PR. Reviewed all 195 pre-cycle identities, dimensions and states, the original room and eighteen prior batch previews. [Selection brief](architecture-brief-2026-11-10.md), [205-row inventory](catalog-inventory-2026-11-10.md), [audit](architecture-catalog-audit.json), [production and QA](architecture-2026-11-10.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 186 | 104 | 25 | 57 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 205 | 106 | 28 | 71 |
+
+New **10 sources, 2 S / 3 M / 5 L**; independent small share **58.0% → 55.9%**. Last ten cycles fitness–architecture: 95 (13 S / 25 M / 57 L). Nineteen batches: 185 (103 S / 25 M / 57 L), plus original lamp. Dimensions are estimated and size bins use maximum endpoint envelopes. H/O/C candidate uses 169/97/186 overlap; these are not completed-room counts.
+
+Existing furniture can already populate bedrooms, workplaces and service rooms. Independent wall/opening modules and installed fixtures were missing, making architectural installation a better next gap than another processing machine. The ten distinct roles add a wall, doorway, sliding window, post-and-beam bay, wall shelf, sconce, pendant, radiator, blind and switch. Five reused sources (desk, chair, terminal, lamp, teapot) add no new counts. The small switch and sconce are necessary installed roles, not color variants or hand-tool filler. Seven sources operate; three are deliberately fixed.
+
+Six wall/soffit bindings and three horizontal supports demonstrate fixtures following host translation/yaw, a pendant following beam height, and nested support on a mounted shelf. This partially addresses enclosure: the example is an open study corner, without roof, automatic corner joining or building certification.
+
+**Next priorities (supersede historical lists):**
+
+1. Enclosure continuity: explicit module joins, corners, ceiling/roof and openings across connected modules. Avoid counting alternate plain walls as new roles.
+2. Attachment authoring UI and broader parenting: current wall/soffit and horizontal convex bindings are authored in JSON, yaw-only, without tilted planes, general moving-part parenting or collision avoidance.
+3. Guarded/timed equipment operation: explicit interlocks and meaningful processing before another access-door machine batch. Review retail checkout/display and healthcare/wellness roles against existing counter/storage assets.
+
+## Historical review: office work and collaboration, 2026-11-09
 
 Fetched clean base `117d9f7fb2096d36af7a09a3d878ed931ad69de1`, matching origin/main; one checkout, no other remote branch/open PR. Reviewed all 185 pre-cycle dimensions/states and original room plus seventeen prior batch previews. [Selection brief](workplace-brief-2026-11-09.md), [195-row inventory](catalog-inventory-2026-11-09.md), [audit](workplace-catalog-audit.json), [production/validation](workplace-2026-11-09.md).
 

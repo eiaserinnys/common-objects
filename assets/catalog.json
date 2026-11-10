@@ -195,6 +195,16 @@
     "workplace-shredder/asset.json",
     "workplace-water-dispenser/asset.json",
     "workplace-meeting-table/asset.json",
-    "workplace-flat-file/asset.json"
+    "workplace-flat-file/asset.json",
+    "architecture-wall/asset.json",
+    "architecture-doorway/asset.json",
+    "architecture-window/asset.json",
+    "architecture-beam-bay/asset.json",
+    "architecture-shelf/asset.json",
+    "architecture-sconce/asset.json",
+    "architecture-pendant/asset.json",
+    "architecture-radiator/asset.json",
+    "architecture-blind/asset.json",
+    "architecture-switch/asset.json"
   ]
 }

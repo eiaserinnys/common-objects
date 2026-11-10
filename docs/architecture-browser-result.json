@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "wall translation/yaw carries shelf, sconce, radiator and nested teapot; soffit carries pendant; mount metadata round-trips; detach unlocks",
+    "object-1: select, focus, independent duplicate, fixed furniture, four sides in all states",
+    "object-2: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-3: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-4: select, focus, independent duplicate, fixed furniture, four sides in all states",
+    "object-5: select, focus, independent duplicate, fixed furniture, four sides in all states",
+    "object-6: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-7: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-8: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-9: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-10: select, focus, independent duplicate, visible action, four sides in all states",
+    "object-11: select, focus, independent duplicate, visible action, reused source",
+    "object-12: select, focus, independent duplicate, visible action, reused source",
+    "object-13: select, focus, independent duplicate, visible action, reused source",
+    "object-14: select, focus, independent duplicate, visible action, reused source",
+    "object-15: select, focus, independent duplicate, visible action, reused source",
+    "30 mixed instances: transforms, versions and states restored exactly after reload",
+    "390px viewport: no overflow, pointer orbit, selection, focus, door opening operation"
+  ],
+  "operatingObjects": [
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "errors": []
+}

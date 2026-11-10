@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "architecture-wall",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        -1.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-2",
+      "assetId": "architecture-doorway",
+      "assetVersion": 1,
+      "position": [
+        1.2,
+        0,
+        0.75
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "architecture-window",
+      "assetVersion": 1,
+      "position": [
+        -1.2,
+        0,
+        -0.4
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-4",
+      "assetId": "architecture-beam-bay",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-5",
+      "assetId": "architecture-shelf",
+      "assetVersion": 1,
+      "position": [
+        0.55,
+        1.165,
+        -1.54
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {},
+      "mount": {
+        "parentId": "object-1",
+        "surfaceId": "front",
+        "anchorId": "back",
+        "offset": [
+          0.55,
+          0.05
+        ]
+      }
+    },
+    {
+      "id": "object-6",
+      "assetId": "architecture-sconce",
+      "assetVersion": 1,
+      "position": [
+        -0.75,
+        1.7,
+        -1.5375
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      },
+      "mount": {
+        "parentId": "object-1",
+        "surfaceId": "front",
+        "anchorId": "back",
+        "offset": [
+          -0.75,
+          0.6
+        ]
+      }
+    },
+    {
+      "id": "object-7",
+      "assetId": "architecture-pendant",
+      "assetVersion": 1,
+      "position": [
+        0,
+        1.515,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      },
+      "mount": {
+        "parentId": "object-4",
+        "surfaceId": "soffit",
+        "anchorId": "top",
+        "offset": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "object-8",
+      "assetId": "architecture-radiator",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0.12,
+        -1.5385
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false
+      },
+      "mount": {
+        "parentId": "object-1",
+        "surfaceId": "front",
+        "anchorId": "back",
+        "offset": [
+          0,
+          -0.83
+        ]
+      }
+    },
+    {
+      "id": "object-9",
+      "assetId": "architecture-blind",
+      "assetVersion": 1,
+      "position": [
+        -1.04,
+        0.9,
+        -0.4
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "raised": false
+      },
+      "mount": {
+        "parentId": "object-3",
+        "surfaceId": "blind-header",
+        "anchorId": "back",
+        "offset": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "object-10",
+      "assetId": "architecture-switch",
+      "assetVersion": 1,
+      "position": [
+        1.114,
+        1.105,
+        0.225
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      },
+      "mount": {
+        "parentId": "object-2",
+        "surfaceId": "switch-jamb",
+        "anchorId": "back",
+        "offset": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "workplace-desk",
+      "assetVersion": 1,
+      "position": [
+        -0.15,
+        0,
+        -0.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false
+      }
+    },
+    {
+      "id": "object-12",
+      "assetId": "workplace-task-chair",
+      "assetVersion": 1,
+      "position": [
+        -0.15,
+        0,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "raised": false
+      }
+    },
+    {
+      "id": "object-13",
+      "assetId": "workplace-terminal",
+      "assetVersion": 1,
+      "position": [
+        -0.25,
+        0.75,
+        -0.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      },
+      "attachment": {
+        "parentId": "object-11",
+        "surfaceId": "worktop",
+        "offset": [
+          -0.1,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-14",
+      "assetId": "desk-lamp",
+      "assetVersion": 2,
+      "position": [
+        -0.73,
+        0.75,
+        -0.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      },
+      "attachment": {
+        "parentId": "object-11",
+        "surfaceId": "worktop",
+        "offset": [
+          -0.58,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-15",
+      "assetId": "beverage-teapot",
+      "assetVersion": 1,
+      "position": [
+        0.55,
+        1.465,
+        -1.4075
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lidded": true
+      },
+      "attachment": {
+        "parentId": "object-5",
+        "surfaceId": "top",
+        "offset": [
+          0,
+          0.1325
+        ],
+        "yaw": 0
+      }
+    }
+  ]
+}
