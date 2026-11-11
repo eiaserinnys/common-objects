@@ -1,0 +1,26 @@
+{
+  "checks": [
+    "object-3: reload refusal preserves complete scene",
+    "object-3: toggle refusal preserves complete scene",
+    "object-4: clear refusal preserves complete scene",
+    "object-5: print refusal preserves complete scene",
+    "object-10: refill refusal preserves complete scene",
+    "object-10: toggle refusal preserves complete scene",
+    "object-1: all 1 reachable poses in four camera directions",
+    "object-2: all 1 reachable poses in four camera directions",
+    "object-3: all 4 reachable poses in four camera directions",
+    "object-4: all 3 reachable poses in four camera directions",
+    "object-5: all 3 reachable poses in four camera directions",
+    "object-6: all 2 reachable poses in four camera directions",
+    "object-7: all 2 reachable poses in four camera directions",
+    "object-8: all 2 reachable poses in four camera directions",
+    "object-9: all 2 reachable poses in four camera directions",
+    "object-10: all 4 reachable poses in four camera directions",
+    "32 mixed instances: independent states and detached copies restore exactly",
+    "counter follows translated/yawed supports; detach unlocks; wall carries mounted light",
+    "trolley parking brake locks and releases placement",
+    "390px viewport: no overflow; selection, focus, orbit, zoom and dispense action"
+  ],
+  "individualFourAngleCaptures": 96,
+  "errors": []
+}

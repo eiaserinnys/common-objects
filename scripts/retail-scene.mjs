@@ -1,0 +1,11 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {createInstance,saveScene} from '../renderer/model.js';import {resolveAttachments} from '../renderer/attachments.js';
+const definitions=[['retail-gondola',[-.1,0,-.4]],['retail-produce',[-1.65,0,-2.05]],['retail-conveyor',[2.2,0,1.4]],['retail-register',[0,0,0]],['retail-scale',[0,0,0]],['retail-trolley',[.65,0,1.5]],['retail-basket-stand',[-2,0,1.4]],['retail-gate',[-.9,0,2.3]],['retail-chiller',[1.7,0,-2.2]],['retail-bulk-dispenser',[-2,0,-.5]],['cafe-service-counter',[2.2,0,.1]],['architecture-wall',[0,0,-2.85]],['architecture-sconce',[0,0,0]],['beverage-tea-tin',[0,0,0]],['beverage-tea-tin',[0,0,0]],['kitchen-oil-cruet',[0,0,0]]];
+const assets=new Map();for(const [id] of definitions)assets.set(id,JSON.parse(await readFile('assets/'+id+'/asset.json')));
+const instances=definitions.map(([id,pos],n)=>createInstance(assets.get(id),'object-'+(n+1),pos));
+const counter=assets.get('cafe-service-counter');
+for(const [n,x] of [[3,-.45],[4,.45]])instances[n].attachment={parentId:'object-11',surfaceId:counter.supportSurfaces[0].id,offset:[x,0],yaw:Math.PI/2};
+instances[12].mount={parentId:'object-12',surfaceId:'front',anchorId:'back',offset:[0,.65]};
+for(const [n,x] of [[13,-.3],[14,.3]])instances[n].attachment={parentId:'object-1',surfaceId:'shelf-1-2',offset:[x,.225],yaw:0};
+instances[15].attachment={parentId:'object-9',surfaceId:'deck-1',offset:[.30,-.025],yaw:0};
+await mkdir('assets/retail-interior',{recursive:true});await writeFile('assets/retail-interior/assembly.json',JSON.stringify(JSON.parse(saveScene(resolveAttachments(instances,assets))),null,2)+'\n');

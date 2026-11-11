@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "retail-gondola",
+      "assetVersion": 1,
+      "position": [
+        -0.1,
+        0,
+        -0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-2",
+      "assetId": "retail-produce",
+      "assetVersion": 1,
+      "position": [
+        -1.65,
+        0,
+        -2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-3",
+      "assetId": "retail-conveyor",
+      "assetVersion": 1,
+      "position": [
+        2.2,
+        0,
+        1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "delivered": false,
+        "stopped": false
+      }
+    },
+    {
+      "id": "object-4",
+      "assetId": "retail-register",
+      "assetVersion": 1,
+      "position": [
+        1.75,
+        0.95,
+        0.1
+      ],
+      "rotation": [
+        0,
+        1.570796326795,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "drawerOpen": false,
+        "printed": false
+      },
+      "attachment": {
+        "parentId": "object-11",
+        "surfaceId": "worktop",
+        "offset": [
+          -0.45,
+          0
+        ],
+        "yaw": 1.5707963267948966
+      }
+    },
+    {
+      "id": "object-5",
+      "assetId": "retail-scale",
+      "assetVersion": 1,
+      "position": [
+        2.65,
+        0.95,
+        0.1
+      ],
+      "rotation": [
+        0,
+        1.570796326795,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "weighed": false,
+        "label": false
+      },
+      "attachment": {
+        "parentId": "object-11",
+        "surfaceId": "worktop",
+        "offset": [
+          0.45,
+          0
+        ],
+        "yaw": 1.5707963267948966
+      }
+    },
+    {
+      "id": "object-6",
+      "assetId": "retail-trolley",
+      "assetVersion": 1,
+      "position": [
+        0.65,
+        0,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "braked": false
+      }
+    },
+    {
+      "id": "object-7",
+      "assetId": "retail-basket-stand",
+      "assetVersion": 1,
+      "position": [
+        -2,
+        0,
+        1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "raised": false
+      }
+    },
+    {
+      "id": "object-8",
+      "assetId": "retail-gate",
+      "assetVersion": 1,
+      "position": [
+        -0.9,
+        0,
+        2.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-9",
+      "assetId": "retail-chiller",
+      "assetVersion": 1,
+      "position": [
+        1.7,
+        0,
+        -2.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "raised": false
+      }
+    },
+    {
+      "id": "object-10",
+      "assetId": "retail-bulk-dispenser",
+      "assetVersion": 1,
+      "position": [
+        -2,
+        0,
+        -0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "dispensed": false,
+        "lidOpen": false
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "cafe-service-counter",
+      "assetVersion": 1,
+      "position": [
+        2.2,
+        0,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-12",
+      "assetId": "architecture-wall",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        -2.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-13",
+      "assetId": "architecture-sconce",
+      "assetVersion": 1,
+      "position": [
+        0,
+        1.75,
+        -2.7875
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      },
+      "mount": {
+        "parentId": "object-12",
+        "surfaceId": "front",
+        "anchorId": "back",
+        "offset": [
+          0,
+          0.65
+        ]
+      }
+    },
+    {
+      "id": "object-14",
+      "assetId": "beverage-tea-tin",
+      "assetVersion": 1,
+      "position": [
+        -0.4,
+        1.12,
+        -0.175
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lidded": true
+      },
+      "attachment": {
+        "parentId": "object-1",
+        "surfaceId": "shelf-1-2",
+        "offset": [
+          -0.3,
+          0.225
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-15",
+      "assetId": "beverage-tea-tin",
+      "assetVersion": 1,
+      "position": [
+        0.2,
+        1.12,
+        -0.175
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lidded": true
+      },
+      "attachment": {
+        "parentId": "object-1",
+        "surfaceId": "shelf-1-2",
+        "offset": [
+          0.3,
+          0.225
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-16",
+      "assetId": "kitchen-oil-cruet",
+      "assetVersion": 1,
+      "position": [
+        2,
+        0.73,
+        -2.225
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "stoppered": true
+      },
+      "attachment": {
+        "parentId": "object-9",
+        "surfaceId": "deck-1",
+        "offset": [
+          0.3,
+          -0.025
+        ],
+        "yaw": 0
+      }
+    }
+  ]
+}

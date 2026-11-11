@@ -1,6 +1,29 @@
 # Catalog balance and next production priorities
 
-## Current review: installed study corner, 2026-11-10
+## Current review: neighborhood grocery, 2026-11-11
+
+Clean fetched base `ceb1b7717f1f9189e91236a1135a82eda0971d80`, one checkout, only main remotely, no open PRs. Read all 205 pre-cycle sources, dimensions/states, original room and nineteen batch previews. [Selection brief](retail-brief-2026-11-11.md), [215-row inventory](catalog-inventory-2026-11-11.md), [full audit](retail-catalog-audit.json), [production and QA](retail-2026-11-11.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 196 | 104 | 29 | 63 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 215 | 106 | 32 | 77 |
+
+New **10 sources, 0 S / 4 M / 6 L**; independent small share **55.9% → 53.1%**. Last ten cycles office–retail: 95 (4 S / 28 M / 63 L). Twenty production batches: 195 (103 S / 29 M / 63 L), plus original lamp. Sizes use estimated maximum endpoint envelopes, never viewport size; shopping trolley is M (maximum .983 m), not L by label. Overlapping H/O/C candidate uses 169/98/196 do not imply completed rooms.
+
+Retail browsing, customer transport and checkout were absent despite café selling and bakery processing coverage. The double-sided gondola, stepped produce bins, open-front multideck chiller, checkout conveyor, cash terminal, weighing/label unit, shopping trolley, basket pickup stand, swing entrance gate and bulk dispenser form distinct roles. No shelf recolors, storage-freezer repeats or hand-tool filler. Existing service counter, wall, sconce, tea tin (two copies) and oil cruet are reused with no new counts. The example uses five horizontal bindings and one wall mount.
+
+Four equipment sources implement guarded explicit operation sequences; two assets are fixed and four use ordinary mechanical endpoint toggles. This partially addresses the equipment-operation priority without claiming timers or physical processing. Architecture enclosure continuity and attachment authoring remain unresolved; another plain wall variant was a poorer role addition than the missing retail workflow.
+
+**Next priorities (supersede historical lists):**
+
+1. Enclosure continuity and attachment authoring: connected wall/corner/ceiling contracts and an authoring UI would benefit existing furnished scenes. Keep variants separate from newly covered roles.
+2. Timed operation and richer guarded states: cancellation, elapsed progress and explicit persistence semantics before claiming continuous equipment. Current Boolean prerequisite/set rules are synchronous illustrations.
+3. Review healthcare/wellness and shared-building service spaces against existing seating, sanitary fixtures and storage. Prioritize genuine new functions over another generic counter or cabinet.
+
+## Historical review: installed study corner, 2026-11-10
 
 Fetched clean base `deaa69e32daaaa1b13bd10cc79cec8b749bf1d8a`, matching origin/main; one worktree and no other remote branch or open PR. Reviewed all 195 pre-cycle identities, dimensions and states, the original room and eighteen prior batch previews. [Selection brief](architecture-brief-2026-11-10.md), [205-row inventory](catalog-inventory-2026-11-10.md), [audit](architecture-catalog-audit.json), [production and QA](architecture-2026-11-10.md).
 

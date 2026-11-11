@@ -1,0 +1,1333 @@
+{
+  "batch": "retail-2026-11-11",
+  "count": 10,
+  "poses": 24,
+  "objects": [
+    {
+      "id": "retail-gondola",
+      "version": 1,
+      "dimensions": [
+        1.2,
+        1.5,
+        0.9
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "retail-gondola",
+        "parts": 16,
+        "min": [
+          -0.6,
+          0,
+          -0.45
+        ],
+        "max": [
+          0.6,
+          1.5,
+          0.45
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.45
+            ],
+            "max": [
+              0.6,
+              1.5,
+              0.45
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "shelf--1-0",
+              "vertices": [
+                [
+                  -0.55,
+                  0.18,
+                  -0.395
+                ],
+                [
+                  0.55,
+                  0.18,
+                  -0.395
+                ],
+                [
+                  0.55,
+                  0.18,
+                  -0.05499999999999999
+                ],
+                [
+                  -0.55,
+                  0.18,
+                  -0.05499999999999999
+                ]
+              ]
+            },
+            {
+              "id": "shelf--1-1",
+              "vertices": [
+                [
+                  -0.55,
+                  0.65,
+                  -0.395
+                ],
+                [
+                  0.55,
+                  0.65,
+                  -0.395
+                ],
+                [
+                  0.55,
+                  0.65,
+                  -0.05499999999999999
+                ],
+                [
+                  -0.55,
+                  0.65,
+                  -0.05499999999999999
+                ]
+              ]
+            },
+            {
+              "id": "shelf--1-2",
+              "vertices": [
+                [
+                  -0.55,
+                  1.12,
+                  -0.395
+                ],
+                [
+                  0.55,
+                  1.12,
+                  -0.395
+                ],
+                [
+                  0.55,
+                  1.12,
+                  -0.05499999999999999
+                ],
+                [
+                  -0.55,
+                  1.12,
+                  -0.05499999999999999
+                ]
+              ]
+            },
+            {
+              "id": "shelf-1-0",
+              "vertices": [
+                [
+                  -0.55,
+                  0.18,
+                  0.05499999999999999
+                ],
+                [
+                  0.55,
+                  0.18,
+                  0.05499999999999999
+                ],
+                [
+                  0.55,
+                  0.18,
+                  0.395
+                ],
+                [
+                  -0.55,
+                  0.18,
+                  0.395
+                ]
+              ]
+            },
+            {
+              "id": "shelf-1-1",
+              "vertices": [
+                [
+                  -0.55,
+                  0.65,
+                  0.05499999999999999
+                ],
+                [
+                  0.55,
+                  0.65,
+                  0.05499999999999999
+                ],
+                [
+                  0.55,
+                  0.65,
+                  0.395
+                ],
+                [
+                  -0.55,
+                  0.65,
+                  0.395
+                ]
+              ]
+            },
+            {
+              "id": "shelf-1-2",
+              "vertices": [
+                [
+                  -0.55,
+                  1.12,
+                  0.05499999999999999
+                ],
+                [
+                  0.55,
+                  1.12,
+                  0.05499999999999999
+                ],
+                [
+                  0.55,
+                  1.12,
+                  0.395
+                ],
+                [
+                  -0.55,
+                  1.12,
+                  0.395
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Fixed double-sided open merchandising shelves, with real flat support regions inset from front price rails. Six levels, one source. No load rating or adjustable shelf mechanism.",
+      "thumbnail": "assets/retail-gondola/thumbnail.svg"
+    },
+    {
+      "id": "retail-produce",
+      "version": 1,
+      "dimensions": [
+        1.2,
+        1.2,
+        0.7825
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "retail-produce",
+        "parts": 34,
+        "min": [
+          -0.6,
+          0,
+          -0.39
+        ],
+        "max": [
+          0.6,
+          1.2,
+          0.3925
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.39
+            ],
+            "max": [
+              0.6,
+              1.2,
+              0.3925
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Fixed stepped and slightly inclined open produce bins with four stylized fruit examples per tier. Fruit belongs to this demonstration assembly and is not counted separately. No loose-particle, restocking, weighing or flat support over inclined bins.",
+      "thumbnail": "assets/retail-produce/thumbnail.svg"
+    },
+    {
+      "id": "retail-conveyor",
+      "version": 1,
+      "dimensions": [
+        1.8,
+        1.067,
+        0.655
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "retail-conveyor",
+        "parts": 25,
+        "min": [
+          -0.9,
+          0,
+          -0.3275
+        ],
+        "max": [
+          0.9,
+          1.067,
+          0.3275
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "delivered": false,
+            "stopped": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.9,
+              0,
+              -0.3275
+            ],
+            "max": [
+              0.9,
+              1.067,
+              0.3275
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "delivered": true,
+            "stopped": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.9,
+              0,
+              -0.3275
+            ],
+            "max": [
+              0.9,
+              1.067,
+              0.3275
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "delivered": false,
+            "stopped": true
+          },
+          "steps": [
+            "stop"
+          ],
+          "bounds": {
+            "min": [
+              -0.9,
+              0,
+              -0.3275
+            ],
+            "max": [
+              0.9,
+              1.067,
+              0.3275
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "delivered": true,
+            "stopped": true
+          },
+          "steps": [
+            "toggle",
+            "stop"
+          ],
+          "bounds": {
+            "min": [
+              -0.9,
+              0,
+              -0.3275
+            ],
+            "max": [
+              0.9,
+              1.067,
+              0.3275
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "delivered",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            -0.58,
+            0.58
+          ],
+          "units": "m",
+          "parts": [
+            "in-parcel",
+            "out-parcel"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "One explicit step transfers the retained sample parcel 1.16 m and offsets belt seams. A latched stop blocks transfer; reload is allowed only while stopped. No real-time motor, sensors, transaction linkage, swept collision or general attached-item transport. Sample parcel is internal illustration, not a new source.",
+      "thumbnail": "assets/retail-conveyor/thumbnail.svg"
+    },
+    {
+      "id": "retail-register",
+      "version": 1,
+      "dimensions": [
+        0.44,
+        0.531681043,
+        0.767
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "retail-register",
+        "parts": 26,
+        "min": [
+          -0.22,
+          0,
+          -0.2
+        ],
+        "max": [
+          0.22,
+          0.531681043067644,
+          0.567
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "drawerOpen": false,
+            "printed": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.22,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.22,
+              0.531681043067644,
+              0.217
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "drawerOpen": true,
+            "printed": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.22,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.22,
+              0.531681043067644,
+              0.567
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "drawerOpen": false,
+            "printed": true
+          },
+          "steps": [
+            "toggle",
+            "close"
+          ],
+          "bounds": {
+            "min": [
+              -0.22,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.22,
+              0.531681043067644,
+              0.217
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "drawerOpen",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0,
+            0.35
+          ],
+          "units": "m",
+          "parts": [
+            "closed-tray",
+            "open-tray"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Sale illustration issues a retained paper receipt and opens the complete divided cash tray. Close drawer before clearing the receipt or issuing another sale. No payment network, money, software or real transactions. Screen, printer and cash drawer form one source.",
+      "thumbnail": "assets/retail-register/thumbnail.svg"
+    },
+    {
+      "id": "retail-scale",
+      "version": 1,
+      "dimensions": [
+        0.42,
+        0.65,
+        0.545
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "retail-scale",
+        "parts": 14,
+        "min": [
+          -0.21,
+          0,
+          -0.21
+        ],
+        "max": [
+          0.21,
+          0.6499999999999999,
+          0.335
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "weighed": false,
+            "label": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.21,
+              0,
+              -0.21
+            ],
+            "max": [
+              0.21,
+              0.6499999999999999,
+              0.217
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "weighed": true,
+            "label": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.21,
+              0,
+              -0.21
+            ],
+            "max": [
+              0.21,
+              0.6499999999999999,
+              0.217
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "weighed": true,
+            "label": true
+          },
+          "steps": [
+            "toggle",
+            "print"
+          ],
+          "bounds": {
+            "min": [
+              -0.21,
+              0,
+              -0.21
+            ],
+            "max": [
+              0.21,
+              0.6499999999999999,
+              0.335
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Weigh acknowledges the retained sample bag with a display change; printing extends one label only after weighing. Reset removes the label and reading. Illustrative sequence, not a sensor, calibrated measurement, price computation or editable barcode.",
+      "thumbnail": "assets/retail-scale/thumbnail.svg"
+    },
+    {
+      "id": "retail-trolley",
+      "version": 1,
+      "dimensions": [
+        0.545,
+        0.983,
+        0.96
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "retail-trolley",
+        "parts": 49,
+        "min": [
+          -0.2725,
+          0,
+          -0.48
+        ],
+        "max": [
+          0.2725,
+          0.983,
+          0.48
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "braked": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.2725,
+              0,
+              -0.48
+            ],
+            "max": [
+              0.2725,
+              0.983,
+              0.48
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "basket-floor",
+              "vertices": [
+                [
+                  -0.22,
+                  0.499,
+                  -0.24000000000000002
+                ],
+                [
+                  0.22,
+                  0.499,
+                  -0.24000000000000002
+                ],
+                [
+                  0.22,
+                  0.499,
+                  0.30000000000000004
+                ],
+                [
+                  -0.22,
+                  0.499,
+                  0.30000000000000004
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "braked": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.2725,
+              0,
+              -0.48
+            ],
+            "max": [
+              0.2725,
+              0.983,
+              0.48
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "basket-floor",
+              "vertices": [
+                [
+                  -0.22,
+                  0.499,
+                  -0.24000000000000002
+                ],
+                [
+                  0.22,
+                  0.499,
+                  -0.24000000000000002
+                ],
+                [
+                  0.22,
+                  0.499,
+                  0.30000000000000004
+                ],
+                [
+                  -0.22,
+                  0.499,
+                  0.30000000000000004
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "braked",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            -0.45,
+            0
+          ],
+          "units": "rad",
+          "parts": [
+            "pedal-up",
+            "pedal-down"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Pedal rotates and parking state locks preview placement controls. Basket and wheels stay present. No wheel rolling, nesting, child seat, load certification or collision dynamics. Basket support is inset inside wire walls.",
+      "thumbnail": "assets/retail-trolley/thumbnail.svg"
+    },
+    {
+      "id": "retail-basket-stand",
+      "version": 1,
+      "dimensions": [
+        0.55,
+        0.818,
+        0.45
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "retail-basket-stand",
+        "parts": 30,
+        "min": [
+          -0.275,
+          0,
+          -0.225
+        ],
+        "max": [
+          0.275,
+          0.8180000000000001,
+          0.225
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "raised": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.275,
+              0,
+              -0.225
+            ],
+            "max": [
+              0.275,
+              0.5680000000000001,
+              0.225
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "raised": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.275,
+              0,
+              -0.225
+            ],
+            "max": [
+              0.275,
+              0.8180000000000001,
+              0.225
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "raised",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            1.5707963267948966,
+            0
+          ],
+          "units": "rad",
+          "parts": [
+            "folded-pivot",
+            "raised-pivot"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Top basket U-handle rotates 90 degrees about its hinge, with both arms and grip retained. Three baskets and stand count as one source. No basket extraction, nesting physics or pickup inventory.",
+      "thumbnail": "assets/retail-basket-stand/thumbnail.svg"
+    },
+    {
+      "id": "retail-gate",
+      "version": 1,
+      "dimensions": [
+        1.078,
+        1.07,
+        1.078
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "retail-gate",
+        "parts": 13,
+        "min": [
+          -0.16,
+          0,
+          -0.16
+        ],
+        "max": [
+          0.918,
+          1.07,
+          0.918
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.16
+            ],
+            "max": [
+              0.918,
+              1.07,
+              0.16
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.16
+            ],
+            "max": [
+              0.16,
+              1.07,
+              0.918
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "open",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            -1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "closed-pivot",
+            "open-pivot"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Complete two-rail gate and sign rotate 90 degrees about the fixed post. No access authorization, latch, crowd safety, one-way enforcement or swept collision simulation.",
+      "thumbnail": "assets/retail-gate/thumbnail.svg"
+    },
+    {
+      "id": "retail-chiller",
+      "version": 1,
+      "dimensions": [
+        1.2,
+        1.9,
+        0.726
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "retail-chiller",
+        "parts": 22,
+        "min": [
+          -0.6,
+          0,
+          -0.36000000000000004
+        ],
+        "max": [
+          0.6,
+          1.9000000000000001,
+          0.366
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "raised": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.36000000000000004
+            ],
+            "max": [
+              0.6,
+              1.9000000000000001,
+              0.366
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "deck-0",
+              "vertices": [
+                [
+                  -0.52,
+                  0.28,
+                  -0.275
+                ],
+                [
+                  0.52,
+                  0.28,
+                  -0.275
+                ],
+                [
+                  0.52,
+                  0.28,
+                  0.225
+                ],
+                [
+                  -0.52,
+                  0.28,
+                  0.225
+                ]
+              ]
+            },
+            {
+              "id": "deck-1",
+              "vertices": [
+                [
+                  -0.52,
+                  0.73,
+                  -0.275
+                ],
+                [
+                  0.52,
+                  0.73,
+                  -0.275
+                ],
+                [
+                  0.52,
+                  0.73,
+                  0.225
+                ],
+                [
+                  -0.52,
+                  0.73,
+                  0.225
+                ]
+              ]
+            },
+            {
+              "id": "deck-2",
+              "vertices": [
+                [
+                  -0.52,
+                  1.18,
+                  -0.275
+                ],
+                [
+                  0.52,
+                  1.18,
+                  -0.275
+                ],
+                [
+                  0.52,
+                  1.18,
+                  0.225
+                ],
+                [
+                  -0.52,
+                  1.18,
+                  0.225
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "raised": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.36000000000000004
+            ],
+            "max": [
+              0.6,
+              1.9000000000000001,
+              0.366
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "deck-0",
+              "vertices": [
+                [
+                  -0.52,
+                  0.28,
+                  -0.275
+                ],
+                [
+                  0.52,
+                  0.28,
+                  -0.275
+                ],
+                [
+                  0.52,
+                  0.28,
+                  0.225
+                ],
+                [
+                  -0.52,
+                  0.28,
+                  0.225
+                ]
+              ]
+            },
+            {
+              "id": "deck-1",
+              "vertices": [
+                [
+                  -0.52,
+                  0.73,
+                  -0.275
+                ],
+                [
+                  0.52,
+                  0.73,
+                  -0.275
+                ],
+                [
+                  0.52,
+                  0.73,
+                  0.225
+                ],
+                [
+                  -0.52,
+                  0.73,
+                  0.225
+                ]
+              ]
+            },
+            {
+              "id": "deck-2",
+              "vertices": [
+                [
+                  -0.52,
+                  1.18,
+                  -0.275
+                ],
+                [
+                  0.52,
+                  1.18,
+                  -0.275
+                ],
+                [
+                  0.52,
+                  1.18,
+                  0.225
+                ],
+                [
+                  -0.52,
+                  1.18,
+                  0.225
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "raised",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.23,
+            1.62
+          ],
+          "units": "m",
+          "parts": [
+            "lowered-pullbar",
+            "raised-pullbar"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Night screen retracts to expose three merchandise decks; fixed lower vents and insulated shell distinguish open merchandising from storage refrigerators and pastry cases. Cooling, fans, temperatures and food preservation are not simulated. Screen is opaque; no glass transparency.",
+      "thumbnail": "assets/retail-chiller/thumbnail.svg"
+    },
+    {
+      "id": "retail-bulk-dispenser",
+      "version": 1,
+      "dimensions": [
+        0.65,
+        1.817055685,
+        0.55
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "retail-bulk-dispenser",
+        "parts": 28,
+        "min": [
+          -0.325,
+          0,
+          -0.275
+        ],
+        "max": [
+          0.325,
+          1.8170556848850636,
+          0.275
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "dispensed": false,
+            "lidOpen": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.275
+            ],
+            "max": [
+              0.325,
+              1.4649999999999999,
+              0.275
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "dispensed": true,
+            "lidOpen": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.275
+            ],
+            "max": [
+              0.325,
+              1.4649999999999999,
+              0.275
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "dispensed": false,
+            "lidOpen": true
+          },
+          "steps": [
+            "lid"
+          ],
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.275
+            ],
+            "max": [
+              0.325,
+              1.8170556848850636,
+              0.275
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "dispensed": true,
+            "lidOpen": true
+          },
+          "steps": [
+            "toggle",
+            "lid"
+          ],
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.275
+            ],
+            "max": [
+              0.325,
+              1.8170556848850636,
+              0.275
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "dispensed",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0,
+            -0.8
+          ],
+          "units": "rad",
+          "parts": [
+            "full-lever",
+            "dispensed-lever"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Dispense turns lever, lowers illustrated hopper fill and fills the retained catch bag. Closed lid is required; refill resets fill/lever only with lid open. Static endpoint illustration, not granular flow, real quantity measurement, hygiene or equipment safety certification.",
+      "thumbnail": "assets/retail-bulk-dispenser/thumbnail.svg"
+    }
+  ]
+}

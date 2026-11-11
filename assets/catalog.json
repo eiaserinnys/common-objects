@@ -205,6 +205,16 @@
     "architecture-pendant/asset.json",
     "architecture-radiator/asset.json",
     "architecture-blind/asset.json",
-    "architecture-switch/asset.json"
+    "architecture-switch/asset.json",
+    "retail-gondola/asset.json",
+    "retail-produce/asset.json",
+    "retail-conveyor/asset.json",
+    "retail-register/asset.json",
+    "retail-scale/asset.json",
+    "retail-trolley/asset.json",
+    "retail-basket-stand/asset.json",
+    "retail-gate/asset.json",
+    "retail-chiller/asset.json",
+    "retail-bulk-dispenser/asset.json"
   ]
 }

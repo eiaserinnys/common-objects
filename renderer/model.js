@@ -2,10 +2,18 @@ import {resolveAttachments} from './attachments.js';
 export function createInstance(asset, id, position = [0,0,0]) {
   return {id, assetId:asset.id, assetVersion:asset.version, position:[...position], rotation:[0,0,0], scale:[...asset.defaultScale], state:structuredClone(asset.state)};
 }
+export function validateOperationState(asset,state) {
+  for(const rule of asset.stateRules||[]) if(Object.entries(rule.when).every(([k,v])=>state[k]===v)&&!Object.entries(rule.must).every(([k,v])=>state[k]===v)) throw Error(rule.message||'Invalid operating state');
+}
 export function act(asset, instance, actionId) {
   const a=asset.actions.find(a=>a.id===actionId);
   if(!a) throw Error('Unknown action');
-  if(a.type==='toggle'){instance.state[a.stateKey]=!instance.state[a.stateKey];return;}
+  if(a.requires&&!Object.entries(a.requires).every(([k,v])=>instance.state[k]===v)) throw Error(a.blockedMessage||'Action prerequisites not met');
+  if(a.type==='toggle'||a.type==='transition'){
+    const next={...instance.state};
+    if(a.type==='toggle')next[a.stateKey]=!next[a.stateKey];else Object.assign(next,a.set);
+    validateOperationState(asset,next);Object.assign(instance.state,next);return;
+  }
   if(a.type==='dehumidify'){
     const m=asset.simulation,s=instance.state;
     if(s.full||s.humidity<=m.targetHumidity)return;
@@ -26,6 +34,7 @@ export function loadScene(text, assets) {
     ids.add(i.id);
     for(const k of ['position','rotation','scale']) if(!Array.isArray(i[k]) || i[k].length!==3 || !i[k].every(Number.isFinite)) throw Error('Invalid transform');
     if(i.scale.some(v=>v<=0) || !i.state || Object.keys(i.state).length!==Object.keys(a.state).length || Object.keys(a.state).some(k=>typeof i.state[k]!==typeof a.state[k])) throw Error('Invalid state/scale');
+    validateOperationState(a,i.state);
   }
   return resolveAttachments(s.instances,assets);
 }
