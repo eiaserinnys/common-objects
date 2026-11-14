@@ -1,0 +1,1073 @@
+{
+  "batch": "wellness-2026-11-14",
+  "count": 10,
+  "poses": 22,
+  "objects": [
+    {
+      "id": "wellness-couch",
+      "version": 1,
+      "dimensions": [
+        0.72,
+        1.21764213,
+        1.88
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "wellness-couch",
+        "parts": 8,
+        "min": [
+          -0.36,
+          0,
+          -0.93
+        ],
+        "max": [
+          0.36,
+          1.217642130172122,
+          0.95
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "raised": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.36,
+              0,
+              -0.93
+            ],
+            "max": [
+              0.36,
+              0.78,
+              0.95
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "fixed-seat",
+              "vertices": [
+                [
+                  -0.33,
+                  0.78,
+                  -0.15000000000000002
+                ],
+                [
+                  0.33,
+                  0.78,
+                  -0.15000000000000002
+                ],
+                [
+                  0.33,
+                  0.78,
+                  0.91
+                ],
+                [
+                  -0.33,
+                  0.78,
+                  0.91
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "raised": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.36,
+              0,
+              -0.9224999999999999
+            ],
+            "max": [
+              0.36,
+              1.217642130172122,
+              0.95
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "fixed-seat",
+              "vertices": [
+                [
+                  -0.33,
+                  0.78,
+                  -0.15000000000000002
+                ],
+                [
+                  0.33,
+                  0.78,
+                  -0.15000000000000002
+                ],
+                [
+                  0.33,
+                  0.78,
+                  0.91
+                ],
+                [
+                  -0.33,
+                  0.78,
+                  0.91
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "raised",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            0.65
+          ],
+          "units": "rad",
+          "parts": [
+            "back-flat",
+            "back-raised"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Complete upholstered backrest pivots 0.65 rad about its seat-edge hinge. Fixed seat remains a support. No patient, actuator force or clinical use simulation.",
+      "thumbnail": "assets/wellness-couch/thumbnail.svg"
+    },
+    {
+      "id": "wellness-parallel-bars",
+      "version": 1,
+      "dimensions": [
+        0.9,
+        1.126,
+        2.2
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "wellness-parallel-bars",
+        "parts": 17,
+        "min": [
+          -0.45,
+          0,
+          -1.1
+        ],
+        "max": [
+          0.45,
+          1.1260000000000001,
+          1.1
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "high": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.45,
+              0,
+              -1.1
+            ],
+            "max": [
+              0.45,
+              0.926,
+              1.1
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "high": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.45,
+              0,
+              -1.1
+            ],
+            "max": [
+              0.45,
+              1.1260000000000001,
+              1.1
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "high",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.9,
+            1.1
+          ],
+          "units": "m",
+          "parts": [
+            "low-rail--0.37",
+            "high-rail--0.37"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Two supported handrails telescope by .20 m. Fixed deck remains present. No user gait, load rating or individual rail adjustment.",
+      "thumbnail": "assets/wellness-parallel-bars/thumbnail.svg"
+    },
+    {
+      "id": "wellness-training-stairs",
+      "version": 1,
+      "dimensions": [
+        1.1,
+        1.321663282,
+        1.828428943
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "wellness-training-stairs",
+        "parts": 18,
+        "min": [
+          -0.55,
+          0,
+          -0.9142144715546785
+        ],
+        "max": [
+          0.55,
+          1.3216632822953933,
+          0.9142144715546785
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.55,
+              0,
+              -0.9142144715546785
+            ],
+            "max": [
+              0.55,
+              1.3216632822953933,
+              0.9142144715546785
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Fixed four 150 mm risers with bilateral handrails. Distinct from a utility access step: repeated gait-training treads at human scale. No moving parts, fall protection, patient or accessibility certification.",
+      "thumbnail": "assets/wellness-training-stairs/thumbnail.svg"
+    },
+    {
+      "id": "wellness-wheelchair",
+      "version": 1,
+      "dimensions": [
+        0.675,
+        0.964,
+        1.1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "wellness-wheelchair",
+        "parts": 30,
+        "min": [
+          -0.33749999999999997,
+          0,
+          -0.6000000000000001
+        ],
+        "max": [
+          0.3375000000000001,
+          0.964,
+          0.5
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "braked": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.33749999999999997,
+              0,
+              -0.6000000000000001
+            ],
+            "max": [
+              0.3375000000000001,
+              0.964,
+              0.5
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "braked": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.33749999999999997,
+              0,
+              -0.6000000000000001
+            ],
+            "max": [
+              0.3375000000000001,
+              0.964,
+              0.5
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "braked",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            0.7
+          ],
+          "units": "rad",
+          "parts": [
+            "free-lever--0.28",
+            "set-lever--0.28"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Both retained parking levers pivot and lock preview placement. Footrests, push handles, seat and wheels remain present. No rolling, folding, patient or transfer physics.",
+      "thumbnail": "assets/wellness-wheelchair/thumbnail.svg"
+    },
+    {
+      "id": "wellness-walking-frame",
+      "version": 1,
+      "dimensions": [
+        0.616,
+        0.944,
+        0.516
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "wellness-walking-frame",
+        "parts": 22,
+        "min": [
+          -0.30800000000000005,
+          0,
+          -0.258
+        ],
+        "max": [
+          0.30800000000000005,
+          0.9440000000000001,
+          0.258
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "high": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.30800000000000005,
+              0,
+              -0.258
+            ],
+            "max": [
+              0.30800000000000005,
+              0.8240000000000001,
+              0.258
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "high": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.30800000000000005,
+              0,
+              -0.258
+            ],
+            "max": [
+              0.30800000000000005,
+              0.9440000000000001,
+              0.258
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "high",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.8,
+            0.92
+          ],
+          "units": "m",
+          "parts": [
+            "low-grip--0.28",
+            "high-grip--0.28"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Four upper tubes and handles rise .12 m together, retained inside lower sockets. No folding, gait, stability or weight-bearing simulation.",
+      "thumbnail": "assets/wellness-walking-frame/thumbnail.svg"
+    },
+    {
+      "id": "wellness-cycle",
+      "version": 1,
+      "dimensions": [
+        0.595,
+        1.255,
+        1.045
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "wellness-cycle",
+        "parts": 23,
+        "min": [
+          -0.29750000000000004,
+          0,
+          -0.5225
+        ],
+        "max": [
+          0.29750000000000004,
+          1.255,
+          0.5225
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "enabled": false,
+            "stepped": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.29750000000000004,
+              0,
+              -0.5225
+            ],
+            "max": [
+              0.29750000000000004,
+              1.255,
+              0.5225
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "enabled": true,
+            "stepped": false
+          },
+          "steps": [
+            "power"
+          ],
+          "bounds": {
+            "min": [
+              -0.29750000000000004,
+              0,
+              -0.5225
+            ],
+            "max": [
+              0.29750000000000004,
+              1.255,
+              0.5225
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "enabled": true,
+            "stepped": true
+          },
+          "steps": [
+            "power",
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.29750000000000004,
+              0,
+              -0.5225
+            ],
+            "max": [
+              0.29750000000000004,
+              1.255,
+              0.5225
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "enabled": false,
+            "stepped": true
+          },
+          "steps": [
+            "power",
+            "toggle",
+            "power"
+          ],
+          "bounds": {
+            "min": [
+              -0.29750000000000004,
+              0,
+              -0.5225
+            ],
+            "max": [
+              0.29750000000000004,
+              1.255,
+              0.5225
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "stepped",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "start-axle",
+            "quarter-axle"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Enable console before a quarter-turn pedal step. Cranks rotate around the X axle while pedals stay horizontal. Reset returns the crank phase. Discrete illustration, no elapsed time, resistance, power or health measurement.",
+      "thumbnail": "assets/wellness-cycle/thumbnail.svg"
+    },
+    {
+      "id": "wellness-shoulder-wheel",
+      "version": 1,
+      "dimensions": [
+        0.8,
+        1.7225,
+        0.55
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "wellness-shoulder-wheel",
+        "parts": 27,
+        "min": [
+          -0.4,
+          0,
+          -0.275
+        ],
+        "max": [
+          0.4,
+          1.7225,
+          0.275
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "turned": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.4,
+              0,
+              -0.275
+            ],
+            "max": [
+              0.4,
+              1.7225,
+              0.275
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "turned": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.4,
+              0,
+              -0.275
+            ],
+            "max": [
+              0.4,
+              1.7225,
+              0.275
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "turned",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0,
+            1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "rest-hub",
+            "turned-hub"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Retained spokes and handgrip rotate together about a front-facing axle. Hollow outer ring remains fixed. No resistance, patient range-of-motion or timed exercise simulation.",
+      "thumbnail": "assets/wellness-shoulder-wheel/thumbnail.svg"
+    },
+    {
+      "id": "wellness-overbed-table",
+      "version": 1,
+      "dimensions": [
+        0.76,
+        1,
+        0.51
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "wellness-overbed-table",
+        "parts": 14,
+        "min": [
+          -0.38,
+          0,
+          -0.255
+        ],
+        "max": [
+          0.38,
+          1,
+          0.255
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "high": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.38,
+              0,
+              -0.255
+            ],
+            "max": [
+              0.38,
+              0.72,
+              0.255
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "tabletop",
+              "vertices": [
+                [
+                  -0.35,
+                  0.72,
+                  -0.21
+                ],
+                [
+                  0.35,
+                  0.72,
+                  -0.21
+                ],
+                [
+                  0.35,
+                  0.72,
+                  0.21
+                ],
+                [
+                  -0.35,
+                  0.72,
+                  0.21
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "high": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.38,
+              0,
+              -0.255
+            ],
+            "max": [
+              0.38,
+              1,
+              0.255
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "tabletop",
+              "vertices": [
+                [
+                  -0.35,
+                  1,
+                  -0.21
+                ],
+                [
+                  0.35,
+                  1,
+                  -0.21
+                ],
+                [
+                  0.35,
+                  1,
+                  0.21
+                ],
+                [
+                  -0.35,
+                  1,
+                  0.21
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "high",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.72,
+            1
+          ],
+          "units": "m",
+          "parts": [
+            "low-top",
+            "high-top"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Cantilever worktop and inner column rise .28 m; supported objects follow the active tabletop height. Low wheeled base fits beneath a couch. No rolling, pneumatic lift, collision or load simulation.",
+      "thumbnail": "assets/wellness-overbed-table/thumbnail.svg"
+    },
+    {
+      "id": "wellness-stadiometer",
+      "version": 1,
+      "dimensions": [
+        0.6,
+        2.045,
+        0.5
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "wellness-stadiometer",
+        "parts": 25,
+        "min": [
+          -0.3,
+          0,
+          -0.25
+        ],
+        "max": [
+          0.3,
+          2.045,
+          0.25
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "lowered": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.3,
+              0,
+              -0.25
+            ],
+            "max": [
+              0.3,
+              2.045,
+              0.25
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "lowered": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.3,
+              0,
+              -0.25
+            ],
+            "max": [
+              0.3,
+              2.045,
+              0.25
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "lowered",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            1.98,
+            1.55
+          ],
+          "units": "m",
+          "parts": [
+            "raised-headpiece",
+            "lowered-headpiece"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Headpiece slides .43 m along the marked column. No patient, automatic contact detection or numeric height reading; marks illustrate a metric scale.",
+      "thumbnail": "assets/wellness-stadiometer/thumbnail.svg"
+    },
+    {
+      "id": "wellness-transfer-hoist",
+      "version": 1,
+      "dimensions": [
+        0.75,
+        1.801236353,
+        1.16
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "wellness-transfer-hoist",
+        "parts": 19,
+        "min": [
+          -0.375,
+          0,
+          -0.6000000000000001
+        ],
+        "max": [
+          0.375,
+          1.8012363525768893,
+          0.56
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "braked": false,
+            "raised": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.375,
+              0,
+              -0.6000000000000001
+            ],
+            "max": [
+              0.375,
+              1.46,
+              0.56
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "braked": true,
+            "raised": false
+          },
+          "steps": [
+            "brake"
+          ],
+          "bounds": {
+            "min": [
+              -0.375,
+              0,
+              -0.5999472331232308
+            ],
+            "max": [
+              0.375,
+              1.46,
+              0.56
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "braked": true,
+            "raised": true
+          },
+          "steps": [
+            "brake",
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.375,
+              0,
+              -0.5999472331232308
+            ],
+            "max": [
+              0.375,
+              1.8012363525768893,
+              0.56
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "raised",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            -0.45
+          ],
+          "units": "rad",
+          "parts": [
+            "low-pivot",
+            "raised-pivot"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Set parking brake before raising or lowering boom. Complete boom pivots, suspended spreader remains horizontal. No sling, person, lifting force, hydraulics, capacity or clinical safety certification.",
+      "thumbnail": "assets/wellness-transfer-hoist/thumbnail.svg"
+    }
+  ]
+}

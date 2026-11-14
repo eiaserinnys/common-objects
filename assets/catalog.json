@@ -215,6 +215,16 @@
     "retail-basket-stand/asset.json",
     "retail-gate/asset.json",
     "retail-chiller/asset.json",
-    "retail-bulk-dispenser/asset.json"
+    "retail-bulk-dispenser/asset.json",
+    "wellness-couch/asset.json",
+    "wellness-parallel-bars/asset.json",
+    "wellness-training-stairs/asset.json",
+    "wellness-wheelchair/asset.json",
+    "wellness-walking-frame/asset.json",
+    "wellness-cycle/asset.json",
+    "wellness-shoulder-wheel/asset.json",
+    "wellness-overbed-table/asset.json",
+    "wellness-stadiometer/asset.json",
+    "wellness-transfer-hoist/asset.json"
   ]
 }

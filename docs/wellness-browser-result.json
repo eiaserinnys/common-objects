@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "object-6: toggle refusal preserves complete scene",
+    "object-6: toggle refusal preserves complete scene",
+    "object-10: toggle refusal preserves complete scene",
+    "object-10: brake refusal preserves complete scene",
+    "object-1: all 2 reachable poses in four camera directions",
+    "object-2: all 2 reachable poses in four camera directions",
+    "object-3: all 1 reachable poses in four camera directions",
+    "object-4: all 2 reachable poses in four camera directions",
+    "object-5: all 2 reachable poses in four camera directions",
+    "object-6: all 4 reachable poses in four camera directions",
+    "object-7: all 2 reachable poses in four camera directions",
+    "object-8: all 2 reachable poses in four camera directions",
+    "object-9: all 2 reachable poses in four camera directions",
+    "object-10: all 3 reachable poses in four camera directions",
+    "34 mixed instances: independent states and detached copies restore exactly",
+    "overbed tabletop carries tissue box through height/translation/yaw; detach unlocks",
+    "wheelchair brake locks and releases placement",
+    "390px viewport: no overflow; selection, focus, orbit, zoom and tabletop height action"
+  ],
+  "individualFourAngleCaptures": 88,
+  "errors": []
+}

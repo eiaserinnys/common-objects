@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "wellness-couch",
+      "assetVersion": 1,
+      "position": [
+        -2.2,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "raised": false
+      }
+    },
+    {
+      "id": "object-2",
+      "assetId": "wellness-parallel-bars",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        -0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "wellness-training-stairs",
+      "assetVersion": 1,
+      "position": [
+        2,
+        0,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-4",
+      "assetId": "wellness-wheelchair",
+      "assetVersion": 1,
+      "position": [
+        -2,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "braked": false
+      }
+    },
+    {
+      "id": "object-5",
+      "assetId": "wellness-walking-frame",
+      "assetVersion": 1,
+      "position": [
+        -0.7,
+        0,
+        2.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false
+      }
+    },
+    {
+      "id": "object-6",
+      "assetId": "wellness-cycle",
+      "assetVersion": 1,
+      "position": [
+        2,
+        0,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "enabled": false,
+        "stepped": false
+      }
+    },
+    {
+      "id": "object-7",
+      "assetId": "wellness-shoulder-wheel",
+      "assetVersion": 1,
+      "position": [
+        0.2,
+        0,
+        -2.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "turned": false
+      }
+    },
+    {
+      "id": "object-8",
+      "assetId": "wellness-overbed-table",
+      "assetVersion": 1,
+      "position": [
+        -3.3,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false
+      }
+    },
+    {
+      "id": "object-9",
+      "assetId": "wellness-stadiometer",
+      "assetVersion": 1,
+      "position": [
+        -2.2,
+        0,
+        -2.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lowered": false
+      }
+    },
+    {
+      "id": "object-10",
+      "assetId": "wellness-transfer-hoist",
+      "assetVersion": 1,
+      "position": [
+        2,
+        0,
+        2.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "braked": false,
+        "raised": false
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "workplace-lockers",
+      "assetVersion": 1,
+      "position": [
+        3.5,
+        0,
+        -2.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-12",
+      "assetId": "cafe-dining-chair",
+      "assetVersion": 1,
+      "position": [
+        -3.4,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-13",
+      "assetId": "workplace-water-dispenser",
+      "assetVersion": 1,
+      "position": [
+        3.6,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "filled": false
+      }
+    },
+    {
+      "id": "object-14",
+      "assetId": "fitness-balance-board",
+      "assetVersion": 1,
+      "position": [
+        0.6,
+        0,
+        2.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "padded": true
+      }
+    },
+    {
+      "id": "object-15",
+      "assetId": "bathroom-tissue-box",
+      "assetVersion": 1,
+      "position": [
+        -3.3,
+        0.72,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "loaded": true
+      },
+      "attachment": {
+        "parentId": "object-8",
+        "surfaceId": "tabletop",
+        "offset": [
+          0,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-16",
+      "assetId": "fitness-foam-roller",
+      "assetVersion": 1,
+      "position": [
+        -2.2,
+        0.78,
+        0.16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "cored": true
+      },
+      "attachment": {
+        "parentId": "object-1",
+        "surfaceId": "fixed-seat",
+        "offset": [
+          0,
+          0.16
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-17",
+      "assetId": "fitness-yoga-block",
+      "assetVersion": 1,
+      "position": [
+        -2.2,
+        0.78,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "sleeved": true
+      },
+      "attachment": {
+        "parentId": "object-1",
+        "surfaceId": "fixed-seat",
+        "offset": [
+          0,
+          0.7
+        ],
+        "yaw": 0
+      }
+    }
+  ]
+}

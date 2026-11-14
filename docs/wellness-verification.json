@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-14",
+  "base": "18732fe879eacea980e152b00b859cb265132a70",
+  "acceptedNewSources": 10,
+  "reusedSources": 7,
+  "sceneInstances": 17,
+  "checks": [
+    {
+      "command": "npm run validate",
+      "result": "pass",
+      "catalogRegistrations": 225
+    },
+    {
+      "command": "npm test",
+      "result": "pass",
+      "tests": 152,
+      "failures": 0
+    },
+    {
+      "command": "npm run build",
+      "result": "pass",
+      "sourceAndBuiltAssetBytesMatch": true
+    },
+    {
+      "command": "python3 scripts/wellness-browser-check.py",
+      "result": "pass",
+      "checks": 18,
+      "fourAngleCaptures": 88,
+      "errors": []
+    },
+    {
+      "command": "python3 scripts/wellness-regression.py",
+      "result": "pass",
+      "checks": 25,
+      "existingMetricPreviews": 21,
+      "errors": []
+    },
+    {
+      "command": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "check": "225 inventory rows uniquely match current catalog source dimensions and states",
+      "result": "pass"
+    }
+  ],
+  "visualReview": {
+    "reviewed": "Original room and 20 previous batch overview images; final 22 poses in four camera directions, mixed idle/operating/reverse views, desktop and mobile screenshots.",
+    "retainedEvidence": "docs/screenshots/wellness-2026-11-14/",
+    "limitations": "Endpoint bounds/contact tests are conservative geometry checks, not swept collision or load certification."
+  },
+  "sha256": {
+    "assets/wellness-couch/asset.json": "1f37b6928e303b176dfb83d31d6a58440008feaa4c96deb1eaa3a417f2bca764",
+    "assets/wellness-cycle/asset.json": "5a415c1fcc764ef1e46cfc3b595684b0bf22070d904989a2d1bab6a57ce003bb",
+    "assets/wellness-overbed-table/asset.json": "8a7d4388a0ae85493ce25ea4155e4a1ff69d0c80e91ae49f134dd543164cb6ba",
+    "assets/wellness-parallel-bars/asset.json": "158b53abb90fda8ce836ad100d517aabacb6123bb6758436dc64b4c836b8f62f",
+    "assets/wellness-shoulder-wheel/asset.json": "f063f94865f825f0673d90d525df530b5c67902b28bb59e51889a5b5b52cb18c",
+    "assets/wellness-stadiometer/asset.json": "b455307cadcb929482ec61ff74d353d392ec570dedf70043c23763f0a9e4c518",
+    "assets/wellness-training-stairs/asset.json": "03109fcb14ddc0dc2def9bd91c13fe23c1076a86fae98801f2833ba2e77c28bf",
+    "assets/wellness-transfer-hoist/asset.json": "8d71bf7f1f9b289aa83646f398cba6f5f7d74a71049eef67ab4c6110dc58ce35",
+    "assets/wellness-walking-frame/asset.json": "f960f1d12b48a86fe1e18876af7a953690ff1e872ab5e7b0b8db47810e63bf74",
+    "assets/wellness-wheelchair/asset.json": "60655d6f1eb3fb4652c573ef6480fd9750fd3fc22d87a25d4d36179da0491b84",
+    "assets/wellness-interior/assembly.json": "63f0158ee3bcc31a726cc1569306f3bcb6c8b380d9b26fe744760338bce0dce7",
+    "preview/wellness.html": "1cbc4cad8ff14846000ee99155312a3e07cd24c4266204490f262b9742ff6f56"
+  },
+  "remoteCI": "No .github workflow present; no CI result claimed."
+}

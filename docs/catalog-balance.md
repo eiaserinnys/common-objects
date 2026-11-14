@@ -1,6 +1,29 @@
 # Catalog balance and next production priorities
 
-## Current review: neighborhood grocery, 2026-11-11
+## Current review: neighborhood movement room, 2026-11-14
+
+Fetched clean main `18732fe`; one checkout, only main remotely, no open PRs. All 215 pre-cycle catalog identities, dimensions and states were re-read; original room plus twenty prior batch previews were visually reviewed. [Selection brief](wellness-brief-2026-11-14.md), [225-row inventory](catalog-inventory-2026-11-14.md), [full audit](wellness-catalog-audit.json), [production/QA](wellness-2026-11-14.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 206 | 104 | 30 | 72 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 225 | 106 | 33 | 86 |
+
+New **10 sources, 0 S / 1 M / 9 L**. Independent small share **53.1% → 50.5%**. Last ten cycles café–wellness: **100 sources, 4 S / 27 M / 69 L**. Twenty-one production batches: 205 sources, 103/30/72, plus the original lamp. Classification uses maximum authored endpoint envelope (<.5 / <1 / ≥1 m); wheelchair is L because its footrest/wheel depth is 1.10 m, not its seat height. H/O/C candidate uses 174/100/206 overlap and do not count furnished rooms.
+
+This cycle fills human mobility, gait-training, assisted transfer, standing measurement and commercial exercise roles. Ten new sources: reclining treatment couch, adjustable parallel bars, four-tread training stairs, wheelchair, walking frame, stationary cycle, shoulder wheel, cantilever overbed table, stadiometer and transfer hoist. Existing fitness balance board was explicitly rejected as a new duplicate and reused. Existing lockers, chair, water dispenser, tissue box, foam roller and yoga block also remain reused sources. Seven reused sources form a 17-instance layout with three support attachments. No generic storage variant, small-tool filler, recolor or scene was counted as new.
+
+Nine sources operate through discrete poses; the training stairs are honestly fixed. Cycle console gates the crank step; hoist brake gates boom movement and cannot release when raised. The table carries its tissue box through height and yaw changes. The open training arrangement adds no enclosure system and provides no clinical performance, accessibility, patient or load certification.
+
+**Next priorities (supersede historical lists):**
+
+1. Enclosure continuity and attachment authoring remain unresolved: joined walls/openings/ceilings and a usable binding editor can turn current arrangements into actual rooms. Avoid another plain wall or cabinet variant.
+2. Timed operation with cancellation and saved elapsed progress, including clearly specified resume behavior. Current 22 wellness poses and guarded steps are synchronous illustrations, not continuous machines.
+3. Review shared-building service functions (parcel handling, access, janitorial/mechanical service) against the existing lockers, retail conveyor, utility appliances and office equipment before new assets. Upgrade meaningful behavior where existing sources already cover the physical role.
+
+## Historical review: neighborhood grocery, 2026-11-11
 
 Clean fetched base `ceb1b7717f1f9189e91236a1135a82eda0971d80`, one checkout, only main remotely, no open PRs. Read all 205 pre-cycle sources, dimensions/states, original room and nineteen batch previews. [Selection brief](retail-brief-2026-11-11.md), [215-row inventory](catalog-inventory-2026-11-11.md), [full audit](retail-catalog-audit.json), [production and QA](retail-2026-11-11.md).
 
