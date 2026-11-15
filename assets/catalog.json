@@ -225,6 +225,17 @@
     "wellness-shoulder-wheel/asset.json",
     "wellness-overbed-table/asset.json",
     "wellness-stadiometer/asset.json",
-    "wellness-transfer-hoist/asset.json"
+    "wellness-transfer-hoist/asset.json",
+    "repair-bicycle/asset.json",
+    "repair-service-stand/asset.json",
+    "repair-truing-stand/asset.json",
+    "repair-floor-pump/asset.json",
+    "repair-bench-vise/asset.json",
+    "repair-drill-press/asset.json",
+    "repair-compressor/asset.json",
+    "repair-shop-vacuum/asset.json",
+    "repair-parts-washer/asset.json",
+    "repair-tool-panel/asset.json",
+    "repair-mechanic-stool/asset.json"
   ]
 }

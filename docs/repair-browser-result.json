@@ -1,0 +1,27 @@
+{
+  "checks": [
+    "object-6: toggle refusal preserves complete scene",
+    "object-6: power refusal preserves complete scene",
+    "object-7: toggle refusal preserves complete scene",
+    "object-8: empty refusal preserves complete scene",
+    "object-8: toggle refusal preserves complete scene",
+    "object-9: wash refusal preserves complete scene",
+    "object-9: toggle refusal preserves complete scene",
+    "object-1: all 2 reachable poses in four camera directions",
+    "object-2: all 2 reachable poses in four camera directions",
+    "object-3: all 2 reachable poses in four camera directions",
+    "object-4: all 2 reachable poses in four camera directions",
+    "object-5: all 2 reachable poses in four camera directions",
+    "object-6: all 3 reachable poses in four camera directions",
+    "object-7: all 3 reachable poses in four camera directions",
+    "object-8: all 4 reachable poses in four camera directions",
+    "object-9: all 3 reachable poses in four camera directions",
+    "object-10: all 1 reachable poses in four camera directions",
+    "object-11: all 2 reachable poses in four camera directions",
+    "34 mixed instances: independent states and detached copies restore exactly",
+    "worktable carries truing stand and vise through translation/yaw; detach unlocks; tool panel follows wall",
+    "390px viewport: no overflow; selection, focus, orbit, zoom and backpedal action"
+  ],
+  "individualFourAngleCaptures": 104,
+  "errors": []
+}

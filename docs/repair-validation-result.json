@@ -1,0 +1,1142 @@
+{
+  "batch": "repair-2026-11-15",
+  "count": 11,
+  "poses": 26,
+  "objects": [
+    {
+      "id": "repair-bicycle",
+      "version": 1,
+      "dimensions": [
+        0.63,
+        1.066,
+        1.735
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "repair-bicycle",
+        "parts": 93,
+        "min": [
+          -0.315,
+          1.734723475976807e-18,
+          -0.8674999999999998
+        ],
+        "max": [
+          0.315,
+          1.066,
+          0.8675
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "backpedaled": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.315,
+              1.734723475976807e-18,
+              -0.8674999999999998
+            ],
+            "max": [
+              0.315,
+              1.066,
+              0.8675
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "backpedaled": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.315,
+              1.734723475976807e-18,
+              -0.8674999999999998
+            ],
+            "max": [
+              0.315,
+              1.066,
+              0.8675
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "backpedaled",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            -1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "rest-axle",
+            "back-axle"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Cranks reverse one quarter-turn and pedals stay horizontal. Wheels stay still as in freewheel backpedaling. Chain is an illustrative retained loop, not a drivetrain simulation; no steering, riding or wheel dynamics.",
+      "thumbnail": "assets/repair-bicycle/thumbnail.svg"
+    },
+    {
+      "id": "repair-service-stand",
+      "version": 1,
+      "dimensions": [
+        0.8,
+        1.528,
+        0.825
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "repair-service-stand",
+        "parts": 10,
+        "min": [
+          -0.4,
+          0,
+          -0.35
+        ],
+        "max": [
+          0.4,
+          1.5279999999999998,
+          0.475
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "clamped": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.4,
+              0,
+              -0.35
+            ],
+            "max": [
+              0.4,
+              1.5279999999999998,
+              0.475
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "clamped": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.4,
+              0,
+              -0.35
+            ],
+            "max": [
+              0.4,
+              1.4429999999999998,
+              0.475
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "clamped",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            1.49,
+            1.405
+          ],
+          "units": "m",
+          "parts": [
+            "open-jaw",
+            "closed-jaw"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Jaw-center separation decreases from .13 m to .045 m; the actual clear gap is .095 m open and .010 m closed. Empty stand is independent; no bike attachment, force or general moving-part parenting is claimed.",
+      "thumbnail": "assets/repair-service-stand/thumbnail.svg"
+    },
+    {
+      "id": "repair-truing-stand",
+      "version": 1,
+      "dimensions": [
+        0.44,
+        0.7825,
+        0.625
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "repair-truing-stand",
+        "parts": 47,
+        "min": [
+          -0.22,
+          0,
+          -0.3125
+        ],
+        "max": [
+          0.22,
+          0.7825,
+          0.3125
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.22,
+              0,
+              -0.3125
+            ],
+            "max": [
+              0.22,
+              0.7825,
+              0.3125
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.22,
+              0,
+              -0.3125
+            ],
+            "max": [
+              0.22,
+              0.7825,
+              0.3125
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "closed",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0.09,
+            0.025
+          ],
+          "units": "m",
+          "parts": [
+            "out-tip-1",
+            "in-tip-1"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Paired lateral feelers move toward the retained sample rim. Sample wheel is one internal demonstration, not an additional bike or catalog source. No spoke tension or runout measurement.",
+      "thumbnail": "assets/repair-truing-stand/thumbnail.svg"
+    },
+    {
+      "id": "repair-floor-pump",
+      "version": 1,
+      "dimensions": [
+        0.352,
+        0.855,
+        0.18
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "repair-floor-pump",
+        "parts": 13,
+        "min": [
+          -0.16,
+          0,
+          -0.09
+        ],
+        "max": [
+          0.192,
+          0.855,
+          0.09
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "compressed": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.09
+            ],
+            "max": [
+              0.192,
+              0.855,
+              0.09
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "compressed": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.09
+            ],
+            "max": [
+              0.192,
+              0.5750000000000001,
+              0.09
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "compressed",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.83,
+            0.55
+          ],
+          "units": "m",
+          "parts": [
+            "up-grip",
+            "down-grip"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Piston rod and handle travel .28 m; gauge needle moves illustratively. Hose remains connected to barrel, with free chuck parked by it. No attached tire, measured pressure or airflow simulation.",
+      "thumbnail": "assets/repair-floor-pump/thumbnail.svg"
+    },
+    {
+      "id": "repair-bench-vise",
+      "version": 1,
+      "dimensions": [
+        0.22,
+        0.19,
+        0.364
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "repair-bench-vise",
+        "parts": 13,
+        "min": [
+          -0.11,
+          0,
+          -0.09
+        ],
+        "max": [
+          0.11,
+          0.19,
+          0.274
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.11,
+              0,
+              -0.09
+            ],
+            "max": [
+              0.11,
+              0.19,
+              0.274
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.11,
+              0,
+              -0.09
+            ],
+            "max": [
+              0.11,
+              0.19,
+              0.194
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "closed",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0.085,
+            0.005
+          ],
+          "units": "m",
+          "parts": [
+            "open-jaw",
+            "closed-jaw"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Complete moving jaw and slide advance .08 m along the lead screw. An empty clamp, no force, threaded contact or held-part simulation.",
+      "thumbnail": "assets/repair-bench-vise/thumbnail.svg"
+    },
+    {
+      "id": "repair-drill-press",
+      "version": 1,
+      "dimensions": [
+        0.38,
+        0.95,
+        0.45
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "repair-drill-press",
+        "parts": 15,
+        "min": [
+          -0.19,
+          0,
+          -0.225
+        ],
+        "max": [
+          0.19,
+          0.95,
+          0.225
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "powered": false,
+            "fed": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.19,
+              0,
+              -0.225
+            ],
+            "max": [
+              0.19,
+              0.95,
+              0.225
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "powered": true,
+            "fed": false
+          },
+          "steps": [
+            "power"
+          ],
+          "bounds": {
+            "min": [
+              -0.19,
+              0,
+              -0.225
+            ],
+            "max": [
+              0.19,
+              0.95,
+              0.225
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "powered": true,
+            "fed": true
+          },
+          "steps": [
+            "power",
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.19,
+              0,
+              -0.225
+            ],
+            "max": [
+              0.19,
+              0.95,
+              0.225
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "fed",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.68,
+            0.57
+          ],
+          "units": "m",
+          "parts": [
+            "up-quill",
+            "fed-quill"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Power enables a discrete quill feed toward the retained wood sample. Return spindle before switching power off. Feed lever and bit move; no cutting, chips, motor speed or tool safety certification.",
+      "thumbnail": "assets/repair-drill-press/thumbnail.svg"
+    },
+    {
+      "id": "repair-compressor",
+      "version": 1,
+      "dimensions": [
+        0.645,
+        0.788,
+        0.36
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "repair-compressor",
+        "parts": 23,
+        "min": [
+          -0.3225,
+          0,
+          -0.18
+        ],
+        "max": [
+          0.3225,
+          0.788,
+          0.18
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "charged": false,
+            "drainOpen": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.3225,
+              0,
+              -0.18
+            ],
+            "max": [
+              0.3225,
+              0.788,
+              0.18
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "charged": true,
+            "drainOpen": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.3225,
+              0,
+              -0.18
+            ],
+            "max": [
+              0.3225,
+              0.788,
+              0.18
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "charged": false,
+            "drainOpen": true
+          },
+          "steps": [
+            "vent"
+          ],
+          "bounds": {
+            "min": [
+              -0.3225,
+              0,
+              -0.18
+            ],
+            "max": [
+              0.3225,
+              0.788,
+              0.18
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "charged",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0.85,
+            -0.85
+          ],
+          "units": "rad",
+          "parts": [
+            "empty-needle",
+            "charged-needle"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Charge changes the pressure-needle endpoint only with drain closed; opening drain vents the illustrated charge and rotates the valve. No real compression, numeric pressure, timers or pneumatic connections.",
+      "thumbnail": "assets/repair-compressor/thumbnail.svg"
+    },
+    {
+      "id": "repair-shop-vacuum",
+      "version": 1,
+      "dimensions": [
+        0.785444443,
+        0.63,
+        1.055
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "repair-shop-vacuum",
+        "parts": 18,
+        "min": [
+          -0.44419444295679184,
+          0,
+          -0.5475
+        ],
+        "max": [
+          0.34125000000000005,
+          0.63,
+          0.5075
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "collected": false,
+            "latchReleased": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.37625000000000003,
+              0,
+              -0.5475
+            ],
+            "max": [
+              0.34125000000000005,
+              0.63,
+              0.5075
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "collected": true,
+            "latchReleased": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.37625000000000003,
+              0,
+              -0.5475
+            ],
+            "max": [
+              0.34125000000000005,
+              0.63,
+              0.5075
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "collected": false,
+            "latchReleased": true
+          },
+          "steps": [
+            "latch"
+          ],
+          "bounds": {
+            "min": [
+              -0.44419444295679184,
+              0,
+              -0.5475
+            ],
+            "max": [
+              0.34125000000000005,
+              0.63,
+              0.5075
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "collected": true,
+            "latchReleased": true
+          },
+          "steps": [
+            "toggle",
+            "latch"
+          ],
+          "bounds": {
+            "min": [
+              -0.44419444295679184,
+              0,
+              -0.5475
+            ],
+            "max": [
+              0.34125000000000005,
+              0.63,
+              0.5075
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Collect raises the bin-level illustration only with service latch closed; release latch to empty the indicator. Retained hose and nozzle depict the collection path, not airflow or debris physics. Lid stays seated; latch is a service-access illustration only.",
+      "thumbnail": "assets/repair-shop-vacuum/thumbnail.svg"
+    },
+    {
+      "id": "repair-parts-washer",
+      "version": 1,
+      "dimensions": [
+        0.82,
+        1.474267443,
+        0.552318122
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "repair-parts-washer",
+        "parts": 23,
+        "min": [
+          -0.41000000000000003,
+          0,
+          -0.28231812162485576
+        ],
+        "max": [
+          0.41000000000000003,
+          1.4742674434800214,
+          0.27
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false,
+            "washed": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.41000000000000003,
+              0,
+              -0.27
+            ],
+            "max": [
+              0.41000000000000003,
+              0.9524999999999999,
+              0.27
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "washed": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.41000000000000003,
+              0,
+              -0.28231812162485576
+            ],
+            "max": [
+              0.41000000000000003,
+              1.4742674434800214,
+              0.27
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "washed": true
+          },
+          "steps": [
+            "toggle",
+            "wash"
+          ],
+          "bounds": {
+            "min": [
+              -0.41000000000000003,
+              0,
+              -0.28231812162485576
+            ],
+            "max": [
+              0.41000000000000003,
+              1.4742674434800214,
+              0.27
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "open",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            -1.4
+          ],
+          "units": "rad",
+          "parts": [
+            "lid-closed",
+            "lid-open"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Open hood before the wash illustration. A retained sample loses three dirt chips while stream and sediment appear. Reset stops the stream and restores the sample before closing hood. No liquid dynamics, solvents, heating, filtration or real cleaning performance.",
+      "thumbnail": "assets/repair-parts-washer/thumbnail.svg"
+    },
+    {
+      "id": "repair-tool-panel",
+      "version": 1,
+      "dimensions": [
+        1.2,
+        0.9,
+        0.1205
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "repair-tool-panel",
+        "parts": 52,
+        "min": [
+          -0.6,
+          0,
+          -0.0125
+        ],
+        "max": [
+          0.6,
+          0.9,
+          0.10800000000000001
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.0125
+            ],
+            "max": [
+              0.6,
+              0.9,
+              0.10800000000000001
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Fixed mounting panel with retained three hooks and illustrated socket inlays. No removable tool inventory or arbitrary hook attachments. Reuses existing wall installation contract; not a new wall module.",
+      "thumbnail": "assets/repair-tool-panel/thumbnail.svg"
+    },
+    {
+      "id": "repair-mechanic-stool",
+      "version": 1,
+      "dimensions": [
+        0.45,
+        0.62,
+        0.47
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "repair-mechanic-stool",
+        "parts": 12,
+        "min": [
+          -0.225,
+          0,
+          -0.23500000000000001
+        ],
+        "max": [
+          0.225,
+          0.62,
+          0.23500000000000001
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "high": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.225,
+              0,
+              -0.23500000000000001
+            ],
+            "max": [
+              0.225,
+              0.4600000000000001,
+              0.23500000000000001
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "seat",
+              "vertices": [
+                [
+                  -0.12,
+                  0.46,
+                  -0.12
+                ],
+                [
+                  0.12,
+                  0.46,
+                  -0.12
+                ],
+                [
+                  0.12,
+                  0.46,
+                  0.12
+                ],
+                [
+                  -0.12,
+                  0.46,
+                  0.12
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "high": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.225,
+              0,
+              -0.23500000000000001
+            ],
+            "max": [
+              0.225,
+              0.62,
+              0.23500000000000001
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "seat",
+              "vertices": [
+                [
+                  -0.12,
+                  0.62,
+                  -0.12
+                ],
+                [
+                  0.12,
+                  0.62,
+                  -0.12
+                ],
+                [
+                  0.12,
+                  0.62,
+                  0.12
+                ],
+                [
+                  -0.12,
+                  0.62,
+                  0.12
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "high",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.46,
+            0.62
+          ],
+          "units": "m",
+          "parts": [
+            "low-seat",
+            "high-seat"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Backless round seat rises .16 m on a central post; low caster base is designed for work beside wheels, unlike a desk task chair. No wheel rolling, force or occupied-person simulation.",
+      "thumbnail": "assets/repair-mechanic-stool/thumbnail.svg"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-15",
+  "base": "5af403cb5f94030565b509e00f0f9759662c2a56",
+  "acceptedNewSources": 11,
+  "reusedSources": 5,
+  "reusedInstances": 6,
+  "sceneInstances": 17,
+  "checks": [
+    {
+      "command": "npm run validate",
+      "result": "pass",
+      "catalogRegistrations": 236
+    },
+    {
+      "command": "npm test",
+      "result": "pass",
+      "tests": 163,
+      "failures": 0
+    },
+    {
+      "command": "npm run build",
+      "result": "pass",
+      "sourceAndBuiltAssetBytesMatch": true
+    },
+    {
+      "command": "python3 scripts/repair-browser-check.py",
+      "result": "pass",
+      "checks": 21,
+      "fourAngleCaptures": 104,
+      "errors": []
+    },
+    {
+      "command": "python3 scripts/repair-regression.py",
+      "result": "pass",
+      "checks": 26,
+      "existingMetricPreviews": 22,
+      "errors": []
+    },
+    {
+      "command": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "check": "236 inventory rows match current catalog source dimensions and states",
+      "result": "pass"
+    }
+  ],
+  "visualReview": {
+    "reviewed": "Original room and 21 previous batch overview images; final 26 poses in four camera directions, mixed idle/operating/reverse views, desktop and mobile screenshots. Contact sheets include all eleven rows.",
+    "retainedEvidence": "docs/screenshots/repair-2026-11-15/",
+    "limitations": "Endpoint bounds/contact tests are conservative geometry checks, not swept collision or load certification."
+  },
+  "sha256": {
+    "assets/repair-bench-vise/asset.json": "736bbfe587d39262c4a6061d198c310b6fc01a967ffefd15d7d28487116d33d0",
+    "assets/repair-bicycle/asset.json": "103fea66468ce3ae79b0867ed3241de5345b3512cf3b31be446adf2332edf12a",
+    "assets/repair-compressor/asset.json": "523a0104d111f3fe6f2d55eda61ab7085d20cbbd1448c6934121f2289640a595",
+    "assets/repair-drill-press/asset.json": "d7e5d792282de216d8c1b08f3e850c7f87d2eb8f8916527c394c4ce2c1d62d99",
+    "assets/repair-floor-pump/asset.json": "101741280e17ac434354504aa91e32e559b6fdaf0fab2d81a18372472ca7f163",
+    "assets/repair-mechanic-stool/asset.json": "0d392f50d52e04ca6fb294669bc6baa33fdd153c6b0c0144bbab0e9b65cf63e2",
+    "assets/repair-parts-washer/asset.json": "17eb6c095ed4fc2fc2b53f098d6cfb6ee0500956a03e719d03cc13192f24403f",
+    "assets/repair-service-stand/asset.json": "4e3c9dd91a8aa28069dadf2addb61da4026a96d3026348f4bc676f5e06ed844b",
+    "assets/repair-shop-vacuum/asset.json": "59754a68845aec06ce967d6aa27316bb1916ddf2aa48fd88a4550641b9a81bdd",
+    "assets/repair-tool-panel/asset.json": "fcd33b94675a4ccbbf440987006a682a4349b4dbd4c89327faaa714391bb0138",
+    "assets/repair-truing-stand/asset.json": "2c88d965bbe4387ef84751cc8f0abf4f5cc3c392c4c255e98769caf1ac52a5af",
+    "assets/repair-interior/assembly.json": "3b4d81dcfabd901808a985d3775f294b62dfda33b7d8836e2fe75c83f8cc2547",
+    "preview/repair.html": "b24ca88d79d8ea77a34d033809b9565dbe0e4b83df1fc9893f98a198c44a8cfd"
+  },
+  "remoteCI": "No .github workflow present; no CI result claimed."
+}

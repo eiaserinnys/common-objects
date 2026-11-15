@@ -1,6 +1,29 @@
 # Catalog balance and next production priorities
 
-## Current review: neighborhood movement room, 2026-11-14
+## Current review: neighborhood cycle repair, 2026-11-15
+
+Clean fetched base `5af403cb5f94030565b509e00f0f9759662c2a56`; one checkout, only main remotely, no open PRs. Re-read all 225 existing catalog source identities/dimensions/states and reviewed the original room plus 21 batch overview previews. [Selection brief](repair-brief-2026-11-15.md), [236-row inventory](catalog-inventory-2026-11-15.md), [full audit](repair-catalog-audit.json), [production/QA](repair-2026-11-15.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 217 | 105 | 35 | 77 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 236 | 107 | 38 | 91 |
+
+New **11 sources, 1 S / 5 M / 5 L**. Independent small share **50.5% → 48.4%**. The one small source is a needed bench vise, not a small-tool assortment. Last ten utility–repair cycles: **101 new, 5 S / 27 M / 69 L**. Twenty-two production cycles: 216 new, 104/35/77, plus original study lamp. Sizes use maximum authored endpoint extent; the vacuum is L because its retained hose/nozzle clearance depth is 1.055 m, not because its canister is one metre tall. Overlapping H/O/C candidate uses 184/104/217 do not mean furnished-room counts.
+
+The existing collection could furnish many everyday activities but lacked a cycle-maintenance room and workholding/alignment equipment. New road bicycle, service clamp stand, wheel truing stand, floor pump, vise, drill press, compressor, shop vacuum, parts washer, wall tool panel and mechanic stool fill distinct repair/maintenance functions. Existing stationary fitness cycle is not a road bicycle; the backless low rolling stool is not a task-chair recolor. Existing tables, archive shelving, wall, lamp and brush are reused: five source IDs, six instances, seventeen total. No new generic workbench, cupboard or small hand-tool filler. Internal sample wheel/workpiece and the room assembly are not extra objects.
+
+Ten objects provide discrete ordinary-operation illustrations; fixed wall tool panel has no invented toggle. Seven UI guard-refusal paths, 26 reachable states, support following and mount following are tested. Five horizontal attachments and one wall mount demonstrate mixed-size placement. The workroom is open, not a completed enclosure; empty service clamp does not attach the road bicycle, and no continuous equipment simulation is claimed.
+
+**Next priorities (supersede historical lists):**
+
+1. Enclosure continuity and attachment authoring remain the broadest shared gap. Implement joined architectural modules and an editor for existing horizontal/wall/soffit relations before multiplying plain wall or cupboard variants.
+2. Meaningful time and process state: elapsed progress, cancellation and exact save/resume semantics; current pressure/collection/wash states are synchronous illustrations. General clamp/moving-part attachments could connect the existing bicycle and repair stand without counting another object.
+3. Review entry/mail/security and shared-building mechanical services against existing retail gate, workplace lockers, utility appliances and repair compressor/vacuum. Preserve role diversity; do not repeat a service workbench or another small tool batch merely to reach ten.
+
+## Historical review: neighborhood movement room, 2026-11-14
 
 Fetched clean main `18732fe`; one checkout, only main remotely, no open PRs. All 215 pre-cycle catalog identities, dimensions and states were re-read; original room plus twenty prior batch previews were visually reviewed. [Selection brief](wellness-brief-2026-11-14.md), [225-row inventory](catalog-inventory-2026-11-14.md), [full audit](wellness-catalog-audit.json), [production/QA](wellness-2026-11-14.md).
 

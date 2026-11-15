@@ -1,0 +1,12 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {createInstance,saveScene} from '../renderer/model.js';import {resolveAttachments} from '../renderer/attachments.js';
+const definitions=[['repair-bicycle',[-.1,0,1.25]],['repair-service-stand',[-2.2,0,.6]],['repair-truing-stand',[0,0,0]],['repair-floor-pump',[-.9,0,2.5]],['repair-bench-vise',[0,0,0]],['repair-drill-press',[0,0,0]],['repair-compressor',[1.8,0,.4]],['repair-shop-vacuum',[1.8,0,2.1]],['repair-parts-washer',[2.0,0,-1.7]],['repair-tool-panel',[0,0,0]],['repair-mechanic-stool',[-.5,0,-.3]],['office-sorting-table',[-1.7,0,-1.9]],['office-sorting-table',[.1,0,-1.9]],['office-archive-shelf',[-3.3,0,-1.9]],['architecture-wall',[-1.7,0,-2.65]],['desk-lamp',[0,0,0]],['cleaning-hand-brush',[0,0,0]]];
+const assets=new Map();for(const [id] of definitions)assets.set(id,JSON.parse(await readFile('assets/'+id+'/asset.json')));
+const instances=definitions.map(([id,pos],n)=>createInstance(assets.get(id),'object-'+(n+1),pos));instances[0].rotation[1]=Math.PI/2;
+instances[2].attachment={parentId:'object-12',surfaceId:'worktop',offset:[-.30,0],yaw:0};
+instances[4].attachment={parentId:'object-12',surfaceId:'worktop',offset:[.35,0],yaw:0};
+instances[5].attachment={parentId:'object-13',surfaceId:'worktop',offset:[-.25,0],yaw:0};
+instances[15].attachment={parentId:'object-13',surfaceId:'worktop',offset:[.40,0],yaw:0};
+instances[16].attachment={parentId:'object-14',surfaceId:'shelf-2',offset:[0,.06],yaw:0};
+instances[9].mount={parentId:'object-15',surfaceId:'front',anchorId:'back',offset:[0,.35]};
+await mkdir('assets/repair-interior',{recursive:true});await writeFile('assets/repair-interior/assembly.json',JSON.stringify(JSON.parse(saveScene(resolveAttachments(instances,assets))),null,2)+'\n');
