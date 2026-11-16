@@ -236,6 +236,16 @@
     "repair-shop-vacuum/asset.json",
     "repair-parts-washer/asset.json",
     "repair-tool-panel/asset.json",
-    "repair-mechanic-stool/asset.json"
+    "repair-mechanic-stool/asset.json",
+    "music-upright-piano/asset.json",
+    "music-drum-kit/asset.json",
+    "music-vibraphone/asset.json",
+    "music-harp/asset.json",
+    "music-cello/asset.json",
+    "music-guitar/asset.json",
+    "music-amplifier/asset.json",
+    "music-microphone/asset.json",
+    "music-music-stand/asset.json",
+    "music-metronome/asset.json"
   ]
 }

@@ -1,0 +1,86 @@
+{
+  "checks": [
+    "amplifier gain refusal preserves scene",
+    "amplifier toggle refusal preserves scene",
+    "object-1: all 2 reachable poses in four camera directions",
+    "object-2: all 2 reachable poses in four camera directions",
+    "object-3: all 2 reachable poses in four camera directions",
+    "object-4: all 1 reachable poses in four camera directions",
+    "object-5: all 1 reachable poses in four camera directions",
+    "object-6: all 1 reachable poses in four camera directions",
+    "object-7: all 3 reachable poses in four camera directions",
+    "object-8: all 2 reachable poses in four camera directions",
+    "object-9: all 2 reachable poses in four camera directions",
+    "object-10: all 2 reachable poses in four camera directions",
+    "30 mixed instances: independent states and detached copies restore exactly",
+    "table carries metronome and lamp through translation/yaw; detach unlocks",
+    "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+  ],
+  "individualFourAngleCaptures": 72,
+  "errors": [],
+  "pixelChanges": [
+    {
+      "id": "music-upright-piano",
+      "changedPixelsByCamera": [
+        104,
+        60,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "music-drum-kit",
+      "changedPixelsByCamera": [
+        1,
+        542,
+        518,
+        764
+      ]
+    },
+    {
+      "id": "music-vibraphone",
+      "changedPixelsByCamera": [
+        1588,
+        839,
+        913,
+        721
+      ]
+    },
+    {
+      "id": "music-amplifier",
+      "changedPixelsByCamera": [
+        251,
+        141,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "music-microphone",
+      "changedPixelsByCamera": [
+        2560,
+        3222,
+        1446,
+        2671
+      ]
+    },
+    {
+      "id": "music-music-stand",
+      "changedPixelsByCamera": [
+        15017,
+        5894,
+        9204,
+        4999
+      ]
+    },
+    {
+      "id": "music-metronome",
+      "changedPixelsByCamera": [
+        10024,
+        5208,
+        1150,
+        6096
+      ]
+    }
+  ]
+}

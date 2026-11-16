@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "music-upright-piano",
+      "assetVersion": 1,
+      "position": [
+        -1.8,
+        0,
+        -1.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "pressed": false
+      }
+    },
+    {
+      "id": "object-2",
+      "assetId": "music-drum-kit",
+      "assetVersion": 1,
+      "position": [
+        1.1,
+        0,
+        -1.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "struck": false
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "music-vibraphone",
+      "assetVersion": 1,
+      "position": [
+        1.7,
+        0,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "damped": false
+      }
+    },
+    {
+      "id": "object-4",
+      "assetId": "music-harp",
+      "assetVersion": 1,
+      "position": [
+        -2.3,
+        0,
+        0.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-5",
+      "assetId": "music-cello",
+      "assetVersion": 1,
+      "position": [
+        -2.2,
+        0,
+        1.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-6",
+      "assetId": "music-guitar",
+      "assetVersion": 1,
+      "position": [
+        -1.4,
+        0,
+        1.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-7",
+      "assetId": "music-amplifier",
+      "assetVersion": 1,
+      "position": [
+        0.15,
+        0,
+        1.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "powered": false,
+        "boosted": false
+      }
+    },
+    {
+      "id": "object-8",
+      "assetId": "music-microphone",
+      "assetVersion": 1,
+      "position": [
+        0.1,
+        0,
+        0.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "tilted": false
+      }
+    },
+    {
+      "id": "object-9",
+      "assetId": "music-music-stand",
+      "assetVersion": 1,
+      "position": [
+        -0.9,
+        0,
+        0.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false
+      }
+    },
+    {
+      "id": "object-10",
+      "assetId": "music-metronome",
+      "assetVersion": 1,
+      "position": [
+        1.6,
+        0.92,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "right": false
+      },
+      "attachment": {
+        "parentId": "object-14",
+        "surfaceId": "worktop",
+        "offset": [
+          -0.4,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "cafe-dining-chair",
+      "assetVersion": 1,
+      "position": [
+        -1.8,
+        0,
+        -0.65
+      ],
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-12",
+      "assetId": "repair-mechanic-stool",
+      "assetVersion": 1,
+      "position": [
+        1.1,
+        0,
+        -2.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false
+      }
+    },
+    {
+      "id": "object-13",
+      "assetId": "office-archive-shelf",
+      "assetVersion": 1,
+      "position": [
+        3,
+        0,
+        -1.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-14",
+      "assetId": "office-sorting-table",
+      "assetVersion": 1,
+      "position": [
+        2,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-15",
+      "assetId": "desk-lamp",
+      "assetVersion": 2,
+      "position": [
+        2.35,
+        0.92,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      },
+      "attachment": {
+        "parentId": "object-14",
+        "surfaceId": "worktop",
+        "offset": [
+          0.35,
+          0
+        ],
+        "yaw": 0
+      }
+    }
+  ]
+}

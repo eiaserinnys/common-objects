@@ -1,6 +1,27 @@
 # Catalog balance and next production priorities
 
-## Current review: neighborhood cycle repair, 2026-11-15
+## Current review: shared music practice room, 2026-11-16
+
+Fetched clean base `d3b96d8d44ff5bc5c6b7222af65c594071f3935d`; one checkout, only origin/main, no open PRs and no applicable .agents/skills files. Re-read 236 prior source records, actual dimensions/states and original room plus 22 batch overview images. [Selection brief](music-brief-2026-11-16.md), [246-row inventory](catalog-inventory-2026-11-16.md), [full audit](music-catalog-audit.json), [production and evidence](music-2026-11-16.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 227 | 106 | 36 | 85 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 246 | 108 | 39 | 99 |
+
+New **10 sources, 1 S / 1 M / 8 L**; independent small share **48.4% → 46.7%**. Last ten living–music cycles: **101 sources, 6 S / 25 M / 70 L**. Twenty-three production cycles: 226 sources, 105/36/85, plus original study lamp. Counts use maximum authored endpoint extent, not screen size; microphone is large because its boom envelope reaches 1.65 m. Overlapping H/O/C candidate uses are 194/104/227; not furnished-room counts.
+
+Prior inventory had measuring instruments and one original compound record player but no acoustic musical instruments or independent audio equipment. This batch adds piano, four-drum kit, vibraphone, harp, cello/cradle, guitar/cradle, combo amplifier, boom microphone, music stand and metronome. The kit counts once; drums, strings, score sheet, cradles and the scene do not inflate totals. Existing chair, low stool, archive shelf, sorting table and lamp are five reused sources/instances, creating 15 instances at scale one. No new generic furniture or hand-tool filler. Seven sources operate through discrete endpoints; harp, cello and guitar are intentionally static depictions. No audio, elapsed timing or acoustic physics is delivered.
+
+**Next priorities, superseding historical lists:**
+
+1. Enclosure continuity and a horizontal/wall/soffit attachment authoring UI remain the broadest shared gap. Current scenes are furnished open arrangements; do not multiply plain cabinets or wall variants.
+2. Meaningful timed process behavior with cancellation and exact save/resume semantics. Current instrument poses and equipment indicators are manual synchronous steps. Audio should be a separately specified capability, not inferred from the models.
+3. Shared-building entry/mail/security and mechanical services remain unfilled. Review against retail gates, workplace lockers, utility appliances and repair equipment; prioritize distinctive services and reuse current support/storage assets.
+
+## Historical review: neighborhood cycle repair, 2026-11-15
 
 Clean fetched base `5af403cb5f94030565b509e00f0f9759662c2a56`; one checkout, only main remotely, no open PRs. Re-read all 225 existing catalog source identities/dimensions/states and reviewed the original room plus 21 batch overview previews. [Selection brief](repair-brief-2026-11-15.md), [236-row inventory](catalog-inventory-2026-11-15.md), [full audit](repair-catalog-audit.json), [production/QA](repair-2026-11-15.md).
 
