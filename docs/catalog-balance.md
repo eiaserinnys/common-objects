@@ -1,6 +1,27 @@
 # Catalog balance and next production priorities
 
-## Current review: shared music practice room, 2026-11-16
+## Current review: shared-building service lobby, 2026-11-18 04:00 KST
+
+Cycle files use UTC date 2026-11-17. Fetched clean base `16ad3d0e9b129897617a5580bfac7f03aa87e0c1`; one checkout, remote main only, no open PRs. Read all 246 prior source identities/dimensions/states and reviewed original room plus 23 batch overviews. [Brief](lobby-brief-2026-11-17.md), [254-row inventory](catalog-inventory-2026-11-17.md), [full audit](lobby-catalog-audit.json), [production and evidence](lobby-2026-11-17.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 235 | 106 | 38 | 91 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 254 | 108 | 41 | 105 |
+
+New **8 sources, 0 S / 2 M / 6 L**. Small share **46.7% → 45.1%**. Last ten sanitary–lobby cycles: **99 sources, 6 S / 26 M / 67 L**. Twenty-four production cycles: 234 sources plus original lamp. H/O/C candidate-use counts 202/112/235 overlap; shared-building residential lobbies count as home context, not proof of furnished detached homes. All dimensions estimated from source endpoint envelopes.
+
+Postal retrieval/deposit, visitor communication/badges, bulky parcel transport, indexed access, wet umbrella storage and shoe brushing fill shared-building roles absent from the prior collection. Mail bank is not a locker recolor; hand truck is not a grocery trolley; three-arm turnstile is not the hinged retail gate. Seven sources offer discrete operation and one rack is fixed. Four existing source IDs form a 12-instance mixed scene with two support bindings; no new generic worktable, chair or small-tool filler. Eight accepted assets leave a deliberate two-object shortfall against the aspirational ten; no incomplete assets or internal parts inflate totals.
+
+**Next priorities:**
+
+1. Joined enclosure continuity and horizontal/wall/soffit attachment authoring remain the broadest gap. Reuse current fixtures rather than another plain wall/cupboard batch.
+2. Timed operation with cancellation and exact persisted progress. Current service processes are explicit synchronous steps; visitor identity, calls and security are not real services.
+3. Shared mechanical services (air handling, water heating, electrical distribution) remain unfilled. Compare utility appliances, repair compressor and installed fixtures; avoid relabeling them or cloning cabinets.
+
+## Historical review: shared music practice room, 2026-11-16
 
 Fetched clean base `d3b96d8d44ff5bc5c6b7222af65c594071f3935d`; one checkout, only origin/main, no open PRs and no applicable .agents/skills files. Re-read 236 prior source records, actual dimensions/states and original room plus 22 batch overview images. [Selection brief](music-brief-2026-11-16.md), [246-row inventory](catalog-inventory-2026-11-16.md), [full audit](music-catalog-audit.json), [production and evidence](music-2026-11-16.md).
 

@@ -246,6 +246,14 @@
     "music-amplifier/asset.json",
     "music-microphone/asset.json",
     "music-music-stand/asset.json",
-    "music-metronome/asset.json"
+    "music-metronome/asset.json",
+    "lobby-mail-bank/asset.json",
+    "lobby-parcel-drop/asset.json",
+    "lobby-hand-truck/asset.json",
+    "lobby-intercom/asset.json",
+    "lobby-visitor-kiosk/asset.json",
+    "lobby-umbrella-rack/asset.json",
+    "lobby-turnstile/asset.json",
+    "lobby-shoe-polisher/asset.json"
   ]
 }

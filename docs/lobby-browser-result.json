@@ -1,0 +1,86 @@
+{
+  "checks": [
+    "2 reset refusal preserves scene",
+    "2 deposit refusal preserves scene",
+    "7 step refusal preserves scene",
+    "7 reset refusal preserves scene",
+    "object-1: all 2 reachable poses in four camera directions",
+    "object-2: all 4 reachable poses in four camera directions",
+    "object-3: all 2 reachable poses in four camera directions",
+    "object-4: all 2 reachable poses in four camera directions",
+    "object-5: all 2 reachable poses in four camera directions",
+    "object-6: all 1 reachable poses in four camera directions",
+    "object-7: all 4 reachable poses in four camera directions",
+    "object-8: all 2 reachable poses in four camera directions",
+    "24 mixed instances: independent states and detached copies restore exactly",
+    "table carries lamp and tissue box through translation/yaw; detach unlocks",
+    "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+  ],
+  "individualFourAngleCaptures": 76,
+  "pixelChanges": [
+    {
+      "id": "lobby-mail-bank",
+      "changedPixelsByCamera": [
+        4737,
+        3736,
+        0,
+        704
+      ]
+    },
+    {
+      "id": "lobby-parcel-drop",
+      "changedPixelsByCamera": [
+        10301,
+        1496,
+        67,
+        676
+      ]
+    },
+    {
+      "id": "lobby-hand-truck",
+      "changedPixelsByCamera": [
+        7770,
+        3589,
+        7693,
+        929
+      ]
+    },
+    {
+      "id": "lobby-intercom",
+      "changedPixelsByCamera": [
+        175,
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lobby-visitor-kiosk",
+      "changedPixelsByCamera": [
+        691,
+        227,
+        2,
+        13
+      ]
+    },
+    {
+      "id": "lobby-turnstile",
+      "changedPixelsByCamera": [
+        899,
+        299,
+        0,
+        20
+      ]
+    },
+    {
+      "id": "lobby-shoe-polisher",
+      "changedPixelsByCamera": [
+        3161,
+        680,
+        4421,
+        974
+      ]
+    }
+  ],
+  "errors": []
+}

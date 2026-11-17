@@ -1,0 +1,805 @@
+{
+  "batch": "lobby-2026-11-17",
+  "count": 8,
+  "poses": 19,
+  "objects": [
+    {
+      "id": "lobby-mail-bank",
+      "version": 1,
+      "dimensions": [
+        1.2,
+        1.5,
+        0.739364358
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "lobby-mail-bank",
+        "parts": 62,
+        "min": [
+          -0.6,
+          0,
+          -0.19
+        ],
+        "max": [
+          0.6,
+          1.5,
+          0.5493643584320055
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.19
+            ],
+            "max": [
+              0.6,
+              1.5,
+              0.21500000000000002
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.19
+            ],
+            "max": [
+              0.6,
+              1.5,
+              0.5493643584320055
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "open",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            -1.4
+          ],
+          "units": "rad",
+          "parts": [
+            "closed-door",
+            "open-door"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Center retrieval door hinges 1.4 rad; slots and other eight doors are static details. One bank, not nine counted objects. No postal routing or lock authentication.",
+      "thumbnail": "assets/lobby-mail-bank/thumbnail.svg"
+    },
+    {
+      "id": "lobby-parcel-drop",
+      "version": 1,
+      "dimensions": [
+        0.72,
+        1.325,
+        0.871555201
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "lobby-parcel-drop",
+        "parts": 21,
+        "min": [
+          -0.36,
+          0,
+          -0.31
+        ],
+        "max": [
+          0.36,
+          1.325,
+          0.5615552011107605
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false,
+            "delivered": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.36,
+              0,
+              -0.31
+            ],
+            "max": [
+              0.36,
+              1.325,
+              0.34500000000000003
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "delivered": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.36,
+              0,
+              -0.31
+            ],
+            "max": [
+              0.36,
+              1.325,
+              0.5615552011107605
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": false,
+            "delivered": true
+          },
+          "steps": [
+            "deposit"
+          ],
+          "bounds": {
+            "min": [
+              -0.36,
+              0,
+              -0.31
+            ],
+            "max": [
+              0.36,
+              1.325,
+              0.34500000000000003
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "delivered": true
+          },
+          "steps": [
+            "deposit",
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.36,
+              0,
+              -0.31
+            ],
+            "max": [
+              0.36,
+              1.325,
+              0.5615552011107605
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "open",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            1
+          ],
+          "units": "rad",
+          "parts": [
+            "flap-closed",
+            "flap-open"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Open the flap to inspect the sample parcel; close then deposit moves that retained sample into the lower bin. Reset only with flap open. Lower grille reveals the deposited sample. Discrete internal illustration; no gravity, arbitrary parcel attachment, theft protection or inventory service.",
+      "thumbnail": "assets/lobby-parcel-drop/thumbnail.svg"
+    },
+    {
+      "id": "lobby-hand-truck",
+      "version": 1,
+      "dimensions": [
+        0.61,
+        1.225,
+        0.47
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "lobby-hand-truck",
+        "parts": 12,
+        "min": [
+          -0.30500000000000005,
+          0,
+          -0.15000000000000002
+        ],
+        "max": [
+          0.30500000000000005,
+          1.2249999999999999,
+          0.31999999999999995
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "folded": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.30500000000000005,
+              0,
+              -0.15000000000000002
+            ],
+            "max": [
+              0.30500000000000005,
+              1.2249999999999999,
+              0.31999999999999995
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "folded": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.30500000000000005,
+              0,
+              -0.15000000000000002
+            ],
+            "max": [
+              0.30500000000000005,
+              1.2249999999999999,
+              0.14999999999999997
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "folded",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            -1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "toe-down",
+            "toe-folded"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Toe plate pivots vertically for storage. Upright parked illustration; wheels, cargo loading and tipping are not simulated. No load certification.",
+      "thumbnail": "assets/lobby-hand-truck/thumbnail.svg"
+    },
+    {
+      "id": "lobby-intercom",
+      "version": 1,
+      "dimensions": [
+        0.42,
+        1.59,
+        0.36
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "lobby-intercom",
+        "parts": 14,
+        "min": [
+          -0.21,
+          0,
+          -0.18
+        ],
+        "max": [
+          0.21,
+          1.59,
+          0.18
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "calling": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.21,
+              0,
+              -0.18
+            ],
+            "max": [
+              0.21,
+              1.59,
+              0.18
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "calling": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.21,
+              0,
+              -0.18
+            ],
+            "max": [
+              0.21,
+              1.59,
+              0.18
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "calling",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0.066,
+            0.063
+          ],
+          "units": "m",
+          "parts": [
+            "button-rest",
+            "button-pressed"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Button depression and call indicator are local illustrative endpoints. No actual call, recording, network connection or door unlock.",
+      "thumbnail": "assets/lobby-intercom/thumbnail.svg"
+    },
+    {
+      "id": "lobby-visitor-kiosk",
+      "version": 1,
+      "dimensions": [
+        0.56,
+        1.55,
+        0.48
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "lobby-visitor-kiosk",
+        "parts": 9,
+        "min": [
+          -0.28,
+          0,
+          -0.24
+        ],
+        "max": [
+          0.28,
+          1.55,
+          0.24
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "issued": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.28,
+              0,
+              -0.24
+            ],
+            "max": [
+              0.28,
+              1.55,
+              0.24
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "issued": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.28,
+              0,
+              -0.24
+            ],
+            "max": [
+              0.28,
+              1.55,
+              0.24
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "issued",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            1.18,
+            1.06
+          ],
+          "units": "m",
+          "parts": [
+            "ticket-inside",
+            "ticket-out"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Screen status and retained sample badge feed from the slot. No personal information, identity check, payments, real printer or visitor database.",
+      "thumbnail": "assets/lobby-visitor-kiosk/thumbnail.svg"
+    },
+    {
+      "id": "lobby-umbrella-rack",
+      "version": 1,
+      "dimensions": [
+        0.6,
+        0.5925,
+        0.36
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "lobby-umbrella-rack",
+        "parts": 10,
+        "min": [
+          -0.3,
+          0,
+          -0.18
+        ],
+        "max": [
+          0.3,
+          0.5924999999999999,
+          0.18
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.3,
+              0,
+              -0.18
+            ],
+            "max": [
+              0.3,
+              0.5924999999999999,
+              0.18
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Fixed divided frame and catch pan for long wet umbrellas. Empty rack is intentional; no water collection process, umbrella attachment or removable-part toggle.",
+      "thumbnail": "assets/lobby-umbrella-rack/thumbnail.svg"
+    },
+    {
+      "id": "lobby-turnstile",
+      "version": 1,
+      "dimensions": [
+        0.920502614,
+        1.135147111,
+        0.75
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "lobby-turnstile",
+        "parts": 14,
+        "min": [
+          -0.225,
+          0,
+          -0.375
+        ],
+        "max": [
+          0.6955026137951882,
+          1.1351471111638651,
+          0.375
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "unlocked": false,
+            "stepped": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.225,
+              0,
+              -0.375
+            ],
+            "max": [
+              0.6955026137951882,
+              1.1351471111638651,
+              0.375
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "unlocked": true,
+            "stepped": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.225,
+              0,
+              -0.375
+            ],
+            "max": [
+              0.6955026137951882,
+              1.1351471111638651,
+              0.375
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "unlocked": false,
+            "stepped": true
+          },
+          "steps": [
+            "toggle",
+            "step"
+          ],
+          "bounds": {
+            "min": [
+              -0.225,
+              0,
+              -0.375
+            ],
+            "max": [
+              0.6955026137951882,
+              1.1351471111638651,
+              0.375
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "unlocked": true,
+            "stepped": true
+          },
+          "steps": [
+            "toggle",
+            "step",
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.225,
+              0,
+              -0.375
+            ],
+            "max": [
+              0.6955026137951882,
+              1.1351471111638651,
+              0.375
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "stepped",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            2.0943951023931953
+          ],
+          "units": "rad",
+          "parts": [
+            "rest-arm-0",
+            "advanced-arm-0"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Release permits one indexed 120-degree rotor step, which relocks. Red arm identifies phase. Reset requires locked state. No credential verification, people collision or safety-certified egress; endpoint demonstration only.",
+      "thumbnail": "assets/lobby-turnstile/thumbnail.svg"
+    },
+    {
+      "id": "lobby-shoe-polisher",
+      "version": 1,
+      "dimensions": [
+        0.66,
+        0.935,
+        0.4
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "lobby-shoe-polisher",
+        "parts": 43,
+        "min": [
+          -0.33,
+          0,
+          -0.2
+        ],
+        "max": [
+          0.33,
+          0.9349999999999999,
+          0.2
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "running": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.33,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.33,
+              0.9349999999999999,
+              0.2
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "running": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.33,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.33,
+              0.9349999999999999,
+              0.2
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "running",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            0.2
+          ],
+          "units": "rad",
+          "parts": [
+            "off-bristle-0-0",
+            "on-bristle-0-0"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Two brush drums show a single indexed rotation endpoint, not elapsed running. No inserted shoe, polishing result, motor timing, brush deformation or dust physics.",
+      "thumbnail": "assets/lobby-shoe-polisher/thumbnail.svg"
+    }
+  ]
+}

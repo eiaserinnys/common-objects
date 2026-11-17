@@ -1,0 +1,250 @@
+{
+  "base": "16ad3d0e9b129897617a5580bfac7f03aa87e0c1",
+  "cycle": "2026-11-18 04:00 KST",
+  "acceptedSources": 8,
+  "reusedSources": 4,
+  "independentTotal": 235,
+  "registrations": 254,
+  "validate": "passed: 254 catalog entries",
+  "tests": {
+    "passed": 179,
+    "failed": 0,
+    "skipped": 0
+  },
+  "targetedTests": 7,
+  "build": "passed",
+  "browser": {
+    "checks": [
+      "2 reset refusal preserves scene",
+      "2 deposit refusal preserves scene",
+      "7 step refusal preserves scene",
+      "7 reset refusal preserves scene",
+      "object-1: all 2 reachable poses in four camera directions",
+      "object-2: all 4 reachable poses in four camera directions",
+      "object-3: all 2 reachable poses in four camera directions",
+      "object-4: all 2 reachable poses in four camera directions",
+      "object-5: all 2 reachable poses in four camera directions",
+      "object-6: all 1 reachable poses in four camera directions",
+      "object-7: all 4 reachable poses in four camera directions",
+      "object-8: all 2 reachable poses in four camera directions",
+      "24 mixed instances: independent states and detached copies restore exactly",
+      "table carries lamp and tissue box through translation/yaw; detach unlocks",
+      "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+    ],
+    "individualFourAngleCaptures": 76,
+    "pixelChanges": [
+      {
+        "id": "lobby-mail-bank",
+        "changedPixelsByCamera": [
+          4737,
+          3736,
+          0,
+          704
+        ]
+      },
+      {
+        "id": "lobby-parcel-drop",
+        "changedPixelsByCamera": [
+          10301,
+          1496,
+          67,
+          676
+        ]
+      },
+      {
+        "id": "lobby-hand-truck",
+        "changedPixelsByCamera": [
+          7770,
+          3589,
+          7693,
+          929
+        ]
+      },
+      {
+        "id": "lobby-intercom",
+        "changedPixelsByCamera": [
+          175,
+          90,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "lobby-visitor-kiosk",
+        "changedPixelsByCamera": [
+          691,
+          227,
+          2,
+          13
+        ]
+      },
+      {
+        "id": "lobby-turnstile",
+        "changedPixelsByCamera": [
+          899,
+          299,
+          0,
+          20
+        ]
+      },
+      {
+        "id": "lobby-shoe-polisher",
+        "changedPixelsByCamera": [
+          3161,
+          680,
+          4421,
+          974
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "allAlternatePosePixels": [
+    {
+      "id": "lobby-mail-bank",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        4737,
+        3736,
+        0,
+        704
+      ]
+    },
+    {
+      "id": "lobby-parcel-drop",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        10301,
+        1496,
+        67,
+        676
+      ]
+    },
+    {
+      "id": "lobby-parcel-drop",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        3953,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lobby-parcel-drop",
+      "pose": 3,
+      "changedPixelsByCamera": [
+        14188,
+        1496,
+        67,
+        676
+      ]
+    },
+    {
+      "id": "lobby-hand-truck",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        7770,
+        3589,
+        7693,
+        929
+      ]
+    },
+    {
+      "id": "lobby-intercom",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        175,
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lobby-visitor-kiosk",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        691,
+        227,
+        2,
+        13
+      ]
+    },
+    {
+      "id": "lobby-turnstile",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        899,
+        299,
+        0,
+        20
+      ]
+    },
+    {
+      "id": "lobby-turnstile",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        4330,
+        683,
+        2004,
+        4299
+      ]
+    },
+    {
+      "id": "lobby-turnstile",
+      "pose": 3,
+      "changedPixelsByCamera": [
+        5229,
+        975,
+        2004,
+        4319
+      ]
+    },
+    {
+      "id": "lobby-shoe-polisher",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        3161,
+        680,
+        4421,
+        974
+      ]
+    }
+  ],
+  "sha256": {
+    "assets/lobby-parcel-drop/asset.json": "289b319d0658a0c8407ebf23a1c3092df81054b8e8bad6d9e672b9e9993ce662",
+    "assets/lobby-parcel-drop/thumbnail.svg": "33e93ba3e6690f2ee3b1030121716f855b5e731f81e66bd8dc26938d84d6a2c3",
+    "assets/lobby-mail-bank/asset.json": "503f23f03020a7c3bea074266113ff87fa87ac5e68620840f5e5617754c024cd",
+    "assets/lobby-mail-bank/thumbnail.svg": "f3308f23ccb54b7cc02ca1ded4907b09916c63637303e0722f3e6e3b6c61806b",
+    "assets/lobby-umbrella-rack/asset.json": "1be303d2c87716a2bb43d9348fd729f408c7a03b4fdd77ce8c22d597843d4c9a",
+    "assets/lobby-umbrella-rack/thumbnail.svg": "6ef71658c6feb7fcd2c321fdb57e13a76165ee66cbf416c58ea64c9f302276be",
+    "assets/lobby-hand-truck/asset.json": "b2c73e95739de071fb17db8f2b0a7ba44bce855bbe8dae1975ede8cc9194bf47",
+    "assets/lobby-hand-truck/thumbnail.svg": "88ac2874538df59faaec2383e3f647272b47370efecf2fbb49ab0b74dde33ce1",
+    "assets/lobby-intercom/asset.json": "9632c1eac902570c4e5b3b24dded6fb08abfde70253ef612c7408c97da91d034",
+    "assets/lobby-intercom/thumbnail.svg": "cc96207bac002e053ecdc10913ebf30718fab4b3aee6e441683d30e4be737834",
+    "assets/lobby-interior/assembly.json": "e641de6d267e41c9d0ebc46d1c2e5048a7a131a3034ba7db0730639cf0cd59ca",
+    "assets/lobby-turnstile/asset.json": "03a35fb25963c7cd76e021f0bf5491317e0ffbd3ba58a578d5be6a64fde04c22",
+    "assets/lobby-turnstile/thumbnail.svg": "fc4adcabf713cfa3777600d6954ba49457310792f796bd8cb9aa0ff02b429400",
+    "assets/lobby-shoe-polisher/asset.json": "7eab52adcafe5048052072a5ce0a62f2ce2f275a2db7ea7fd2db4e2915b8e483",
+    "assets/lobby-shoe-polisher/thumbnail.svg": "a7d4682b5c4246712ad6dda402436bded5ae9f05d8e6c84f709235590f8c0021",
+    "assets/lobby-visitor-kiosk/asset.json": "93c7f133fdc1fb55a7b8677d73d12fa63c4c698745567f2c6c88aa3afef90210",
+    "assets/lobby-visitor-kiosk/thumbnail.svg": "9caf047cb922f5588e86d0b19204d9804a3e224d15dd10380198491a8b4cd17c",
+    "preview/lobby.html": "fe1e8d6c286071a82d0fda0ec7cdba27229da9cd7a4e8e6c206dbb93aed733ea"
+  },
+  "visualReview": [
+    "representative-interior.png",
+    "interior-reverse.png",
+    "set-mobile.png",
+    "pose-0-contact-sheet.jpg",
+    "pose-1-contact-sheet.jpg",
+    "pose-2-contact-sheet.jpg",
+    "pose-3-contact-sheet.jpg"
+  ],
+  "limitations": [
+    "SVG projection, not GLB",
+    "discrete manual states, no elapsed processes",
+    "open arrangement, not joined enclosure",
+    "no real calls, visitor database or security authentication"
+  ],
+  "ci": "No .github/workflows configured; remote status checked in delivery report."
+}
