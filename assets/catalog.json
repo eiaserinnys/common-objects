@@ -254,6 +254,16 @@
     "lobby-visitor-kiosk/asset.json",
     "lobby-umbrella-rack/asset.json",
     "lobby-turnstile/asset.json",
-    "lobby-shoe-polisher/asset.json"
+    "lobby-shoe-polisher/asset.json",
+    "plant-air-handler/asset.json",
+    "plant-water-heater/asset.json",
+    "plant-booster-skid/asset.json",
+    "plant-expansion-vessel/asset.json",
+    "plant-water-softener/asset.json",
+    "plant-distribution-panel/asset.json",
+    "plant-duct-damper/asset.json",
+    "plant-plate-exchanger/asset.json",
+    "plant-condensate-station/asset.json",
+    "plant-cable-ladder/asset.json"
   ]
 }

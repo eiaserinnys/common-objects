@@ -1,0 +1,401 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "plant-air-handler",
+      "assetVersion": 1,
+      "position": [
+        -2.7,
+        0,
+        -1.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "powered": false,
+        "stepped": false
+      }
+    },
+    {
+      "id": "object-2",
+      "assetId": "plant-water-heater",
+      "assetVersion": 1,
+      "position": [
+        2,
+        0,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "plant-booster-skid",
+      "assetVersion": 1,
+      "position": [
+        0.8,
+        0,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false,
+        "charged": false
+      }
+    },
+    {
+      "id": "object-4",
+      "assetId": "plant-expansion-vessel",
+      "assetVersion": 1,
+      "position": [
+        2.4,
+        0,
+        0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-5",
+      "assetId": "plant-water-softener",
+      "assetVersion": 1,
+      "position": [
+        3.3,
+        0,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "bypass": false
+      }
+    },
+    {
+      "id": "object-6",
+      "assetId": "plant-distribution-panel",
+      "assetVersion": 1,
+      "position": [
+        -2.5,
+        0.95,
+        -2.6475
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "main": false,
+        "branch": false
+      },
+      "mount": {
+        "parentId": "object-11",
+        "surfaceId": "front",
+        "anchorId": "back",
+        "offset": [
+          0,
+          0.1
+        ]
+      }
+    },
+    {
+      "id": "object-7",
+      "assetId": "plant-duct-damper",
+      "assetVersion": 1,
+      "position": [
+        -2.9,
+        0,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-8",
+      "assetId": "plant-plate-exchanger",
+      "assetVersion": 1,
+      "position": [
+        -1.3,
+        0,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-9",
+      "assetId": "plant-condensate-station",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "full": false,
+        "enabled": false
+      }
+    },
+    {
+      "id": "object-10",
+      "assetId": "plant-cable-ladder",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0.35,
+        -2.66
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {},
+      "mount": {
+        "parentId": "object-12",
+        "surfaceId": "front",
+        "anchorId": "back",
+        "offset": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "architecture-wall",
+      "assetVersion": 1,
+      "position": [
+        -2.5,
+        0,
+        -2.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-12",
+      "assetId": "architecture-wall",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        -2.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-13",
+      "assetId": "office-sorting-table",
+      "assetVersion": 1,
+      "position": [
+        1.9,
+        0,
+        2.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-14",
+      "assetId": "desk-lamp",
+      "assetVersion": 2,
+      "position": [
+        1.5,
+        0.92,
+        2.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      },
+      "attachment": {
+        "parentId": "object-13",
+        "surfaceId": "worktop",
+        "offset": [
+          -0.4,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-15",
+      "assetId": "stationery-ruler",
+      "assetVersion": 1,
+      "position": [
+        2.25,
+        0.92,
+        2.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "sleeved": false
+      },
+      "attachment": {
+        "parentId": "object-13",
+        "surfaceId": "worktop",
+        "offset": [
+          0.35,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-16",
+      "assetId": "repair-mechanic-stool",
+      "assetVersion": 1,
+      "position": [
+        0.8,
+        0,
+        2.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false
+      }
+    }
+  ]
+}

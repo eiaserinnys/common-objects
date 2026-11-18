@@ -1,6 +1,27 @@
 # Catalog balance and next production priorities
 
-## Current review: shared-building service lobby, 2026-11-18 04:00 KST
+## Current review: building service plant, 2026-11-19 04:00 KST
+
+Cycle files use UTC date 2026-11-18. Fetched clean base `694ffd70b141b665f71c4f874a4252fe8163de07`; one checkout, only main remotely, no open PRs. Re-read 254 source identities/dimensions/states and reviewed the original room plus 24 batch overviews. [Brief](plant-brief-2026-11-18.md), [264-row inventory](catalog-inventory-2026-11-18.md), [audit](plant-catalog-audit.json), [production/evidence](plant-2026-11-18.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 245 | 106 | 41 | 98 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 264 | 108 | 44 | 112 |
+
+New **10 sources, 0 S / 3 M / 7 L**. Small share **45.1% → 43.3%**. Last ten bedroom–plant cycles: **99 sources, 5 S / 26 M / 68 L**. Twenty-five production cycles total 244 sources plus original lamp. Dimensions are estimated maximum authored endpoints, not camera size; the damper is L because actuator/lever extend its width to 1.018 m. Overlapping candidate H/O/C counts 212/122/245 include shared residential service plant; they are not counts of furnished rooms or home-suitable installations.
+
+Prior household appliances and repair compressor did not supply building air handling, hot water, water-pressure control, softening, electrical distribution, condensate handling or cable routes. Ten original sources address those roles without repeating a purifier, dehumidifier, radiator, generic cupboard or small tool. The booster pumps, softener tanks, exchanger plates and cables remain internal components of their sources. Existing wall (twice), sorting table, lamp, ruler and stool are **five reused sources/six instances**; the mixed arrangement totals 16 instances with two wall mounts and two horizontal attachments. Seven sources operate through 23 total reachable poses; expansion vessel, heat exchanger and cable ladder remain honestly static.
+
+**Next priorities:**
+
+1. Joined room enclosures and an attachment authoring UI remain the broadest shared gap. Turn existing furnished sets into authored spaces without multiplying plain wall or cabinet variants.
+2. Timed process semantics with pause/cancel and exact saved progress; new fan/pressure/level states are explicit steps, not elapsed simulations. Consider upgrades to existing sources with immutable version history before another machinery batch.
+3. Cross-asset service connections and meaningful pipe/cable authoring. The plant is a layout of independent equipment, not a connected or rated engineering system. Future geometry breadth should be justified against this expanded plant coverage.
+
+## Historical review: shared-building service lobby, 2026-11-18 04:00 KST
 
 Cycle files use UTC date 2026-11-17. Fetched clean base `16ad3d0e9b129897617a5580bfac7f03aa87e0c1`; one checkout, remote main only, no open PRs. Read all 246 prior source identities/dimensions/states and reviewed original room plus 23 batch overviews. [Brief](lobby-brief-2026-11-17.md), [254-row inventory](catalog-inventory-2026-11-17.md), [full audit](lobby-catalog-audit.json), [production and evidence](lobby-2026-11-17.md).
 

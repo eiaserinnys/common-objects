@@ -1,0 +1,993 @@
+{
+  "batch": "plant-2026-11-18",
+  "count": 10,
+  "poses": 23,
+  "objects": [
+    {
+      "id": "plant-air-handler",
+      "version": 1,
+      "dimensions": [
+        1.5,
+        1.135,
+        0.688
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "plant-air-handler",
+        "parts": 42,
+        "min": [
+          -0.75,
+          0,
+          -0.34
+        ],
+        "max": [
+          0.75,
+          1.135,
+          0.348
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "powered": false,
+            "stepped": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.75,
+              0,
+              -0.34
+            ],
+            "max": [
+              0.75,
+              1.135,
+              0.348
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "powered": true,
+            "stepped": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.75,
+              0,
+              -0.34
+            ],
+            "max": [
+              0.75,
+              1.135,
+              0.348
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "powered": true,
+            "stepped": true
+          },
+          "steps": [
+            "toggle",
+            "step"
+          ],
+          "bounds": {
+            "min": [
+              -0.75,
+              0,
+              -0.34
+            ],
+            "max": [
+              0.75,
+              1.135,
+              0.348
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "powered": false,
+            "stepped": true
+          },
+          "steps": [
+            "toggle",
+            "step",
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.75,
+              0,
+              -0.34
+            ],
+            "max": [
+              0.75,
+              1.135,
+              0.348
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "stepped",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0,
+            0.28
+          ],
+          "units": "rad",
+          "parts": [
+            "rest-blade-0",
+            "step-blade-0"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Power indicator and guarded manual fan phase step. Retained blades rotate .28 rad while the filter and grille stay fixed. No elapsed motor, airflow, temperature, duct-network or filtration physics.",
+      "thumbnail": "assets/plant-air-handler/thumbnail.svg"
+    },
+    {
+      "id": "plant-water-heater",
+      "version": 1,
+      "dimensions": [
+        0.6,
+        1.69,
+        0.657
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "plant-water-heater",
+        "parts": 11,
+        "min": [
+          -0.3,
+          0,
+          -0.3
+        ],
+        "max": [
+          0.3,
+          1.6900000000000002,
+          0.35700000000000004
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "high": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.3,
+              0,
+              -0.3
+            ],
+            "max": [
+              0.3,
+              1.6900000000000002,
+              0.35700000000000004
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "high": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.3,
+              0,
+              -0.3
+            ],
+            "max": [
+              0.3,
+              1.6900000000000002,
+              0.35700000000000004
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "high",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0.7,
+            -0.7
+          ],
+          "units": "rad",
+          "parts": [
+            "thermostat-low",
+            "thermostat-high"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Thermostat pointer rotates between two symbolic settings. Cylinder, hot/cold unions and insulation are retained. No heating, real temperature, stored-volume measurement, pressure relief or plumbing simulation.",
+      "thumbnail": "assets/plant-water-heater/thumbnail.svg"
+    },
+    {
+      "id": "plant-booster-skid",
+      "version": 1,
+      "dimensions": [
+        1.12,
+        0.918,
+        0.68
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "plant-booster-skid",
+        "parts": 32,
+        "min": [
+          -0.56,
+          0,
+          -0.34
+        ],
+        "max": [
+          0.56,
+          0.918,
+          0.34
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false,
+            "charged": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.56,
+              0,
+              -0.34
+            ],
+            "max": [
+              0.56,
+              0.918,
+              0.34
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "charged": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.56,
+              0,
+              -0.34
+            ],
+            "max": [
+              0.56,
+              0.918,
+              0.34
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "charged": true
+          },
+          "steps": [
+            "toggle",
+            "charge"
+          ],
+          "bounds": {
+            "min": [
+              -0.56,
+              0,
+              -0.34
+            ],
+            "max": [
+              0.56,
+              0.918,
+              0.34
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "open",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            1.5707963267948966,
+            0
+          ],
+          "units": "rad",
+          "parts": [
+            "valve-closed",
+            "valve-open"
+          ],
+          "mode": "discrete-endpoints"
+        },
+        {
+          "stateKey": "charged",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0.7,
+            -0.7
+          ],
+          "units": "rad",
+          "parts": [
+            "pressure-low",
+            "pressure-high"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Open inlet lever, then pressurize the symbolic gauge; release pressure before closing inlet. Two pumps are one assembled source. No water, motor timing, pipe connectivity, actual pressure or safety logic certification.",
+      "thumbnail": "assets/plant-booster-skid/thumbnail.svg"
+    },
+    {
+      "id": "plant-expansion-vessel",
+      "version": 1,
+      "dimensions": [
+        0.56,
+        0.965,
+        0.564
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "plant-expansion-vessel",
+        "parts": 7,
+        "min": [
+          -0.28,
+          0,
+          -0.28
+        ],
+        "max": [
+          0.28,
+          0.965,
+          0.28400000000000003
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.28,
+              0,
+              -0.28
+            ],
+            "max": [
+              0.28,
+              0.965,
+              0.28400000000000003
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Fixed vessel, pedestal, service neck and data plate. Internal diaphragm, air charge, deformation and pressure response are not modeled. No invented removable-cap operation.",
+      "thumbnail": "assets/plant-expansion-vessel/thumbnail.svg"
+    },
+    {
+      "id": "plant-water-softener",
+      "version": 1,
+      "dimensions": [
+        0.88,
+        1.395,
+        0.55
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "plant-water-softener",
+        "parts": 12,
+        "min": [
+          -0.44,
+          0,
+          -0.275
+        ],
+        "max": [
+          0.44,
+          1.395,
+          0.275
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "bypass": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.44,
+              0,
+              -0.275
+            ],
+            "max": [
+              0.44,
+              1.395,
+              0.275
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "bypass": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.44,
+              0,
+              -0.275
+            ],
+            "max": [
+              0.44,
+              1.395,
+              0.275
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "bypass",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "service-handle",
+            "bypass-handle"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Quarter-turn bypass selector only. Resin column, brine bin and connecting tube are one source. No ion exchange, salt handling, regeneration timer, potable-water rating or fluid transfer.",
+      "thumbnail": "assets/plant-water-softener/thumbnail.svg"
+    },
+    {
+      "id": "plant-distribution-panel",
+      "version": 1,
+      "dimensions": [
+        0.58,
+        0.8,
+        0.251739442
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "plant-distribution-panel",
+        "parts": 19,
+        "min": [
+          -0.29000000000000004,
+          0,
+          -0.1
+        ],
+        "max": [
+          0.29000000000000004,
+          0.8,
+          0.15173944227623676
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "main": false,
+            "branch": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.29000000000000004,
+              0,
+              -0.1
+            ],
+            "max": [
+              0.29000000000000004,
+              0.8,
+              0.15173944227623676
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "main": true,
+            "branch": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.29000000000000004,
+              0,
+              -0.1
+            ],
+            "max": [
+              0.29000000000000004,
+              0.8,
+              0.15173944227623676
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "main": true,
+            "branch": true
+          },
+          "steps": [
+            "toggle",
+            "branch"
+          ],
+          "bounds": {
+            "min": [
+              -0.29000000000000004,
+              0,
+              -0.1
+            ],
+            "max": [
+              0.29000000000000004,
+              0.8,
+              0.15173944227623676
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "main",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0.45,
+            -0.45
+          ],
+          "units": "rad",
+          "parts": [
+            "main-down",
+            "main-up"
+          ],
+          "mode": "discrete-endpoints"
+        },
+        {
+          "stateKey": "branch",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0.45,
+            -0.45
+          ],
+          "units": "rad",
+          "parts": [
+            "branch-down",
+            "branch-up"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Main and one branch breaker show independent retained lever endpoints. Main must be enabled before branch; branch must be off before isolation. Illustrative dead-front switchboard; no exposed wiring, live electricity, protection curves or installation guidance.",
+      "thumbnail": "assets/plant-distribution-panel/thumbnail.svg"
+    },
+    {
+      "id": "plant-duct-damper",
+      "version": 1,
+      "dimensions": [
+        1.018,
+        0.68,
+        0.3
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "plant-duct-damper",
+        "parts": 16,
+        "min": [
+          -0.44,
+          0,
+          -0.15
+        ],
+        "max": [
+          0.578,
+          0.68,
+          0.15
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.44,
+              0,
+              -0.15
+            ],
+            "max": [
+              0.578,
+              0.68,
+              0.15
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.44,
+              0,
+              -0.15
+            ],
+            "max": [
+              0.578,
+              0.68,
+              0.15
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "open",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "closed-blade-0",
+            "open-blade-0"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "All three blades and actuator indicator quarter-turn about X. Open aperture stays empty through the module. Floor-supported inspection module; no installed duct attachment, airflow, fire rating or continuous actuator.",
+      "thumbnail": "assets/plant-duct-damper/thumbnail.svg"
+    },
+    {
+      "id": "plant-plate-exchanger",
+      "version": 1,
+      "dimensions": [
+        0.7,
+        1.165,
+        0.6975
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "plant-plate-exchanger",
+        "parts": 35,
+        "min": [
+          -0.35,
+          0,
+          -0.31
+        ],
+        "max": [
+          0.35,
+          1.165,
+          0.3875
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.35,
+              0,
+              -0.31
+            ],
+            "max": [
+              0.35,
+              1.165,
+              0.3875
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Fixed stack of twelve plates, tie rods and four fluid ports. No plate removal gimmick, fluid connectivity, heat transfer, leak behavior or rated performance.",
+      "thumbnail": "assets/plant-plate-exchanger/thumbnail.svg"
+    },
+    {
+      "id": "plant-condensate-station",
+      "version": 1,
+      "dimensions": [
+        0.51,
+        0.55,
+        0.388
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "plant-condensate-station",
+        "parts": 13,
+        "min": [
+          -0.255,
+          0,
+          -0.175
+        ],
+        "max": [
+          0.255,
+          0.55,
+          0.213
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "full": false,
+            "enabled": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.255,
+              0,
+              -0.175
+            ],
+            "max": [
+              0.255,
+              0.55,
+              0.213
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "full": false,
+            "enabled": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.255,
+              0,
+              -0.175
+            ],
+            "max": [
+              0.255,
+              0.55,
+              0.213
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "full": true,
+            "enabled": false
+          },
+          "steps": [
+            "refill"
+          ],
+          "bounds": {
+            "min": [
+              -0.255,
+              0,
+              -0.175
+            ],
+            "max": [
+              0.255,
+              0.55,
+              0.213
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "full": true,
+            "enabled": true
+          },
+          "steps": [
+            "refill",
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.255,
+              0,
+              -0.175
+            ],
+            "max": [
+              0.255,
+              0.55,
+              0.213
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "full",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.065,
+            0.19
+          ],
+          "units": "m",
+          "parts": [
+            "float-low",
+            "float-high"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Enable then pump lowers retained sight float; disable then refill raises it. Four guarded Boolean endpoints. Float is an external schematic level indicator; no actual water surface, automatic sensor, motor time or plumbing simulation.",
+      "thumbnail": "assets/plant-condensate-station/thumbnail.svg"
+    },
+    {
+      "id": "plant-cable-ladder",
+      "version": 1,
+      "dimensions": [
+        0.52,
+        1.8,
+        0.155
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "plant-cable-ladder",
+        "parts": 32,
+        "min": [
+          -0.26,
+          0,
+          -0.0875
+        ],
+        "max": [
+          0.26,
+          1.8,
+          0.0675
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.26,
+              0,
+              -0.0875
+            ],
+            "max": [
+              0.26,
+              1.8,
+              0.0675
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Fixed wall ladder with three illustrative cables and clips. No electrical connection, cable editor, bending, arbitrary cable attachments or certified support/load capacity. One routing asset, not separately counted cables.",
+      "thumbnail": "assets/plant-cable-ladder/thumbnail.svg"
+    }
+  ]
+}

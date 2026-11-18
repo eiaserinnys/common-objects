@@ -1,0 +1,159 @@
+{
+  "checks": [
+    "1 step refusal preserves scene",
+    "3 charge refusal preserves scene",
+    "3 toggle refusal preserves scene",
+    "6 branch refusal preserves scene",
+    "6 toggle refusal preserves scene",
+    "9 pump refusal preserves scene",
+    "9 refill refusal preserves scene",
+    "object-1: all 4 reachable poses in four camera directions",
+    "object-2: all 2 reachable poses in four camera directions",
+    "object-3: all 3 reachable poses in four camera directions",
+    "object-4: all 1 reachable poses in four camera directions",
+    "object-5: all 2 reachable poses in four camera directions",
+    "object-6: all 3 reachable poses in four camera directions",
+    "object-7: all 2 reachable poses in four camera directions",
+    "object-8: all 1 reachable poses in four camera directions",
+    "object-9: all 4 reachable poses in four camera directions",
+    "object-10: all 1 reachable poses in four camera directions",
+    "32 mixed instances: independent states and detached copies restore exactly",
+    "table carries lamp and ruler through translation/yaw; detach unlocks",
+    "both mounted sources follow walls, persist relations, and detach at preserved world pose",
+    "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+  ],
+  "individualFourAngleCaptures": 92,
+  "pixelChanges": [
+    {
+      "id": "plant-air-handler",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        82,
+        40,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "plant-air-handler",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        5506,
+        86,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "plant-air-handler",
+      "pose": 3,
+      "changedPixelsByCamera": [
+        5424,
+        46,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "plant-water-heater",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        73,
+        53,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "plant-booster-skid",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        643,
+        620,
+        291,
+        0
+      ]
+    },
+    {
+      "id": "plant-booster-skid",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        813,
+        719,
+        308,
+        27
+      ]
+    },
+    {
+      "id": "plant-water-softener",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        560,
+        287,
+        78,
+        247
+      ]
+    },
+    {
+      "id": "plant-distribution-panel",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        586,
+        511,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "plant-distribution-panel",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        830,
+        800,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "plant-duct-damper",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        11589,
+        2595,
+        11223,
+        3462
+      ]
+    },
+    {
+      "id": "plant-condensate-station",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        248,
+        134,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "plant-condensate-station",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        925,
+        594,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "plant-condensate-station",
+      "pose": 3,
+      "changedPixelsByCamera": [
+        1173,
+        728,
+        0,
+        0
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,224 @@
+{
+  "base": "694ffd70b141b665f71c4f874a4252fe8163de07",
+  "cycle": "2026-11-19 04:00 KST",
+  "acceptedSources": 10,
+  "reusedSources": 5,
+  "reusedInstances": 6,
+  "independentTotal": 245,
+  "registrations": 264,
+  "validate": "passed: 264 entries",
+  "tests": {
+    "passed": 188,
+    "failed": 0,
+    "skipped": 0
+  },
+  "targetedTests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "build": "passed; dist asset/preview bytes match retained sources",
+  "browser": {
+    "checks": [
+      "1 step refusal preserves scene",
+      "3 charge refusal preserves scene",
+      "3 toggle refusal preserves scene",
+      "6 branch refusal preserves scene",
+      "6 toggle refusal preserves scene",
+      "9 pump refusal preserves scene",
+      "9 refill refusal preserves scene",
+      "object-1: all 4 reachable poses in four camera directions",
+      "object-2: all 2 reachable poses in four camera directions",
+      "object-3: all 3 reachable poses in four camera directions",
+      "object-4: all 1 reachable poses in four camera directions",
+      "object-5: all 2 reachable poses in four camera directions",
+      "object-6: all 3 reachable poses in four camera directions",
+      "object-7: all 2 reachable poses in four camera directions",
+      "object-8: all 1 reachable poses in four camera directions",
+      "object-9: all 4 reachable poses in four camera directions",
+      "object-10: all 1 reachable poses in four camera directions",
+      "32 mixed instances: independent states and detached copies restore exactly",
+      "table carries lamp and ruler through translation/yaw; detach unlocks",
+      "both mounted sources follow walls, persist relations, and detach at preserved world pose",
+      "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+    ],
+    "individualFourAngleCaptures": 92,
+    "pixelChanges": [
+      {
+        "id": "plant-air-handler",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          82,
+          40,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "plant-air-handler",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          5506,
+          86,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "plant-air-handler",
+        "pose": 3,
+        "changedPixelsByCamera": [
+          5424,
+          46,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "plant-water-heater",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          73,
+          53,
+          0,
+          7
+        ]
+      },
+      {
+        "id": "plant-booster-skid",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          643,
+          620,
+          291,
+          0
+        ]
+      },
+      {
+        "id": "plant-booster-skid",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          813,
+          719,
+          308,
+          27
+        ]
+      },
+      {
+        "id": "plant-water-softener",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          560,
+          287,
+          78,
+          247
+        ]
+      },
+      {
+        "id": "plant-distribution-panel",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          586,
+          511,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "plant-distribution-panel",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          830,
+          800,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "plant-duct-damper",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          11589,
+          2595,
+          11223,
+          3462
+        ]
+      },
+      {
+        "id": "plant-condensate-station",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          248,
+          134,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "plant-condensate-station",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          925,
+          594,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "plant-condensate-station",
+        "pose": 3,
+        "changedPixelsByCamera": [
+          1173,
+          728,
+          0,
+          0
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "sha256": {
+    "assets/plant-air-handler/asset.json": "3f3f84cd92a3c0569c1a992d50e64d5b983eb1fd5dffeb03565bd77b9c2abcbd",
+    "assets/plant-air-handler/thumbnail.svg": "0fae944a3f5e6f7181e45966ab767473593729fd8ef21cd16e4f47637e559fdf",
+    "assets/plant-booster-skid/asset.json": "9692886ca50643b4d5a890166121c11bd737953b70d5a7c00be4bb383bd53901",
+    "assets/plant-booster-skid/thumbnail.svg": "aa1586734a176e2278aa0e6cbac02e7a1ff7a76528c40d60d97469a971e10857",
+    "assets/plant-cable-ladder/asset.json": "7c50f027597d250cde500eed50f189b3955293fdeec673f0438f48f49d65efc0",
+    "assets/plant-cable-ladder/thumbnail.svg": "881c7f26dc42843ab25ee4bc2b7d35652e1ae83e53ef918dfb0bc2ba766036de",
+    "assets/plant-condensate-station/asset.json": "28c7fcc44b542acf93e2fdea3794e2f38fe0e5be2906e9d6e8af7accc258a148",
+    "assets/plant-condensate-station/thumbnail.svg": "081179b1114a6cf026e5f6b1342e9a63123a0d47a9361e534abd1beca949e7c4",
+    "assets/plant-distribution-panel/asset.json": "9587c19fd97da078aac3ea463abaa0ba3261dd3b1918c641eaa983904fc1a1ef",
+    "assets/plant-distribution-panel/thumbnail.svg": "3d0e3b0f66d8007b38278efea1e30cd5aa2516fd72036b767dffb35797e46d5d",
+    "assets/plant-duct-damper/asset.json": "4045fb2a22e610b181b68ebc0cffdfd198047230ea7ae8b91e77931e7b93ce9d",
+    "assets/plant-duct-damper/thumbnail.svg": "6ab62f41b61df4fb9371ecdb3d62576ddd0243f3139382208a01614fc42a17b2",
+    "assets/plant-expansion-vessel/asset.json": "287cd9bf9e4d50c96c3c005db45038a90da4b561ec54984a3146ce40d3472a8f",
+    "assets/plant-expansion-vessel/thumbnail.svg": "7a1fb0bf6c135de95b309f473c44dbc1eeda31df9d433d6e7f3189871b24fa3e",
+    "assets/plant-interior/assembly.json": "831368873c5461a78732ec29322817ec37b9c7d6fe0c50d84afb4cc2a34be376",
+    "assets/plant-plate-exchanger/asset.json": "8eed1109a8b76dc5195fcbd32ecf0501337117bbe1f158a42bbb359d6a8186ef",
+    "assets/plant-plate-exchanger/thumbnail.svg": "8812760a888cc375e56d02e402ad1923d81fea687ad245e299cda6434001e81b",
+    "assets/plant-water-heater/asset.json": "e2213738982da13f412e46119f358f43ab0206852896c6ac88d985ec7f0b5667",
+    "assets/plant-water-heater/thumbnail.svg": "8e6271086b3cf77fe876b7a0c3b51d70be790bd6e440fee644bdda925e59b6b7",
+    "assets/plant-water-softener/asset.json": "5a092e0fc8cb9eeeee1a5293289ee45547fb14be028bcd824b927c344d6dff2c",
+    "assets/plant-water-softener/thumbnail.svg": "05d125a5e909e9568824afe77c424ecfbca880fc669189c876a5fff9226e1395",
+    "preview/plant.html": "fee9256cca2cbb3095c47871a295de526693b66cb9275e94b665d7936fc32cb4",
+    "scripts/batches/plant-2026-11-18.mjs": "24ee275c4f934da62a24ffec87c9cceec5d148f3da35967a5fe42650a5caa9a7",
+    "scripts/plant-scene.mjs": "ff336d4881a14739471aa2188c5c50b329dc0ca2d6606db466d88b877fff31f1",
+    "tests/plant.test.js": "d6d5cab8a0f67220a0462646288e0d626eb7cfa210a644013f1bf2e81d902d54"
+  },
+  "visualReview": [
+    "representative-interior.png",
+    "interior-reverse.png",
+    "set-mobile.png",
+    "object-7-pose-1-0.png",
+    "object-1-pose-2-0.png",
+    "pose-0-contact-sheet.jpg",
+    "pose-1-contact-sheet.jpg",
+    "pose-2-contact-sheet.jpg",
+    "pose-3-contact-sheet.jpg"
+  ],
+  "limitations": [
+    "3D-coordinate SVG projection, no GLB delivery",
+    "Manual discrete state steps, no elapsed physical process",
+    "Independent equipment layout, no connected plumbing/electrical network",
+    "Open arrangement, no complete enclosure or engineering certification"
+  ],
+  "ci": "No .github/workflows definition; remote commit status and PR-triggered workflow lookup are checked after push in delivery report."
+}
