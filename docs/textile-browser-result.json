@@ -1,0 +1,135 @@
+{
+  "checks": [
+    "6 heat refusal preserves scene",
+    "6 toggle refusal preserves scene",
+    "8 stroke refusal preserves scene",
+    "8 toggle refusal preserves scene",
+    "object-1: all 2 reachable poses in four camera directions",
+    "object-2: all 2 reachable poses in four camera directions",
+    "object-3: all 2 reachable poses in four camera directions",
+    "object-4: all 2 reachable poses in four camera directions",
+    "object-5: all 1 reachable poses in four camera directions",
+    "object-6: all 3 reachable poses in four camera directions",
+    "object-7: all 2 reachable poses in four camera directions",
+    "object-8: all 3 reachable poses in four camera directions",
+    "object-9: all 2 reachable poses in four camera directions",
+    "object-10: all 2 reachable poses in four camera directions",
+    "34 mixed instances: independent states and detached copies restore exactly",
+    "seven children follow three worktops through yaw/translation and desk height, restore, and detach without movement",
+    "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+  ],
+  "individualFourAngleCaptures": 84,
+  "pixelChanges": [
+    {
+      "id": "textile-sewing-machine",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        190,
+        40,
+        0,
+        388
+      ]
+    },
+    {
+      "id": "textile-overlocker",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        19,
+        121,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "textile-floor-loom",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        15401,
+        6669,
+        5518,
+        4672
+      ]
+    },
+    {
+      "id": "textile-dress-form",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        6216,
+        5371,
+        4398,
+        4785
+      ]
+    },
+    {
+      "id": "textile-steam-press",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        18031,
+        9209,
+        1769,
+        4228
+      ]
+    },
+    {
+      "id": "textile-steam-press",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        18150,
+        9249,
+        1769,
+        4228
+      ]
+    },
+    {
+      "id": "textile-garment-steamer",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        58,
+        39,
+        1,
+        5
+      ]
+    },
+    {
+      "id": "textile-cloth-cutter",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        460,
+        200,
+        13,
+        0
+      ]
+    },
+    {
+      "id": "textile-cloth-cutter",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        683,
+        465,
+        23,
+        9
+      ]
+    },
+    {
+      "id": "textile-bobbin-winder",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        478,
+        216,
+        42,
+        80
+      ]
+    },
+    {
+      "id": "textile-quilting-frame",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        21479,
+        6609,
+        12272,
+        5616
+      ]
+    }
+  ],
+  "errors": []
+}

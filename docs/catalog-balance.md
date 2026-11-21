@@ -1,6 +1,27 @@
 # Catalog balance and next production priorities
 
-## Current review: building service plant, 2026-11-19 04:00 KST
+## Current review: textile making studio, 2026-11-22 04:00 KST
+
+Only this cycle; no catch-up production for the two unexecuted dates. File date is UTC 2026-11-21. Fetched clean base `06315752c74a2068b0bd7fc99bed63813e58f984`; one checkout, main only remotely, no open PRs. Read all 264 prior source/inventory records and reviewed original room plus 25 batch overviews. [Brief](textile-brief-2026-11-21.md), [274-row inventory](catalog-inventory-2026-11-21.md), [audit](textile-catalog-audit.json), [production](textile-2026-11-21.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 255 | 109 | 42 | 104 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 274 | 111 | 45 | 118 |
+
+New **10 sources, 3 S / 1 M / 6 L**. Small share **43.3% → 42.7%**. Last ten actual batches bakery–textile total **99 sources, 8 S / 23 M / 68 L**. Twenty-six production cycles add 254 sources plus original lamp; skipped dates add no counts. Overlapping H/O/C candidate tags are 222/122/255 and do not describe complete furnished rooms. Size uses maximum authored endpoints, never preview prominence.
+
+Existing sewing coverage was ten small tools/supplies and related generic laundry furniture. The new sources establish sewing, overedge finishing, weaving, fitting, roll storage, pressing, steaming, stack-cutting, winding and floor quilting roles for home hobby and commercial craft rooms. New plant hardware does not fill these roles. Overlocker has an edge knife/four-thread topology distinct from the lockstitch head; bobbin winder is a machine rather than a duplicate spool; floor quilt frame is distinct from the handheld hoop. Three small machines have specific processing roles; no extra loose tools were added. Six reused source IDs/seven instances supply worktops, seating, lighting and small supplies in a 17-instance scene. Seven support relations follow three worktops, including height-adjustable desks. Nine sources operate; roll rack is fixed. Twenty-one reachable poses do not imply actual cloth processing.
+
+**Next priorities:**
+
+1. Joined enclosure continuity and attachment authoring UI still have greater cross-collection value than more plain furniture variants. Existing connection schema works, but complete room authoring is not yet delivered.
+2. Timed process pause/cancel and exact saved progress; textile controls remain explicit endpoints with no real stitches, severing, heat or fabric physics. Upgrade existing sources with version history before multiplying near-equivalent machines.
+3. Review home cooking and meal preparation against café/bakery sources: range/hob and extraction are absent, while counters, sinks, refrigerators and ovens already have related coverage. Reuse those anchors and prioritize genuinely missing roles, not a cabinet/refrigerator size-variant batch.
+
+## Historical review: building service plant, 2026-11-19 04:00 KST
 
 Cycle files use UTC date 2026-11-18. Fetched clean base `694ffd70b141b665f71c4f874a4252fe8163de07`; one checkout, only main remotely, no open PRs. Re-read 254 source identities/dimensions/states and reviewed the original room plus 24 batch overviews. [Brief](plant-brief-2026-11-18.md), [264-row inventory](catalog-inventory-2026-11-18.md), [audit](plant-catalog-audit.json), [production/evidence](plant-2026-11-18.md).
 

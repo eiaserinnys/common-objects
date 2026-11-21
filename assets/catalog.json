@@ -264,6 +264,16 @@
     "plant-duct-damper/asset.json",
     "plant-plate-exchanger/asset.json",
     "plant-condensate-station/asset.json",
-    "plant-cable-ladder/asset.json"
+    "plant-cable-ladder/asset.json",
+    "textile-sewing-machine/asset.json",
+    "textile-overlocker/asset.json",
+    "textile-floor-loom/asset.json",
+    "textile-dress-form/asset.json",
+    "textile-fabric-rack/asset.json",
+    "textile-steam-press/asset.json",
+    "textile-garment-steamer/asset.json",
+    "textile-cloth-cutter/asset.json",
+    "textile-bobbin-winder/asset.json",
+    "textile-quilting-frame/asset.json"
   ]
 }

@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "textile-sewing-machine",
+      "assetVersion": 1,
+      "position": [
+        -2.33,
+        0.75,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "down": false
+      },
+      "attachment": {
+        "parentId": "object-11",
+        "surfaceId": "worktop",
+        "offset": [
+          -0.33,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-2",
+      "assetId": "textile-overlocker",
+      "assetVersion": 1,
+      "position": [
+        -1.63,
+        0.75,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "down": false
+      },
+      "attachment": {
+        "parentId": "object-11",
+        "surfaceId": "worktop",
+        "offset": [
+          0.37,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "textile-floor-loom",
+      "assetVersion": 1,
+      "position": [
+        -2,
+        0,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "beat": false
+      }
+    },
+    {
+      "id": "object-4",
+      "assetId": "textile-dress-form",
+      "assetVersion": 1,
+      "position": [
+        -0.3,
+        0,
+        -1.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "raised": false
+      }
+    },
+    {
+      "id": "object-5",
+      "assetId": "textile-fabric-rack",
+      "assetVersion": 1,
+      "position": [
+        1.2,
+        0,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-6",
+      "assetId": "textile-steam-press",
+      "assetVersion": 1,
+      "position": [
+        2.7,
+        0,
+        -0.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "closed": false,
+        "heating": false
+      }
+    },
+    {
+      "id": "object-7",
+      "assetId": "textile-garment-steamer",
+      "assetVersion": 1,
+      "position": [
+        2.9,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      }
+    },
+    {
+      "id": "object-8",
+      "assetId": "textile-cloth-cutter",
+      "assetVersion": 1,
+      "position": [
+        0.64,
+        0.92,
+        2.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "powered": false,
+        "down": false
+      },
+      "attachment": {
+        "parentId": "object-13",
+        "surfaceId": "worktop",
+        "offset": [
+          -0.36,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-9",
+      "assetId": "textile-bobbin-winder",
+      "assetVersion": 1,
+      "position": [
+        -0.4,
+        0.75,
+        1.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "stepped": false
+      },
+      "attachment": {
+        "parentId": "object-12",
+        "surfaceId": "worktop",
+        "offset": [
+          -0.4,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-10",
+      "assetId": "textile-quilting-frame",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        -0.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "tilted": false
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "workplace-desk",
+      "assetVersion": 1,
+      "position": [
+        -2,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false
+      }
+    },
+    {
+      "id": "object-12",
+      "assetId": "workplace-desk",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        1.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false
+      }
+    },
+    {
+      "id": "object-13",
+      "assetId": "office-sorting-table",
+      "assetVersion": 1,
+      "position": [
+        1,
+        0,
+        2.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-14",
+      "assetId": "workplace-task-chair",
+      "assetVersion": 1,
+      "position": [
+        -2,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "raised": false
+      }
+    },
+    {
+      "id": "object-15",
+      "assetId": "sewing-box",
+      "assetVersion": 1,
+      "position": [
+        1.3,
+        0.92,
+        2.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "closed": true
+      },
+      "attachment": {
+        "parentId": "object-13",
+        "surfaceId": "worktop",
+        "offset": [
+          0.3,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-16",
+      "assetId": "sewing-scissors",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0.75,
+        1.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "sheathed": true
+      },
+      "attachment": {
+        "parentId": "object-12",
+        "surfaceId": "worktop",
+        "offset": [
+          0,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-17",
+      "assetId": "desk-lamp",
+      "assetVersion": 2,
+      "position": [
+        0.43,
+        0.75,
+        1.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      },
+      "attachment": {
+        "parentId": "object-12",
+        "surfaceId": "worktop",
+        "offset": [
+          0.43,
+          0
+        ],
+        "yaw": 0
+      }
+    }
+  ]
+}

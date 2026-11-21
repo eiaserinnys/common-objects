@@ -1,0 +1,945 @@
+{
+  "batch": "textile-2026-11-21",
+  "count": 10,
+  "poses": 21,
+  "objects": [
+    {
+      "id": "textile-sewing-machine",
+      "version": 1,
+      "dimensions": [
+        0.486,
+        0.455,
+        0.22
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "textile-sewing-machine",
+        "parts": 15,
+        "min": [
+          -0.23,
+          0,
+          -0.11
+        ],
+        "max": [
+          0.256,
+          0.45499999999999996,
+          0.11
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "down": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.23,
+              0,
+              -0.11
+            ],
+            "max": [
+              0.256,
+              0.45499999999999996,
+              0.11
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "down": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.23,
+              0,
+              -0.11
+            ],
+            "max": [
+              0.256,
+              0.45499999999999996,
+              0.11
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "down",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.157,
+            0.137
+          ],
+          "units": "m",
+          "parts": [
+            "needle-up",
+            "needle-down"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Needle translates .02 m and handwheel index turns. Needle enters the retained fabric sample at the down endpoint. Fixed presser foot; no continuous stitch formation, real feed, thread physics or electrical timing.",
+      "thumbnail": "assets/textile-sewing-machine/thumbnail.svg"
+    },
+    {
+      "id": "textile-overlocker",
+      "version": 1,
+      "dimensions": [
+        0.3,
+        0.541,
+        0.26
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "textile-overlocker",
+        "parts": 26,
+        "min": [
+          -0.15000000000000002,
+          0,
+          -0.13
+        ],
+        "max": [
+          0.15000000000000002,
+          0.541,
+          0.13
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "down": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.15000000000000002,
+              0,
+              -0.13
+            ],
+            "max": [
+              0.15000000000000002,
+              0.541,
+              0.13
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "down": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.15000000000000002,
+              0,
+              -0.13
+            ],
+            "max": [
+              0.15000000000000002,
+              0.541,
+              0.13
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "down",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.255,
+            0.235
+          ],
+          "units": "m",
+          "parts": [
+            "needles-up",
+            "needles-down"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Twin-needle bar and edge knife lower .02 m against a retained sample. Four cones and thread tree distinguish overedge finishing from lockstitch construction. No actual severed fabric, thread loops or continuous motor.",
+      "thumbnail": "assets/textile-overlocker/thumbnail.svg"
+    },
+    {
+      "id": "textile-floor-loom",
+      "version": 1,
+      "dimensions": [
+        1.16,
+        1.1375,
+        0.91
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "textile-floor-loom",
+        "parts": 115,
+        "min": [
+          -0.5800000000000001,
+          0,
+          -0.455
+        ],
+        "max": [
+          0.5800000000000001,
+          1.1375000000000002,
+          0.455
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "beat": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.5800000000000001,
+              0,
+              -0.455
+            ],
+            "max": [
+              0.5800000000000001,
+              1.1375000000000002,
+              0.455
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "beat": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.5800000000000001,
+              0,
+              -0.455
+            ],
+            "max": [
+              0.5800000000000001,
+              1.1375000000000002,
+              0.455
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "beat",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            0.34
+          ],
+          "units": "rad",
+          "parts": [
+            "back-beater",
+            "forward-beater"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Whole beater/reed pivots .34 rad at the side-rail line. Warp/heddle/cloth remain retained static depictions. No real shed, shuttle travel, thread tension or cloth generation. One loom, not separately counted beams.",
+      "thumbnail": "assets/textile-floor-loom/thumbnail.svg"
+    },
+    {
+      "id": "textile-dress-form",
+      "version": 1,
+      "dimensions": [
+        0.56,
+        1.91,
+        0.56
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "textile-dress-form",
+        "parts": 15,
+        "min": [
+          -0.28,
+          0,
+          -0.28
+        ],
+        "max": [
+          0.28,
+          1.91,
+          0.28
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "raised": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.28,
+              0,
+              -0.28
+            ],
+            "max": [
+              0.28,
+              1.73,
+              0.28
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "raised": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.28,
+              0,
+              -0.28
+            ],
+            "max": [
+              0.28,
+              1.91,
+              0.28
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "raised",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            1.12,
+            1.3
+          ],
+          "units": "m",
+          "parts": [
+            "low-hip",
+            "high-hip"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Entire torso rises .18 m on telescoping post. Torso is a stylized fitting form with circular sections, not an anatomical body or adjustable girth system. No garment drape or fit simulation.",
+      "thumbnail": "assets/textile-dress-form/thumbnail.svg"
+    },
+    {
+      "id": "textile-fabric-rack",
+      "version": 1,
+      "dimensions": [
+        1.3,
+        1.6,
+        0.58
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "textile-fabric-rack",
+        "parts": 21,
+        "min": [
+          -0.65,
+          0,
+          -0.29
+        ],
+        "max": [
+          0.65,
+          1.6,
+          0.29
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.65,
+              0,
+              -0.29
+            ],
+            "max": [
+              0.65,
+              1.6,
+              0.29
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Fixed horizontal roll storage with three retained samples. No automatic unrolling, textile cutting, spindle removal or load rating. One rack assembly; rolls are not new catalog objects.",
+      "thumbnail": "assets/textile-fabric-rack/thumbnail.svg"
+    },
+    {
+      "id": "textile-steam-press",
+      "version": 1,
+      "dimensions": [
+        0.7,
+        1.156907476,
+        0.58
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "textile-steam-press",
+        "parts": 15,
+        "min": [
+          -0.35,
+          0,
+          -0.29
+        ],
+        "max": [
+          0.35,
+          1.1569074759672082,
+          0.29
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": false,
+            "heating": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.35,
+              0,
+              -0.29
+            ],
+            "max": [
+              0.35,
+              1.1569074759672082,
+              0.29
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": true,
+            "heating": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.35,
+              0,
+              -0.29
+            ],
+            "max": [
+              0.35,
+              0.9625,
+              0.29
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": true,
+            "heating": true
+          },
+          "steps": [
+            "toggle",
+            "heat"
+          ],
+          "bounds": {
+            "min": [
+              -0.35,
+              0,
+              -0.29
+            ],
+            "max": [
+              0.35,
+              0.9625,
+              0.29
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "closed",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            -0.72,
+            0
+          ],
+          "units": "rad",
+          "parts": [
+            "open-platen",
+            "closed-platen"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Platen closes onto retained pad; heat indicator requires closed platen and must turn off before opening. Guarded symbolic controls, no heat, steam, pressure, wrinkle removal or safety certification.",
+      "thumbnail": "assets/textile-steam-press/thumbnail.svg"
+    },
+    {
+      "id": "textile-garment-steamer",
+      "version": 1,
+      "dimensions": [
+        0.447977542,
+        1.5625,
+        0.34
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "textile-garment-steamer",
+        "parts": 15,
+        "min": [
+          -0.2,
+          0,
+          -0.17
+        ],
+        "max": [
+          0.24797754209980122,
+          1.5625,
+          0.17
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.2,
+              0,
+              -0.17
+            ],
+            "max": [
+              0.24797754209980122,
+              1.5625,
+              0.17
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.2,
+              0,
+              -0.17
+            ],
+            "max": [
+              0.24797754209980122,
+              1.5625,
+              0.17
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "on",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0.7,
+            -0.7
+          ],
+          "units": "rad",
+          "parts": [
+            "pointer-off",
+            "pointer-on"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Selector and ready indicator change together; hose/head remain on cradle. No emitted steam, heating delay, water consumption, garment attachment or actual de-wrinkling.",
+      "thumbnail": "assets/textile-garment-steamer/thumbnail.svg"
+    },
+    {
+      "id": "textile-cloth-cutter",
+      "version": 1,
+      "dimensions": [
+        0.26,
+        0.465,
+        0.3
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "textile-cloth-cutter",
+        "parts": 11,
+        "min": [
+          -0.13,
+          0,
+          -0.15
+        ],
+        "max": [
+          0.13,
+          0.465,
+          0.15
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "powered": false,
+            "down": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.13,
+              0,
+              -0.15
+            ],
+            "max": [
+              0.13,
+              0.465,
+              0.15
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "powered": true,
+            "down": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.13,
+              0,
+              -0.15
+            ],
+            "max": [
+              0.13,
+              0.465,
+              0.15
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "powered": true,
+            "down": true
+          },
+          "steps": [
+            "toggle",
+            "stroke"
+          ],
+          "bounds": {
+            "min": [
+              -0.13,
+              0,
+              -0.15
+            ],
+            "max": [
+              0.13,
+              0.465,
+              0.15
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "down",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.205,
+            0.18
+          ],
+          "units": "m",
+          "parts": [
+            "blade-up",
+            "blade-down"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Power indication gates a .025 m blade-stroke step into the retained cloth stack. Shoe stays fixed; no severed pieces, automatic feed, cutting path or safe-use certification.",
+      "thumbnail": "assets/textile-cloth-cutter/thumbnail.svg"
+    },
+    {
+      "id": "textile-bobbin-winder",
+      "version": 1,
+      "dimensions": [
+        0.32,
+        0.201952374,
+        0.22
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "textile-bobbin-winder",
+        "parts": 11,
+        "min": [
+          -0.16,
+          0,
+          -0.11
+        ],
+        "max": [
+          0.16,
+          0.20195237412036793,
+          0.11
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "stepped": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.11
+            ],
+            "max": [
+              0.16,
+              0.20195237412036793,
+              0.11
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "stepped": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.16,
+              0,
+              -0.11
+            ],
+            "max": [
+              0.16,
+              0.20195237412036793,
+              0.11
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "stepped",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "index-rest",
+            "index-turned"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Retained bobbin top index rotates .25 turn. Fixed thread path is illustrative; no changing thread volume, winding timer, tension or automatic stop. Distinct winding machine, not a recolor of the existing loose thread spool.",
+      "thumbnail": "assets/textile-bobbin-winder/thumbnail.svg"
+    },
+    {
+      "id": "textile-quilting-frame",
+      "version": 1,
+      "dimensions": [
+        1.39,
+        0.922930591,
+        0.72
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "textile-quilting-frame",
+        "parts": 39,
+        "min": [
+          -0.6950000000000001,
+          0,
+          -0.36
+        ],
+        "max": [
+          0.6950000000000001,
+          0.92293059078369,
+          0.36
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "tilted": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.6950000000000001,
+              0,
+              -0.36
+            ],
+            "max": [
+              0.6950000000000001,
+              0.855,
+              0.36
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "tilted": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.6950000000000001,
+              0,
+              -0.36
+            ],
+            "max": [
+              0.6950000000000001,
+              0.92293059078369,
+              0.36
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "tilted",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            -0.24
+          ],
+          "units": "rad",
+          "parts": [
+            "flat-fabric",
+            "tilted-fabric"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Rollers, frame, retained quilt and seam guides tilt together .24 rad. Unlike the handheld embroidery hoop, this is a floor work frame. No fabric tension, scrolling, real quilting stitches or arbitrary attached textiles.",
+      "thumbnail": "assets/textile-quilting-frame/thumbnail.svg"
+    }
+  ]
+}

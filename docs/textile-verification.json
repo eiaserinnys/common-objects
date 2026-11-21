@@ -1,0 +1,197 @@
+{
+  "base": "06315752c74a2068b0bd7fc99bed63813e58f984",
+  "cycle": "2026-11-22 04:00 KST",
+  "acceptedSources": 10,
+  "reusedSources": 6,
+  "reusedInstances": 7,
+  "independentTotal": 255,
+  "registrations": 274,
+  "validate": "passed: 274 entries",
+  "tests": {
+    "passed": 196,
+    "failed": 0,
+    "skipped": 0
+  },
+  "targetedTests": {
+    "passed": 8,
+    "failed": 0
+  },
+  "build": "passed; dist asset/preview bytes match retained sources",
+  "browser": {
+    "checks": [
+      "6 heat refusal preserves scene",
+      "6 toggle refusal preserves scene",
+      "8 stroke refusal preserves scene",
+      "8 toggle refusal preserves scene",
+      "object-1: all 2 reachable poses in four camera directions",
+      "object-2: all 2 reachable poses in four camera directions",
+      "object-3: all 2 reachable poses in four camera directions",
+      "object-4: all 2 reachable poses in four camera directions",
+      "object-5: all 1 reachable poses in four camera directions",
+      "object-6: all 3 reachable poses in four camera directions",
+      "object-7: all 2 reachable poses in four camera directions",
+      "object-8: all 3 reachable poses in four camera directions",
+      "object-9: all 2 reachable poses in four camera directions",
+      "object-10: all 2 reachable poses in four camera directions",
+      "34 mixed instances: independent states and detached copies restore exactly",
+      "seven children follow three worktops through yaw/translation and desk height, restore, and detach without movement",
+      "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+    ],
+    "individualFourAngleCaptures": 84,
+    "pixelChanges": [
+      {
+        "id": "textile-sewing-machine",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          190,
+          40,
+          0,
+          388
+        ]
+      },
+      {
+        "id": "textile-overlocker",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          19,
+          121,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "textile-floor-loom",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          15401,
+          6669,
+          5518,
+          4672
+        ]
+      },
+      {
+        "id": "textile-dress-form",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          6216,
+          5371,
+          4398,
+          4785
+        ]
+      },
+      {
+        "id": "textile-steam-press",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          18031,
+          9209,
+          1769,
+          4228
+        ]
+      },
+      {
+        "id": "textile-steam-press",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          18150,
+          9249,
+          1769,
+          4228
+        ]
+      },
+      {
+        "id": "textile-garment-steamer",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          58,
+          39,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "textile-cloth-cutter",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          460,
+          200,
+          13,
+          0
+        ]
+      },
+      {
+        "id": "textile-cloth-cutter",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          683,
+          465,
+          23,
+          9
+        ]
+      },
+      {
+        "id": "textile-bobbin-winder",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          478,
+          216,
+          42,
+          80
+        ]
+      },
+      {
+        "id": "textile-quilting-frame",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          21479,
+          6609,
+          12272,
+          5616
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "sha256": {
+    "assets/textile-bobbin-winder/asset.json": "067f63ed9be6a7e1ff29584bbc768168a98119e9748dc156426162611a76f052",
+    "assets/textile-bobbin-winder/thumbnail.svg": "3551deab24e9735bcd9699b987fbac2c36144bdc49f331ab12f93a1be6b024c8",
+    "assets/textile-cloth-cutter/asset.json": "9ef9d5b7879e3fde6c568f8ccac0434508d886f807298c78a05763f5758fa072",
+    "assets/textile-cloth-cutter/thumbnail.svg": "db64146c4006d6dec964fbbe3ba399b46ece5894454a294e16d0973d84e6e9dd",
+    "assets/textile-dress-form/asset.json": "b8585baec77685d66c01818a4bf660078f1cccc70ceb3875c3b2f39de3819107",
+    "assets/textile-dress-form/thumbnail.svg": "d722ce73d191319a66dc1d3153b50cc62dbb1db1de0c099f6694d2e93f8d34a5",
+    "assets/textile-fabric-rack/asset.json": "37450bd0945742dbb3deaef08b19ff34295b8cfe6fec82da1e6d39d34e6fc075",
+    "assets/textile-fabric-rack/thumbnail.svg": "a7395b9a76a652781a9999de04064b1b0a70bdc093490d9ebcfb5fc4ca2d845e",
+    "assets/textile-floor-loom/asset.json": "2e43aa5a19ac9d87028be790ef13f913514a2889a0e7bb27e70b8198c4bd959f",
+    "assets/textile-floor-loom/thumbnail.svg": "74a4285161f78cdcf441146037a46bf2d1d81bed0f7ac59776c3f854e71c2146",
+    "assets/textile-garment-steamer/asset.json": "a8cd147f63c0870a680cf7307b8acf30fd99f9a0747a927c5995bd03ba12227f",
+    "assets/textile-garment-steamer/thumbnail.svg": "40c45a5d3dc02209e0ee892b5081a7b096f835f98b0f8d6ad48299131e9c8832",
+    "assets/textile-interior/assembly.json": "458b9815438dfe32bc470c378fd73aca0cf445cf82a9837a8e6a1298d390fb1e",
+    "assets/textile-overlocker/asset.json": "3c8fcc898bb96133eaa87e96423476c8a14d3b0a517f02caf396ca4cd01fb333",
+    "assets/textile-overlocker/thumbnail.svg": "871f4c971d94a4655c6e36fae1e834ceb9255c568d4359b59050bd9c47f57651",
+    "assets/textile-quilting-frame/asset.json": "dbf888728abb35f56fcc3056ec92f7b6dfce1d0ab3f12e68177fab0ec46ad698",
+    "assets/textile-quilting-frame/thumbnail.svg": "89ecf7f1bd630f83ca5385318df10c1867be85516a3bae1e580b644f63401d3d",
+    "assets/textile-sewing-machine/asset.json": "be94ad266f2cf4a02c15ed5e543a74599d89b1afe680f9256fea0a93ce7a466e",
+    "assets/textile-sewing-machine/thumbnail.svg": "31394486a915229f1a4cb761841612d4eac2b5e0c7e974daf1cb8349d6c7ad62",
+    "assets/textile-steam-press/asset.json": "a98c22d969fce35a698f16dc667d3f9d145123c8fba219e9f3d02e236658bb6b",
+    "assets/textile-steam-press/thumbnail.svg": "332e491a01717a033b053f4a2ca15c37b66a3fb2b7795ede8fa22ea5cb86f26f",
+    "preview/textile.html": "102324b6c6741ff1df8d8d143bae45497e31c1126ec3d79e8089f4b03ee964ab",
+    "scripts/batches/textile-2026-11-21.mjs": "b04c01dc9f2e27b4a349073d67a17c28cd17422928eb6e67ed20c1f17287e2ad",
+    "scripts/textile-scene.mjs": "9964a9f471c5ba122328291b2428b4317d8a95615b447e6761ed9ab2ea1f5e2e",
+    "tests/textile.test.js": "ec66d6ebcd67c3998cd50824bc30965db8e1127b85d247ba794caa84f46f5cb2"
+  },
+  "visualReview": [
+    "representative-interior.png",
+    "set-mobile.png",
+    "object-1-pose-0-0.png",
+    "pose-0-contact-sheet.jpg",
+    "pose-1-contact-sheet.jpg",
+    "pose-2-contact-sheet.jpg"
+  ],
+  "limitations": [
+    "3D-coordinate SVG projection, no GLB delivery",
+    "Discrete endpoint controls; no elapsed physical process",
+    "No fabric cutting, stitches, tension, drape, heat or steam simulation",
+    "Open equipment arrangement, no complete enclosure or engineering certification"
+  ],
+  "ci": "No .github/workflows definition; remote commit status and PR-triggered workflow lookup checked after push in delivery report."
+}

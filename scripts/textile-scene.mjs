@@ -1,0 +1,7 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';import {createInstance,saveScene} from '../renderer/model.js';import {resolveAttachments} from '../renderer/attachments.js';
+const definitions=[['textile-sewing-machine',[0,0,0]],['textile-overlocker',[0,0,0]],['textile-floor-loom',[-2,0,-1.5]],['textile-dress-form',[-.3,0,-1.8]],['textile-fabric-rack',[1.2,0,-2]],['textile-steam-press',[2.7,0,-.8]],['textile-garment-steamer',[2.9,0,1]],['textile-cloth-cutter',[0,0,0]],['textile-bobbin-winder',[0,0,0]],['textile-quilting-frame',[0,0,-.3]],['workplace-desk',[-2,0,1]],['workplace-desk',[0,0,1.3]],['office-sorting-table',[1,0,2.8]],['workplace-task-chair',[-2,0,2]],['sewing-box',[0,0,0]],['sewing-scissors',[0,0,0]],['desk-lamp',[0,0,0]]];
+const assets=new Map();for(const [id] of definitions)assets.set(id,JSON.parse(await readFile('assets/'+id+'/asset.json')));
+const instances=definitions.map(([id,pos],n)=>createInstance(assets.get(id),'object-'+(n+1),pos));
+instances[13].rotation[1]=Math.PI;
+for(const [n,parent,offset] of [[0,11,[-.33,0]],[1,11,[.37,0]],[7,13,[-.36,0]],[8,12,[-.4,0]],[14,13,[.30,0]],[15,12,[0,0]],[16,12,[.43,0]]])instances[n].attachment={parentId:'object-'+parent,surfaceId:'worktop',offset,yaw:0};
+await mkdir('assets/textile-interior',{recursive:true});await writeFile('assets/textile-interior/assembly.json',JSON.stringify(JSON.parse(saveScene(resolveAttachments(instances,assets))),null,2)+'\n');
