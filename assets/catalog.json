@@ -274,6 +274,12 @@
     "textile-garment-steamer/asset.json",
     "textile-cloth-cutter/asset.json",
     "textile-bobbin-winder/asset.json",
-    "textile-quilting-frame/asset.json"
+    "textile-quilting-frame/asset.json",
+    "cooking-range/asset.json",
+    "cooking-extractor/asset.json",
+    "cooking-rice-cooker/asset.json",
+    "cooking-microwave/asset.json",
+    "cooking-processor/asset.json",
+    "cooking-toaster/asset.json"
   ]
 }

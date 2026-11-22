@@ -1,0 +1,639 @@
+{
+  "batch": "cooking-2026-11-22",
+  "count": 6,
+  "poses": 15,
+  "objects": [
+    {
+      "id": "cooking-range",
+      "version": 1,
+      "dimensions": [
+        0.8,
+        0.975,
+        0.674
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cooking-range",
+        "parts": 32,
+        "min": [
+          -0.4,
+          0,
+          -0.325
+        ],
+        "max": [
+          0.4,
+          0.975,
+          0.349
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.4,
+              0,
+              -0.325
+            ],
+            "max": [
+              0.4,
+              0.975,
+              0.349
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.4,
+              0,
+              -0.325
+            ],
+            "max": [
+              0.4,
+              0.975,
+              0.349
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "on",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0.8,
+            -0.8
+          ],
+          "units": "rad",
+          "parts": [
+            "dial-0-off",
+            "dial-0-high"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Four retained selector pointers rotate and zone centers change indication together. Open underframe, no oven. Symbolic power only: no temperature, flame, cookware detection, heating, timer or cross-asset cooking. All four zones share one control state.",
+      "thumbnail": "assets/cooking-range/thumbnail.svg"
+    },
+    {
+      "id": "cooking-extractor",
+      "version": 1,
+      "dimensions": [
+        0.9,
+        0.495,
+        0.511
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cooking-extractor",
+        "parts": 22,
+        "min": [
+          -0.45,
+          0,
+          -0.25
+        ],
+        "max": [
+          0.45,
+          0.495,
+          0.261
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "on": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.45,
+              0,
+              -0.25
+            ],
+            "max": [
+              0.45,
+              0.495,
+              0.261
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "on": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.45,
+              0,
+              -0.25
+            ],
+            "max": [
+              0.45,
+              0.495,
+              0.261
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "on",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            0.45
+          ],
+          "units": "rad",
+          "parts": [
+            "off-rotor",
+            "on-rotor"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Selector indication and a retained fan phase rotate .45 rad behind the underside grille. No airflow, duct network, continuous motor, fumes or ventilation certification. Inspect below/side to see the rotor; the roof intentionally occludes it from above.",
+      "thumbnail": "assets/cooking-extractor/thumbnail.svg"
+    },
+    {
+      "id": "cooking-rice-cooker",
+      "version": 1,
+      "dimensions": [
+        0.304,
+        0.520005524,
+        0.3185
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cooking-rice-cooker",
+        "parts": 17,
+        "min": [
+          -0.152,
+          0,
+          -0.152
+        ],
+        "max": [
+          0.152,
+          0.520005524164519,
+          0.1665
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": false,
+            "cooking": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.152,
+              0,
+              -0.15039627295270797
+            ],
+            "max": [
+              0.152,
+              0.520005524164519,
+              0.1665
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": true,
+            "cooking": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.152,
+              0,
+              -0.152
+            ],
+            "max": [
+              0.152,
+              0.32,
+              0.1665
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": true,
+            "cooking": true
+          },
+          "steps": [
+            "toggle",
+            "cook"
+          ],
+          "bounds": {
+            "min": [
+              -0.152,
+              0,
+              -0.152
+            ],
+            "max": [
+              0.152,
+              0.32,
+              0.1665
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "closed",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            -1.15,
+            0
+          ],
+          "units": "rad",
+          "parts": [
+            "open-lid",
+            "closed-lid"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Lid and handle pivot 1.15 rad around the rear hinge to reveal retained rice and hollow pot. Cook indication requires closed lid; stop before opening. No actual heating, rice transformation, steam, pressure or elapsed cooking.",
+      "thumbnail": "assets/cooking-rice-cooker/thumbnail.svg"
+    },
+    {
+      "id": "cooking-microwave",
+      "version": 1,
+      "dimensions": [
+        0.58,
+        0.345,
+        0.8625
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cooking-microwave",
+        "parts": 42,
+        "min": [
+          -0.305,
+          0,
+          -0.2
+        ],
+        "max": [
+          0.275,
+          0.34500000000000003,
+          0.6625
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false,
+            "stepped": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.28,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.275,
+              0.34500000000000003,
+              0.2475
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "stepped": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.305,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.275,
+              0.34500000000000003,
+              0.6625
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": false,
+            "stepped": true
+          },
+          "steps": [
+            "step"
+          ],
+          "bounds": {
+            "min": [
+              -0.28,
+              0,
+              -0.2
+            ],
+            "max": [
+              0.275,
+              0.34500000000000003,
+              0.2475
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "open",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            -1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "closed-door-bottom",
+            "open-door-bottom"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Side-hinged frame/mesh door exposes a hollow cabinet. Close door before a manual quarter-turn of retained dish; reset phase before reopening. No microwave energy, elapsed timer, heat or safety certification. Mesh is opaque bars with gaps, not transparent glass.",
+      "thumbnail": "assets/cooking-microwave/thumbnail.svg"
+    },
+    {
+      "id": "cooking-processor",
+      "version": 1,
+      "dimensions": [
+        0.2725,
+        0.4205,
+        0.27
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cooking-processor",
+        "parts": 32,
+        "min": [
+          -0.135,
+          0,
+          -0.135
+        ],
+        "max": [
+          0.1375,
+          0.4205,
+          0.135
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "locked": false,
+            "stepped": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.135,
+              0,
+              -0.135
+            ],
+            "max": [
+              0.1375,
+              0.4205,
+              0.135
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "locked": true,
+            "stepped": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.135,
+              0,
+              -0.135
+            ],
+            "max": [
+              0.135,
+              0.4205,
+              0.135
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "locked": true,
+            "stepped": true
+          },
+          "steps": [
+            "toggle",
+            "pulse"
+          ],
+          "bounds": {
+            "min": [
+              -0.135,
+              0,
+              -0.135
+            ],
+            "max": [
+              0.135,
+              0.4205,
+              0.135
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "locked",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            0.35
+          ],
+          "units": "rad",
+          "parts": [
+            "released-lid",
+            "locked-lid"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Lid lock turns .35 rad; guarded pulse indexes retained knife by a quarter turn. Bowl and lid use open ribs to expose the knife: this is an intentional inspection cutaway, not transparent material or a food-safe enclosure. No actual chopping, continuous motor or food transformation.",
+      "thumbnail": "assets/cooking-processor/thumbnail.svg"
+    },
+    {
+      "id": "cooking-toaster",
+      "version": 1,
+      "dimensions": [
+        0.3625,
+        0.25,
+        0.21
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "cooking-toaster",
+        "parts": 19,
+        "min": [
+          -0.155,
+          0,
+          -0.105
+        ],
+        "max": [
+          0.2075,
+          0.25,
+          0.105
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "lowered": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.155,
+              0,
+              -0.105
+            ],
+            "max": [
+              0.2075,
+              0.25,
+              0.105
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "lowered": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.155,
+              0,
+              -0.105
+            ],
+            "max": [
+              0.2075,
+              0.195,
+              0.105
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "lowered",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.2,
+            0.11
+          ],
+          "units": "m",
+          "parts": [
+            "up-bread--0.0475",
+            "down-bread--0.0475"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Both retained slices, carrier trays and lever translate .09 m together through two open slots. Manual lowering/raising only: no timer, automatic pop-up, browning or thermal simulation. Sample bread is part of this one source.",
+      "thumbnail": "assets/cooking-toaster/thumbnail.svg"
+    }
+  ]
+}

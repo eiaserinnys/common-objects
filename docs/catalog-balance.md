@@ -1,6 +1,29 @@
 # Catalog balance and next production priorities
 
-## Current review: textile making studio, 2026-11-22 04:00 KST
+## Current review: everyday cooking station, 2026-11-23 04:00 KST
+
+UTC file date 2026-11-22. Exactly one cycle, not a catch-up batch. Clean fetched base `fb25c9416cf5d85718ee7d5326be32f1db35f3f1`, one checkout, remote main only. Read all 274 prior source identities, actual dimensions, states and curated roles; reviewed original room plus 26 batch overviews. [Brief](cooking-brief-2026-11-22.md), [280-row inventory](catalog-inventory-2026-11-22.md), [audit](cooking-catalog-audit.json), [production](cooking-2026-11-22.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 261 | 111 | 46 | 104 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 280 | 113 | 49 | 118 |
+
+New **6 sources, 2 S / 4 M / 0 L**. Small share **42.7% → 42.5%**. The standing range is .975 m high (M by max-envelope rule), not a miniature because its category is medium. Last ten actual workplace–cooking batches: **95 sources, 10 S / 26 M / 59 L**. Twenty-seven production cycles contribute 260 sources plus original study lamp. Overlapping H/O/C candidate tags are 228/125/261; not counts of furnished rooms.
+
+Existing small kitchen/baking/beverage tools and bakery machines were numerous, while hob cooking, extraction, reheating and countertop processing were missing. Six sources add open-base four-zone range, wall extractor, rice cooker, microwave, inspection-cutaway food processor and two-slot toaster. No extra oven, fridge, sink, cupboard, table or hand tools. Eleven reused sources supply the wall, counter, island table, fridge, sink, dining table/chair and small utensils in a 17-instance scene. Seven horizontal bindings and one wall mount are saved; microwave rests independently on a checked real .74 m worktop because its door overhang does not fit conservative whole-bounds attachment rules. All six operate through 15 reachable endpoint states. The processor is explicitly an inspection cutaway; no transparent surfaces or physical processing claimed.
+
+Six fully checked roles are prioritized over a ten-object filler batch: **four short of the aspirational ten**. There are no partially counted or unpublished extra assets. Medium equipment and reuse improve activity coverage without another cabinet-size variant. The new scene remains open, with one wall for extraction mounting, not a complete enclosed kitchen or certified ventilation design.
+
+**Next priorities:**
+
+1. Revisit shared mechanical behavior and actual process semantics in existing machines before multiplying appliance variants. Timers, pause/cancel and exact progress persistence remain unsupported; endpoint indication is not physical cooking.
+2. Keep enclosure continuity and attachment authoring as documented infrastructure gaps; do not launch a separate game prototype without user request. Conservative full-bounds attachment rejects legitimate hinged-door overhang; a future versioned foot/contact support contract could improve reuse without weakening placement validation.
+3. Compare pet-care or hair-care service interiors against sanitary/wellness/laundry coverage before another geometry cycle. Prioritize distinctive service fixtures and reuse existing seating, sinks and storage; avoid another small tool set.
+
+## Historical review: textile making studio, 2026-11-22 04:00 KST
 
 Only this cycle; no catch-up production for the two unexecuted dates. File date is UTC 2026-11-21. Fetched clean base `06315752c74a2068b0bd7fc99bed63813e58f984`; one checkout, main only remotely, no open PRs. Read all 264 prior source/inventory records and reviewed original room plus 25 batch overviews. [Brief](textile-brief-2026-11-21.md), [274-row inventory](catalog-inventory-2026-11-21.md), [audit](textile-catalog-audit.json), [production](textile-2026-11-21.md).
 

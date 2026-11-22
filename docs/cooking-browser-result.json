@@ -1,0 +1,114 @@
+{
+  "checks": [
+    "3 cook refusal preserves scene",
+    "3 toggle refusal preserves scene",
+    "4 step refusal preserves scene",
+    "4 toggle refusal preserves scene",
+    "5 pulse refusal preserves scene",
+    "5 toggle refusal preserves scene",
+    "object-1: all 2 reachable poses in four camera directions",
+    "object-2: all 2 reachable poses in four camera directions",
+    "object-3: all 3 reachable poses in four camera directions",
+    "object-4: all 3 reachable poses in four camera directions",
+    "object-5: all 3 reachable poses in four camera directions",
+    "object-6: all 2 reachable poses in four camera directions",
+    "extractor underside exposes retained fan phase behind grille",
+    "34 mixed instances: independent states and detached copies restore exactly",
+    "seven supported children and wall hood follow hosts, restore and detach; microwave remains independently placed",
+    "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+  ],
+  "individualFourAngleCaptures": 60,
+  "pixelChanges": [
+    {
+      "id": "cooking-range",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        5502,
+        1091,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cooking-extractor",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        262,
+        86,
+        689,
+        47
+      ]
+    },
+    {
+      "id": "cooking-rice-cooker",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        28949,
+        16535,
+        10832,
+        8341
+      ]
+    },
+    {
+      "id": "cooking-rice-cooker",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        29193,
+        16646,
+        10832,
+        8354
+      ]
+    },
+    {
+      "id": "cooking-microwave",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        17244,
+        12871,
+        3677,
+        4096
+      ]
+    },
+    {
+      "id": "cooking-microwave",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        949,
+        0,
+        0,
+        11
+      ]
+    },
+    {
+      "id": "cooking-processor",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        7798,
+        2720,
+        5705,
+        4451
+      ]
+    },
+    {
+      "id": "cooking-processor",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        9453,
+        4286,
+        5854,
+        5732
+      ]
+    },
+    {
+      "id": "cooking-toaster",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        22998,
+        8740,
+        1094,
+        4813
+      ]
+    }
+  ],
+  "errors": []
+}

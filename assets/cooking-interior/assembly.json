@@ -1,0 +1,461 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "cooking-range",
+      "assetVersion": 1,
+      "position": [
+        -1.7,
+        0,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      }
+    },
+    {
+      "id": "object-2",
+      "assetId": "cooking-extractor",
+      "assetVersion": 1,
+      "position": [
+        -1.7,
+        1.65,
+        -1.5975
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "on": false
+      },
+      "mount": {
+        "parentId": "object-7",
+        "surfaceId": "front",
+        "anchorId": "back",
+        "offset": [
+          0,
+          0.65
+        ]
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "cooking-rice-cooker",
+      "assetVersion": 1,
+      "position": [
+        -0.5,
+        0.95,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "closed": false,
+        "cooking": false
+      },
+      "attachment": {
+        "parentId": "object-8",
+        "surfaceId": "worktop",
+        "offset": [
+          -0.6,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-4",
+      "assetId": "cooking-microwave",
+      "assetVersion": 1,
+      "position": [
+        -0.35,
+        0.74,
+        0.95
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false,
+        "stepped": false
+      }
+    },
+    {
+      "id": "object-5",
+      "assetId": "cooking-processor",
+      "assetVersion": 1,
+      "position": [
+        -0.06,
+        0.95,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "locked": false,
+        "stepped": false
+      },
+      "attachment": {
+        "parentId": "object-8",
+        "surfaceId": "worktop",
+        "offset": [
+          -0.16,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-6",
+      "assetId": "cooking-toaster",
+      "assetVersion": 1,
+      "position": [
+        0.41,
+        0.95,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lowered": false
+      },
+      "attachment": {
+        "parentId": "object-8",
+        "surfaceId": "worktop",
+        "offset": [
+          0.31,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-7",
+      "assetId": "architecture-wall",
+      "assetVersion": 1,
+      "position": [
+        -1.7,
+        0,
+        -1.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-8",
+      "assetId": "cafe-service-counter",
+      "assetVersion": 1,
+      "position": [
+        0.1,
+        0,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-9",
+      "assetId": "workplace-meeting-table",
+      "assetVersion": 1,
+      "position": [
+        0.2,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-10",
+      "assetId": "cafe-refrigerator",
+      "assetVersion": 1,
+      "position": [
+        2.45,
+        0,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "cafe-service-sink",
+      "assetVersion": 1,
+      "position": [
+        1.5,
+        0,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "running": false
+      }
+    },
+    {
+      "id": "object-12",
+      "assetId": "cafe-pedestal-table",
+      "assetVersion": 1,
+      "position": [
+        -2.4,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-13",
+      "assetId": "cafe-dining-chair",
+      "assetVersion": 1,
+      "position": [
+        -2.4,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-14",
+      "assetId": "kitchen-cutting-board",
+      "assetVersion": 1,
+      "position": [
+        0.3,
+        0.74,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "loaded": true
+      },
+      "attachment": {
+        "parentId": "object-9",
+        "surfaceId": "worktop",
+        "offset": [
+          0.1,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-15",
+      "assetId": "kitchen-oil-cruet",
+      "assetVersion": 1,
+      "position": [
+        0.8,
+        0.95,
+        -1.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "stoppered": true
+      },
+      "attachment": {
+        "parentId": "object-8",
+        "surfaceId": "worktop",
+        "offset": [
+          0.7,
+          -0.2
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-16",
+      "assetId": "kitchen-serving-tray",
+      "assetVersion": 1,
+      "position": [
+        0.85,
+        0.74,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lined": true
+      },
+      "attachment": {
+        "parentId": "object-9",
+        "surfaceId": "worktop",
+        "offset": [
+          0.65,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-17",
+      "assetId": "kitchen-utensil-crock",
+      "assetVersion": 1,
+      "position": [
+        0.8,
+        0.95,
+        -1.24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "loaded": true
+      },
+      "attachment": {
+        "parentId": "object-8",
+        "surfaceId": "worktop",
+        "offset": [
+          0.7,
+          0.16
+        ],
+        "yaw": 0
+      }
+    }
+  ]
+}
