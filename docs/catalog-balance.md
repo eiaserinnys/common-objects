@@ -1,6 +1,27 @@
 # Catalog balance and next production priorities
 
-## Current review: everyday cooking station, 2026-11-23 04:00 KST
+## Current review: companion-animal care room, 2026-11-24 04:00 KST
+
+Only this cycle, UTC file date 2026-11-23. Clean fetched base `171a5bd96429fe98ede51499f0afd815cb23ec27`, one checkout, remote main only, no open PRs. Re-read all 280 prior source identities/dimensions/states and curated functions; reviewed original room and 27 batch overviews. [Brief](petcare-brief-2026-11-23.md), [290-row inventory](catalog-inventory-2026-11-23.md), [audit](petcare-catalog-audit.json), [production](petcare-2026-11-23.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 271 | 111 | 49 | 111 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 290 | 113 | 52 | 125 |
+
+New **10 sources, 0 S / 3 M / 7 L**. Small share **42.5% → 41.0%**. Last ten actual architecture–petcare batches: **95 sources, 9 S / 27 M / 59 L**. Twenty-eight production cycles contribute 270 sources plus original study lamp. H/O/C candidate tags overlap: 238/125/271, not furnished-room counts. Size uses authored endpoint envelope: carrier is large because its open gate reaches 1.0225 m depth, not because the closed carrier is a large kennel.
+
+Existing human sanitary, exercise and laundry assets did not provide independent animal housing, grooming, climbing, feeding, transport or sanitation roles. Original windowsill/cat remains one imported compound group. Ten sources now form a care-room equipment set: lifting grooming deck, sliding-entry tub, rail kennel, cat tree, open drum wheel, raking litter tray, low feeder, portable carrier, hose blower and folding ramp. New parts and internal food are not separate counts; kennel and carrier have distinct stationary/portable construction. No brush/scissors/bowl color variants or new generic worktable/cart/bench. Six reused source IDs supply those support/cleaning roles in 16 instances. Four bindings include supplies following the lifting deck and a basket following the braked linen cart. Nine new sources operate through 22 total reachable states; climbing tree is intentionally static.
+
+**Next priorities:**
+
+1. Cross-collection infrastructure: attachment authoring and enclosure continuity remain unfinished. Preserve authorized scope; no separate game prototype. A future versioned contact-footprint contract could address legitimate appliance overhang without weakening current whole-bounds validation.
+2. Richer process semantics for existing machinery: elapsed progress, pause/cancel and exact saved progress. Current blower/feeding/wash/rake/wheel endpoints are explicit illustrations without real physics or animal behavior.
+3. Compare hair-care or beauty-service anchors against existing sanitary/wellness furniture before another geometry cycle. Reuse sinks, seating and storage; do not remake hygiene hand tools. Pet-care breadth now exists and does not justify another minor breed/size-variant set.
+
+## Historical review: everyday cooking station, 2026-11-23 04:00 KST
 
 UTC file date 2026-11-22. Exactly one cycle, not a catch-up batch. Clean fetched base `fb25c9416cf5d85718ee7d5326be32f1db35f3f1`, one checkout, remote main only. Read all 274 prior source identities, actual dimensions, states and curated roles; reviewed original room plus 26 batch overviews. [Brief](cooking-brief-2026-11-22.md), [280-row inventory](catalog-inventory-2026-11-22.md), [audit](cooking-catalog-audit.json), [production](cooking-2026-11-22.md).
 

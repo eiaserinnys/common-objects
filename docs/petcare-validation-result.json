@@ -1,0 +1,1022 @@
+{
+  "batch": "petcare-2026-11-23",
+  "count": 10,
+  "poses": 22,
+  "objects": [
+    {
+      "id": "petcare-grooming-table",
+      "version": 1,
+      "dimensions": [
+        1.2,
+        1.4775,
+        0.665
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "petcare-grooming-table",
+        "parts": 12,
+        "min": [
+          -0.6,
+          0,
+          -0.325
+        ],
+        "max": [
+          0.6,
+          1.4775,
+          0.34
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "high": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.325
+            ],
+            "max": [
+              0.6,
+              1.2275,
+              0.34
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "worktop",
+              "vertices": [
+                [
+                  -0.55,
+                  0.65,
+                  -0.24
+                ],
+                [
+                  0.55,
+                  0.65,
+                  -0.24
+                ],
+                [
+                  0.55,
+                  0.65,
+                  0.24
+                ],
+                [
+                  -0.55,
+                  0.65,
+                  0.24
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "high": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.325
+            ],
+            "max": [
+              0.6,
+              1.4775,
+              0.34
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "worktop",
+              "vertices": [
+                [
+                  -0.55,
+                  0.9,
+                  -0.24
+                ],
+                [
+                  0.55,
+                  0.9,
+                  -0.24
+                ],
+                [
+                  0.55,
+                  0.9,
+                  0.24
+                ],
+                [
+                  -0.55,
+                  0.9,
+                  0.24
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "high",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.65,
+            0.9
+          ],
+          "units": "m",
+          "parts": [
+            "low-deck",
+            "high-deck"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Deck and rigid equipment arm rise .25 m together; attached supplies follow. No animal, restraint loop, hydraulic force, continuous lifting or load/safety certification.",
+      "thumbnail": "assets/petcare-grooming-table/thumbnail.svg"
+    },
+    {
+      "id": "petcare-wash-tub",
+      "version": 1,
+      "dimensions": [
+        1.2,
+        1.0625,
+        0.7525
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "petcare-wash-tub",
+        "parts": 21,
+        "min": [
+          -0.6000000000000001,
+          0,
+          -0.36
+        ],
+        "max": [
+          0.6,
+          1.0625,
+          0.3925
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": false,
+            "flowing": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.6000000000000001,
+              0,
+              -0.36
+            ],
+            "max": [
+              0.6,
+              1.0625,
+              0.3925
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": true,
+            "flowing": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.6000000000000001,
+              0,
+              -0.36
+            ],
+            "max": [
+              0.6,
+              1.0625,
+              0.3925
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": true,
+            "flowing": true
+          },
+          "steps": [
+            "toggle",
+            "flow"
+          ],
+          "bounds": {
+            "min": [
+              -0.6000000000000001,
+              0,
+              -0.36
+            ],
+            "max": [
+              0.6,
+              1.0625,
+              0.3925
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "closed",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            -0.29,
+            0.29
+          ],
+          "units": "m",
+          "parts": [
+            "door-open",
+            "door-closed"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Entry leaf slides .58 m along front track. Close before spray illustration and stop spray before opening. Hollow tub, retained sprayer and three jets; no real plumbing, drainage, water pressure, temperature or animal.",
+      "thumbnail": "assets/petcare-wash-tub/thumbnail.svg"
+    },
+    {
+      "id": "petcare-kennel",
+      "version": 1,
+      "dimensions": [
+        0.9,
+        0.825,
+        1.63
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "petcare-kennel",
+        "parts": 65,
+        "min": [
+          -0.45,
+          0,
+          -0.4
+        ],
+        "max": [
+          0.45,
+          0.825,
+          1.23
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.45,
+              0,
+              -0.4
+            ],
+            "max": [
+              0.45,
+              0.825,
+              0.41750000000000004
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.45,
+              0,
+              -0.4
+            ],
+            "max": [
+              0.45,
+              0.825,
+              1.23
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "open",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            -1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "closed-door",
+            "open-door"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Complete rail gate and latch hinge 90 degrees about left Y axis. Mat, roof and side rails stay retained. Empty housing illustration; no occupancy, automatic locking, animal containment or safety certification.",
+      "thumbnail": "assets/petcare-kennel/thumbnail.svg"
+    },
+    {
+      "id": "petcare-cat-tree",
+      "version": 1,
+      "dimensions": [
+        0.94,
+        1.4775,
+        0.73
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "petcare-cat-tree",
+        "parts": 20,
+        "min": [
+          -0.45,
+          0,
+          -0.39
+        ],
+        "max": [
+          0.49,
+          1.4775,
+          0.33999999999999997
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.45,
+              0,
+              -0.39
+            ],
+            "max": [
+              0.49,
+              1.4775,
+              0.33999999999999997
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Fixed two perches, wrapped post and hollow front-entry shelter. Static by design; no cat, scratching deformation, removable cushions, load rating or general attached-animal support.",
+      "thumbnail": "assets/petcare-cat-tree/thumbnail.svg"
+    },
+    {
+      "id": "petcare-exercise-wheel",
+      "version": 1,
+      "dimensions": [
+        1.238089886,
+        1.369044943,
+        0.52
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "petcare-exercise-wheel",
+        "parts": 85,
+        "min": [
+          -0.6190449430042084,
+          0,
+          -0.26
+        ],
+        "max": [
+          0.6190449430042084,
+          1.3690449430042084,
+          0.26
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "stepped": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.6177192735695091,
+              0,
+              -0.26
+            ],
+            "max": [
+              0.6177192735695091,
+              1.3677192735695092,
+              0.26
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "stepped": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.6190449430042084,
+              0,
+              -0.26
+            ],
+            "max": [
+              0.6190449430042084,
+              1.3690449430042084,
+              0.26
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "stepped",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0,
+            -0.12
+          ],
+          "units": "rad",
+          "parts": [
+            "rest-tread-0",
+            "step-tread-0"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Forty retained treads form an open drum on rollers; one manual .12 rad index moves the full rim and marked tread. No continuous running, animal, motor, momentum or exercise/safety certification.",
+      "thumbnail": "assets/petcare-exercise-wheel/thumbnail.svg"
+    },
+    {
+      "id": "petcare-litter-tray",
+      "version": 1,
+      "dimensions": [
+        0.65,
+        0.1525,
+        0.48
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "petcare-litter-tray",
+        "parts": 39,
+        "min": [
+          -0.325,
+          0,
+          -0.24
+        ],
+        "max": [
+          0.325,
+          0.15250000000000002,
+          0.24
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "swept": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.24
+            ],
+            "max": [
+              0.325,
+              0.15250000000000002,
+              0.24
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "swept": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.24
+            ],
+            "max": [
+              0.325,
+              0.15250000000000002,
+              0.24
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "swept",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            -0.25,
+            0.17
+          ],
+          "units": "m",
+          "parts": [
+            "rest-bar",
+            "swept-bar"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Full rake and fourteen retained teeth travel .42 m toward the catch compartment. Retained bed is illustrative; no waste model, actual filtering, autonomous sensing, timing or sanitation simulation.",
+      "thumbnail": "assets/petcare-litter-tray/thumbnail.svg"
+    },
+    {
+      "id": "petcare-feeder",
+      "version": 1,
+      "dimensions": [
+        0.5,
+        0.928935275,
+        0.51
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "petcare-feeder",
+        "parts": 17,
+        "min": [
+          -0.25,
+          0,
+          -0.27
+        ],
+        "max": [
+          0.25,
+          0.9289352750892083,
+          0.24
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "closed": false,
+            "dispensed": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.25,
+              0,
+              -0.27
+            ],
+            "max": [
+              0.25,
+              0.9289352750892083,
+              0.24
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": true,
+            "dispensed": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.25,
+              0,
+              -0.27
+            ],
+            "max": [
+              0.25,
+              0.67,
+              0.24
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "closed": true,
+            "dispensed": true
+          },
+          "steps": [
+            "toggle",
+            "dispense"
+          ],
+          "bounds": {
+            "min": [
+              -0.25,
+              0,
+              -0.27
+            ],
+            "max": [
+              0.25,
+              0.67,
+              0.24
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "dispensed",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0.1,
+            0.16
+          ],
+          "units": "m",
+          "parts": [
+            "meter-in",
+            "meter-out"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Close hopper lid before sliding a retained metering plate .06 m and illustrating one portion in the retained dish. Reset portion before opening. Low floor feeder, not the retail customer dispenser. No scheduled feeding, nutritional calculation, actual granular flow or animal.",
+      "thumbnail": "assets/petcare-feeder/thumbnail.svg"
+    },
+    {
+      "id": "petcare-carrier",
+      "version": 1,
+      "dimensions": [
+        0.44,
+        0.5025,
+        1.0225
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "petcare-carrier",
+        "parts": 43,
+        "min": [
+          -0.22,
+          0,
+          -0.31
+        ],
+        "max": [
+          0.22,
+          0.5025,
+          0.7124999999999999
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.22,
+              0,
+              -0.31
+            ],
+            "max": [
+              0.22,
+              0.5025,
+              0.325
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.22,
+              0,
+              -0.31
+            ],
+            "max": [
+              0.22,
+              0.5025,
+              0.7124999999999999
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "open",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            -1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "closed-gate",
+            "open-gate"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Retained front grille pivots 90 degrees; ventilated rigid shell and carry handle stay fixed. Portable transport role differs from open-rail floor kennel. No animal, carrying physics, airline compliance or load/safety certification.",
+      "thumbnail": "assets/petcare-carrier/thumbnail.svg"
+    },
+    {
+      "id": "petcare-blower",
+      "version": 1,
+      "dimensions": [
+        0.501828531,
+        0.3425,
+        0.405
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "petcare-blower",
+        "parts": 15,
+        "min": [
+          -0.2,
+          0,
+          -0.2025
+        ],
+        "max": [
+          0.30182853101620755,
+          0.3425,
+          0.2025
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "powered": false,
+            "high": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.2,
+              0,
+              -0.2025
+            ],
+            "max": [
+              0.30182853101620755,
+              0.3425,
+              0.2025
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "powered": true,
+            "high": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.2,
+              0,
+              -0.2025
+            ],
+            "max": [
+              0.30182853101620755,
+              0.3425,
+              0.2025
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "powered": true,
+            "high": true
+          },
+          "steps": [
+            "toggle",
+            "boost"
+          ],
+          "bounds": {
+            "min": [
+              -0.2,
+              0,
+              -0.2025
+            ],
+            "max": [
+              0.30182853101620755,
+              0.3425,
+              0.2025
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "high",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0.7,
+            -0.7
+          ],
+          "units": "rad",
+          "parts": [
+            "selector-low",
+            "selector-high"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Power indication enables low/high selector rotation. Return low before powering off. Retained hose/nozzle rests on cradle; no actual air, heat, noise, drying process or animal handling simulation.",
+      "thumbnail": "assets/petcare-blower/thumbnail.svg"
+    },
+    {
+      "id": "petcare-access-ramp",
+      "version": 1,
+      "dimensions": [
+        0.56,
+        1.79,
+        1.489469015
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "petcare-access-ramp",
+        "parts": 27,
+        "min": [
+          -0.28,
+          0,
+          -0.7375239228973158
+        ],
+        "max": [
+          0.28,
+          1.79,
+          0.7519450921378112
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "folded": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.28,
+              0,
+              -0.7375239228973158
+            ],
+            "max": [
+              0.28,
+              0.615,
+              0.7519450921378112
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "folded": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.28,
+              0,
+              -0.7375239228973158
+            ],
+            "max": [
+              0.28,
+              1.79,
+              -0.23752392289731578
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "folded",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0.5014592514751213,
+            -1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "deployed-leaf",
+            "folded-leaf"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "One retained 1.20 m textured leaf hinges up beside the landing for storage. Fixed trestle and landing remain. No automatic height matching, continuous swept collision, traction, load rating or animal safety certification.",
+      "thumbnail": "assets/petcare-access-ramp/thumbnail.svg"
+    }
+  ]
+}

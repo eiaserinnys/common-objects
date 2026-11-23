@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "petcare-grooming-table",
+      "assetVersion": 1,
+      "position": [
+        -2,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false
+      }
+    },
+    {
+      "id": "object-2",
+      "assetId": "petcare-wash-tub",
+      "assetVersion": 1,
+      "position": [
+        -2,
+        0,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "closed": false,
+        "flowing": false
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "petcare-kennel",
+      "assetVersion": 1,
+      "position": [
+        0.1,
+        0,
+        -2.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-4",
+      "assetId": "petcare-cat-tree",
+      "assetVersion": 1,
+      "position": [
+        2,
+        0,
+        -2.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-5",
+      "assetId": "petcare-exercise-wheel",
+      "assetVersion": 1,
+      "position": [
+        3.2,
+        0,
+        -0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "stepped": false
+      }
+    },
+    {
+      "id": "object-6",
+      "assetId": "petcare-litter-tray",
+      "assetVersion": 1,
+      "position": [
+        1.5,
+        0,
+        1.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "swept": false
+      }
+    },
+    {
+      "id": "object-7",
+      "assetId": "petcare-feeder",
+      "assetVersion": 1,
+      "position": [
+        2.7,
+        0,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "closed": false,
+        "dispensed": false
+      }
+    },
+    {
+      "id": "object-8",
+      "assetId": "petcare-carrier",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        2.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-9",
+      "assetId": "petcare-blower",
+      "assetVersion": 1,
+      "position": [
+        -0.25,
+        0.92,
+        -0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "powered": false,
+        "high": false
+      },
+      "attachment": {
+        "parentId": "object-11",
+        "surfaceId": "worktop",
+        "offset": [
+          -0.25,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-10",
+      "assetId": "petcare-access-ramp",
+      "assetVersion": 1,
+      "position": [
+        -3,
+        0,
+        1.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "folded": false
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "office-sorting-table",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        -0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-12",
+      "assetId": "utility-linen-cart",
+      "assetVersion": 2,
+      "position": [
+        1.3,
+        0,
+        2.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "braked": false
+      }
+    },
+    {
+      "id": "object-13",
+      "assetId": "utility-changing-bench",
+      "assetVersion": 1,
+      "position": [
+        -1.3,
+        0,
+        3.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-14",
+      "assetId": "cleaning-spray-bottle",
+      "assetVersion": 1,
+      "position": [
+        0.4,
+        0.92,
+        -0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "fitted": true
+      },
+      "attachment": {
+        "parentId": "object-11",
+        "surfaceId": "worktop",
+        "offset": [
+          0.4,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-15",
+      "assetId": "cleaning-bucket",
+      "assetVersion": 1,
+      "position": [
+        -2.3,
+        0.65,
+        0.02
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "closed": true
+      },
+      "attachment": {
+        "parentId": "object-1",
+        "surfaceId": "worktop",
+        "offset": [
+          -0.3,
+          0.02
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-16",
+      "assetId": "cleaning-laundry-basket",
+      "assetVersion": 1,
+      "position": [
+        1.3,
+        0.1325,
+        2.7
+      ],
+      "rotation": [
+        0,
+        1.570796326795,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lined": true
+      },
+      "attachment": {
+        "parentId": "object-12",
+        "surfaceId": "basket-floor",
+        "offset": [
+          0,
+          0
+        ],
+        "yaw": 1.5707963267948966
+      }
+    }
+  ]
+}

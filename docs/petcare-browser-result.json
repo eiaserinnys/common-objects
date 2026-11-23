@@ -1,0 +1,147 @@
+{
+  "checks": [
+    "2 flow refusal preserves scene",
+    "2 toggle refusal preserves scene",
+    "7 dispense refusal preserves scene",
+    "7 toggle refusal preserves scene",
+    "9 boost refusal preserves scene",
+    "9 toggle refusal preserves scene",
+    "object-1: all 2 reachable poses in four camera directions",
+    "object-2: all 3 reachable poses in four camera directions",
+    "object-3: all 2 reachable poses in four camera directions",
+    "object-4: all 1 reachable poses in four camera directions",
+    "object-5: all 2 reachable poses in four camera directions",
+    "object-6: all 2 reachable poses in four camera directions",
+    "object-7: all 3 reachable poses in four camera directions",
+    "object-8: all 2 reachable poses in four camera directions",
+    "object-9: all 3 reachable poses in four camera directions",
+    "object-10: all 2 reachable poses in four camera directions",
+    "32 mixed instances: independent states and detached copies restore exactly",
+    "combined raised platform, three moved/yawed hosts, cart brake, wash/feed/boost states restore exactly; independent copied blower, detached basket and second restore preserve placement",
+    "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+  ],
+  "individualFourAngleCaptures": 88,
+  "pixelChanges": [
+    {
+      "id": "petcare-grooming-table",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        25870,
+        17630,
+        24652,
+        17656
+      ]
+    },
+    {
+      "id": "petcare-wash-tub",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        30516,
+        5103,
+        0,
+        728
+      ]
+    },
+    {
+      "id": "petcare-wash-tub",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        30943,
+        5161,
+        2,
+        728
+      ]
+    },
+    {
+      "id": "petcare-kennel",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        15518,
+        11532,
+        5066,
+        7336
+      ]
+    },
+    {
+      "id": "petcare-exercise-wheel",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        9828,
+        7509,
+        7781,
+        6464
+      ]
+    },
+    {
+      "id": "petcare-litter-tray",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        7100,
+        6638,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "petcare-feeder",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        12878,
+        6308,
+        3901,
+        2410
+      ]
+    },
+    {
+      "id": "petcare-feeder",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        15104,
+        7787,
+        3901,
+        2625
+      ]
+    },
+    {
+      "id": "petcare-carrier",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        11294,
+        7898,
+        2548,
+        3811
+      ]
+    },
+    {
+      "id": "petcare-blower",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        295,
+        186,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "petcare-blower",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        662,
+        405,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "petcare-access-ramp",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        26972,
+        14551,
+        21645,
+        10375
+      ]
+    }
+  ],
+  "errors": []
+}

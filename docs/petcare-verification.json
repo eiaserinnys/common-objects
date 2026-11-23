@@ -1,0 +1,205 @@
+{
+  "base": "171a5bd96429fe98ede51499f0afd815cb23ec27",
+  "cycle": "2026-11-24 04:00 KST",
+  "acceptedSources": 10,
+  "shortfallAgainstTen": 0,
+  "reusedSources": 6,
+  "reusedInstances": 6,
+  "independentTotal": 271,
+  "registrations": 290,
+  "validate": "passed: 290 entries",
+  "tests": {
+    "passed": 212,
+    "failed": 0,
+    "skipped": 0
+  },
+  "targetedTests": {
+    "passed": 8,
+    "failed": 0
+  },
+  "build": "passed; retained assets and preview match dist bytes",
+  "browser": {
+    "checks": [
+      "2 flow refusal preserves scene",
+      "2 toggle refusal preserves scene",
+      "7 dispense refusal preserves scene",
+      "7 toggle refusal preserves scene",
+      "9 boost refusal preserves scene",
+      "9 toggle refusal preserves scene",
+      "object-1: all 2 reachable poses in four camera directions",
+      "object-2: all 3 reachable poses in four camera directions",
+      "object-3: all 2 reachable poses in four camera directions",
+      "object-4: all 1 reachable poses in four camera directions",
+      "object-5: all 2 reachable poses in four camera directions",
+      "object-6: all 2 reachable poses in four camera directions",
+      "object-7: all 3 reachable poses in four camera directions",
+      "object-8: all 2 reachable poses in four camera directions",
+      "object-9: all 3 reachable poses in four camera directions",
+      "object-10: all 2 reachable poses in four camera directions",
+      "32 mixed instances: independent states and detached copies restore exactly",
+      "combined raised platform, three moved/yawed hosts, cart brake, wash/feed/boost states restore exactly; independent copied blower, detached basket and second restore preserve placement",
+      "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+    ],
+    "individualFourAngleCaptures": 88,
+    "pixelChanges": [
+      {
+        "id": "petcare-grooming-table",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          25870,
+          17630,
+          24652,
+          17656
+        ]
+      },
+      {
+        "id": "petcare-wash-tub",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          30516,
+          5103,
+          0,
+          728
+        ]
+      },
+      {
+        "id": "petcare-wash-tub",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          30943,
+          5161,
+          2,
+          728
+        ]
+      },
+      {
+        "id": "petcare-kennel",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          15518,
+          11532,
+          5066,
+          7336
+        ]
+      },
+      {
+        "id": "petcare-exercise-wheel",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          9828,
+          7509,
+          7781,
+          6464
+        ]
+      },
+      {
+        "id": "petcare-litter-tray",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          7100,
+          6638,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "petcare-feeder",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          12878,
+          6308,
+          3901,
+          2410
+        ]
+      },
+      {
+        "id": "petcare-feeder",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          15104,
+          7787,
+          3901,
+          2625
+        ]
+      },
+      {
+        "id": "petcare-carrier",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          11294,
+          7898,
+          2548,
+          3811
+        ]
+      },
+      {
+        "id": "petcare-blower",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          295,
+          186,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "petcare-blower",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          662,
+          405,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "petcare-access-ramp",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          26972,
+          14551,
+          21645,
+          10375
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "visualReview": "Reviewed prior 28 overviews, final three four-direction contact sheets (22 poses), individual details, mixed interior and combined operating state, and mobile rendering. Retained geometry, support heights and occlusion accepted.",
+  "limitations": [
+    "SVG coordinate projection, not mesh or GLB",
+    "Estimated dimensions; no animal, care, load, fluid, airflow or elapsed-time simulation",
+    "Discrete states; no automatic collision avoidance or attachment-authoring UI",
+    "Combined clearance uses conservative part bounds in a common inverse-yaw frame; not exact mesh collision",
+    "No repository workflow definition; commit status and first-page PR-triggered workflow lookup to be reported after push; absent CI is not passing CI"
+  ],
+  "sha256": {
+    "assets/petcare-access-ramp/asset.json": "fa35e2f51e29aae9472fd88c5a00c21d1d8dcaca6910fdcac0deeb78e586faed",
+    "assets/petcare-access-ramp/thumbnail.svg": "d047277c6626d0359836ba980fe77a2348327ef27ad58264a26d3b6e2c9740fa",
+    "assets/petcare-blower/asset.json": "dfad45ed5d42145959ee5680911fb0d8fe162b68f72dc37d78360e1491d77676",
+    "assets/petcare-blower/thumbnail.svg": "cccbabbd6952998b69f60b1dc05fe01bd4a94220f7e2d1ec6502b616d24e1dee",
+    "assets/petcare-carrier/asset.json": "ce208168e85d0aa7dfd479af73f028b7297411d7769156b9e7128f07a299ddee",
+    "assets/petcare-carrier/thumbnail.svg": "ea4c4b8abc03e27659f4ed419681fcaafa41ce894f9b4aa2ecf5d3ebe36b9f73",
+    "assets/petcare-cat-tree/asset.json": "c0e0408f84f1b7e8915d82d49d503fcc35359b2d8113e4737caffe993c8e85b8",
+    "assets/petcare-cat-tree/thumbnail.svg": "cf834049428e0f22f2fde7903fe2f6910d235161d7c02653001ff239ac65c649",
+    "assets/petcare-exercise-wheel/asset.json": "06170b31283e443d5598e10e94bc3387a52c28ff11e475be1d91ea69919edbd1",
+    "assets/petcare-exercise-wheel/thumbnail.svg": "ccba7f9d26776e1a52cc7ebeb74655b6df37ad3aadbb96b72314522a3d0d11fe",
+    "assets/petcare-feeder/asset.json": "dc6fbaee572a1dcd55142553bfbd66562c3acbf1d0247bf94c09763a18b1f888",
+    "assets/petcare-feeder/thumbnail.svg": "f8b7ca075a5f12966c25b2d37a575e361a9ce5bff77fb16dfa4e38da1b3ebb87",
+    "assets/petcare-grooming-table/asset.json": "21cb2c73702ac9861497a24877a217a2ccfa586278bcc6b627858a8fda8f75fa",
+    "assets/petcare-grooming-table/thumbnail.svg": "c9d2f30c52d0fa22425054cdbe37c29db31b9b5ffc9c6166b0a3d1d3af2891eb",
+    "assets/petcare-interior/assembly.json": "3ec668f49a814d94cd454ab5e09817a83c3468c7adc96942f09a15a8cf9716d4",
+    "assets/petcare-kennel/asset.json": "eec08549a6ff1a28fbe3a8aec2d78698338d3c61ccd159b3fd74dc1a3b007ddb",
+    "assets/petcare-kennel/thumbnail.svg": "96c2e89ff4788e67c23f93998d2f282d62eb4b570674fdeab385dc07b6a7ef21",
+    "assets/petcare-litter-tray/asset.json": "b0d3f43cade512d8dc14265caee80054c0519e3216201f2e840d1c3ec3916135",
+    "assets/petcare-litter-tray/thumbnail.svg": "60fbae4c7d2fa5d19292c479983e05c147c4f910aa443e2a3c518fefab41abe0",
+    "assets/petcare-wash-tub/asset.json": "398b227fe043200136f76396bbe451947555ce360d5fc4eec0f5c3bae595f1fb",
+    "assets/petcare-wash-tub/thumbnail.svg": "2258a64027f5dc98086434ef4aa1835c304c7d42f11cf061fc1d071821d2bbd3",
+    "preview/petcare.html": "d6a07251dc2a180b35b201d0b182773f38646247b8ac27449a72d1302c8c4422",
+    "scripts/batches/petcare-2026-11-23.mjs": "1cf73c0fafd5640f2e2fbfa3ad87326a99b5ce2b654307b48388329c8b263a91",
+    "scripts/petcare-browser-check.py": "ddb164d63eea67ed1c437ea36052a70c96b84acd202b83321ce2ab6b8e19a73f",
+    "scripts/petcare-check.mjs": "37649a8292c74f39a22a54a7241dfdad3071a5c71fe523694684150949f327b8",
+    "scripts/petcare-scene.mjs": "9097b5474228275b7b39aa59d3f3e21c69e1cecb21529e7bd37a9d9faddcc552",
+    "tests/petcare.test.js": "68d093f9dabf91072e5df0e01ce25359efc48741b373ea4247e00a42dc9369d4"
+  }
+}

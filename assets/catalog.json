@@ -280,6 +280,16 @@
     "cooking-rice-cooker/asset.json",
     "cooking-microwave/asset.json",
     "cooking-processor/asset.json",
-    "cooking-toaster/asset.json"
+    "cooking-toaster/asset.json",
+    "petcare-grooming-table/asset.json",
+    "petcare-wash-tub/asset.json",
+    "petcare-kennel/asset.json",
+    "petcare-cat-tree/asset.json",
+    "petcare-exercise-wheel/asset.json",
+    "petcare-litter-tray/asset.json",
+    "petcare-feeder/asset.json",
+    "petcare-carrier/asset.json",
+    "petcare-blower/asset.json",
+    "petcare-access-ramp/asset.json"
   ]
 }
