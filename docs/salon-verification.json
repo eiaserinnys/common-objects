@@ -1,0 +1,210 @@
+{
+  "base": "75e6e13a28918c696c019aa1f46f452010179463",
+  "cycle": "2026-11-25 04:00 KST",
+  "acceptedSources": 6,
+  "shortfallAgainstTen": 4,
+  "shortfallReason": "Six distinct service anchors; reuse existing mirrors, seating, storage, carts and small tools instead of near-duplicate filler. All six fully verified; no incomplete source counted.",
+  "reusedSources": 9,
+  "reusedInstances": 9,
+  "independentTotal": 277,
+  "registrations": 296,
+  "validate": "passed: 296 entries",
+  "tests": {
+    "passed": 220,
+    "failed": 0,
+    "skipped": 0
+  },
+  "targetedTests": {
+    "passed": 8,
+    "failed": 0
+  },
+  "build": "passed; final retained assets/assembly/preview match dist bytes",
+  "browser": {
+    "checks": [
+      "2 flow refusal preserves scene",
+      "2 toggle refusal preserves scene",
+      "3 power refusal preserves scene",
+      "3 toggle refusal preserves scene",
+      "4 run refusal preserves scene",
+      "4 toggle refusal preserves scene",
+      "5 warm refusal preserves scene",
+      "5 toggle refusal preserves scene",
+      "6 cure refusal preserves scene",
+      "6 toggle refusal preserves scene",
+      "object-1: all 4 reachable poses in four camera directions",
+      "object-2: all 3 reachable poses in four camera directions",
+      "object-3: all 3 reachable poses in four camera directions",
+      "object-4: all 3 reachable poses in four camera directions",
+      "object-5: all 3 reachable poses in four camera directions",
+      "object-6: all 3 reachable poses in four camera directions",
+      "30 mixed instances: independent states and detached copies restore exactly",
+      "combined lifted/swiveled chair, reclined wash, lowered dryer, fan/warm/cure and three moved/yawed hosts plus cart brake restore; rejected tray edit, independent copy and detached basket preserve exact state",
+      "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+    ],
+    "individualFourAngleCaptures": 76,
+    "pixelChanges": [
+      {
+        "id": "salon-styling-chair",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          21286,
+          27054,
+          24768,
+          26059
+        ]
+      },
+      {
+        "id": "salon-styling-chair",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          24785,
+          21590,
+          25842,
+          21452
+        ]
+      },
+      {
+        "id": "salon-styling-chair",
+        "pose": 3,
+        "changedPixelsByCamera": [
+          29458,
+          35928,
+          31548,
+          35089
+        ]
+      },
+      {
+        "id": "salon-backwash",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          5054,
+          7478,
+          1163,
+          6438
+        ]
+      },
+      {
+        "id": "salon-backwash",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          5263,
+          7595,
+          1200,
+          6531
+        ]
+      },
+      {
+        "id": "salon-hood-dryer",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          9992,
+          10075,
+          6474,
+          8862
+        ]
+      },
+      {
+        "id": "salon-hood-dryer",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          9995,
+          10073,
+          6503,
+          8857
+        ]
+      },
+      {
+        "id": "salon-manicure-table",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          5632,
+          1845,
+          5143,
+          1831
+        ]
+      },
+      {
+        "id": "salon-manicure-table",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          174,
+          39,
+          2,
+          0
+        ]
+      },
+      {
+        "id": "salon-towel-cabinet",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          20090,
+          2140,
+          7729,
+          29454
+        ]
+      },
+      {
+        "id": "salon-towel-cabinet",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          94,
+          0,
+          0,
+          153
+        ]
+      },
+      {
+        "id": "salon-nail-hood",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          26768,
+          8178,
+          5551,
+          2545
+        ]
+      },
+      {
+        "id": "salon-nail-hood",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          27212,
+          8406,
+          5551,
+          2603
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "visualReview": "Reviewed original room and 28 prior batch overviews; final 4 contact sheets covering 19 poses, individual details, mixed rest/operating/reverse and combined-state views, mobile full page. Six sources accepted.",
+  "limitations": [
+    "SVG coordinate projection, not GLB/mesh export; no live mirror reflections or shadows",
+    "Estimated dimensions; no person, physical service/heat/air/fluid/UV or elapsed process simulation",
+    "Discrete states; no continuous swept collision, automatic collision avoidance or attachment-authoring UI",
+    "Endpoint clearance uses conservative part bounds; combined test uses a common inverse-yaw frame",
+    "Dryer parked separately; scene has no joined enclosure or connected service networks",
+    "No repository workflow definition; exact commit status and first-page PR-triggered workflow lookup reported after push; absence is not CI success"
+  ],
+  "sha256": {
+    "assets/salon-backwash/asset.json": "94f1abcef2c1bbb4f62564de16e1810273b47578a18a261229438bb95a9e4ae4",
+    "assets/salon-backwash/thumbnail.svg": "a7cdc2bf70334fd46af7406139b63f9e183720ce8bd17d89def7fba62397a76e",
+    "assets/salon-hood-dryer/asset.json": "2288edacf94347b7be3b277dc33cb2896e6da84502c1bf4409a95072b34d98a3",
+    "assets/salon-hood-dryer/thumbnail.svg": "16563c9f7d5f50de9b2ac262ba711cc5db176e8d6e59d43aa90d2ae729b4b0b7",
+    "assets/salon-interior/assembly.json": "f5931b9998a6f9f0c688796ccbb5c3677a64c39dccf231a399cf4395d0712653",
+    "assets/salon-manicure-table/asset.json": "ef876718f3603beff5ae3d359de9aa63ba8bdedab41b60bb0cfc338d9e2dec25",
+    "assets/salon-manicure-table/thumbnail.svg": "a54c2757221870b0fb1ec273818d806786584edc5a902e9b8f54811a17751713",
+    "assets/salon-nail-hood/asset.json": "3d7f47b0e050c49c2457a382d57f3d98da069503f51de528512f1b437d4d44a1",
+    "assets/salon-nail-hood/thumbnail.svg": "e13dbbc509412bbd1509aa7713229af4e08e6d97a65cae17583d973a19f7eb75",
+    "assets/salon-styling-chair/asset.json": "3e5cdf2cf66c3710532bee40f2e75bd9edb29e35c70c5224d7e7067a574dd60e",
+    "assets/salon-styling-chair/thumbnail.svg": "a09c8d625ca3ab827822d2d73f1bc3fc64aa1f4faa56cb255d922e17c988997d",
+    "assets/salon-towel-cabinet/asset.json": "3031392f9755182f097357ac84b2a03873214a51218949311de62ae057020b6e",
+    "assets/salon-towel-cabinet/thumbnail.svg": "ebd203b9b7ec15f6c273e0e5acc86966977ec0097dc9a2eed3fb32546e2dfb00",
+    "preview/salon.html": "9d316ef845096bb98a74e8d949694d7572c95e822d1c496e333533c7f12d1612",
+    "scripts/batches/salon-2026-11-24.mjs": "62bb32229120fce8b8c5ee852b3dcd72af5187e858da48a350af5c87c82b8b70",
+    "scripts/salon-browser-check.py": "9d345334f604430975e2b35a01a11dc1abe0b5e91587550351eda78aab41060d",
+    "scripts/salon-check.mjs": "694b045af57a5f8f03c5ea27c253887bcf00db54f5b30ea463d3da5bbfd5a6a8",
+    "scripts/salon-inventory.py": "f32af38186449f29bb735f5949a5c5346ff36a5f30958dd9f606ea19d6858a78",
+    "scripts/salon-scene.mjs": "1ebe2c579115b8372a1c678e6f4795dd379404320e4819c35e47dda2ab9632e6",
+    "tests/salon.test.js": "0abbd9a9d96ad9dfa80d8ad8fa82a6e30bbe90faa6764392b77c067c521c0181"
+  }
+}

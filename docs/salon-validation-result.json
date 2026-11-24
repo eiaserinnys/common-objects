@@ -1,0 +1,906 @@
+{
+  "batch": "salon-2026-11-24",
+  "count": 6,
+  "poses": 19,
+  "objects": [
+    {
+      "id": "salon-styling-chair",
+      "version": 1,
+      "dimensions": [
+        0.99,
+        1.12,
+        0.99
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "salon-styling-chair",
+        "parts": 52,
+        "min": [
+          -0.34,
+          0,
+          -0.34
+        ],
+        "max": [
+          0.65,
+          1.12,
+          0.65
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "high": false,
+            "turned": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.34,
+              0,
+              -0.34
+            ],
+            "max": [
+              0.34,
+              0.94,
+              0.65
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "high": true,
+            "turned": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.34,
+              0,
+              -0.34
+            ],
+            "max": [
+              0.34,
+              1.12,
+              0.65
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "high": false,
+            "turned": true
+          },
+          "steps": [
+            "swivel"
+          ],
+          "bounds": {
+            "min": [
+              -0.34,
+              0,
+              -0.34
+            ],
+            "max": [
+              0.65,
+              0.94,
+              0.34
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "high": true,
+            "turned": true
+          },
+          "steps": [
+            "toggle",
+            "swivel"
+          ],
+          "bounds": {
+            "min": [
+              -0.34,
+              0,
+              -0.34
+            ],
+            "max": [
+              0.65,
+              1.12,
+              0.34
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "high",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0.5,
+            0.68
+          ],
+          "units": "m",
+          "parts": [
+            "false-false-seat",
+            "true-false-seat"
+          ],
+          "mode": "discrete-endpoints"
+        },
+        {
+          "stateKey": "turned",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "false-false-seat",
+            "false-true-seat"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Seat, back, armrests and footrest rise .18 m and swivel 90 degrees together; base and pedal remain fixed. Discrete illustration, no hydraulic force, person, haircut or continuous joint physics.",
+      "thumbnail": "assets/salon-styling-chair/thumbnail.svg"
+    },
+    {
+      "id": "salon-backwash",
+      "version": 1,
+      "dimensions": [
+        0.65,
+        1.0875,
+        1.34
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "salon-backwash",
+        "parts": 19,
+        "min": [
+          -0.325,
+          0,
+          -0.68
+        ],
+        "max": [
+          0.325,
+          1.0875000000000001,
+          0.66
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "reclined": false,
+            "flowing": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.68
+            ],
+            "max": [
+              0.325,
+              1.0875000000000001,
+              0.66
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "reclined": true,
+            "flowing": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.68
+            ],
+            "max": [
+              0.325,
+              1.0875000000000001,
+              0.66
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "reclined": true,
+            "flowing": true
+          },
+          "steps": [
+            "toggle",
+            "flow"
+          ],
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -0.68
+            ],
+            "max": [
+              0.325,
+              1.0875000000000001,
+              0.66
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "reclined",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            -0.55
+          ],
+          "units": "rad",
+          "parts": [
+            "upright-back",
+            "reclined-back"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Rear neck-notched basin and retained backrest support the seated washing layout. Recline before spray indication; stop flow before returning upright. No person, actual water, temperature, drainage, ergonomics or safety certification.",
+      "thumbnail": "assets/salon-backwash/thumbnail.svg"
+    },
+    {
+      "id": "salon-hood-dryer",
+      "version": 1,
+      "dimensions": [
+        0.6,
+        1.68,
+        0.715
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "salon-hood-dryer",
+        "parts": 32,
+        "min": [
+          -0.3,
+          0,
+          -0.325
+        ],
+        "max": [
+          0.3,
+          1.6799999999999997,
+          0.39
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "lowered": false,
+            "powered": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.3,
+              0,
+              -0.325
+            ],
+            "max": [
+              0.3,
+              1.6799999999999997,
+              0.39
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "lowered": true,
+            "powered": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.3,
+              0,
+              -0.325
+            ],
+            "max": [
+              0.3,
+              1.4299999999999997,
+              0.39
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "lowered": true,
+            "powered": true
+          },
+          "steps": [
+            "toggle",
+            "power"
+          ],
+          "bounds": {
+            "min": [
+              -0.3,
+              0,
+              -0.325
+            ],
+            "max": [
+              0.3,
+              1.4299999999999997,
+              0.39
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "lowered",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            1.65,
+            1.4
+          ],
+          "units": "m",
+          "parts": [
+            "high-hood",
+            "low-hood"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Lower hood before powered indication/fan index; stop before lifting. Open underside and retained fan depict head space. No person, continuous fan, drying, real airflow, heat, electrical service or timer.",
+      "thumbnail": "assets/salon-hood-dryer/thumbnail.svg"
+    },
+    {
+      "id": "salon-manicure-table",
+      "version": 1,
+      "dimensions": [
+        1.2,
+        0.762,
+        0.85
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "salon-manicure-table",
+        "parts": 41,
+        "min": [
+          -0.6,
+          0,
+          -0.3
+        ],
+        "max": [
+          0.6,
+          0.762,
+          0.55
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false,
+            "running": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.3
+            ],
+            "max": [
+              0.6,
+              0.762,
+              0.5
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "left-worktop",
+              "vertices": [
+                [
+                  -0.5549999999999999,
+                  0.76,
+                  -0.26
+                ],
+                [
+                  -0.175,
+                  0.76,
+                  -0.26
+                ],
+                [
+                  -0.175,
+                  0.76,
+                  0.26
+                ],
+                [
+                  -0.5549999999999999,
+                  0.76,
+                  0.26
+                ]
+              ]
+            },
+            {
+              "id": "right-worktop",
+              "vertices": [
+                [
+                  0.175,
+                  0.76,
+                  -0.26
+                ],
+                [
+                  0.5549999999999999,
+                  0.76,
+                  -0.26
+                ],
+                [
+                  0.5549999999999999,
+                  0.76,
+                  0.26
+                ],
+                [
+                  0.175,
+                  0.76,
+                  0.26
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": true,
+            "running": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.3
+            ],
+            "max": [
+              0.6,
+              0.762,
+              0.55
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "left-worktop",
+              "vertices": [
+                [
+                  -0.5549999999999999,
+                  0.76,
+                  -0.26
+                ],
+                [
+                  -0.175,
+                  0.76,
+                  -0.26
+                ],
+                [
+                  -0.175,
+                  0.76,
+                  0.26
+                ],
+                [
+                  -0.5549999999999999,
+                  0.76,
+                  0.26
+                ]
+              ]
+            },
+            {
+              "id": "right-worktop",
+              "vertices": [
+                [
+                  0.175,
+                  0.76,
+                  -0.26
+                ],
+                [
+                  0.5549999999999999,
+                  0.76,
+                  -0.26
+                ],
+                [
+                  0.5549999999999999,
+                  0.76,
+                  0.26
+                ],
+                [
+                  0.175,
+                  0.76,
+                  0.26
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "open": false,
+            "running": true
+          },
+          "steps": [
+            "run"
+          ],
+          "bounds": {
+            "min": [
+              -0.6,
+              0,
+              -0.3
+            ],
+            "max": [
+              0.6,
+              0.762,
+              0.5
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "left-worktop",
+              "vertices": [
+                [
+                  -0.5549999999999999,
+                  0.76,
+                  -0.26
+                ],
+                [
+                  -0.175,
+                  0.76,
+                  -0.26
+                ],
+                [
+                  -0.175,
+                  0.76,
+                  0.26
+                ],
+                [
+                  -0.5549999999999999,
+                  0.76,
+                  0.26
+                ]
+              ]
+            },
+            {
+              "id": "right-worktop",
+              "vertices": [
+                [
+                  0.175,
+                  0.76,
+                  -0.26
+                ],
+                [
+                  0.5549999999999999,
+                  0.76,
+                  -0.26
+                ],
+                [
+                  0.5549999999999999,
+                  0.76,
+                  0.26
+                ],
+                [
+                  0.175,
+                  0.76,
+                  0.26
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "open",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0,
+            0.35
+          ],
+          "units": "m",
+          "parts": [
+            "in-filter",
+            "out-filter"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Fixed side worktops flank an open grille. Retained fan indexes and indicator enables with filter inserted; stop before sliding complete filter tray .35 m. No dust, air purification, filtration efficiency, continuous fan or safety certification.",
+      "thumbnail": "assets/salon-manicure-table/thumbnail.svg"
+    },
+    {
+      "id": "salon-towel-cabinet",
+      "version": 1,
+      "dimensions": [
+        0.5225,
+        0.39,
+        0.8425
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "salon-towel-cabinet",
+        "parts": 17,
+        "min": [
+          -0.27249999999999996,
+          0,
+          -0.185
+        ],
+        "max": [
+          0.25,
+          0.39,
+          0.6575
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "open": false,
+            "warming": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.25,
+              0,
+              -0.185
+            ],
+            "max": [
+              0.25,
+              0.39,
+              0.24
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": true,
+            "warming": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.27249999999999996,
+              0,
+              -0.185
+            ],
+            "max": [
+              0.25,
+              0.39,
+              0.6575
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "open": false,
+            "warming": true
+          },
+          "steps": [
+            "warm"
+          ],
+          "bounds": {
+            "min": [
+              -0.25,
+              0,
+              -0.185
+            ],
+            "max": [
+              0.25,
+              0.39,
+              0.24
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "open",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            -1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "closed-door",
+            "open-door"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Retained door and handle hinge 90 degrees, revealing three rolled towels and shelf. Close before warming indication; stop before opening. No physical temperature, elapsed cycle, sterilization/disinfection or safety claim. Whole open-door envelope requires a deep support.",
+      "thumbnail": "assets/salon-towel-cabinet/thumbnail.svg"
+    },
+    {
+      "id": "salon-nail-hood",
+      "version": 1,
+      "dimensions": [
+        0.28,
+        0.232,
+        0.41
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "salon-nail-hood",
+        "parts": 16,
+        "min": [
+          -0.14,
+          0,
+          -0.13
+        ],
+        "max": [
+          0.14,
+          0.232,
+          0.28
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "inserted": false,
+            "curing": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.14,
+              0,
+              -0.13
+            ],
+            "max": [
+              0.14,
+              0.232,
+              0.28
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "inserted": true,
+            "curing": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.14,
+              0,
+              -0.13
+            ],
+            "max": [
+              0.14,
+              0.232,
+              0.13
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "inserted": true,
+            "curing": true
+          },
+          "steps": [
+            "toggle",
+            "cure"
+          ],
+          "bounds": {
+            "min": [
+              -0.14,
+              0,
+              -0.13
+            ],
+            "max": [
+              0.14,
+              0.232,
+              0.13
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "inserted",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0.17,
+            0
+          ],
+          "units": "m",
+          "parts": [
+            "tray-out",
+            "tray-in"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Retained tray slides .17 m into the open-front hood. Insert before curing indication; stop before extending. Indicator and lamp strips only: no UV radiation, dose, curing chemistry, timer, hand or safety certification.",
+      "thumbnail": "assets/salon-nail-hood/thumbnail.svg"
+    }
+  ]
+}

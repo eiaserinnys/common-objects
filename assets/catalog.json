@@ -290,6 +290,12 @@
     "petcare-feeder/asset.json",
     "petcare-carrier/asset.json",
     "petcare-blower/asset.json",
-    "petcare-access-ramp/asset.json"
+    "petcare-access-ramp/asset.json",
+    "salon-styling-chair/asset.json",
+    "salon-backwash/asset.json",
+    "salon-hood-dryer/asset.json",
+    "salon-manicure-table/asset.json",
+    "salon-towel-cabinet/asset.json",
+    "salon-nail-hood/asset.json"
   ]
 }

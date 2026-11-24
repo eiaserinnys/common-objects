@@ -1,0 +1,157 @@
+{
+  "checks": [
+    "2 flow refusal preserves scene",
+    "2 toggle refusal preserves scene",
+    "3 power refusal preserves scene",
+    "3 toggle refusal preserves scene",
+    "4 run refusal preserves scene",
+    "4 toggle refusal preserves scene",
+    "5 warm refusal preserves scene",
+    "5 toggle refusal preserves scene",
+    "6 cure refusal preserves scene",
+    "6 toggle refusal preserves scene",
+    "object-1: all 4 reachable poses in four camera directions",
+    "object-2: all 3 reachable poses in four camera directions",
+    "object-3: all 3 reachable poses in four camera directions",
+    "object-4: all 3 reachable poses in four camera directions",
+    "object-5: all 3 reachable poses in four camera directions",
+    "object-6: all 3 reachable poses in four camera directions",
+    "30 mixed instances: independent states and detached copies restore exactly",
+    "combined lifted/swiveled chair, reclined wash, lowered dryer, fan/warm/cure and three moved/yawed hosts plus cart brake restore; rejected tray edit, independent copy and detached basket preserve exact state",
+    "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+  ],
+  "individualFourAngleCaptures": 76,
+  "pixelChanges": [
+    {
+      "id": "salon-styling-chair",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        21286,
+        27054,
+        24768,
+        26059
+      ]
+    },
+    {
+      "id": "salon-styling-chair",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        24785,
+        21590,
+        25842,
+        21452
+      ]
+    },
+    {
+      "id": "salon-styling-chair",
+      "pose": 3,
+      "changedPixelsByCamera": [
+        29458,
+        35928,
+        31548,
+        35089
+      ]
+    },
+    {
+      "id": "salon-backwash",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        5054,
+        7478,
+        1163,
+        6438
+      ]
+    },
+    {
+      "id": "salon-backwash",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        5263,
+        7595,
+        1200,
+        6531
+      ]
+    },
+    {
+      "id": "salon-hood-dryer",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        9992,
+        10075,
+        6474,
+        8862
+      ]
+    },
+    {
+      "id": "salon-hood-dryer",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        9995,
+        10073,
+        6503,
+        8857
+      ]
+    },
+    {
+      "id": "salon-manicure-table",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        5632,
+        1845,
+        5143,
+        1831
+      ]
+    },
+    {
+      "id": "salon-manicure-table",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        174,
+        39,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "salon-towel-cabinet",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        20090,
+        2140,
+        7729,
+        29454
+      ]
+    },
+    {
+      "id": "salon-towel-cabinet",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        94,
+        0,
+        0,
+        153
+      ]
+    },
+    {
+      "id": "salon-nail-hood",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        26768,
+        8178,
+        5551,
+        2545
+      ]
+    },
+    {
+      "id": "salon-nail-hood",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        27212,
+        8406,
+        5551,
+        2603
+      ]
+    }
+  ],
+  "errors": []
+}

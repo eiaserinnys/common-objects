@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "instances": [
+    {
+      "id": "object-1",
+      "assetId": "salon-styling-chair",
+      "assetVersion": 1,
+      "position": [
+        -1.8,
+        0,
+        0.2
+      ],
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false,
+        "turned": false
+      }
+    },
+    {
+      "id": "object-2",
+      "assetId": "salon-backwash",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "reclined": false,
+        "flowing": false
+      }
+    },
+    {
+      "id": "object-3",
+      "assetId": "salon-hood-dryer",
+      "assetVersion": 1,
+      "position": [
+        -3.2,
+        0,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lowered": false,
+        "powered": false
+      }
+    },
+    {
+      "id": "object-4",
+      "assetId": "salon-manicure-table",
+      "assetVersion": 1,
+      "position": [
+        1.5,
+        0,
+        0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false,
+        "running": false
+      }
+    },
+    {
+      "id": "object-5",
+      "assetId": "salon-towel-cabinet",
+      "assetVersion": 1,
+      "position": [
+        -2.2,
+        0.75,
+        -2
+      ],
+      "rotation": [
+        0,
+        1.570796326795,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false,
+        "warming": false
+      },
+      "attachment": {
+        "parentId": "object-7",
+        "surfaceId": "top",
+        "offset": [
+          -0.2,
+          0
+        ],
+        "yaw": 1.5707963267948966
+      }
+    },
+    {
+      "id": "object-6",
+      "assetId": "salon-nail-hood",
+      "assetVersion": 1,
+      "position": [
+        1.135,
+        0.76,
+        0.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "inserted": false,
+        "curing": false
+      },
+      "attachment": {
+        "parentId": "object-4",
+        "surfaceId": "left-worktop",
+        "offset": [
+          -0.365,
+          -0.06
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-7",
+      "assetId": "office-credenza",
+      "assetVersion": 1,
+      "position": [
+        -2,
+        0,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "open": false
+      }
+    },
+    {
+      "id": "object-8",
+      "assetId": "bedroom-mirror",
+      "assetVersion": 1,
+      "position": [
+        -1.8,
+        0,
+        -0.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "tilted": false
+      }
+    },
+    {
+      "id": "object-9",
+      "assetId": "utility-linen-cart",
+      "assetVersion": 2,
+      "position": [
+        0,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "braked": false
+      }
+    },
+    {
+      "id": "object-10",
+      "assetId": "cleaning-laundry-basket",
+      "assetVersion": 1,
+      "position": [
+        0,
+        0.1325,
+        2
+      ],
+      "rotation": [
+        0,
+        1.570796326795,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "lined": true
+      },
+      "attachment": {
+        "parentId": "object-9",
+        "surfaceId": "basket-floor",
+        "offset": [
+          0,
+          0
+        ],
+        "yaw": 1.5707963267948966
+      }
+    },
+    {
+      "id": "object-11",
+      "assetId": "bathroom-comb",
+      "assetVersion": 1,
+      "position": [
+        1.865,
+        0.76,
+        0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "sleeved": false
+      },
+      "attachment": {
+        "parentId": "object-4",
+        "surfaceId": "right-worktop",
+        "offset": [
+          0.365,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-12",
+      "assetId": "bathroom-dispenser",
+      "assetVersion": 1,
+      "position": [
+        -2.48,
+        0.75,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "unlocked": true
+      },
+      "attachment": {
+        "parentId": "object-7",
+        "surfaceId": "top",
+        "offset": [
+          -0.48,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-13",
+      "assetId": "repair-mechanic-stool",
+      "assetVersion": 1,
+      "position": [
+        1.5,
+        0,
+        1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {
+        "high": false
+      }
+    },
+    {
+      "id": "object-14",
+      "assetId": "cafe-dining-chair",
+      "assetVersion": 1,
+      "position": [
+        1.5,
+        0,
+        -0.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    },
+    {
+      "id": "object-15",
+      "assetId": "utility-changing-bench",
+      "assetVersion": 1,
+      "position": [
+        -1.8,
+        0,
+        2.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "state": {}
+    }
+  ]
+}

@@ -1,6 +1,27 @@
 # Catalog balance and next production priorities
 
-## Current review: companion-animal care room, 2026-11-24 04:00 KST
+## Current review: hair and nail service studio, 2026-11-25 04:00 KST
+
+One cycle, UTC file date 2026-11-24. Clean fetched base `75e6e13a28918c696c019aa1f46f452010179463`, one checkout, remote main only, no open PRs. Reconciled all 290 prior identities/dimensions/states/roles; inspected original room and 28 batch overviews. [Brief](salon-brief-2026-11-24.md), [296-row inventory](catalog-inventory-2026-11-24.md), [audit](salon-catalog-audit.json), [production](salon-2026-11-24.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 277 | 112 | 50 | 115 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Catalog registrations | 296 | 114 | 53 | 129 |
+
+New **six sources, 1 S / 1 M / 4 L**, four below the aspirational ten. Small share **41.0% → 40.4%**. Last ten actual retail–salon batches: **91 sources (8 S / 25 M / 58 L)**. Twenty-nine production batches contribute 276 objects plus original study lamp. Overlapping H/O/C candidate tags: 244/125/277; these are not furnished-room counts.
+
+Human styling, seated backwashing, overhead drying, manicure extraction, enclosed towel warming and tabletop nail-curing indication were absent. Existing sanitary sinks, task/wellness seating and pet-care equipment do not supply these six specific configurations. Nine existing sources furnish mirrors, seating, storage, cart and small supplies in 15 mixed instances with five support relations. No new scissors, comb, mirror, plain trolley, stool or generic cupboard fills the count. Nineteen reachable poses combine retained mechanisms and guarded indicators; no real treatment or physical process is claimed. Review the production record for final acceptance and evidence.
+
+**Next priorities:**
+
+1. Shared authoring infrastructure still lacks connected enclosures and attachment-authoring controls. Preserve current scope; no separate game prototype. A versioned contact-footprint contract could admit legitimate overhang without weakening whole-bounds support checks.
+2. Existing process machines need meaningful progress/pause/cancel persistence before additional similar equipment variants. Current service indicators are explicit endpoints, not elapsed cycles or safety models.
+3. Compare home food/storage and community recreation coverage before another theme. Restaurant, salon and pet care now have anchors; another minor machine-size variant is low priority. Review refrigeration/dishwashing overlap and existing games before adding genuine missing large roles.
+
+## Historical review: companion-animal care room, 2026-11-24 04:00 KST
 
 Only this cycle, UTC file date 2026-11-23. Clean fetched base `171a5bd96429fe98ede51499f0afd815cb23ec27`, one checkout, remote main only, no open PRs. Re-read all 280 prior source identities/dimensions/states and curated functions; reviewed original room and 27 batch overviews. [Brief](petcare-brief-2026-11-23.md), [290-row inventory](catalog-inventory-2026-11-23.md), [audit](petcare-catalog-audit.json), [production](petcare-2026-11-23.md).
 
