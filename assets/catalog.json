@@ -296,6 +296,12 @@
     "salon-hood-dryer/asset.json",
     "salon-manicure-table/asset.json",
     "salon-towel-cabinet/asset.json",
-    "salon-nail-hood/asset.json"
+    "salon-nail-hood/asset.json",
+    "recreation-billiards/asset.json",
+    "recreation-foosball/asset.json",
+    "recreation-table-tennis/asset.json",
+    "recreation-arcade/asset.json",
+    "recreation-pinball/asset.json",
+    "recreation-shuffleboard/asset.json"
   ]
 }

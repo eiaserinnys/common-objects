@@ -1,0 +1,9 @@
+# Community game lounge — selection brief
+
+Only 2026-11-29 04:00 KST cycle (UTC file date 2026-11-28). Clean fetched base 7e57b4784388093b4d521f081a737b05d857a185, one worktree, main only remotely, no open PRs. Reconciled 296 source identities, dimensions, roles and states with the latest inventory; reviewed original room plus 29 batch overviews. Baseline 277 independent sources (112 S/50 M/115 L), 18 original groups and one room.
+
+Small board-game objects, exercise equipment and instruments exist, but no large social game tables or arcade furniture. Select six distinct anchors: recessed-pocket billiard table (~1.4×.8×2.4m), rotating-rod table football (~1.4×1×1.4m), half-fold table tennis (~1.5×2.2×2.74m envelope), upright arcade (~.7×1.7×.8m), pinball cabinet (~.7×1.7×1.4m), long shuffleboard (~.65×.85×3m). Estimated fictional proportions, not measured manufacturer dimensions or regulation claims. Prioritize these six over ten with more dice, cues, pucks or generic furniture variants; internal game pieces are parts, not extra assets.
+
+Reuse café table/chair, sofa, floor lamp and existing game box/dice cup. Author metre-based mixed assembly, unit scale and contact-center origins; camera-only fitting. Retained rods/players, hinged table half/net, screen cursor/joystick, flippers and sliding puck provide discrete illustrations. Billiard table is explicitly static. No full game logic, scoring, physics, continuous motion or electrical simulation.
+
+Two supported game props: box on café table at .74m, cup on table-tennis right half at .76m. Folding occupied support must reject without changing scene; detach cup preserving pose before folding. Test moved/yawed hosts, powered game states, independent duplicates and repeated save/restore together. Preserve all poses/four sides and desktop/mobile actual-preview evidence.

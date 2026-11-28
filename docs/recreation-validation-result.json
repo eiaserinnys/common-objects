@@ -1,0 +1,599 @@
+{
+  "batch": "recreation-2026-11-28",
+  "count": 6,
+  "poses": 13,
+  "objects": [
+    {
+      "id": "recreation-billiards",
+      "version": 1,
+      "dimensions": [
+        1.4132,
+        0.829,
+        2.4
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "recreation-billiards",
+        "parts": 25,
+        "min": [
+          -0.7066000000000001,
+          0,
+          -1.2
+        ],
+        "max": [
+          0.7066000000000001,
+          0.8290000000000001,
+          1.2
+        ]
+      },
+      "states": [
+        {
+          "state": {},
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.7066000000000001,
+              0,
+              -1.2
+            ],
+            "max": [
+              0.7066000000000001,
+              0.8290000000000001,
+              1.2
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [],
+      "interactionNote": "Static table with recessed pocket mouths, segmented cushions and retained sample balls. No cue, playable billiards, rolling, collision, pocketing, scoring or regulation-size claim.",
+      "thumbnail": "assets/recreation-billiards/thumbnail.svg"
+    },
+    {
+      "id": "recreation-foosball",
+      "version": 1,
+      "dimensions": [
+        1.48,
+        0.92,
+        1.48
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "recreation-foosball",
+        "parts": 96,
+        "min": [
+          -0.74,
+          0,
+          -0.74
+        ],
+        "max": [
+          0.74,
+          0.92,
+          0.74
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "kicked": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.74,
+              0,
+              -0.74
+            ],
+            "max": [
+              0.74,
+              0.92,
+              0.74
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "kicked": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.74,
+              0,
+              -0.74
+            ],
+            "max": [
+              0.74,
+              0.92,
+              0.74
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "kicked",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            0.65
+          ],
+          "units": "rad",
+          "parts": [
+            "rest-player-0-0",
+            "kick-player-0-0"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "All 24 retained figures rotate .65 rad around rod-height X axes; shafts and grips stay mounted. Discrete kick posture; no ball trajectory, scoring, autonomous play or continuous rods.",
+      "thumbnail": "assets/recreation-foosball/thumbnail.svg"
+    },
+    {
+      "id": "recreation-table-tennis",
+      "version": 1,
+      "dimensions": [
+        1.605,
+        2.11,
+        2.74
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "recreation-table-tennis",
+        "parts": 31,
+        "min": [
+          -0.8025,
+          0,
+          -1.37
+        ],
+        "max": [
+          0.8025,
+          2.1100000000000003,
+          1.37
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "folded": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.8025,
+              0,
+              -1.37
+            ],
+            "max": [
+              0.8025,
+              0.901,
+              1.37
+            ]
+          },
+          "supportSurfaces": [
+            {
+              "id": "right-deck",
+              "vertices": [
+                [
+                  -0.65,
+                  0.76,
+                  0.1399999999999999
+                ],
+                [
+                  0.65,
+                  0.76,
+                  0.1399999999999999
+                ],
+                [
+                  0.65,
+                  0.76,
+                  1.26
+                ],
+                [
+                  -0.65,
+                  0.76,
+                  1.26
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "state": {
+            "folded": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.8025,
+              0,
+              -1.37
+            ],
+            "max": [
+              0.8025,
+              2.1100000000000003,
+              1.1400000000000001
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "folded",
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "values": [
+            0,
+            -1.5707963267948966
+          ],
+          "units": "rad",
+          "parts": [
+            "flat-deck",
+            "up-deck"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Full retained right deck and markings fold 90 degrees at center X hinge. Right support unavailable when folded: attached contents block folding atomically. Fixed left half/net. No live table tennis, ball, automatic legs or swept collision.",
+      "thumbnail": "assets/recreation-table-tennis/thumbnail.svg"
+    },
+    {
+      "id": "recreation-arcade",
+      "version": 1,
+      "dimensions": [
+        0.72,
+        1.74,
+        0.765
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "recreation-arcade",
+        "parts": 17,
+        "min": [
+          -0.36,
+          0,
+          -0.37
+        ],
+        "max": [
+          0.36,
+          1.74,
+          0.395
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "powered": false,
+            "stepped": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.36,
+              0,
+              -0.37
+            ],
+            "max": [
+              0.36,
+              1.74,
+              0.395
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "powered": true,
+            "stepped": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.36,
+              0,
+              -0.37
+            ],
+            "max": [
+              0.36,
+              1.74,
+              0.395
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "powered": true,
+            "stepped": true
+          },
+          "steps": [
+            "toggle",
+            "play"
+          ],
+          "bounds": {
+            "min": [
+              -0.36,
+              0,
+              -0.37
+            ],
+            "max": [
+              0.36,
+              1.74,
+              0.395
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "stepped",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0,
+            -0.4
+          ],
+          "units": "rad",
+          "parts": [
+            "idle-stick",
+            "move-stick"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Power reveals screen; play endpoint tilts retained joystick and moves screen cursor. Reset before power-off. No executable videogame, sound, payment, scores or elapsed game.",
+      "thumbnail": "assets/recreation-arcade/thumbnail.svg"
+    },
+    {
+      "id": "recreation-pinball",
+      "version": 1,
+      "dimensions": [
+        0.7,
+        1.525,
+        1.4
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "recreation-pinball",
+        "parts": 22,
+        "min": [
+          -0.35000000000000003,
+          0,
+          -0.7
+        ],
+        "max": [
+          0.35000000000000003,
+          1.525,
+          0.7
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "powered": false,
+            "stepped": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.35000000000000003,
+              0,
+              -0.7
+            ],
+            "max": [
+              0.35000000000000003,
+              1.525,
+              0.7
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "powered": true,
+            "stepped": false
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.35000000000000003,
+              0,
+              -0.7
+            ],
+            "max": [
+              0.35000000000000003,
+              1.525,
+              0.7
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "powered": true,
+            "stepped": true
+          },
+          "steps": [
+            "toggle",
+            "play"
+          ],
+          "bounds": {
+            "min": [
+              -0.35000000000000003,
+              0,
+              -0.7
+            ],
+            "max": [
+              0.35000000000000003,
+              1.525,
+              0.7
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "stepped",
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "values": [
+            0,
+            0.6
+          ],
+          "units": "rad",
+          "parts": [
+            "down-flipper--0.14",
+            "up-flipper--0.14"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Open inspection playfield: both retained flippers pivot about outer Y axes after power indication; reset before power off. No glass transparency, ball physics, scoring, tilt sensing or complete pinball game.",
+      "thumbnail": "assets/recreation-pinball/thumbnail.svg"
+    },
+    {
+      "id": "recreation-shuffleboard",
+      "version": 1,
+      "dimensions": [
+        0.65,
+        0.91,
+        3
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "measurement": "estimated",
+      "geometry": {
+        "id": "recreation-shuffleboard",
+        "parts": 16,
+        "min": [
+          -0.325,
+          0,
+          -1.5
+        ],
+        "max": [
+          0.325,
+          0.91,
+          1.5
+        ]
+      },
+      "states": [
+        {
+          "state": {
+            "slid": false
+          },
+          "steps": [],
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -1.5
+            ],
+            "max": [
+              0.325,
+              0.91,
+              1.5
+            ]
+          },
+          "supportSurfaces": []
+        },
+        {
+          "state": {
+            "slid": true
+          },
+          "steps": [
+            "toggle"
+          ],
+          "bounds": {
+            "min": [
+              -0.325,
+              0,
+              -1.5
+            ],
+            "max": [
+              0.325,
+              0.91,
+              1.5
+            ]
+          },
+          "supportSurfaces": []
+        }
+      ],
+      "motionRanges": [
+        {
+          "stateKey": "slid",
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "values": [
+            0.95,
+            -1.08
+          ],
+          "units": "m",
+          "parts": [
+            "puck-start",
+            "puck-end"
+          ],
+          "mode": "discrete-endpoints"
+        }
+      ],
+      "interactionNote": "Retained puck moves 2.03 m along the wood lane into marked scoring bands. No friction, collision, scored game or continuous movement. The puck is an internal part, not another asset.",
+      "thumbnail": "assets/recreation-shuffleboard/thumbnail.svg"
+    }
+  ]
+}

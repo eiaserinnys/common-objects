@@ -1,6 +1,25 @@
 # Catalog balance and next production priorities
 
-## Current review: hair and nail service studio, 2026-11-25 04:00 KST
+## Current review: community game lounge, 2026-11-29 04:00 KST
+
+Only this cycle, UTC file date 2026-11-28. Clean fetched base `7e57b4784388093b4d521f081a737b05d857a185`; one worktree, main only remotely, no open PRs. Reconciled all 296 prior source records and reviewed original room plus 29 batch overviews. [Brief](recreation-brief-2026-11-28.md), [302-row inventory](catalog-inventory-2026-11-28.md), [audit](recreation-catalog-audit.json), [production](recreation-2026-11-28.md).
+
+| Scope | Count | Small | Medium | Large |
+| --- | ---: | ---: | ---: | ---: |
+| Independent metric sources | 283 | 112 | 50 | 121 |
+| Original compound groups | 18 | 2 | 3 | 13 |
+| Original whole room | 1 | 0 | 0 | 1 |
+| Registrations | 302 | 114 | 53 | 135 |
+
+Six distinct large recreational furnishings fill a gap left by many small game tools: billiard, football, folding tennis, arcade, pinball and shuffleboard. Five discrete operating depictions and one static table, 13 poses. Six existing sources supply seating, lighting, table and game props in 12 instances. Two support relations include an occupied folding surface whose removal must reject atomically. No new dice/cue/puck counts, generic cabinet or furniture recolors. Four short of the aspirational ten; no incomplete source counted. Small share 40.4% → 39.6%. Last ten actual wellness–recreation batches: **87 sources (8 S / 21 M / 58 L)**. Thirty batches contribute 282 sources plus original lamp. H/O/C candidate tags overlap: 250/131/283, not complete-room counts.
+
+**Next priorities:**
+
+1. Existing scenes still lack joined enclosures and general attachment-authoring controls; preserve scope and avoid a separate unsolicited game prototype.
+2. Upgrade existing process/game semantics deliberately with version history before more similar cabinets or tables. Current machine/game endpoints do not implement elapsed progress, pause/cancel, physics or scoring.
+3. Review family/child indoor care and shared dining-service roles against existing bedroom, sanitary and kitchen sources; favor missing large roles with reuse, not miniature furniture variants. Recreational table breadth now exists and does not justify another color/size set.
+
+## Historical review: hair and nail service studio, 2026-11-25 04:00 KST
 
 One cycle, UTC file date 2026-11-24. Clean fetched base `75e6e13a28918c696c019aa1f46f452010179463`, one checkout, remote main only, no open PRs. Reconciled all 290 prior identities/dimensions/states/roles; inspected original room and 28 batch overviews. [Brief](salon-brief-2026-11-24.md), [296-row inventory](catalog-inventory-2026-11-24.md), [audit](salon-catalog-audit.json), [production](salon-2026-11-24.md).
 

@@ -1,0 +1,92 @@
+{
+  "checks": [
+    "4 play refusal preserves scene",
+    "4 toggle refusal preserves scene",
+    "5 play refusal preserves scene",
+    "5 toggle refusal preserves scene",
+    "3 toggle refusal preserves scene",
+    "object-1: all 1 reachable poses in four camera directions",
+    "object-2: all 2 reachable poses in four camera directions",
+    "object-3: all 2 reachable poses in four camera directions",
+    "object-4: all 3 reachable poses in four camera directions",
+    "object-5: all 3 reachable poses in four camera directions",
+    "object-6: all 2 reachable poses in four camera directions",
+    "24 mixed instances: independent states and detached copies restore exactly",
+    "rotated occupied supports and active games restore; folding rejects atomically until cup detached and placed on floor; copied arcade resets independently; second restore exact",
+    "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+  ],
+  "individualFourAngleCaptures": 52,
+  "pixelChanges": [
+    {
+      "id": "recreation-foosball",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        6107,
+        1204,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "recreation-table-tennis",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        32126,
+        15422,
+        14596,
+        9966
+      ]
+    },
+    {
+      "id": "recreation-arcade",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        5862,
+        0,
+        56,
+        0
+      ]
+    },
+    {
+      "id": "recreation-arcade",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        5994,
+        83,
+        56,
+        0
+      ]
+    },
+    {
+      "id": "recreation-pinball",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        7741,
+        3881,
+        210,
+        78
+      ]
+    },
+    {
+      "id": "recreation-pinball",
+      "pose": 2,
+      "changedPixelsByCamera": [
+        9288,
+        4328,
+        210,
+        78
+      ]
+    },
+    {
+      "id": "recreation-shuffleboard",
+      "pose": 1,
+      "changedPixelsByCamera": [
+        167,
+        71,
+        0,
+        0
+      ]
+    }
+  ],
+  "errors": []
+}

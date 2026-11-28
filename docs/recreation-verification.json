@@ -1,0 +1,148 @@
+{
+  "base": "7e57b4784388093b4d521f081a737b05d857a185",
+  "cycle": "2026-11-29 04:00 KST",
+  "acceptedSources": 6,
+  "shortfallAgainstTen": 4,
+  "shortfallReason": "Six distinct large game furnishings; existing seating, lighting and game props reused instead of small-object or furniture variants. No incomplete source counted.",
+  "reusedSources": 6,
+  "reusedInstances": 6,
+  "independentTotal": 283,
+  "registrations": 302,
+  "validate": "passed: 302 entries",
+  "tests": {
+    "passed": 229,
+    "failed": 0,
+    "skipped": 0
+  },
+  "targetedTests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "build": "passed; final assets/assembly/preview match dist bytes",
+  "browser": {
+    "checks": [
+      "4 play refusal preserves scene",
+      "4 toggle refusal preserves scene",
+      "5 play refusal preserves scene",
+      "5 toggle refusal preserves scene",
+      "3 toggle refusal preserves scene",
+      "object-1: all 1 reachable poses in four camera directions",
+      "object-2: all 2 reachable poses in four camera directions",
+      "object-3: all 2 reachable poses in four camera directions",
+      "object-4: all 3 reachable poses in four camera directions",
+      "object-5: all 3 reachable poses in four camera directions",
+      "object-6: all 2 reachable poses in four camera directions",
+      "24 mixed instances: independent states and detached copies restore exactly",
+      "rotated occupied supports and active games restore; folding rejects atomically until cup detached and placed on floor; copied arcade resets independently; second restore exact",
+      "390px viewport: no overflow; selection, focus, orbit, zoom and key action"
+    ],
+    "individualFourAngleCaptures": 52,
+    "pixelChanges": [
+      {
+        "id": "recreation-foosball",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          6107,
+          1204,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "recreation-table-tennis",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          32126,
+          15422,
+          14596,
+          9966
+        ]
+      },
+      {
+        "id": "recreation-arcade",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          5862,
+          0,
+          56,
+          0
+        ]
+      },
+      {
+        "id": "recreation-arcade",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          5994,
+          83,
+          56,
+          0
+        ]
+      },
+      {
+        "id": "recreation-pinball",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          7741,
+          3881,
+          210,
+          78
+        ]
+      },
+      {
+        "id": "recreation-pinball",
+        "pose": 2,
+        "changedPixelsByCamera": [
+          9288,
+          4328,
+          210,
+          78
+        ]
+      },
+      {
+        "id": "recreation-shuffleboard",
+        "pose": 1,
+        "changedPixelsByCamera": [
+          167,
+          71,
+          0,
+          0
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "visualReview": "Reviewed original room and 29 earlier batch overviews, final three four-direction contact sheets, individual mechanisms, mixed rest/operating/reverse and combined states, mobile. Folded tennis frame corrected after visual review; final tests/render rerun.",
+  "counterexamples": [
+    "Occupied table fold rejects with exact full-scene preservation, including after save/restore; detach preserves world pose then floor relocation allows folding",
+    "Unpowered play and active-endpoint power-off reject; copies reset independently",
+    "Single-component structural graph rejects isolated grounded legs; added crossframes connect folded tennis structure"
+  ],
+  "limitations": [
+    "SVG projections, not GLB or complete playable games",
+    "Estimated dimensions; no scoring, ball physics, continuous/swept simulation or certified playing clearances",
+    "No joined enclosure, general attachment authoring, automatic collision avoidance or low-end hardware performance guarantee",
+    "No repository CI workflow; commit status and first-page PR-triggered run lookup reported after push; absence is not CI success"
+  ],
+  "sha256": {
+    "assets/recreation-arcade/asset.json": "1b5bd538b94ef0d35fa4e997c0826bcce5b1aea464ca2fc9685b1b876e1b168c",
+    "assets/recreation-arcade/thumbnail.svg": "522eeae95ea128877b739bb6c597fddafe1db30d6063fd160e56ce4d73969061",
+    "assets/recreation-billiards/asset.json": "5ec2ca121508d8b9815493c4649b9ef27557c925e7f68834a4312054d38bac37",
+    "assets/recreation-billiards/thumbnail.svg": "b53a931c1fe1014c224afa3e392d3d1967cbb15e850d9c12549635fa776f0563",
+    "assets/recreation-foosball/asset.json": "53d58083264c37e6923c9e99c413eb93e66143e46205ecb0f99c90ad5fe7a323",
+    "assets/recreation-foosball/thumbnail.svg": "200348e55ef3623e06a3e0f3c92b25ac0babb8942737fd337d9c0c0fb7050e2a",
+    "assets/recreation-interior/assembly.json": "b83fbfb479db2ea66365d42a4f1a21a0ab98a8815711ff753c234d3adf8e876e",
+    "assets/recreation-pinball/asset.json": "a952ec1f58a474b6af53edd60211742b8fafc8be51a5d57a515d8f9b22f43975",
+    "assets/recreation-pinball/thumbnail.svg": "645bd96476ec6d649deb2b821d83c8276952a4c97bf600ca069d8914a8813144",
+    "assets/recreation-shuffleboard/asset.json": "e7389e742f3b7e8e5455712de74075debb37e48926b3779e561d2b6bfa917545",
+    "assets/recreation-shuffleboard/thumbnail.svg": "017952edb8c4fcec0b488a1043138732104bc4d9b5f66bc7ab3ce36279b60758",
+    "assets/recreation-table-tennis/asset.json": "cccd5224c720f9b95304d373c3862c7e052d36b70bd50702bee93f602afae499",
+    "assets/recreation-table-tennis/thumbnail.svg": "a473fae62420ab75015341da3fb616b2199ae0bfc6e75a7fe9113cde56cadd1e",
+    "preview/recreation.html": "d2f7997270b15708e8aad66aa465a9075b5caf788af76080953daac432f6360a",
+    "scripts/batches/recreation-2026-11-28.mjs": "63d2f445338203e65eadf4995c184e3107bd09d669a14c83df367dca31dfbc92",
+    "scripts/recreation-browser-check.py": "8b066f2a99274212d6b31b76c36be1623582c306605147d26b4ec605a98dfc5e",
+    "scripts/recreation-check.mjs": "b2587f9c357ca72c07392cbc7896c248b685121f7bec51952ffed7d14f409ab3",
+    "scripts/recreation-inventory.py": "f03aa43c9554e2476ea199da3b072d0f3f42ee6a1c8b9e89bd8ea463a3f8bac7",
+    "scripts/recreation-scene.mjs": "424d62b334c4f1a6c7fdc8c4d7a46b4db8d0e12d678bf96643d0c8d7f68aeb10",
+    "tests/recreation.test.js": "9d491b11f28915c67427c28279be5afbe409497f7dca9d3434e9f1bc69f7cb06"
+  }
+}
